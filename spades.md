@@ -27,7 +27,7 @@ genomic distance
 
 ## Algorithm 
 
-1. Assembly graph construction 
+1 Assembly graph construction 
 
 SPAdes derives its assembly graph construction model ("bulge 
 corremoval") from two previously published methods. dBG assemblers make 
@@ -39,7 +39,7 @@ producing assembly graph DB\*(*Reads,k*). Graph bulges are resolved by
 random mixing of DB\*(*Reads,k*), DB\*(*Reads,k'*),..., and chosing the 
 least tangled combination of split-paths. 
 
-2. Integration of k-bimer genomic distances 
+2 Integration of k-bimer genomic distances 
 
 During Stage 1, genomic context of paired reads is not explicity 
 accounted for. Stage 2 begins by assuming read-pairs are at an estimated 
@@ -57,7 +57,7 @@ E(A(H(B(Bireads)))
 
 [Stage 2](/assets/spades_stage2.jpeg) 
 
-3. Paired de Bruijn graphs (PDBGs) 
+3 Paired de Bruijn graphs (PDBGs) 
 
 SPAdes makes use of a theoretical model, Paired de Bruijn graphs 
 (PDBGs), to resolve repeats and other sequence chimeras that are larger 
@@ -70,7 +70,7 @@ present (eg K1,K2,K3,K1,K5,K4,K6,K2), kmer distance computed in Stage 2
 allows for the construction of PDBGs that remove ambiguity by only 
 selecting hubs which position fits the computed distance. 
 
-4. Contig reconstruction 
+4 Contig reconstruction 
 
 PDBGs are unwound to reconstruct the sequence. Disjoint sets are 
 assigned to different contigs. 
