@@ -1,6 +1,6 @@
 #Assemblers, their algorithms, etc 
 
-1. Create a new branch to work ing 
+1. Create a new branch to work in 
 
 2. Create a new document for each assembler or algorith of interest 
 
