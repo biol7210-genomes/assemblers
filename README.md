@@ -6,3 +6,14 @@
 2.  Describe it to the best of your ability
 
 3.  Add it to the [presentation](https://github.com/biol7210-genomes/presentation)	
+
+
+Assembly programs and algorithms to describe:
+
+spade
+velvet
+pear
+abyss
+pabr
+SMALT
+pilon
