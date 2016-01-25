@@ -10,10 +10,16 @@
 
 Assembly programs and algorithms to describe:
 
-spade
+~~spades~~ **Aroon**
+
 velvet
+
 pear
+
 abyss
+
 pabr
+
 SMALT
+
 pilon

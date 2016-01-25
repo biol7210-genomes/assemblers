@@ -13,28 +13,39 @@ designed with small, bacterial genomes in mind and has models for
 chimeric read correction, rearrangements, and other assembler-intriduced 
 artifacting. 
 
-High level view of SPAdes assembly:
+High level view of SPAdes assembly: 
 
-1.  Assembly graph construction with multisized de Bruijn graphs (dBG) and bulge resolution 
+1. Assembly graph construction with multisized de Bruijn graphs (dBG) 
+and bulge resolution 
 
-2.  Integration of Pair-end data with dBG-derived paths to determine genomic distance
+2. Integration of Pair-end data with dBG-derived paths to determine 
+genomic distance 
 
-3.  Paired assembly graph
+3. Paired assembly graph 
 
-4.  Contig reconstruction
+4. Contig reconstruction 
 
 ## Algorithm 
 
-1.   
+1.  Assembly graph construction
 
-SPAdes derives its assembly graph construction model ("bulge corremoval") from two previously published methods. dBG assemblers make use of kmers to split reads for assembly, however kmer size is typically a user-provided constraint and chosing the "wrong" size can result in poor assemblies. SPAdes utilizes multisized de Bruijn graph which integrate pairs of bikmers over a predefined range of kmer sizes, producing assembly graph DB\*(*Reads,k*). Graph bulges are resolved by random mixing of DB\*(*Reads,k*), DB\*(*Reads,k'*),..., and chosing the least tangled combination of split-paths.  
+SPAdes derives its assembly graph construction model ("bulge 
+corremoval") from two previously published methods. dBG assemblers make 
+use of kmers to split reads for assembly, however kmer size is typically 
+a user-provided constraint and chosing the "wrong" size can result in 
+poor assemblies. SPAdes utilizes multisized de Bruijn graph which 
+integrate pairs of bikmers over a predefined range of kmer sizes, 
+producing assembly graph DB\*(*Reads,k*). Graph bulges are resolved by 
+random mixing of DB\*(*Reads,k*), DB\*(*Reads,k'*),..., and chosing the 
+least tangled combination of split-paths. 
 
-2.   
+2.  Integration of bikmer genomic distances
 
-![Stage 2](/assets/spades_stage2.jpeg)
+During Stage 1, genomic context of paired reads is not explicity accounted for. Stage 2 begins by assuming bikers are at an estimated genomic distance ≈ d0 and are linked within DB\*(*Reads,k*) by . 
 
-3.   
+![Stage 2](/assets/spades_stage2.jpeg) 
 
+3.  Paired assembly graph
 
+4.  Contic reconstruction
 
-4.   
