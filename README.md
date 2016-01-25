@@ -11,7 +11,7 @@ to [presentation](https://github.com/biol7210-genomes/presentation)
 
 Assembly programs and algorithms to describe: 
 
-~~spades~~ **Aroon** 
+**[Spades](/spades.md)**
 
 velvet 
 
