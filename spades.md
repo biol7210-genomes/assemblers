@@ -46,9 +46,12 @@ During Stage 1, genomic context of paired reads is not explicity accounted for. 
 
 For any given DB\*(*Reads,k*), the initial set of bireads, *B*ireads, is transformed it into a set of adjusted k-bimers by the transform E(A(H(B(Bireads)))
 
-![Stage 2](/assets/spades_stage2.jpeg) 
+[Stage 2](/assets/spades_stage2.jpeg) 
 
-3.  Paired assembly graph
+3.  Paired de Bruijn graphs (PDBGs)
 
-4.  Contic reconstruction
+SPAdes makes use of a theoretical model, Paired de Bruijn graphs (PDBGs), to resolve repeats and other sequence chimeras that are larger than twice the read-size. Standard dBGs do 	not make use of mate-pair information to "unwind" the graph for contig assembly. SPAdes integrated mate-pair information in order to decrease the computation required and the error introduced during repeat-resolution. For example: if 6 hubs (uniqe kmers), K1, K2, etc, are interconnected with mutliple cycles present (eg K1,K2,K3,K1,K5,K4,K6,K2), kmer distance computed in Stage 2 allows for the construction of PDBGs that remove ambiguity by only selecting hubs which position fits the computed distance.
 
+4.  Contig reconstruction
+
+PDBGs are unwound to reconstruct the sequence. Disjoint sets are assigned to different contigs.
