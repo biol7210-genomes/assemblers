@@ -15,9 +15,9 @@ Assembly programs and algorithms to describe:
 
 **[Velvet](/Velvet.md)** 
 
-pear 
+PEAR -- Namratha
 
-abyss 
+ABySS -- Cheng
 
 pabr 
 
