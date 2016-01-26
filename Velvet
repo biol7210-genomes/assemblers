@@ -1,1 +1,2 @@
-Velvet is an algorithm which deals with de novo genome assembly and short read sequencing.
+Velvet is an algorithm which deals with de novo genome assembly and short read sequencing (25 to 50 bp). It achieves this by manipulating de Bruijn graphs.
+
