@@ -12,9 +12,9 @@ Installation:
 The aligners Bowtie2 and BLAT/PBLAT are required to run AlignGraph
 
 Inputs:
-1. Paired-end DNA reads in FASTA format
-2. De novo contigs or scaffolds assembled by any de novo DNA-Seq assembler (Velvet, ABySS, ALLPATHS-LG, SOAPdenovo, etc.).
-3. Reference genome from a closely related species
+1.  Paired-end DNA reads in FASTA format
+2.  De novo contigs or scaffolds assembled by any de novo DNA-Seq assembler (Velvet, ABySS, ALLPATHS-LG, SOAPdenovo, etc.).
+3.  Reference genome from a closely related species
 
 Usage:
 
