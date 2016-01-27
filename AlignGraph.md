@@ -15,10 +15,10 @@ Inputs:
 
 1. Paired-end DNA reads in FASTA format
 
-2. De novo contigs or scaffolds assembled by any de novo DNA-Seq assembler (Velvet, ABySS, ALLPATHS-LG, SOAPdenovo)
+2. De novo contigs or scaffolds assembled by any de novo DNA-Seq assembler
+(i.e., Velvet, ABySS, ALLPATHS-LG, SOAPdenovo, etc.)
 
 3. Reference genome from a closely related species
 
-Usage:
-
-
+Usage: https://github.com/baoe/AlignGraph
+Please see usage section in "Short Manual" section for input, ouput, and command-line information
