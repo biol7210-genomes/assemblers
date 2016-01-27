@@ -28,9 +28,9 @@ Bowtie2 and BLAT/PBLAT are required to run AlignGraph
 
 3. Reference genome from a closely related species
 
-###Usage: https://github.com/baoe/AlignGraph
+###Usage:
 
-Please see usage section in "Short Manual" section for input, ouput, and command-line information
+Please see usage section in "Short Manual" section in Reference #2 for input, ouput, and command-line information
 
 ###References:
 1. Bao E, et al. (2014) AlignGraph: algorithm for secondary de novo genome assembly guided by closely related references, Bioinformatics, 30, i319-i328. (http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4058956/pdf/btu291.pdf)
