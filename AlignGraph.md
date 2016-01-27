@@ -27,7 +27,7 @@ Bowtie2 and BLAT/PBLAT are required to run AlignGraph
 
   * Velvet, ABySS, ALLPATHS-LG, SOAPdenovo, etc.
 
-3. Reference genome from a closely related species
+3. Reference genome from a closely related organism
 
 ###Usage:
 
