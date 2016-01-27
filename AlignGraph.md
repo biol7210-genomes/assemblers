@@ -25,7 +25,7 @@ Bowtie2 and BLAT/PBLAT are required to run AlignGraph
 
 2. De novo contigs or scaffolds assembled by:
 
-Velvet, ABySS, ALLPATHS-LG, SOAPdenovo, etc.
+* Velvet, ABySS, ALLPATHS-LG, SOAPdenovo, etc.
 
 3. Reference genome from a closely related species
 
