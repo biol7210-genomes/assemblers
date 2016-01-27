@@ -16,7 +16,7 @@ http://hibberdlab.com/transrate/
 
 https://github.com/Blahah/transrate
 
-Transrate is software for de-novo transcriptome assembly quality analysis. It examines your assembly in detail and compares it to experimental evidence such as the sequencing reads, reporting quality scores for contigs and assemblies. This allows you to choose between assemblers and parameters, filter out the bad contigs from an assembly, and help decide when to stop trying to improve the assembly.
+>Transrate is software for de-novo transcriptome assembly quality analysis. It examines your assembly in detail and compares it to experimental evidence such as the sequencing reads, reporting quality scores for contigs and assemblies. This allows you to choose between assemblers and parameters, filter out the bad contigs from an assembly, and help decide when to stop trying to improve the assembly.
 
 
 ### KmerStream
@@ -42,7 +42,7 @@ http://bioinformatics.oxfordjournals.org/content/31/20/3350
 
 http://rrwick.github.io/Bandage/
 
-Bandage is a program for visualising de novo assembly graphs. By displaying connections which are not present in the contigs file, Bandage opens up new possibilities for analysing de novo assemblies
+>Bandage is a program for visualising de novo assembly graphs. By displaying connections which are not present in the contigs file, Bandage opens up new possibilities for analysing de novo assemblies
 
 
 ### pileup.js
