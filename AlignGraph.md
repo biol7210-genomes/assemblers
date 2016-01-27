@@ -23,8 +23,8 @@ Bowtie2 and BLAT/PBLAT are required to run AlignGraph
 
 1. Paired-end DNA reads in FASTA format
 
-2. De novo contigs or scaffolds assembled by any de novo DNA-Seq assembler
-(i.e., Velvet, ABySS, ALLPATHS-LG, SOAPdenovo, etc.)
+2. De novo contigs or scaffolds assembled by:
+Velvet, ABySS, ALLPATHS-LG, SOAPdenovo, etc.
 
 3. Reference genome from a closely related species
 
