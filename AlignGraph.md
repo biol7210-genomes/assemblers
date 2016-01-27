@@ -21,4 +21,5 @@ Inputs:
 3. Reference genome from a closely related species
 
 Usage: https://github.com/baoe/AlignGraph
+
 Please see usage section in "Short Manual" section for input, ouput, and command-line information
