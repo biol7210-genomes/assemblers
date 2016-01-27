@@ -1,10 +1,17 @@
 #AlignGraph
 
 ###Overview:
-AlignGraph extends and joins de novo-assembled contigs or scaffolds assisted by a reference genome of a closely related organism.
+AlignGraph is an assembly software that extends and joins de novo-assembled contigs or scaffolds assisted by a reference genome of a closely related organism. By guiding the assembly process with reference genomes, AlignGraph improves assemblies
 
 Advantage: Since it is a de Bruijn graph-based method, AlignGraph solves limitations associated with heuristic extension methods used in de novo assembly 
 
+###AlignGraph Algorithm Steps:
+
+1. Alignment maps
+
+2. Contig reassembly
+
+3. Graph traversal
 
 ###System Requirements:
 32-bit or 64-bit machines with Linux operating systems
