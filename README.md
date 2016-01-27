@@ -21,9 +21,14 @@ ABySS -- Cheng
 
 AlignGraph -- Alli
 
-pabr 
+pabr -- Alicia 
 
-SMALT 
+SMALT -- Page
 
 pilon 
+
+
+DISCOVAR de novo (Based on ALLPATHS-LG, designed for 250bp Illumina reads)
+
+
 
