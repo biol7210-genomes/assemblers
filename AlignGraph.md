@@ -3,7 +3,13 @@
 ###Overview:
 AlignGraph is a "reference-assisted assembly approach" (1).  Guided by a reference genome of a closely related organism, AlignGraph extends and joins de novo-assembled contigs or scaffolds.  This approach will likely become the default option for many genome sequencing projects.
 
-Advantage: Since it is a de Bruijn graph-based method, AlignGraph solves limitations associated with heuristic extension methods used in de novo assembly 
+###Advantages:
+
+1.
+
+2.
+
+3.
 
 ###AlignGraph Algorithm Steps:
 
