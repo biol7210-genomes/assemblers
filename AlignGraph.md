@@ -17,7 +17,7 @@ Advantage: Since it is a de Bruijn graph-based method, AlignGraph solves limitat
 32-bit or 64-bit machines with Linux operating systems
 
 ###Installation:
-The aligners Bowtie2 and BLAT/PBLAT are required to run AlignGraph
+Bowtie2 and BLAT/PBLAT are required to run AlignGraph
 
 ###Inputs:
 
