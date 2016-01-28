@@ -19,7 +19,7 @@ PEAR -- Namratha
 
 ABySS -- Cheng
 
-AlignGraph -- Alli
+**[AlignGraph](/AlignGraph.md)** -- Alli
 
 pabr -- Alicia 
 
