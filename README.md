@@ -25,7 +25,7 @@ pabr -- Alicia
 
 SMALT -- Page
 
-pilon 
+pilon -- Tyrone
 
 
 DISCOVAR de novo (Based on ALLPATHS-LG, designed for 250bp Illumina reads)
