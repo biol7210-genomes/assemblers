@@ -1,7 +1,7 @@
 #AlignGraph
 
 ###Overview:
-AlignGraph is a "reference-assisted assembly approach" (1).  Guided by a reference genome of a closely related organism, AlignGraph extends and joins de novo-assembled contigs or scaffolds.  This approach will likely become the default option for many genome sequencing projects.
+AlignGraph is a "reference-assisted assembly approach" (1).  Guided by a reference genome of a closely related organism, AlignGraph extends and joins de novo-assembled contigs or scaffolds.  This approach will likely become the default option for many future genome sequencing projects.
 
 ###Advantages:
 Performance tests show AlignGraph is able to considerably improve the contigs and scaffolds from several assemblers. For example, AlignGraph allowed 28.7–62.3% of the contigs of Arabidopsis thaliana and human to be extended.  This resulted in an increase of the N50 of the extendable contigs by 89.9–94.5% and 80.3–165.8%, respectively (1).
