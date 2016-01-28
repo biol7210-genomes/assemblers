@@ -1,5 +1,5 @@
 # Pilon
-![alt tag](https://camo.githubusercontent.com/ab088204fa8434348a23c22faf80e06edeb03d08/687474703a2f2f73332e616d617a6f6e6177732e636f6d2f70696c6f6e2f70696c6f6e5f6c6f676f2e706e671)
+
 https://github.com/broadinstitute/pilon
 
 ## Overview
