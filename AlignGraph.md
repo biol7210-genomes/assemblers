@@ -6,7 +6,7 @@ AlignGraph is a "reference-assisted assembly approach" (1).  Guided by a referen
 ###Advantages:
 Performance tests show AlignGraph is able to considerably improve the contigs and scaffolds from several assemblers. For example, AlignGraph allowed 28.7–62.3% of the contigs of Arabidopsis thaliana and human to be extended.  This resulted in an increase of the N50 of the extendable contigs by 89.9–94.5% and 80.3–165.8%, respectively (1).
 
-![AlignGraph Steps](https://cloud.githubusercontent.com/assets/13037968/12635488/d2e4589c-c551-11e5-9dd1-9bc426ccd5a9.png)
+![AlignGraph Steps](/assets/aligngraph.png)
 
 ###AlignGraph Algorithm Steps:
 
