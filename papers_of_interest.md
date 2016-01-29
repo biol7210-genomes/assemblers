@@ -40,6 +40,18 @@ https://github.com/CosteaPaul/qaTools
 >3. computeInsertSizeHistogram
 >   Compute the insert size distribution from a bam/sam file.
 
+### SuRankCo
+
+http://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-015-0644-7
+
+>We present SuRankCo, which relies on a machine learning approach to predict quality scores for contigs and to enable the ranking of contigs within an assembly. The result is a sorted contig set which allows selective contig usage in downstream analysis. Benchmarking on datasets with known ground truth shows promising sensitivity and specificity and favorable comparison to existing methodology.
+
+### iWGS
+
+https://github.com/zhouxiaofan1983/iWGS/
+
+>iWGS is an automated pipeline for guiding the choice of appropriate sequencing strategy and assembly protocols. iWGS seamlessly integrates the four key steps of a de novo genome sequencing project: data generation (through simulation), data quality control, de novo assembly, and assembly evaluation and validation. The last three steps can also be applied to the analysis of real data. iWGS is designed to enable the user to have great flexibility in testing the range of experimental designs available for genome sequencing projects, and supports all major sequencing technologies and popular assembly tools.
+
 
 ### Recycler
 
