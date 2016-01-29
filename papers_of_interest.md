@@ -28,6 +28,18 @@ https://github.com/pmelsted/KmerStream
 
 Simple estimatation of sequencing errors + genome size, using only the aggregate statistics reported by KmerStream and validate the accuracy on sequences from a PhiX control
 
+### qaTools
+
+https://github.com/CosteaPaul/qaTools
+
+>1. qaCompute
+>   Computes normal and span coverage from a bam/sam file.
+>   Also counts unmapped and sub-par quality reads.
+>2. removeUnmapped
+>   Remove unmapped and sub-par quality reads from a bam/sam file.
+>3. computeInsertSizeHistogram
+>   Compute the insert size distribution from a bam/sam file.
+
 
 ### Recycler
 
