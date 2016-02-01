@@ -4,7 +4,7 @@ http://www.broadinstitute.org/software/discovar/blog/?page_id=98
 
 # Overview
 
-DISCOVAR de novo is a variable size genome assembler and variant caller for “next-gen sequencing” data. Currently it takes as input Illumina reads of length 250 or longer — produced on MiSeq or HiSeq 2500 (exclusively) — and from a single PCR-free library. Yet, with adjustments, reads as short as 150bp may work with Discovar de novo, depending on fragment size and other factors. 
+DISCOVAR de novo is a variable size genome assembler and variant caller for “next-gen sequencing” data. It is based on ALLPATHS-LG but unlike its predecessor it cannot assemble high-quality assemblies of large genomes. Currently it takes as input Illumina reads of length 250 or longer — produced on MiSeq or HiSeq 2500 (exclusively) — and from a single PCR-free library. Yet, with adjustments, reads as short as 150bp may work with Discovar de novo, depending on fragment size and other factors. 
 The algorithm works by first building the assembly as a graph of unipaths (an unambiguous path). Each read is stitched together as a unipath graph similar to a de Brujin graph. The assembly then undergoes through 2 distinct phases:
 
 *Phase1: Error correction in initial graph:*
