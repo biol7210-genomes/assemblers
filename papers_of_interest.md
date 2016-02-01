@@ -64,3 +64,16 @@ http://biorxiv.org/content/early/2016/01/08/032227
 
 Microbial Signature detection (analagous to MLST) at genomic-scale
 
+### Hipmer
+
+http://gauss.cs.ucsb.edu/~aydin/sc15_genome.pdf
+
+### MyPro : pipeline for prokaryotic genome assembly
+
+http://www.sciencedirect.com/science/article/pii/S0167701215001207
+
+###  https://www.jstage.jst.go.jp/article/imt/10/1/10_175/_pdf
+
+### A comparison among different assemblers
+
+ http://link.springer.com/chapter/10.1007/978-3-662-47901-8_4
