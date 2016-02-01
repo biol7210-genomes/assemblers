@@ -2,7 +2,7 @@ SMALT
 
   SMALT is a pairwise sequence alignment program for the efficient mapping of DNA sequencing reads onto genomic reference sequences. It uses a combination of short-word hashing and dynamic programming. Most types of sequencing platforms are supported including paired-end sequencing reads.
   
-  http://wiki.hpc.ufl.edu/doc/SMALT(http://wiki.hpc.ufl.edu/doc/SMALT)<br />
+  http://wiki.hpc.ufl.edu/doc/SMALT
 
 Overview
 
