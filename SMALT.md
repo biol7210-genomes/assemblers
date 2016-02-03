@@ -1,10 +1,10 @@
-SMALT 
+#SMALT 
 
   SMALT is a pairwise sequence alignment program for the efficient mapping of DNA sequencing reads onto genomic reference sequences. It uses a combination of short-word hashing and dynamic programming. Most types of sequencing platforms are supported including paired-end sequencing reads.
   
   http://wiki.hpc.ufl.edu/doc/SMALT
 
-Overview
+##Overview
 
   Running SMALT involves two steps. First, an index of short words has to be built (smalt index). Then the sequencing reads are mapped onto the reference (smalt map).
 
