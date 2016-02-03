@@ -23,7 +23,7 @@ ABySS -- Cheng
 
 pabr -- Alicia 
 
-SMALT -- Page
+**[SMALT](/SMALT.md)** -- Page
 
 **[Pilon](/pilon.md)** -- Tyrone
 
