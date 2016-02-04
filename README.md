@@ -9,6 +9,9 @@
 4. Send pull requests to master and send any assets for the presentation 
 to [presentation](https://github.com/biol7210-genomes/presentation) 
 
+**[Read preprocessing](/reads_preprocessing.md)**
+
+
 Assembly programs and algorithms to describe: 
 
 **[Spades](/spades.md)** -- Aroon
