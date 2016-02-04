@@ -26,12 +26,12 @@ ABySS -- Cheng
 
 pabr -- Alicia 
 
-SMALT -- Page
+**[SMALT](/SMALT.md)** -- Page
 
 **[Pilon](/pilon.md)** -- Tyrone
 
 
-DISCOVAR de novo (Based on ALLPATHS-LG, designed for 250bp Illumina reads)
+**[DISCOVAR de novo](/DISCOVAR_de_novo.md)** (Based on ALLPATHS-LG, designed for 250bp Illumina reads)
 
 
 
