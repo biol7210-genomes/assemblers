@@ -10,4 +10,4 @@ The quick script to automated the process can be found [here](https://github.com
 
 
 ![before](/assets/fastqc_before.png)
-![after0(/assets/fastqc_after.png)
+![after](/assets/fastqc_after.png)
