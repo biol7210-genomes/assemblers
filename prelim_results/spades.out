@@ -1,0 +1,30 @@
+➜  Aroon  cat /data/projects/Assembly/Aroon/quast_results/results_2016_02_04_08_28_30/report.txt
+All statistics are based on contigs of size >= 500 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+
+Assembly                        M05964_contigs  M07572_contigs
+# contigs (>= 0 bp)             1385            1362          
+# contigs (>= 1000 bp)          144             163           
+# contigs (>= 5000 bp)          13              24            
+# contigs (>= 10000 bp)         12              20            
+# contigs (>= 25000 bp)         12              16            
+# contigs (>= 50000 bp)         9               12            
+Total length (>= 0 bp)          2661212         2781649       
+Total length (>= 1000 bp)       1985203         2119498       
+Total length (>= 5000 bp)       1810246         1910923       
+Total length (>= 10000 bp)      1804199         1884981       
+Total length (>= 25000 bp)      1804199         1812728       
+Total length (>= 50000 bp)      1693662         1688852       
+# contigs                       762             775           
+Largest contig                  503758          305777        
+Total length                    2404236         2538580       
+GC (%)                          41.19           41.57         
+N50                             120793          120675        
+N75                             28168           5904          
+L50                             5               7             
+L75                             12              23            
+# N's per 100 kbp               0.00            0.00          
+# predicted genes (unique)      2833            3035          
+# predicted genes (>= 0 bp)     2833            3041          
+# predicted genes (>= 300 bp)   2276            2417          
+# predicted genes (>= 1500 bp)  249             257           
+# predicted genes (>= 3000 bp)  19              23   
