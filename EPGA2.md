@@ -1,11 +1,11 @@
-Overview:
+#Overview
 
 EPGA2 is an updated version from EPGA that does not require large memory to handle large genome 
 sequences as most assemblers do. It is able to be memory efficienct and still displays improved
 and higher coverage for contigs and scaffolds. It is publicly available at the link listed in 
 references.
 
-Algorithm Steps:
+#Algorithm Steps
 
 1- Error Correction of Reads Using BLESS
 
@@ -21,20 +21,20 @@ Algorithm Steps:
 
 7- Gap Filling 
 
-System Requirements:
+#System Requirements
 
 	Requires GNU C++ to be pre-installed on ones machine
   
-Installation:
+#Installation
 
 	Copy source code to a new main directory
   
-Inputs:
+#Inputs
 
 	Accepts paired-end reads that are less than 50bp and has a coverage greater
 	than 100
 
-References:
+#References
 
 1 - https://github.com/bioinfomaticsCSU/EPGA2
 
