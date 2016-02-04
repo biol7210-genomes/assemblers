@@ -1,30 +1,50 @@
-➜  Aroon  cat /data/projects/Assembly/Aroon/quast_results/results_2016_02_04_08_28_30/report.txt
+➜  Aroon  cat /data/projects/Assembly/Aroon/quast_results/results_2016_02_04_11_54_18/report.txt
 All statistics are based on contigs of size >= 500 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
 
-Assembly                        M05964_contigs  M07572_contigs
-# contigs (>= 0 bp)             1385            1362          
-# contigs (>= 1000 bp)          144             163           
-# contigs (>= 5000 bp)          13              24            
-# contigs (>= 10000 bp)         12              20            
-# contigs (>= 25000 bp)         12              16            
-# contigs (>= 50000 bp)         9               12            
-Total length (>= 0 bp)          2661212         2781649       
-Total length (>= 1000 bp)       1985203         2119498       
-Total length (>= 5000 bp)       1810246         1910923       
-Total length (>= 10000 bp)      1804199         1884981       
-Total length (>= 25000 bp)      1804199         1812728       
-Total length (>= 50000 bp)      1693662         1688852       
-# contigs                       762             775           
-Largest contig                  503758          305777        
-Total length                    2404236         2538580       
-GC (%)                          41.19           41.57         
-N50                             120793          120675        
-N75                             28168           5904          
-L50                             5               7             
-L75                             12              23            
-# N's per 100 kbp               0.00            0.00          
-# predicted genes (unique)      2833            3035          
-# predicted genes (>= 0 bp)     2833            3041          
-# predicted genes (>= 300 bp)   2276            2417          
-# predicted genes (>= 1500 bp)  249             257           
-# predicted genes (>= 3000 bp)  19              23   
+Assembly                     M05964_contigs  M07572_contigs  M10540_contigs  M16180_contigs
+# contigs (>= 0 bp)          1385            1362            372             513
+# contigs (>= 1000 bp)       144             163             37              76
+# contigs (>= 5000 bp)       13              24              8               17
+# contigs (>= 10000 bp)      12              20              8               13
+# contigs (>= 25000 bp)      12              16              7               11
+# contigs (>= 50000 bp)      9               12              4               10
+Total length (>= 0 bp)       2661212         2781649         2014929         2219994
+Total length (>= 1000 bp)    1985203         2119498         1846809         2009011
+Total length (>= 5000 bp)    1810246         1910923         1802832         1886087
+Total length (>= 10000 bp)   1804199         1884981         1802832         1859159
+Total length (>= 25000 bp)   1804199         1812728         1792394         1833107
+Total length (>= 50000 bp)   1693662         1688852         1700071         1805243
+# contigs                    762             775             159             211
+Largest contig               503758          305777          1150417         398369
+Total length                 2404236         2538580         1927120         2098123
+Reference length             1890645         1890645         1890645         1890645
+GC (%)                       41.19           41.57           37.84           37.98
+Reference GC (%)             38.23           38.23           38.23           38.23
+N50                          120793          120675          1150417         165472
+NG50                         179983          140698          1150417         291100
+N75                          28168           5904            311604          100510
+NG75                         117636          79549           311604          134943
+L50                          5               7               1               4
+LG50                         3               5               1               3
+L75                          12              23              2               8
+LG75                         6               9               2               6
+# misassemblies              48              9               86              23
+# misassembled contigs       12              8               7               7
+Misassembled contigs length  1777375         1154195         1741781         1494429
+# local misassemblies        65              16              44              34
+# unaligned contigs          716 + 2 part    732 + 5 part    87 + 19 part    146 + 20 part
+Unaligned length             568902          635360          121826          218951
+Genome fraction (%)          85.769          95.736          59.544          90.220
+Duplication ratio            1.132           1.051           1.604           1.102
+# N's per 100 kbp            0.00            0.00            0.00            0.00
+# mismatches per 100 kbp     2401.71         695.07          3501.89         1676.58
+# indels per 100 kbp         60.68           22.15           77.90           44.73
+Largest alignment            150891          244412          47680           228567
+NA50                         26490           61872           8526            62086
+NGA50                        38866           101545          8646            89728
+NA75                         -               -               -               21958
+NGA75                        17107           47097           -               34356
+LA50                         22              10              47              9
+LGA50                        14              6               45              8
+LA75                         -               -               -               22
+LGA75                        31              13              -               16
