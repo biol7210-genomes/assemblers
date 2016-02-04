@@ -18,20 +18,19 @@ Assembly programs and algorithms to describe:
 
 **[Velvet](/Velvet.md)** -- Tannishtha
 
-PEAR -- Namratha
+**[PEAR](/PEAR.md)** -- Namratha
 
 ABySS -- Cheng
 
 **[AlignGraph](/AlignGraph.md)** -- Alli
 
-pabr -- Alicia 
+**[EPGA2](/EPGA2.md)** -- Alicia 
 
 **[SMALT](/SMALT.md)** -- Page
 
 **[Pilon](/pilon.md)** -- Tyrone
 
+**[DISCOVAR de novo](/DISCOVAR_de_novo.md)**
 
-**[DISCOVAR de novo](/DISCOVAR_de_novo.md)** (Based on ALLPATHS-LG, designed for 250bp Illumina reads)
-
-
+**[EDNA](/EDNA.md)** -- Ellie
 
