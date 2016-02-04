@@ -23,19 +23,18 @@ references.
 
 #System Requirements
 
-	Requires GNU C++ to be pre-installed on ones machine
+	- Requires GNU C++ to be pre-installed on ones machine
   
 #Installation
 
-	Copy source code to a new main directory
+	- Copy source code to a new main directory
   
 #Inputs
 
-	Accepts paired-end reads that are less than 50bp and has a coverage greater
-	than 100
+	- Accepts paired-end reads that are less than 50bp and has a coverage greater than 100
 
 #References
 
-1 - https://github.com/bioinfomaticsCSU/EPGA2
+https://github.com/bioinfomaticsCSU/EPGA2
 
-2 - http://www.ncbi.nlm.nih.gov/pubmed/26315905
+http://www.ncbi.nlm.nih.gov/pubmed/26315905
