@@ -1,0 +1,25 @@
+NODE_3_length_179628_cov_156.746414
+Extensive misassembly ( relocation, inconsistency = 3186 ) between 94598 91624 and 98297 95133
+Extensive misassembly ( relocation, inconsistency = -44863 ) between 98297 95133 and 149233 143091
+Extensive misassembly ( relocation, inconsistency = 1771 ) between 149233 143091 and 164470 150652
+NODE_5_length_444826_cov_179.227036
+Extensive misassembly ( relocation, inconsistency = -2754 ) between 339198 194443 and 370085 341954
+Extensive misassembly ( relocation, inconsistency = 58004 ) between 370085 341954 and 385070 371597
+Extensive misassembly ( relocation, inconsistency = -1318 ) between 394957 385071 and 406711 396311
+Extensive misassembly ( relocation, inconsistency = 3108 ) between 422562 406703 and 425258 422563
+Extensive misassembly ( relocation, inconsistency = -1683 ) between 425258 422563 and 433891 426935
+NODE_10_length_50905_cov_184.963623
+Extensive misassembly ( relocation, inconsistency = -122018 ) between 171 1 and 10165 172
+Extensive misassembly ( relocation, inconsistency = 64088 ) between 39136 10458 and 42454 42349
+Extensive misassembly ( relocation, inconsistency = -122304 ) between 42454 42349 and 51031 42612
+NODE_12_length_87982_cov_144.570938
+Extensive misassembly ( relocation, inconsistency = -2634 ) between 4597 11542 and 14131 37314
+NODE_49_length_250248_cov_144.423798
+Extensive misassembly ( relocation, inconsistency = -3631 ) between 207163 168210 and 245016 210788
+NODE_60_length_545845_cov_167.814865
+Extensive misassembly ( relocation, inconsistency = 1053 ) between 145374 53442 and 147014 145654
+Extensive misassembly ( relocation, inconsistency = -8898 ) between 147014 145654 and 264136 157057
+Extensive misassembly ( relocation, inconsistency = 3513 ) between 315490 296869 and 330412 317142
+Extensive misassembly ( relocation, inconsistency = -1228 ) between 342795 331710 and 389142 348403
+Extensive misassembly ( relocation, inconsistency = 36998 ) between 389142 348403 and 402701 389143
+Extensive misassembly ( relocation, inconsistency = 3074 ) between 508348 495196 and 526879 508349

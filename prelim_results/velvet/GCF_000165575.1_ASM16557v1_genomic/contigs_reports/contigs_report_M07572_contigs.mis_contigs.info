@@ -1,0 +1,44 @@
+NODE_5_length_200242_cov_157.865829
+Extensive misassembly ( relocation, inconsistency = -3143 ) between 81108 77025 and 116052 84234
+Extensive misassembly ( relocation, inconsistency = 1749 ) between 173890 116052 and 178962 174013
+NODE_6_length_305742_cov_137.956314
+Extensive misassembly ( relocation, inconsistency = 3074 ) between 19425 37247 and 37248 50418
+NODE_9_length_10305_cov_156.146530
+Extensive misassembly ( relocation, inconsistency = 1113494 ) between 1 141 and 10431 1100
+NODE_10_length_70088_cov_157.618210
+Extensive misassembly ( relocation, inconsistency = 18041 ) between 14098 12366 and 23095 14099
+Extensive misassembly ( relocation, inconsistency = -18627 ) between 23095 14099 and 33309 29068
+Extensive misassembly ( relocation, inconsistency = 8504 ) between 33309 29068 and 47179 33310
+Extensive misassembly ( relocation, inconsistency = -3870 ) between 47179 33310 and 57279 57150
+NODE_12_length_76973_cov_147.809525
+Extensive misassembly ( relocation, inconsistency = 2049 ) between 3622 3020 and 27931 5893
+Extensive misassembly ( relocation, inconsistency = 2027 ) between 27931 5893 and 42309 27932
+Extensive misassembly ( relocation, inconsistency = -196571 ) between 42309 27932 and 43321 43757
+Extensive misassembly ( relocation, inconsistency = 165653 ) between 43321 43413 and 44348 43414
+NODE_13_length_61744_cov_120.733742
+Extensive misassembly ( relocation, inconsistency = -2046 ) between 51579 39955 and 54208 53619
+NODE_15_length_164826_cov_120.856506
+Extensive misassembly ( relocation, inconsistency = 13196 ) between 34587 30601 and 39428 34588
+Extensive misassembly ( relocation, inconsistency = -11511 ) between 39428 34588 and 65763 51034
+Extensive misassembly ( relocation, inconsistency = 5420 ) between 123364 117271 and 149703 123365
+NODE_20_length_79421_cov_141.900635
+Extensive misassembly ( relocation, inconsistency = 1309 ) between 14431 374 and 15123 14432
+Extensive misassembly ( relocation, inconsistency = -1043 ) between 50439 46017 and 75717 51473
+NODE_35_length_62635_cov_154.319550
+Extensive misassembly ( relocation, inconsistency = 631836 ) between 4812 4301 and 24443 26865
+Extensive misassembly ( relocation, inconsistency = 2334 ) between 24443 26865 and 30444 30762
+Extensive misassembly ( relocation, inconsistency = 58263 ) between 30444 30688 and 30689 31561
+Extensive misassembly ( relocation, inconsistency = -58508 ) between 30689 31561 and 34037 62368
+NODE_39_length_233014_cov_148.519196
+Extensive misassembly ( relocation, inconsistency = 1184 ) between 25908 24717 and 34197 25979
+Extensive misassembly ( relocation, inconsistency = -5035 ) between 54161 39016 and 75623 59362
+Extensive misassembly ( relocation, inconsistency = 7597 ) between 133618 123347 and 137226 133701
+Extensive misassembly ( relocation, inconsistency = 8898 ) between 139859 138499 and 154432 141004
+Extensive misassembly ( relocation, inconsistency = 2825 ) between 196094 157639 and 221515 198986
+NODE_55_length_141337_cov_116.166039
+Extensive misassembly ( relocation, inconsistency = -2263 ) between 14540 30138 and 32393 43666
+Extensive misassembly ( relocation, inconsistency = -1406 ) between 71820 82298 and 83724 140764
+NODE_69_length_277640_cov_129.889389
+Extensive misassembly ( relocation, inconsistency = -1987 ) between 45069 19112 and 80049 47088
+Extensive misassembly ( relocation, inconsistency = -25404 ) between 116166 107228 and 149906 142229
+Extensive misassembly ( relocation, inconsistency = 329185 ) between 244544 222150 and 247709 266207

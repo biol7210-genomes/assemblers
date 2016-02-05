@@ -1,0 +1,7 @@
+All statistics are based on contigs of size >= 500 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+
+Assembly        # misassemblies      # relocations      # translocations      # inversions  # misassembled contigs  Misassembled contigs length  # local misassemblies  # mismatches  # indels      # short indels      # long indels  Indels length
+M05964_contigs  58               58                 0                     0                 9                       1782615                      61                     39007         1055      926                 129                3552         
+M07572_contigs  52               52                 0                     0                 12                      1749842                      56                     37917         1047      921                 126                3511         
+M10540_contigs  54               54                 0                     0                 3                       1215879                      27                     37125         853       786                 67                 1997         
+M16180_contigs  14               14                 0                     0                 14                      28359                        17                     23804         471       418                 53                 1535         

@@ -1,0 +1,140 @@
+/data/home/achande3/staging/quast-3.2/quast.py -o ./reports/GCF_000016465.1_ASM1646v1_genomic -R ./reference/GCF_000016465.1_ASM1646v1_genomic.fna.gz --threads 6 ./velvet/M05964/contigs.fa ./velvet/M07572/contigs.fa ./velvet/M10540/contigs.fa ./velvet/M16180/contigs.fa
+
+Version: 3.2, build 26.11.2015 18:55
+
+System information:
+  OS: Linux-2.6.32-573.12.1.el6.x86_64-x86_64-with-redhat-6.7-Santiago (linux_64)
+  Python version: 2.7.11
+  CPUs number: 6
+
+Started: 2016-02-05 08:51:55
+
+Logging to /data/projects/Assembly/Aroon/reports/GCF_000016465.1_ASM1646v1_genomic/quast.log
+
+NOTICE: Output directory already exists. Existing Nucmer alignments can be used.
+
+Main parameters: 
+  Threads: 6, minimum contig length: 500, ambiguity: one, threshold for extensive misassembly size: 1000
+
+Reference:
+  ./reference/GCF_000016465.1_ASM1646v1_genomic.fna.gz ==> GCF_000016465.1_ASM1646v1_genomic
+
+Contigs:
+  1  ./velvet/M05964/contigs.fa ==> M05964_contigs
+  2  ./velvet/M07572/contigs.fa ==> M07572_contigs
+  3  ./velvet/M10540/contigs.fa ==> M10540_contigs
+  4  ./velvet/M16180/contigs.fa ==> M16180_contigs
+
+2016-02-05 08:51:57
+Running Basic statistics processor...
+  Reference genome:
+    GCF_000016465.1_ASM1646v1_genomic.fna, Reference length = 1813033, Reference GC % = 38.04
+  Contig files: 
+    1  M05964_contigs
+    2  M07572_contigs
+    3  M10540_contigs
+    4  M16180_contigs
+  Calculating N50 and L50...
+    1  M05964_contigs, N50 = 444952, L50 = 2, Total length = 1824603, GC % = 37.88, # N's per 100 kbp =  59.52
+    2  M07572_contigs, N50 = 200368, L50 = 4, Total length = 1961709, GC % = 38.25, # N's per 100 kbp =  57.45
+    3  M10540_contigs, N50 = 1150911, L50 = 1, Total length = 1809438, GC % = 37.91, # N's per 100 kbp =  38.30
+    4  M16180_contigs, N50 = 1206, L50 = 437, Total length = 1738815, GC % = 38.00, # N's per 100 kbp =  84.60
+  Drawing Nx plot...
+    saved to /data/projects/Assembly/Aroon/reports/GCF_000016465.1_ASM1646v1_genomic/basic_stats/Nx_plot.pdf
+  Drawing NGx plot...
+    saved to /data/projects/Assembly/Aroon/reports/GCF_000016465.1_ASM1646v1_genomic/basic_stats/NGx_plot.pdf
+  Drawing cumulative plot...
+    saved to /data/projects/Assembly/Aroon/reports/GCF_000016465.1_ASM1646v1_genomic/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /data/projects/Assembly/Aroon/reports/GCF_000016465.1_ASM1646v1_genomic/basic_stats/GC_content_plot.pdf
+Done.
+
+2016-02-05 08:51:59
+Running Contig analyzer...
+  1  M05964_contigs
+  1  Logging to files /data/projects/Assembly/Aroon/reports/GCF_000016465.1_ASM1646v1_genomic/contigs_reports/contigs_report_M05964_contigs.stdout and contigs_report_M05964_contigs.stderr...
+  2  M07572_contigs
+  2  Logging to files /data/projects/Assembly/Aroon/reports/GCF_000016465.1_ASM1646v1_genomic/contigs_reports/contigs_report_M07572_contigs.stdout and contigs_report_M07572_contigs.stderr...
+  3  M10540_contigs
+  4  M16180_contigs
+  2  Using existing Nucmer alignments... 
+  3  Logging to files /data/projects/Assembly/Aroon/reports/GCF_000016465.1_ASM1646v1_genomic/contigs_reports/contigs_report_M10540_contigs.stdout and contigs_report_M10540_contigs.stderr...
+  4  Logging to files /data/projects/Assembly/Aroon/reports/GCF_000016465.1_ASM1646v1_genomic/contigs_reports/contigs_report_M16180_contigs.stdout and contigs_report_M16180_contigs.stderr...
+  3  Using existing Nucmer alignments... 
+  4  Using existing Nucmer alignments... 
+  1  Using existing Nucmer alignments... 
+  4  Alignments: reports/GCF_000016465.1_ASM1646v1_genomic/contigs_reports/alignments_M16180_contigs.tsv
+  4  Analysis is finished.
+
+  3  Alignments: reports/GCF_000016465.1_ASM1646v1_genomic/contigs_reports/alignments_M10540_contigs.tsv
+  3  Analysis is finished.
+
+  1  Alignments: reports/GCF_000016465.1_ASM1646v1_genomic/contigs_reports/alignments_M05964_contigs.tsv
+  1  Analysis is finished.
+
+  2  Alignments: reports/GCF_000016465.1_ASM1646v1_genomic/contigs_reports/alignments_M07572_contigs.tsv
+  2  Analysis is finished.
+
+  Creating total report...
+    saved to /data/projects/Assembly/Aroon/reports/GCF_000016465.1_ASM1646v1_genomic/contigs_reports/misassemblies_report.txt, misassemblies_report.tsv, and misassemblies_report.tex
+  Transposed version of total report...
+    saved to /data/projects/Assembly/Aroon/reports/GCF_000016465.1_ASM1646v1_genomic/contigs_reports/transposed_report_misassemblies.txt, transposed_report_misassemblies.tsv, and transposed_report_misassemblies.tex
+  Creating total report...
+    saved to /data/projects/Assembly/Aroon/reports/GCF_000016465.1_ASM1646v1_genomic/contigs_reports/unaligned_report.txt, unaligned_report.tsv, and unaligned_report.tex
+  Drawing misassemblies by types plot...
+    saved to /data/projects/Assembly/Aroon/reports/GCF_000016465.1_ASM1646v1_genomic/contigs_reports/misassemblies_plot.pdf
+Done.
+
+2016-02-05 08:52:03
+Running NA-NGA calculation...
+  1  M05964_contigs, Largest alignment = 427942, NA50 = 117915, NGA50 = 117915, LA50 = 4, LGA50 = 4
+  2  M07572_contigs, Largest alignment = 113381, NA50 = 41216, NGA50 = 46032, LA50 = 15, LGA50 = 13
+  3  M10540_contigs, Largest alignment = 69178, NA50 = 7674, NGA50 = 7674, LA50 = 48, LGA50 = 48
+  4  M16180_contigs, Largest alignment = 4706, NA50 = 827, NGA50 = 788, LA50 = 587, LGA50 = 633
+  Drawing cumulative plot...
+    saved to /data/projects/Assembly/Aroon/reports/GCF_000016465.1_ASM1646v1_genomic/aligned_stats/cumulative_plot.pdf
+  Drawing NAx plot...
+    saved to /data/projects/Assembly/Aroon/reports/GCF_000016465.1_ASM1646v1_genomic/aligned_stats/NAx_plot.pdf
+  Drawing NGAx plot...
+    saved to /data/projects/Assembly/Aroon/reports/GCF_000016465.1_ASM1646v1_genomic/aligned_stats/NGAx_plot.pdf
+Done.
+
+2016-02-05 08:52:04
+Running Genome analyzer...
+  NOTICE: No file with genes provided. Use the -G option if you want to specify it.
+  NOTICE: No file with operons provided. Use the -O option if you want to specify it.
+  1  M05964_contigs
+  2  M07572_contigs
+  3  M10540_contigs
+  4  M16180_contigs
+  3  Analysis is finished.
+  4  Analysis is finished.
+  1  Analysis is finished.
+  2  Analysis is finished.
+  Drawing Genome fraction, % histogram...
+    saved to /data/projects/Assembly/Aroon/reports/GCF_000016465.1_ASM1646v1_genomic/genome_stats/genome_fraction_histogram.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding option to enable it.
+
+2016-02-05 08:52:06
+Drawing large plots...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating contig alignment plot...
+  2 of 2: Creating PDF with all tables and plots...
+Done
+
+2016-02-05 08:52:14
+RESULTS:
+  Text versions of total report are saved to /data/projects/Assembly/Aroon/reports/GCF_000016465.1_ASM1646v1_genomic/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /data/projects/Assembly/Aroon/reports/GCF_000016465.1_ASM1646v1_genomic/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) saved to /data/projects/Assembly/Aroon/reports/GCF_000016465.1_ASM1646v1_genomic/report.html
+  PDF version (tables and plots) saved to /data/projects/Assembly/Aroon/reports/GCF_000016465.1_ASM1646v1_genomic/report.pdf
+  Contig alignment plot: /data/projects/Assembly/Aroon/reports/GCF_000016465.1_ASM1646v1_genomic/alignment.svg
+  Log saved to /data/projects/Assembly/Aroon/reports/GCF_000016465.1_ASM1646v1_genomic/quast.log
+
+Finished: 2016-02-05 08:52:14
+Elapsed time: 0:00:19.100017
+NOTICEs: 4; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!

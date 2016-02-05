@@ -1,0 +1,49 @@
+All statistics are based on contigs of size >= 500 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+
+Assembly                     M05964_contigs  M07572_contigs  M10540_contigs  M16180_contigs
+# contigs (>= 0 bp)          42              56              18              7028          
+# contigs (>= 1000 bp)       14              36              11              621           
+# contigs (>= 5000 bp)       11              22              8               3             
+# contigs (>= 10000 bp)      10              18              8               0             
+# contigs (>= 25000 bp)      10              14              7               0             
+# contigs (>= 50000 bp)      8               12              4               0             
+Total length (>= 0 bp)       1831657         1965102         1811331         3320808       
+Total length (>= 1000 bp)    1821194         1955209         1808761         1071265       
+Total length (>= 5000 bp)    1816377         1924256         1802504         16099         
+Total length (>= 10000 bp)   1810330         1897645         1802504         0             
+Total length (>= 25000 bp)   1810330         1840422         1792310         0             
+Total length (>= 50000 bp)   1739635         1787121         1700270         0             
+# contigs                    19              45              12              1590          
+Largest contig               545971          305868          1150911         5936          
+Total length                 1824603         1961709         1809438         1738815       
+Reference length             1914490         1914490         1914490         1914490       
+GC (%)                       37.88           38.25           37.91           38.00         
+Reference GC (%)             38.16           38.16           38.16           38.16         
+N50                          444952          200368          1150911         1206          
+NG50                         444952          200368          1150911         1113          
+N75                          179754          79547           311459          786           
+NG75                         118299          79547           311459          682           
+L50                          2               4               1               437           
+LG50                         2               4               1               513           
+L75                          4               8               2               884           
+LG75                         5               8               2               1066          
+# misassemblies              40              15              80              10            
+# misassembled contigs       9               9               6               10            
+Misassembled contigs length  1782615         1259117         1741348         13212         
+# local misassemblies        68              32              43              10            
+# unaligned contigs          1 + 1 part      13 + 3 part     0 + 3 part      287 + 92 part 
+Unaligned length             3693            112545          34749           343445        
+Genome fraction (%)          84.455          89.903          55.037          67.508        
+Duplication ratio            1.126           1.074           1.684           1.080         
+# N's per 100 kbp            59.52           57.45           38.30           84.60         
+# mismatches per 100 kbp     2135.04         1109.24         3530.65         1482.46       
+# indels per 100 kbp         57.77           36.31           84.94           29.25         
+Largest alignment            157989          241111          64661           5486          
+NA50                         56831           100516          8353            982           
+NGA50                        51861           112073          6983            870           
+NA75                         24899           39767           -               549           
+NGA75                        20262           44262           -               -             
+LA50                         10              6               42              517           
+LGA50                        11              5               49              612           
+LA75                         23              14              -               1117          
+LGA75                        26              13              -               -             

@@ -1,0 +1,17 @@
+reference chromosomes:
+	NZ_LN831035.1_Haemophilus_influenzae_genome_assembly_NCTC8143__chromosome___1 (total length: 1890645 bp, maximal covered length: 1813518 bp)
+
+total genome size: 1890645
+
+gap min size: 50
+partial gene/operon min size: 100
+
+
+
+assembly                 | genome    | duplication | gaps      | genes     | partial   | operons   | partial   |
+                         | fraction  | ratio       | number    |           | genes     |           | operons   |
+================================================================================================================
+M05964_contigs           | 84.71939% | 1.13685     | 85        | -         | -         | -         | -         |
+M07572_contigs           | 95.92060% | 1.05648     | 41        | -         | -         | -         | -         |
+M10540_contigs           | 58.17158% | 1.61363     | 114       | -         | -         | -         | -         |
+M16180_contigs           | 67.75138% | 1.08067     | 662       | -         | -         | -         | -         |

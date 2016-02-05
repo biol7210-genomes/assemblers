@@ -1,0 +1,10 @@
+All statistics are based on contigs of size >= 500 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+
+Assembly                          M05964_contigs  M07572_contigs  M10540_contigs  M16180_contigs
+# fully unaligned contigs         1               18              0               367           
+Fully unaligned length            2293            75280           0               404099        
+# partially unaligned contigs     1               5               5               103           
+    # with misassembly            0               0               3               3             
+    # both parts are significant  1               1               2               18            
+Partially unaligned length        1083            25001           633661          53805         
+# N's                             1086            1127            693             1471          
