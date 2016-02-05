@@ -5,8 +5,9 @@ https://github.com/bioinfomaticsCSU/EPGA2
 ##Overview
 
 EPGA2 is an updated version from EPGA that does not require vast amounts of memory to handle large genome 
-sequences as most assemblers do. It is able to be memory efficienct and still displays improved
-and higher coverage for contigs and scaffolds. It is publicly available at the link listed above.
+sequences as most assemblers do. It is able to be memory efficienct and still display improved
+and higher coverage for contigs and scaffolds. As a first step, read errors are removed to help refine
+the precision of De Bruijn Graph and provide less work when assembling the contigs. 
 
 ##Algorithm Steps
 
