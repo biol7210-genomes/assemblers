@@ -18,7 +18,7 @@ so that if a portion of a contig has overlapping regions those sections will mer
 	   for high-throughput Sequencing reads (BLESS) 
 
 	2. Uses Disk Streaming of K-mers (DSK) to Count K-mers and Partition Reads from the corrected
-           sequences given from BLESS
+       sequences given from BLESS
 
 	3. Uses BCALM to Construct De Bruijn Graph 
 		-Stores k-mers in memory as clusters 
