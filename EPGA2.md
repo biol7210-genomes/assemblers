@@ -20,7 +20,7 @@ and higher coverage for contigs and scaffolds. It is publicly available at the l
 
 	5. Parallels Contigs Merging 
 
-	6. Scaffolding: determined by paired end reads
+	6. Scaffolding: order is determined by paired end reads
 
 	7. Gap Filling 
 
