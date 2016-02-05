@@ -1,0 +1,15 @@
+1: PREPARING DATA
+2,3: RUNNING mummer AND CREATING CLUSTERS
+# reading input file "/data/projects/Assembly/Aroon/reports/spades/GCF_000200475.1_ASM20047v1_genomic/contigs_reports/nucmer_output/M10540_contigs.ntref" of length 2007019
+# construct suffix tree for sequence of length 2007019
+# (maximum reference length is 536870908)
+# (maximum query length is 4294967295)
+# process 20070 characters per dot
+#....................................................................................................
+# CONSTRUCTIONTIME /data/home/achande3/staging/quast-3.2/libs/MUMmer3.23-linux/mummer /data/projects/Assembly/Aroon/reports/spades/GCF_000200475.1_ASM20047v1_genomic/contigs_reports/nucmer_output/M10540_contigs.ntref 1.00
+# reading input file "/data/projects/Assembly/Aroon/reports/spades/GCF_000200475.1_ASM20047v1_genomic/quast_corrected_input/M10540_contigs.fasta" of length 1927278
+# matching query-file "/data/projects/Assembly/Aroon/reports/spades/GCF_000200475.1_ASM20047v1_genomic/quast_corrected_input/M10540_contigs.fasta"
+# against subject-file "/data/projects/Assembly/Aroon/reports/spades/GCF_000200475.1_ASM20047v1_genomic/contigs_reports/nucmer_output/M10540_contigs.ntref"
+# COMPLETETIME /data/home/achande3/staging/quast-3.2/libs/MUMmer3.23-linux/mummer /data/projects/Assembly/Aroon/reports/spades/GCF_000200475.1_ASM20047v1_genomic/contigs_reports/nucmer_output/M10540_contigs.ntref 3.19
+# SPACE /data/home/achande3/staging/quast-3.2/libs/MUMmer3.23-linux/mummer /data/projects/Assembly/Aroon/reports/spades/GCF_000200475.1_ASM20047v1_genomic/contigs_reports/nucmer_output/M10540_contigs.ntref 3.82
+4: FINISHING DATA

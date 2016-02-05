@@ -1,0 +1,17 @@
+reference chromosomes:
+	NC_009566.1_Haemophilus_influenzae_PittEE__complete_genome (total length: 1813033 bp, maximal covered length: 1714643 bp)
+
+total genome size: 1813033
+
+gap min size: 50
+partial gene/operon min size: 100
+
+
+
+assembly                 | genome    | duplication | gaps      | genes     | partial   | operons   | partial   |
+                         | fraction  | ratio       | number    |           | genes     |           | operons   |
+================================================================================================================
+M05964_contigs           | 94.57318% | 1.06072     | 53        | -         | -         | -         | -         |
+M07572_contigs           | 88.69276% | 1.14223     | 89        | -         | -         | -         | -         |
+M10540_contigs           | 57.35224% | 1.66237     | 144       | -         | -         | -         | -         |
+M16180_contigs           | 90.92090% | 1.14853     | 105       | -         | -         | -         | -         |

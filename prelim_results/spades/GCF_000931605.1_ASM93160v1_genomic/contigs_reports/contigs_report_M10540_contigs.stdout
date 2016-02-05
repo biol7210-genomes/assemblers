@@ -1,0 +1,1884 @@
+Aligning contigs to reference...
+	Running Nucmer
+Parsing coords...
+Loading reference...
+	Loaded [NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome]
+Loading SNPs...
+Loading regions...
+	No regions given, using whole reference.
+	Total Regions: 1
+	Total Region Length: 1846503
+Analyzing contigs...
+CONTIG: NODE_1_length_1150417_cov_158.528_ID_3071 (1150417bp)
+Top Length: 34813  Top ID: 95.13
+		Skipping redundant alignment 767859 767985 | 1 127 | 127 127 | 98.43 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+		Skipping redundant alignment 589711 589779 | 86122 86190 | 69 69 | 100.0 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+		Skipping redundant alignment 1217127 1217480 | 232390 232740 | 354 351 | 96.34 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+		Skipping redundant alignment 907673 907754 | 572024 571943 | 82 82 | 100.0 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+		Skipping redundant alignment 1091759 1091836 | 572022 571945 | 78 78 | 100.0 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+		Skipping redundant alignment 602324 602402 | 572265 572343 | 79 79 | 100.0 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+		Skipping redundant alignment 589711 589779 | 586266 586198 | 69 69 | 100.0 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+		Skipping redundant alignment 213928 214011 | 586202 586285 | 84 84 | 100.0 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+		Skipping redundant alignment 213928 214011 | 586206 586289 | 84 84 | 100.0 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+		Skipping redundant alignment 589696 589779 | 586305 586222 | 84 84 | 95.24 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+		Skipping redundant alignment 1167418 1167637 | 707494 707713 | 220 220 | 97.73 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+		Skipping redundant alignment 1167637 1168149 | 708663 709175 | 513 513 | 97.47 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+		Skipping redundant alignment 297949 298184 | 1008554 1008319 | 236 236 | 98.73 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+		Skipping redundant alignment 323955 324454 | 1011660 1011161 | 500 500 | 97.0 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+		Skipping redundant alignment 334389 334555 | 1041790 1041625 | 167 166 | 98.8 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+		Skipping redundant alignment 392451 392592 | 1041766 1041625 | 142 142 | 97.18 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+		Skipping redundant alignment 334405 334517 | 1041791 1041679 | 113 113 | 100.0 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+		Skipping redundant alignment 392440 392554 | 1041801 1041683 | 115 119 | 96.64 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+		Skipping redundant alignment 392440 392554 | 1041801 1041687 | 115 115 | 100.0 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+		Skipping redundant alignment 270239 270317 | 1118161 1118236 | 79 76 | 96.2 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+		Skipping redundant alignment 342256 342320 | 1126030 1126094 | 65 65 | 100.0 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 213927 214011 | 86191 86107 | 85 85 | 100.0 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+		Skipping redundant alignment 213928 214011 | 86162 86079 | 84 84 | 100.0 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+		Skipping redundant alignment 213928 214011 | 86186 86103 | 84 84 | 100.0 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+		This contig is misassembled. 108 total aligns.
+			Real Alignment 1: 1070018 1070164 | 1 146 | 147 146 | 96.6 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			  Extensive misassembly ( relocation, inconsistency = -1048 ) between these two alignments
+			Real Alignment 2: 1070239 1074356 | 1269 5371 | 4118 4103 | 95.6 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			  Extensive misassembly ( relocation, inconsistency = -7713 ) between these two alignments
+			Real Alignment 3: 1077593 1090428 | 16321 29186 | 12836 12866 | 96.22 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			  Overlap between these two alignments (local misassembly). Inconsistency = -714 
+			Real Alignment 4: 1090497 1107839 | 29969 47300 | 17343 17332 | 95.83 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			  Gap between these two alignments (local misassembly). Inconsistency = 107 
+			Real Alignment 5: 1123006 1130563 | 62360 69918 | 7558 7559 | 95.77 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			  Extensive misassembly ( relocation, inconsistency = 366595 ) between these two alignments
+			Real Alignment 6: 1497161 1513131 | 85879 69921 | 15971 15959 | 96.31 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			  Extensive misassembly ( relocation, inconsistency = -923619 ) between these two alignments
+			Real Alignment 7: 589703 589779 | 86070 86146 | 77 77 | 97.4 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			  Extensive misassembly ( relocation, inconsistency = 891362 ) between these two alignments
+			Excluding internal overlap of size 6 between Alignment 8 and 9:  1562663 1572771 | 112240 102147 | 10109 10094 --> 1562663 1572765 | 112240 102153 | 10103 10088
+			Real Alignment 8: 1482410 1497154 | 102152 87415 | 14745 14738 | 95.19 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			  Extensive misassembly ( relocation, inconsistency = -90356 ) between these two alignments
+			Excluding internal overlap of size 20 between Alignment 9 and 10:  1552884 1559608 | 118943 112221 | 6725 6723 --> 1552884 1559588 | 118943 112241 | 6705 6703
+			Real Alignment 9: 1562663 1572765 | 112240 102153 | 10103 10088 | 96.83 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			  Extensive misassembly ( relocation, inconsistency = 3074 ) between these two alignments
+			Real Alignment 10: 1552884 1559588 | 118943 112241 | 6705 6703 | 95.63 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			  Overlap between these two alignments (local misassembly). Inconsistency = -987 
+			Real Alignment 11: 1551994 1552893 | 120818 119921 | 900 898 | 97.11 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			  Extensive misassembly ( relocation, inconsistency = -3089 ) between these two alignments
+			Real Alignment 12: 1524754 1541062 | 151140 134839 | 16309 16302 | 95.68 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			  Extensive misassembly ( relocation, inconsistency = -401464 ) between these two alignments
+			Real Alignment 13: 1139633 1158471 | 151175 170005 | 18839 18831 | 95.12 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			  Extensive misassembly ( relocation, inconsistency = 43542 ) between these two alignments
+			Real Alignment 14: 1225373 1225708 | 193365 193700 | 336 336 | 97.02 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			  Extensive misassembly ( relocation, inconsistency = 32924 ) between these two alignments
+			Real Alignment 15: 1272754 1273587 | 207822 208654 | 834 833 | 96.28 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			  Overlap between these two alignments (local misassembly). Inconsistency = -716 
+			Real Alignment 16: 1274659 1277132 | 210442 212912 | 2474 2471 | 96.93 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			  Extensive misassembly ( relocation, inconsistency = -1044 ) between these two alignments
+			Real Alignment 17: 1277123 1291300 | 213947 228108 | 14178 14162 | 96.03 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			  Extensive misassembly ( relocation, inconsistency = -34841 ) between these two alignments
+			Real Alignment 18: 1256475 1261083 | 228124 232725 | 4609 4602 | 95.49 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			  Extensive misassembly ( relocation, inconsistency = 6813 ) between these two alignments
+			Real Alignment 19: 1299862 1301032 | 264691 265861 | 1171 1171 | 98.29 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			  Extensive misassembly ( relocation, inconsistency = 8203 ) between these two alignments
+			Real Alignment 20: 1324410 1325791 | 281036 282417 | 1382 1382 | 95.75 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			  Overlap between these two alignments (local misassembly). Inconsistency = -393 
+			Real Alignment 21: 1325789 1331885 | 282808 288885 | 6097 6078 | 98.46 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			  Overlap between these two alignments (local misassembly). Inconsistency = -285 
+			Real Alignment 22: 1341046 1359367 | 298331 316680 | 18322 18350 | 95.93 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			  Extensive misassembly ( relocation, inconsistency = -66926 ) between these two alignments
+			Real Alignment 23: 1292959 1299852 | 324085 317198 | 6894 6888 | 95.33 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			  Overlap between these two alignments (local misassembly). Inconsistency = -282 
+			Real Alignment 24: 1291377 1292958 | 325949 324368 | 1582 1582 | 95.7 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			  Extensive misassembly ( relocation, inconsistency = 34957 ) between these two alignments
+			Real Alignment 25: 1247891 1256416 | 334478 325953 | 8526 8526 | 95.82 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			  Extensive misassembly ( relocation, inconsistency = 6929 ) between these two alignments
+			Real Alignment 26: 1226381 1238130 | 349059 337310 | 11750 11750 | 95.22 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			  Extensive misassembly ( relocation, inconsistency = 9426 ) between these two alignments
+			Real Alignment 27: 1197920 1210777 | 368092 355237 | 12858 12856 | 95.24 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			  Extensive misassembly ( relocation, inconsistency = 169975 ) between these two alignments
+			Real Alignment 28: 1409871 1410296 | 397211 397635 | 426 425 | 97.65 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			  Extensive misassembly ( relocation, inconsistency = -245229 ) between these two alignments
+			Real Alignment 29: 1166940 1167191 | 399508 399759 | 252 252 | 98.41 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			  Extensive misassembly ( relocation, inconsistency = 207977 ) between these two alignments
+			Real Alignment 30: 1411175 1417772 | 435766 442356 | 6598 6591 | 95.27 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			  Extensive misassembly ( inversion ) between these two alignments
+			Real Alignment 31: 1441606 1441821 | 465407 465192 | 216 216 | 96.77 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			  Extensive misassembly ( inversion ) between these two alignments
+			Excluding internal overlap of size 2 between Alignment 32 and 33:  1477585 1479119 | 501307 502841 | 1535 1535 --> 1477587 1479119 | 501309 502841 | 1533 1533
+			Real Alignment 32: 1463261 1477286 | 487242 501308 | 14026 14067 | 95.88 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			  Gap between these two alignments (local misassembly). Inconsistency = 300 
+			Real Alignment 33: 1477587 1479119 | 501309 502841 | 1533 1533 | 98.31 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			  Extensive misassembly ( relocation, inconsistency = 93666 ) between these two alignments
+			Real Alignment 34: 1572951 1575829 | 503007 505877 | 2879 2871 | 95.91 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			  Overlap between these two alignments (local misassembly). Inconsistency = -18 
+			Real Alignment 35: 1576004 1583174 | 506070 513244 | 7171 7175 | 95.59 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			  Overlap between these two alignments (local misassembly). Inconsistency = -40 
+			Real Alignment 36: 1583277 1602562 | 513387 532686 | 19286 19300 | 95.38 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			  Extensive misassembly ( relocation, inconsistency = -661509 ) between these two alignments
+			Excluding internal overlap of size 54 between Alignment 37 and 38:  943367 944404 | 536039 535000 | 1038 1040 --> 943421 944404 | 535985 535000 | 984 986
+			Real Alignment 37: 943421 944404 | 535985 535000 | 984 986 | 95.4 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			  Extensive misassembly ( relocation, inconsistency = 8890 ) between these two alignments
+			Real Alignment 38: 930995 934530 | 539528 535986 | 3536 3543 | 95.43 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			  Overlap between these two alignments (local misassembly). Inconsistency = -358 
+			Real Alignment 39: 930719 930996 | 540162 539885 | 278 278 | 96.04 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			  Extensive misassembly ( relocation, inconsistency = -105559 ) between these two alignments
+			Real Alignment 40: 827801 846230 | 542526 560951 | 18430 18426 | 96.76 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			  Extensive misassembly ( relocation, inconsistency = 119815 ) between these two alignments
+			Real Alignment 41: 968889 973766 | 568673 563795 | 4878 4879 | 96.15 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			  Extensive misassembly ( relocation, inconsistency = 3223 ) between these two alignments
+			Real Alignment 42: 954023 965342 | 580334 568997 | 11320 11338 | 95.35 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			  Extensive misassembly ( relocation, inconsistency = -2868 ) between these two alignments
+			Real Alignment 43: 952849 953995 | 584376 583230 | 1147 1147 | 96.52 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			  Extensive misassembly ( relocation, inconsistency = -741889 ) between these two alignments
+			Real Alignment 44: 213927 214011 | 586197 586281 | 85 85 | 100.0 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			  Extensive misassembly ( relocation, inconsistency = 656248 ) between these two alignments
+			Real Alignment 45: 872555 894041 | 610027 588577 | 21487 21451 | 97.09 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			  Extensive misassembly ( relocation, inconsistency = -41455 ) between these two alignments
+			Real Alignment 46: 852634 860135 | 610075 617573 | 7502 7499 | 96.89 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			  Overlap between these two alignments (local misassembly). Inconsistency = -710 
+			Real Alignment 47: 860189 868882 | 618337 627022 | 8694 8686 | 96.18 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			  Extensive misassembly ( relocation, inconsistency = 799112 ) between these two alignments
+			Excluding internal overlap of size 5 between Alignment 48 and 49:  1668002 1681560 | 627030 640586 | 13559 13557 --> 1668002 1681555 | 627030 640581 | 13554 13552
+			Real Alignment 48: 1668002 1681555 | 627030 640581 | 13554 13552 | 98.7 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			  Extensive misassembly ( relocation, inconsistency = 36998 ) between these two alignments
+			Real Alignment 49: 1718554 1739151 | 640582 661170 | 20598 20589 | 98.09 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			  Overlap between these two alignments (local misassembly). Inconsistency = -2 
+			Real Alignment 50: 1739274 1761078 | 661295 683098 | 21805 21804 | 97.43 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			  Gap between these two alignments (local misassembly). Inconsistency = 138 
+			Real Alignment 51: 1761375 1773731 | 683257 695617 | 12357 12361 | 96.7 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			  Extensive misassembly ( relocation, inconsistency = -81853 ) between these two alignments
+			Real Alignment 52: 1701014 1705466 | 709217 704753 | 4453 4465 | 97.0 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			  Gap between these two alignments (local misassembly). Inconsistency = 6 
+			Real Alignment 53: 1686308 1700823 | 723912 709402 | 14516 14511 | 96.64 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			  Extensive misassembly ( relocation, inconsistency = 54858 ) between these two alignments
+			Real Alignment 54: 1782302 1790029 | 750533 758260 | 7728 7728 | 97.74 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			  Overlap between these two alignments (local misassembly). Inconsistency = -703 
+			Excluding internal overlap of size 19 between Alignment 55 and 56:  1813144 1813305 | 782242 782404 | 162 163 --> 1813163 1813305 | 782261 782404 | 143 144
+			Real Alignment 55: 1792689 1813305 | 761623 782260 | 20617 20638 | 95.49 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			  Overlap between these two alignments (local misassembly). Inconsistency = -143 
+			Excluding internal overlap of size 19 between Alignment 56 and 57:  1813163 1813305 | 782261 782404 | 143 144 --> 1813163 1813286 | 782261 782385 | 124 125
+			Real Alignment 56: 1813163 1813286 | 782261 782385 | 124 125 | 95.71 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			  Overlap between these two alignments (local misassembly). Inconsistency = -143 
+			Real Alignment 57: 1813144 1817649 | 782386 786903 | 4506 4518 | 96.86 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			  Gap between these two alignments (local misassembly). Inconsistency = 649 
+			Real Alignment 58: 1830511 1846503 | 799116 815088 | 15993 15973 | 95.97 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			  Fake misassembly (caused by linear representation of circular genome) between these two alignments
+			Real Alignment 59: 1 649 | 815089 815739 | 649 651 | 95.39 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			  Extensive misassembly ( relocation, inconsistency = -2404 ) between these two alignments
+			Real Alignment 60: 685 21947 | 818179 839424 | 21263 21246 | 96.06 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			  Extensive misassembly ( relocation, inconsistency = 4095 ) between these two alignments
+			Real Alignment 61: 52549 87373 | 865931 900743 | 34825 34813 | 95.13 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			  Extensive misassembly ( relocation, inconsistency = 46919 ) between these two alignments
+			Real Alignment 62: 134391 135586 | 900842 902037 | 1196 1196 | 97.16 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			  Extensive misassembly ( relocation, inconsistency = -1204 ) between these two alignments
+			Real Alignment 63: 153858 182788 | 921513 950430 | 28931 28918 | 96.66 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			  Extensive misassembly ( relocation, inconsistency = 1062 ) between these two alignments
+			Real Alignment 64: 183953 189085 | 950533 955666 | 5133 5134 | 98.73 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			  Extensive misassembly ( relocation, inconsistency = 4379 ) between these two alignments
+			Excluding internal overlap of size 18 between Alignment 65 and 66:  203546 206493 | 965643 968594 | 2948 2952 --> 203564 206493 | 965661 968594 | 2930 2934
+			Real Alignment 65: 198675 203458 | 960877 965660 | 4784 4784 | 95.29 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			  Gap between these two alignments (local misassembly). Inconsistency = 105 
+			Real Alignment 66: 203564 206493 | 965661 968594 | 2930 2934 | 95.87 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			  Extensive misassembly ( relocation, inconsistency = 325563 ) between these two alignments
+			Real Alignment 67: 532068 536954 | 973495 968606 | 4887 4890 | 95.36 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			  Extensive misassembly ( relocation, inconsistency = -338836 ) between these two alignments
+			Real Alignment 68: 206639 212946 | 982016 988328 | 6308 6313 | 95.28 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			  Extensive misassembly ( relocation, inconsistency = 74144 ) between these two alignments
+			Excluding internal overlap of size 116 between Alignment 69 and 70:  298185 300212 | 1001450 999423 | 2028 2028 --> 298301 300212 | 1001334 999423 | 1912 1912
+			Real Alignment 69: 298301 300212 | 1001334 999423 | 1912 1912 | 96.65 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			  Extensive misassembly ( relocation, inconsistency = -18670 ) between these two alignments
+			Real Alignment 70: 306644 316970 | 1011660 1001335 | 10327 10326 | 97.14 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			  Extensive misassembly ( relocation, inconsistency = 8536 ) between these two alignments
+			Real Alignment 71: 296110 298107 | 1013646 1011661 | 1998 1986 | 95.6 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			  Overlap between these two alignments (local misassembly). Inconsistency = -496 
+			Real Alignment 72: 278429 296114 | 1031857 1014138 | 17686 17720 | 96.63 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			  Extensive misassembly ( relocation, inconsistency = -1683 ) between these two alignments
+			Real Alignment 73: 271701 278430 | 1040261 1033539 | 6730 6723 | 96.01 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			  Overlap between these two alignments (local misassembly). Inconsistency = -18 
+			Real Alignment 74: 263115 271379 | 1048930 1040601 | 8265 8330 | 96.74 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			  Extensive misassembly ( relocation, inconsistency = -234971 ) between these two alignments
+			Real Alignment 75: 449759 455193 | 1097259 1091823 | 5435 5437 | 95.46 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			  Extensive misassembly ( relocation, inconsistency = -142937 ) between these two alignments
+			Real Alignment 76: 323827 326059 | 1108830 1111053 | 2233 2224 | 95.7 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			  Overlap between these two alignments (local misassembly). Inconsistency = -199 
+			Real Alignment 77: 326060 328643 | 1111253 1113850 | 2584 2598 | 95.73 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			  Extensive misassembly ( relocation, inconsistency = 1873 ) between these two alignments
+			Excluding internal overlap of size 5 between Alignment 78 and 79:  333879 334100 | 1117430 1117651 | 222 222 --> 333884 334100 | 1117435 1117651 | 217 217
+			Real Alignment 78: 330524 334100 | 1113858 1117434 | 3577 3577 | 95.39 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			  Overlap between these two alignments (local misassembly). Inconsistency = -217 
+			Real Alignment 79: 333884 334100 | 1117435 1117651 | 217 217 | 95.5 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			  Extensive misassembly ( relocation, inconsistency = 834880 ) between these two alignments
+			Real Alignment 80: 1169057 1169188 | 1117859 1117728 | 132 132 | 97.73 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			  Extensive misassembly ( relocation, inconsistency = -899280 ) between these two alignments
+			Real Alignment 81: 270250 270358 | 1118201 1118309 | 109 109 | 98.17 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			  Extensive misassembly ( relocation, inconsistency = 63947 ) between these two alignments
+			Real Alignment 82: 337530 342057 | 1121534 1126038 | 4528 4505 | 95.39 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			  Gap between these two alignments (local misassembly). Inconsistency = 664 
+			Real Alignment 83: 342775 350002 | 1126092 1133315 | 7228 7224 | 95.55 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+			  Extensive misassembly ( relocation, inconsistency = -1297 ) between these two alignments
+			Real Alignment 84: 353364 365420 | 1137974 1150038 | 12057 12065 | 97.24 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_1_length_1150417_cov_158.528_ID_3071
+
+CONTIG: NODE_2_length_311604_cov_175.058_ID_3073 (311604bp)
+Top Length: 49873  Top ID: 95.6
+		Skipping redundant alignment 1091759 1091836 | 11868 11791 | 78 78 | 100.0 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_2_length_311604_cov_175.058_ID_3073
+		Skipping redundant alignment 602324 602402 | 12008 12086 | 79 79 | 100.0 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_2_length_311604_cov_175.058_ID_3073
+		Skipping redundant alignment 907457 907535 | 45840 45918 | 79 79 | 100.0 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_2_length_311604_cov_175.058_ID_3073
+		Skipping redundant alignment 961997 962075 | 45840 45918 | 79 79 | 100.0 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_2_length_311604_cov_175.058_ID_3073
+		Skipping redundant alignment 1009357 1009455 | 81183 81085 | 99 99 | 100.0 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_2_length_311604_cov_175.058_ID_3073
+		Skipping redundant alignment 434595 434702 | 208316 208209 | 108 108 | 100.0 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_2_length_311604_cov_175.058_ID_3073
+		Skipping redundant alignment 1197793 1197900 | 208209 208316 | 108 108 | 100.0 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_2_length_311604_cov_175.058_ID_3073
+		Skipping redundant alignment 1197798 1197904 | 208210 208316 | 107 107 | 100.0 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_2_length_311604_cov_175.058_ID_3073
+		Skipping redundant alignment 1197814 1197920 | 208210 208316 | 107 107 | 100.0 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_2_length_311604_cov_175.058_ID_3073
+		Skipping redundant alignment 434565 434669 | 208314 208210 | 105 105 | 100.0 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_2_length_311604_cov_175.058_ID_3073
+		Skipping redundant alignment 566530 566610 | 253296 253216 | 81 81 | 100.0 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_2_length_311604_cov_175.058_ID_3073
+		Skipping redundant alignment 767903 767985 | 311604 311522 | 83 83 | 98.8 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_2_length_311604_cov_175.058_ID_3073
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 260348 260472 | 1 127 | 125 127 | 97.64 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_2_length_311604_cov_175.058_ID_3073
+		Skipping redundant alignment 762456 762582 | 127 1 | 127 127 | 98.43 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_2_length_311604_cov_175.058_ID_3073
+		Skipping redundant alignment 795594 795720 | 127 1 | 127 127 | 99.21 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_2_length_311604_cov_175.058_ID_3073
+		This contig is misassembled. 41 total aligns.
+			Real Alignment 1: 1064433 1064557 | 127 1 | 125 127 | 97.64 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_2_length_311604_cov_175.058_ID_3073
+			  Extensive misassembly ( relocation, inconsistency = 284590 ) between these two alignments
+			Real Alignment 2: 779761 779840 | 209 130 | 80 80 | 100.0 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_2_length_311604_cov_175.058_ID_3073
+			  Extensive misassembly ( relocation, inconsistency = -194217 ) between these two alignments
+			Real Alignment 3: 962317 962398 | 11870 11789 | 82 82 | 100.0 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_2_length_311604_cov_175.058_ID_3073
+			  Gap between these two alignments (local misassembly). Inconsistency = 103 
+			Real Alignment 4: 961953 962213 | 12131 11871 | 261 261 | 97.33 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_2_length_311604_cov_175.058_ID_3073
+			  Extensive misassembly ( relocation, inconsistency = 181352 ) between these two alignments
+			Real Alignment 5: 768160 768240 | 24572 24492 | 81 81 | 100.0 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_2_length_311604_cov_175.058_ID_3073
+			  Overlap between these two alignments (local misassembly). Inconsistency = -100 
+			Real Alignment 6: 768156 768240 | 24676 24592 | 85 85 | 100.0 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_2_length_311604_cov_175.058_ID_3073
+			  Extensive misassembly ( relocation, inconsistency = 144592 ) between these two alignments
+			Real Alignment 7: 616821 620475 | 31419 27765 | 3655 3655 | 95.65 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_2_length_311604_cov_175.058_ID_3073
+			  Gap between these two alignments (local misassembly). Inconsistency = 4 
+			Real Alignment 8: 590657 616697 | 57474 31539 | 26041 25936 | 96.21 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_2_length_311604_cov_175.058_ID_3073
+			  Gap between these two alignments (local misassembly). Inconsistency = 21 
+			Excluding internal overlap of size 4 between Alignment 9 and 10:  654116 662373 | 80991 89248 | 8258 8258 --> 654120 662373 | 80995 89248 | 8254 8254
+			Real Alignment 9: 567060 589711 | 80994 58399 | 22652 22596 | 95.21 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_2_length_311604_cov_175.058_ID_3073
+			  Extensive misassembly ( relocation, inconsistency = 64408 ) between these two alignments
+			Real Alignment 10: 654120 662373 | 80995 89248 | 8254 8254 | 96.96 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_2_length_311604_cov_175.058_ID_3073
+			  Overlap between these two alignments (local misassembly). Inconsistency = -150 
+			Excluding internal overlap of size 853 between Alignment 11 and 12:  662378 682347 | 89403 109353 | 19970 19951 --> 662378 681494 | 89403 108500 | 19117 19098
+			Real Alignment 11: 662378 681494 | 89403 108500 | 19117 19098 | 95.69 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_2_length_311604_cov_175.058_ID_3073
+			  Gap between these two alignments (local misassembly). Inconsistency = 269 
+			Real Alignment 12: 681764 731776 | 108501 158373 | 50013 49873 | 95.6 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_2_length_311604_cov_175.058_ID_3073
+			  Gap between these two alignments (local misassembly). Inconsistency = 84 
+			Real Alignment 13: 734750 739753 | 161263 166263 | 5004 5001 | 95.24 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_2_length_311604_cov_175.058_ID_3073
+			  Extensive misassembly ( relocation, inconsistency = -203830 ) between these two alignments
+			Real Alignment 14: 548314 559121 | 178654 189456 | 10808 10803 | 95.87 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_2_length_311604_cov_175.058_ID_3073
+			  Extensive misassembly ( relocation, inconsistency = 179702 ) between these two alignments
+			Real Alignment 15: 739780 752450 | 190413 203088 | 12671 12676 | 97.3 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_2_length_311604_cov_175.058_ID_3073
+			  Extensive misassembly ( relocation, inconsistency = -659562 ) between these two alignments
+			Real Alignment 16: 93522 114297 | 224501 203722 | 20776 20780 | 96.26 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_2_length_311604_cov_175.058_ID_3073
+			  Gap between these two alignments (local misassembly). Inconsistency = 121 
+			Real Alignment 17: 92105 93372 | 225797 224530 | 1268 1268 | 96.69 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_2_length_311604_cov_175.058_ID_3073
+			  Gap between these two alignments (local misassembly). Inconsistency = 923 
+			Excluding internal overlap of size 19 between Alignment 18 and 19:  87517 91054 | 229462 225925 | 3538 3538 --> 87536 91054 | 229443 225925 | 3519 3519
+			Real Alignment 18: 87536 91054 | 229443 225925 | 3519 3519 | 96.27 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_2_length_311604_cov_175.058_ID_3073
+			  Extensive misassembly ( relocation, inconsistency = 534055 ) between these two alignments
+			Real Alignment 19: 625110 635299 | 229444 239632 | 10190 10189 | 97.14 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_2_length_311604_cov_175.058_ID_3073
+			  Overlap between these two alignments (local misassembly). Inconsistency = -184 
+			Excluding internal overlap of size 1 between Alignment 20 and 21:  648526 651507 | 247622 250602 | 2982 2981 --> 648527 651507 | 247623 250602 | 2981 2980
+			Real Alignment 20: 635277 643106 | 239794 247622 | 7830 7829 | 96.31 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_2_length_311604_cov_175.058_ID_3073
+			  Extensive misassembly ( relocation, inconsistency = 5420 ) between these two alignments
+			Real Alignment 21: 648527 651507 | 247623 250602 | 2981 2980 | 95.77 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_2_length_311604_cov_175.058_ID_3073
+			  Extensive misassembly ( relocation, inconsistency = -33552 ) between these two alignments
+			Real Alignment 22: 620569 623804 | 256451 253216 | 3236 3236 | 95.95 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_2_length_311604_cov_175.058_ID_3073
+			  Extensive misassembly ( relocation, inconsistency = 87040 ) between these two alignments
+			Real Alignment 23: 515068 523732 | 274893 266248 | 8665 8646 | 96.54 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_2_length_311604_cov_175.058_ID_3073
+			  Extensive misassembly ( relocation, inconsistency = 8058 ) between these two alignments
+			Real Alignment 24: 495347 506973 | 286556 274930 | 11627 11627 | 96.9 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_2_length_311604_cov_175.058_ID_3073
+			  Extensive misassembly ( relocation, inconsistency = -277176 ) between these two alignments
+			Real Alignment 25: 229830 238909 | 286589 295686 | 9080 9098 | 96.31 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_2_length_311604_cov_175.058_ID_3073
+			  Extensive misassembly ( relocation, inconsistency = 815336 ) between these two alignments
+			Real Alignment 26: 1070062 1070164 | 311604 311503 | 103 102 | 96.12 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_2_length_311604_cov_175.058_ID_3073
+
+CONTIG: NODE_3_length_186707_cov_159.146_ID_3075 (186707bp)
+Top Length: 37034  Top ID: 95.79
+		Skipping redundant alignment 767903 767985 | 1 83 | 83 83 | 98.8 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_3_length_186707_cov_159.146_ID_3075
+		Skipping redundant alignment 918456 918579 | 186581 186704 | 124 124 | 99.19 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_3_length_186707_cov_159.146_ID_3075
+		This contig is misassembled. 12 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 186707 and total length of all aligns is 92450
+		Alignment: 1070062 1070164 | 1 102 | 103 102 | 96.12 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_3_length_186707_cov_159.146_ID_3075
+		Alignment: 1005812 1007609 | 51292 53089 | 1798 1798 | 96.72 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_3_length_186707_cov_159.146_ID_3075
+		Alignment: 654210 654308 | 56343 56245 | 99 99 | 100.0 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_3_length_186707_cov_159.146_ID_3075
+		Alignment: 1028452 1052033 | 75510 99089 | 23582 23580 | 97.26 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_3_length_186707_cov_159.146_ID_3075
+		Alignment: 1630538 1667597 | 136117 99084 | 37060 37034 | 95.79 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_3_length_186707_cov_159.146_ID_3075
+		Alignment: 1622006 1626867 | 145281 140435 | 4862 4847 | 95.25 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_3_length_186707_cov_159.146_ID_3075
+		Alignment: 944414 952665 | 156384 148132 | 8252 8253 | 95.77 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_3_length_186707_cov_159.146_ID_3075
+		Alignment: 1606398 1617261 | 157720 168579 | 10864 10860 | 96.2 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_3_length_186707_cov_159.146_ID_3075
+		Alignment: 1052150 1057811 | 173955 179614 | 5662 5660 | 95.3 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_3_length_186707_cov_159.146_ID_3075
+		Alignment: 795497 795720 | 186485 186707 | 224 223 | 97.32 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_3_length_186707_cov_159.146_ID_3075
+		Unaligned bases: 94257
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: NODE_4_length_51343_cov_177.904_ID_3077 (51343bp)
+Top Length: 9573  Top ID: 95.08
+		Skipping redundant alignment 767903 767985 | 1 83 | 83 83 | 98.8 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_4_length_51343_cov_177.904_ID_3077
+		Skipping redundant alignment 260348 260632 | 51343 51058 | 285 286 | 97.56 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_4_length_51343_cov_177.904_ID_3077
+		Skipping redundant alignment 795465 795720 | 51090 51343 | 256 254 | 98.05 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_4_length_51343_cov_177.904_ID_3077
+		Skipping redundant alignment 918456 918579 | 51217 51340 | 124 124 | 99.19 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_4_length_51343_cov_177.904_ID_3077
+		This contig is misassembled. 8 total aligns.
+			Real Alignment 1: 1070062 1070164 | 1 102 | 103 102 | 96.12 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_4_length_51343_cov_177.904_ID_3077
+			  Extensive misassembly ( relocation, inconsistency = -258800 ) between these two alignments
+			Excluding internal overlap of size 64 between Alignment 2 and 3:  819992 827737 | 16467 8730 | 7746 7738 --> 820056 827737 | 16403 8730 | 7682 7674
+			Real Alignment 2: 820056 827737 | 16403 8730 | 7682 7674 | 95.62 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_4_length_51343_cov_177.904_ID_3077
+			  Extensive misassembly ( relocation, inconsistency = 685712 ) between these two alignments
+			Real Alignment 3: 124831 134343 | 25976 16404 | 9513 9573 | 95.08 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_4_length_51343_cov_177.904_ID_3077
+			  Extensive misassembly ( relocation, inconsistency = 602869 ) between these two alignments
+			Real Alignment 4: 753793 762582 | 42557 51343 | 8790 8787 | 95.51 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_4_length_51343_cov_177.904_ID_3077
+
+CONTIG: NODE_5_length_39384_cov_191.579_ID_3079 (39384bp)
+Top Length: 16546  Top ID: 96.02
+		Skipping redundant alignment 762296 762582 | 39099 39384 | 287 286 | 97.56 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_5_length_39384_cov_191.579_ID_3079
+		Skipping redundant alignment 795465 795720 | 39131 39384 | 256 254 | 98.05 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_5_length_39384_cov_191.579_ID_3079
+		Skipping redundant alignment 918456 918579 | 39258 39381 | 124 124 | 99.19 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_5_length_39384_cov_191.579_ID_3079
+		This contig is misassembled. 6 total aligns.
+			Real Alignment 1: 413323 429865 | 3223 19768 | 16543 16546 | 96.02 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_5_length_39384_cov_191.579_ID_3079
+			  Extensive misassembly ( relocation, inconsistency = -221201 ) between these two alignments
+			Real Alignment 2: 218872 225476 | 29976 36580 | 6605 6605 | 96.52 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_5_length_39384_cov_191.579_ID_3079
+			  Extensive misassembly ( relocation, inconsistency = 34822 ) between these two alignments
+			Real Alignment 3: 260348 263104 | 39384 36630 | 2757 2755 | 97.06 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_5_length_39384_cov_191.579_ID_3079
+
+CONTIG: NODE_6_length_27201_cov_168.345_ID_3081 (27201bp)
+Top Length: 18674  Top ID: 96.11
+		Skipping redundant alignment 260348 260600 | 1 254 | 253 254 | 97.65 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_6_length_27201_cov_168.345_ID_3081
+		Skipping redundant alignment 762328 762582 | 254 1 | 255 254 | 97.65 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_6_length_27201_cov_168.345_ID_3081
+		Skipping redundant alignment 1064318 1064557 | 241 1 | 240 241 | 95.87 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_6_length_27201_cov_168.345_ID_3081
+		Skipping redundant alignment 918456 918579 | 127 4 | 124 124 | 99.19 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_6_length_27201_cov_168.345_ID_3081
+		Skipping redundant alignment 918374 918453 | 15968 15889 | 80 80 | 100.0 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_6_length_27201_cov_168.345_ID_3081
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 254584 254710 | 27075 27201 | 127 127 | 96.85 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_6_length_27201_cov_168.345_ID_3081
+		Skipping redundant alignment 378507 378633 | 27075 27201 | 127 127 | 98.43 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_6_length_27201_cov_168.345_ID_3081
+		Skipping redundant alignment 899344 899425 | 26900 26819 | 82 82 | 100.0 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_6_length_27201_cov_168.345_ID_3081
+		Skipping redundant alignment 924188 924314 | 27201 27075 | 127 127 | 96.85 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_6_length_27201_cov_168.345_ID_3081
+		Skipping redundant alignment 1070018 1070144 | 27201 27075 | 127 127 | 98.43 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_6_length_27201_cov_168.345_ID_3081
+		This contig is misassembled. 13 total aligns.
+			Real Alignment 1: 777065 795720 | 18674 1 | 18656 18674 | 96.11 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_6_length_27201_cov_168.345_ID_3081
+			  Extensive misassembly ( relocation, inconsistency = -130405 ) between these two alignments
+			Real Alignment 2: 899240 899324 | 26904 26820 | 85 85 | 100.0 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_6_length_27201_cov_168.345_ID_3081
+			  Extensive misassembly ( relocation, inconsistency = 98024 ) between these two alignments
+			Real Alignment 3: 800919 801045 | 27201 27075 | 127 127 | 97.64 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_6_length_27201_cov_168.345_ID_3081
+
+CONTIG: NODE_7_length_25738_cov_199.556_ID_3083 (25738bp)
+Top Length: 8084  Top ID: 95.43
+		Skipping redundant alignment 367267 367393 | 1 127 | 127 127 | 98.43 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_7_length_25738_cov_199.556_ID_3083
+		Skipping redundant alignment 1064326 1064557 | 25506 25738 | 232 233 | 97.01 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_7_length_25738_cov_199.556_ID_3083
+		Skipping redundant alignment 762351 762582 | 25508 25738 | 232 231 | 97.84 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_7_length_25738_cov_199.556_ID_3083
+		Skipping redundant alignment 260348 260577 | 25738 25508 | 230 231 | 96.98 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_7_length_25738_cov_199.556_ID_3083
+		Skipping redundant alignment 795497 795720 | 25516 25738 | 224 223 | 98.66 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_7_length_25738_cov_199.556_ID_3083
+		Skipping redundant alignment 918456 918579 | 25612 25735 | 124 124 | 99.19 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_7_length_25738_cov_199.556_ID_3083
+		This contig is misassembled. 8 total aligns.
+			Real Alignment 1: 402607 408430 | 5839 1 | 5824 5839 | 95.62 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_7_length_25738_cov_199.556_ID_3083
+			  Extensive misassembly ( relocation, inconsistency = -1193 ) between these two alignments
+			Real Alignment 2: 383912 391984 | 25738 17655 | 8073 8084 | 95.43 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_7_length_25738_cov_199.556_ID_3083
+
+CONTIG: NODE_8_length_10438_cov_203.443_ID_3085 (10438bp)
+Top Length: 9349  Top ID: 95.44
+		Skipping redundant alignment 767903 767985 | 1 83 | 83 83 | 98.8 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_8_length_10438_cov_203.443_ID_3085
+		Skipping redundant alignment 408303 408430 | 10311 10438 | 128 128 | 99.22 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_8_length_10438_cov_203.443_ID_3085
+		This contig is misassembled. 4 total aligns.
+			Real Alignment 1: 1070062 1070164 | 1 102 | 103 102 | 96.12 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_8_length_10438_cov_203.443_ID_3085
+			  Extensive misassembly ( relocation, inconsistency = -703885 ) between these two alignments
+			Real Alignment 2: 367267 376599 | 10438 1090 | 9333 9349 | 95.44 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_8_length_10438_cov_203.443_ID_3085
+
+CONTIG: NODE_9_length_3454_cov_651.898_ID_3087 (3454bp)
+Top Length: 2387  Top ID: 97.07
+		Skipping redundant alignment 800912 801045 | 134 1 | 134 134 | 97.01 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_9_length_3454_cov_651.898_ID_3087
+		Skipping redundant alignment 256767 257388 | 2045 2666 | 622 622 | 99.36 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_9_length_3454_cov_651.898_ID_3087
+		Skipping redundant alignment 921543 922164 | 2666 2045 | 622 622 | 99.36 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_9_length_3454_cov_651.898_ID_3087
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 257497 258280 | 2671 3454 | 784 784 | 98.21 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_9_length_3454_cov_651.898_ID_3087
+		Skipping redundant alignment 764405 765186 | 3454 2671 | 782 784 | 98.6 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_9_length_3454_cov_651.898_ID_3087
+		Skipping redundant alignment 765295 767663 | 2666 296 | 2369 2371 | 96.96 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_9_length_3454_cov_651.898_ID_3087
+		Skipping redundant alignment 767840 767985 | 143 1 | 146 143 | 95.89 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_9_length_3454_cov_651.898_ID_3087
+		Skipping redundant alignment 797544 798325 | 3454 2671 | 782 784 | 98.6 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_9_length_3454_cov_651.898_ID_3087
+		Skipping redundant alignment 798434 800819 | 2666 280 | 2386 2387 | 97.07 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_9_length_3454_cov_651.898_ID_3087
+		Skipping redundant alignment 920651 921434 | 3454 2671 | 784 784 | 98.6 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_9_length_3454_cov_651.898_ID_3087
+		Skipping redundant alignment 1066625 1067408 | 3454 2671 | 784 784 | 98.6 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_9_length_3454_cov_651.898_ID_3087
+		Skipping redundant alignment 1067517 1069902 | 2666 280 | 2386 2387 | 97.07 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_9_length_3454_cov_651.898_ID_3087
+		Skipping redundant alignment 1069999 1070144 | 143 1 | 146 143 | 95.89 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_9_length_3454_cov_651.898_ID_3087
+		This contig is misassembled. 16 total aligns.
+			Real Alignment 1: 378507 378652 | 1 143 | 146 143 | 95.89 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_9_length_3454_cov_651.898_ID_3087
+			  Gap between these two alignments (local misassembly). Inconsistency = 24 
+			Real Alignment 2: 378829 381197 | 296 2666 | 2369 2371 | 96.96 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_9_length_3454_cov_651.898_ID_3087
+			  Gap between these two alignments (local misassembly). Inconsistency = 104 
+			Real Alignment 3: 381306 382089 | 2671 3454 | 784 784 | 98.47 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_9_length_3454_cov_651.898_ID_3087
+
+CONTIG: NODE_10_length_2124_cov_1.63245_ID_3089 (2124bp)
+		This contig is unaligned. (2124 bp)
+		Unaligned bases: 2124  total: 2124
+
+CONTIG: NODE_11_length_2010_cov_1.22995_ID_3091 (2010bp)
+		This contig is unaligned. (2010 bp)
+		Unaligned bases: 2010  total: 4134
+
+CONTIG: NODE_12_length_1889_cov_0.918842_ID_3093 (1889bp)
+		This contig is unaligned. (1889 bp)
+		Unaligned bases: 1889  total: 6023
+
+CONTIG: NODE_13_length_1795_cov_0.920264_ID_3095 (1795bp)
+		This contig is unaligned. (1795 bp)
+		Unaligned bases: 1795  total: 7818
+
+CONTIG: NODE_14_length_1764_cov_620.192_ID_3097 (1764bp)
+Top Length: 1764  Top ID: 98.02
+		This contig has 6 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 762456 764221 | 1 1764 | 1766 1764 | 98.02 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_14_length_1764_cov_620.192_ID_3097
+		Skipping alignment  258709 260472 | 1764 1 | 1764 1764 | 97.96 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_14_length_1764_cov_620.192_ID_3097
+		Skipping alignment  918456 920222 | 1 1764 | 1767 1764 | 97.91 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_14_length_1764_cov_620.192_ID_3097
+		Skipping alignment  382273 384037 | 1764 1 | 1765 1764 | 97.9 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_14_length_1764_cov_620.192_ID_3097
+		Skipping alignment  1064433 1066196 | 1 1764 | 1764 1764 | 97.85 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_14_length_1764_cov_620.192_ID_3097
+		Skipping alignment  795594 797360 | 1 1764 | 1767 1764 | 97.62 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_14_length_1764_cov_620.192_ID_3097
+
+CONTIG: NODE_15_length_1711_cov_1.38384_ID_3099 (1711bp)
+		This contig is unaligned. (1711 bp)
+		Unaligned bases: 1711  total: 9529
+
+CONTIG: NODE_16_length_1652_cov_0.968525_ID_3101 (1652bp)
+		This contig is unaligned. (1652 bp)
+		Unaligned bases: 1652  total: 11181
+
+CONTIG: NODE_17_length_1606_cov_0.872887_ID_3103 (1606bp)
+Top Length: 1328  Top ID: 96.46
+		This contig is partially unaligned. (Aligned 1328 out of 1606 bases)
+		Alignment: 1417987 1419314 | 1606 279 | 1328 1328 | 96.46 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_17_length_1606_cov_0.872887_ID_3103
+		Unaligned bases: 1 to 278 (278)
+
+CONTIG: NODE_18_length_1520_cov_1.41206_ID_3105 (1520bp)
+		This contig is unaligned. (1520 bp)
+		Unaligned bases: 1520  total: 12701
+
+CONTIG: NODE_19_length_1496_cov_0.853908_ID_3107 (1496bp)
+Top Length: 1496  Top ID: 99.27
+		One align captures most of this contig: 182585 184081 | 1 1496 | 1497 1496 | 99.27 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_19_length_1496_cov_0.853908_ID_3107
+
+CONTIG: NODE_20_length_1482_cov_1.17638_ID_3109 (1482bp)
+Top Length: 553  Top ID: 95.84
+		This contig is misassembled. 2 total aligns.
+			Excluding internal overlap of size 12 between Alignment 1 and 2:  966718 967257 | 941 405 | 540 537 --> 966730 967257 | 929 405 | 528 525
+			Real Alignment 1: 966730 967257 | 929 405 | 528 525 | 95.19 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_20_length_1482_cov_1.17638_ID_3109
+			  Gap between these two alignments (local misassembly). Inconsistency = 822 
+			Real Alignment 2: 965355 965907 | 1482 930 | 553 553 | 95.84 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_20_length_1482_cov_1.17638_ID_3109
+
+CONTIG: NODE_21_length_1469_cov_1.90686_ID_3111 (1469bp)
+Top Length: 240  Top ID: 97.92
+		This contig is partially unaligned. (Aligned 240 out of 1469 bases)
+		Alignment: 1799266 1799505 | 240 1 | 240 240 | 97.92 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_21_length_1469_cov_1.90686_ID_3111
+		Unaligned bases: 241 to 1469 (1229)
+
+CONTIG: NODE_22_length_1420_cov_1.23511_ID_3113 (1420bp)
+		This contig is unaligned. (1420 bp)
+		Unaligned bases: 1420  total: 14121
+
+CONTIG: NODE_23_length_1412_cov_0.735409_ID_3115 (1412bp)
+Top Length: 1412  Top ID: 96.88
+		One align captures most of this contig: 397743 399154 | 1 1412 | 1412 1412 | 96.88 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_23_length_1412_cov_0.735409_ID_3115
+
+CONTIG: NODE_24_length_1380_cov_1.53312_ID_3117 (1380bp)
+		This contig is unaligned. (1380 bp)
+		Unaligned bases: 1380  total: 15501
+
+CONTIG: NODE_25_length_1335_cov_0.961921_ID_3119 (1335bp)
+		This contig is unaligned. (1335 bp)
+		Unaligned bases: 1335  total: 16836
+
+CONTIG: NODE_26_length_1326_cov_1.35863_ID_3121 (1326bp)
+		This contig is unaligned. (1326 bp)
+		Unaligned bases: 1326  total: 18162
+
+CONTIG: NODE_27_length_1318_cov_1.02267_ID_3123 (1318bp)
+Top Length: 1318  Top ID: 99.55
+		One align captures most of this contig: 1479009 1480327 | 1318 1 | 1319 1318 | 99.55 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_27_length_1318_cov_1.02267_ID_3123
+
+CONTIG: NODE_28_length_1301_cov_1.27513_ID_3125 (1301bp)
+		This contig is unaligned. (1301 bp)
+		Unaligned bases: 1301  total: 19463
+
+CONTIG: NODE_29_length_1298_cov_1.77541_ID_3127 (1298bp)
+		This contig is unaligned. (1298 bp)
+		Unaligned bases: 1298  total: 20761
+
+CONTIG: NODE_30_length_1289_cov_321.56_ID_3129 (1289bp)
+Top Length: 1276  Top ID: 97.1
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 408304 409580 | 1289 14 | 1277 1276 | 96.95 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_30_length_1289_cov_321.56_ID_3129
+		This contig is partially unaligned. (Aligned 1276 out of 1289 bases)
+		Alignment: 366117 367393 | 14 1289 | 1277 1276 | 97.1 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_30_length_1289_cov_321.56_ID_3129
+		Unaligned bases: 1 to 13 (13)
+
+CONTIG: NODE_31_length_1268_cov_1.08677_ID_3131 (1268bp)
+		This contig is unaligned. (1268 bp)
+		Unaligned bases: 1268  total: 22029
+
+CONTIG: NODE_32_length_1241_cov_1.70557_ID_3133 (1241bp)
+		This contig is unaligned. (1241 bp)
+		Unaligned bases: 1241  total: 23270
+
+CONTIG: NODE_33_length_1199_cov_1.03918_ID_3135 (1199bp)
+		This contig is unaligned. (1199 bp)
+		Unaligned bases: 1199  total: 24469
+
+CONTIG: NODE_34_length_1101_cov_1.04004_ID_3137 (1101bp)
+Top Length: 789  Top ID: 98.86
+		This contig is partially unaligned. (Aligned 789 out of 1101 bases)
+		Alignment: 929927 930715 | 1 789 | 789 789 | 98.86 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_34_length_1101_cov_1.04004_ID_3137
+		Unaligned bases: 790 to 1101 (312)
+
+CONTIG: NODE_35_length_1084_cov_1.10345_ID_3139 (1084bp)
+		This contig is unaligned. (1084 bp)
+		Unaligned bases: 1084  total: 25553
+
+CONTIG: NODE_36_length_1017_cov_1.18989_ID_3141 (1017bp)
+Top Length: 120  Top ID: 98.35
+		This contig is partially unaligned. (Aligned 120 out of 1017 bases)
+		Alignment: 735681 735801 | 898 1017 | 121 120 | 98.35 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_36_length_1017_cov_1.18989_ID_3141
+		Unaligned bases: 1 to 897 (897)
+
+CONTIG: NODE_37_length_1016_cov_1.06187_ID_3143 (1016bp)
+		This contig is unaligned. (1016 bp)
+		Unaligned bases: 1016  total: 26569
+
+CONTIG: NODE_38_length_975_cov_1.60495_ID_3145 (975bp)
+Top Length: 975  Top ID: 97.09
+		One align captures most of this contig: 213136 214128 | 1 975 | 993 975 | 97.09 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_38_length_975_cov_1.60495_ID_3145
+
+CONTIG: NODE_39_length_973_cov_0.626478_ID_3147 (973bp)
+		This contig is unaligned. (973 bp)
+		Unaligned bases: 973  total: 27542
+
+CONTIG: NODE_40_length_970_cov_1.86714_ID_3149 (970bp)
+Top Length: 968  Top ID: 97.42
+		One align captures most of this contig: 1319389 1320357 | 1 968 | 969 968 | 97.42 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_40_length_970_cov_1.86714_ID_3149
+
+CONTIG: NODE_41_length_961_cov_0.703837_ID_3151 (961bp)
+Top Length: 961  Top ID: 97.5
+		One align captures most of this contig: 1403559 1404519 | 1 961 | 961 961 | 97.5 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_41_length_961_cov_0.703837_ID_3151
+
+CONTIG: NODE_42_length_948_cov_1.42509_ID_3153 (948bp)
+		This contig is unaligned. (948 bp)
+		Unaligned bases: 948  total: 28490
+
+CONTIG: NODE_43_length_934_cov_0.826518_ID_3155 (934bp)
+		This contig is unaligned. (934 bp)
+		Unaligned bases: 934  total: 29424
+
+CONTIG: NODE_44_length_914_cov_1.56417_ID_3157 (914bp)
+		This contig is unaligned. (914 bp)
+		Unaligned bases: 914  total: 30338
+
+CONTIG: NODE_45_length_902_cov_1.3871_ID_3159 (902bp)
+Top Length: 451  Top ID: 99.12
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 1481504 1481712 | 208 1 | 209 208 | 99.04 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_45_length_902_cov_1.3871_ID_3159
+			  Overlap between these two alignments (local misassembly). Inconsistency = -236 
+			Real Alignment 2: 1481045 1481496 | 902 452 | 452 451 | 99.12 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_45_length_902_cov_1.3871_ID_3159
+
+CONTIG: NODE_46_length_878_cov_1.249_ID_3161 (878bp)
+		This contig is unaligned. (878 bp)
+		Unaligned bases: 878  total: 31216
+
+CONTIG: NODE_47_length_874_cov_1.63186_ID_3163 (874bp)
+Top Length: 874  Top ID: 98.28
+		One align captures most of this contig: 776104 776977 | 874 1 | 874 874 | 98.28 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_47_length_874_cov_1.63186_ID_3163
+
+CONTIG: NODE_48_length_851_cov_1.73066_ID_3165 (851bp)
+Top Length: 851  Top ID: 99.53
+		One align captures most of this contig: 510435 511285 | 851 1 | 851 851 | 99.53 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_48_length_851_cov_1.73066_ID_3165
+
+CONTIG: NODE_49_length_850_cov_0.939142_ID_3167 (850bp)
+		This contig is unaligned. (850 bp)
+		Unaligned bases: 850  total: 32066
+
+CONTIG: NODE_50_length_835_cov_0.909605_ID_3169 (835bp)
+		This contig is unaligned. (835 bp)
+		Unaligned bases: 835  total: 32901
+
+CONTIG: NODE_51_length_835_cov_1.51554_ID_3171 (835bp)
+Top Length: 835  Top ID: 99.4
+		One align captures most of this contig: 1211186 1212020 | 835 1 | 835 835 | 99.4 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_51_length_835_cov_1.51554_ID_3171
+
+CONTIG: NODE_52_length_832_cov_1.11489_ID_3173 (832bp)
+		This contig is unaligned. (832 bp)
+		Unaligned bases: 832  total: 33733
+
+CONTIG: NODE_53_length_818_cov_1.04631_ID_3175 (818bp)
+Top Length: 818  Top ID: 97.56
+		One align captures most of this contig: 1402135 1402952 | 1 818 | 818 818 | 97.56 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_53_length_818_cov_1.04631_ID_3175
+
+CONTIG: NODE_54_length_811_cov_0.672515_ID_3177 (811bp)
+		This contig is unaligned. (811 bp)
+		Unaligned bases: 811  total: 34544
+
+CONTIG: NODE_55_length_807_cov_0.930882_ID_3179 (807bp)
+Top Length: 807  Top ID: 96.65
+		One align captures most of this contig: 51144 51949 | 807 1 | 806 807 | 96.65 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_55_length_807_cov_0.930882_ID_3179
+
+CONTIG: NODE_56_length_805_cov_0.643068_ID_3181 (805bp)
+Top Length: 240  Top ID: 97.5
+		This contig is partially unaligned. (Aligned 240 out of 805 bases)
+		Alignment: 1313888 1314127 | 805 566 | 240 240 | 97.5 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_56_length_805_cov_0.643068_ID_3181
+		Unaligned bases: 1 to 565 (565)
+
+CONTIG: NODE_57_length_802_cov_1.24593_ID_3183 (802bp)
+		This contig is unaligned. (802 bp)
+		Unaligned bases: 802  total: 35346
+
+CONTIG: NODE_58_length_801_cov_1.31454_ID_3185 (801bp)
+		This contig is unaligned. (801 bp)
+		Unaligned bases: 801  total: 36147
+
+CONTIG: NODE_59_length_792_cov_0.796992_ID_3187 (792bp)
+		This contig is unaligned. (792 bp)
+		Unaligned bases: 792  total: 36939
+
+CONTIG: NODE_60_length_792_cov_0.87218_ID_3189 (792bp)
+		This contig is unaligned. (792 bp)
+		Unaligned bases: 792  total: 37731
+
+CONTIG: NODE_61_length_790_cov_0.846154_ID_3191 (790bp)
+Top Length: 790  Top ID: 98.23
+		One align captures most of this contig: 1303491 1304281 | 790 1 | 791 790 | 98.23 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_61_length_790_cov_0.846154_ID_3191
+
+CONTIG: NODE_62_length_765_cov_0.755486_ID_3193 (765bp)
+		This contig is unaligned. (765 bp)
+		Unaligned bases: 765  total: 38496
+
+CONTIG: NODE_63_length_762_cov_2.4_ID_3195 (762bp)
+		This contig is unaligned. (762 bp)
+		Unaligned bases: 762  total: 39258
+
+CONTIG: NODE_64_length_761_cov_2.12934_ID_3197 (761bp)
+Top Length: 123  Top ID: 98.37
+		This contig is partially unaligned. (Aligned 123 out of 761 bases)
+		Alignment: 735562 735684 | 1 123 | 123 123 | 98.37 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_64_length_761_cov_2.12934_ID_3197
+		Unaligned bases: 124 to 761 (638)
+
+CONTIG: NODE_65_length_753_cov_1.23642_ID_3199 (753bp)
+		This contig is unaligned. (753 bp)
+		Unaligned bases: 753  total: 40011
+
+CONTIG: NODE_66_length_752_cov_1.3696_ID_3201 (752bp)
+Top Length: 752  Top ID: 95.48
+		One align captures most of this contig: 587953 588704 | 1 752 | 752 752 | 95.48 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_66_length_752_cov_1.3696_ID_3201
+
+CONTIG: NODE_67_length_748_cov_0.68438_ID_3203 (748bp)
+		This contig is unaligned. (748 bp)
+		Unaligned bases: 748  total: 40759
+
+CONTIG: NODE_68_length_747_cov_2.03226_ID_3205 (747bp)
+		This contig is unaligned. (747 bp)
+		Unaligned bases: 747  total: 41506
+
+CONTIG: NODE_69_length_730_cov_0.779436_ID_3207 (730bp)
+Top Length: 730  Top ID: 99.04
+		One align captures most of this contig: 511280 512009 | 730 1 | 730 730 | 99.04 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_69_length_730_cov_0.779436_ID_3207
+
+CONTIG: NODE_70_length_730_cov_0.547264_ID_3209 (730bp)
+Top Length: 643  Top ID: 96.43
+		This contig is misassembled. 2 total aligns.
+			Excluding internal overlap of size 85 between Alignment 1 and 2:  1482205 1482379 | 2 172 | 175 171 --> 1482205 1482294 | 2 87 | 90 86
+			Real Alignment 1: 1482205 1482294 | 2 87 | 90 86 | 96.0 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_70_length_730_cov_0.547264_ID_3209
+			  Extensive misassembly ( relocation, inconsistency = -988347 ) between these two alignments
+			Real Alignment 2: 493948 494592 | 730 88 | 645 643 | 96.43 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_70_length_730_cov_0.547264_ID_3209
+
+CONTIG: NODE_71_length_725_cov_1.08027_ID_3211 (725bp)
+Top Length: 725  Top ID: 99.72
+		One align captures most of this contig: 508273 508997 | 725 1 | 725 725 | 99.72 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_71_length_725_cov_1.08027_ID_3211
+
+CONTIG: NODE_72_length_714_cov_1.08688_ID_3213 (714bp)
+		This contig is unaligned. (714 bp)
+		Unaligned bases: 714  total: 42220
+
+CONTIG: NODE_73_length_711_cov_1.40411_ID_3215 (711bp)
+Top Length: 579  Top ID: 97.58
+		This contig is partially unaligned. (Aligned 579 out of 711 bases)
+		Alignment: 1667419 1667996 | 711 133 | 578 579 | 97.58 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_73_length_711_cov_1.40411_ID_3215
+		Unaligned bases: 1 to 132 (132)
+
+CONTIG: NODE_74_length_705_cov_1.20242_ID_3217 (705bp)
+Top Length: 705  Top ID: 99.43
+		One align captures most of this contig: 151584 152288 | 705 1 | 705 705 | 99.43 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_74_length_705_cov_1.20242_ID_3217
+
+CONTIG: NODE_75_length_704_cov_1.03472_ID_3219 (704bp)
+Top Length: 704  Top ID: 98.15
+		One align captures most of this contig: 990893 991596 | 1 704 | 704 704 | 98.15 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_75_length_704_cov_1.03472_ID_3219
+
+CONTIG: NODE_76_length_702_cov_0.813913_ID_3221 (702bp)
+Top Length: 238  Top ID: 100.0
+		This contig is partially unaligned. (Aligned 238 out of 702 bases)
+		Alignment: 1541274 1541511 | 702 465 | 238 238 | 100.0 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_76_length_702_cov_0.813913_ID_3221
+		Unaligned bases: 1 to 464 (464)
+
+CONTIG: NODE_77_length_691_cov_0.757092_ID_3223 (691bp)
+		This contig is unaligned. (691 bp)
+		Unaligned bases: 691  total: 42911
+
+CONTIG: NODE_78_length_686_cov_1.33989_ID_3225 (686bp)
+Top Length: 686  Top ID: 99.42
+		One align captures most of this contig: 731798 732483 | 686 1 | 686 686 | 99.42 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_78_length_686_cov_1.33989_ID_3225
+
+CONTIG: NODE_79_length_686_cov_1.61002_ID_3227 (686bp)
+		This contig is unaligned. (686 bp)
+		Unaligned bases: 686  total: 43597
+
+CONTIG: NODE_80_length_679_cov_454.15_ID_3229 (679bp)
+Top Length: 127  Top ID: 98.43
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 764095 764221 | 1 127 | 127 127 | 98.43 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_80_length_679_cov_454.15_ID_3229
+		Skipping redundant alignment 764403 764529 | 551 679 | 127 129 | 96.12 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_80_length_679_cov_454.15_ID_3229
+		Skipping redundant alignment 797234 797360 | 1 127 | 127 127 | 98.43 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_80_length_679_cov_454.15_ID_3229
+		Skipping redundant alignment 797542 797668 | 551 679 | 127 129 | 96.12 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_80_length_679_cov_454.15_ID_3229
+		This contig is misassembled. 6 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 679 and total length of all aligns is 256
+		Alignment: 382273 382399 | 127 1 | 127 127 | 98.43 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_80_length_679_cov_454.15_ID_3229
+		Alignment: 381963 382091 | 679 551 | 129 129 | 95.35 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_80_length_679_cov_454.15_ID_3229
+		Unaligned bases: 423
+CONTIG: NODE_81_length_676_cov_1.0255_ID_3231 (676bp)
+Top Length: 676  Top ID: 99.7
+		One align captures most of this contig: 509018 509693 | 1 676 | 676 676 | 99.7 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_81_length_676_cov_1.0255_ID_3231
+
+CONTIG: NODE_82_length_668_cov_1.52495_ID_3233 (668bp)
+		This contig is unaligned. (668 bp)
+		Unaligned bases: 668  total: 44265
+
+CONTIG: NODE_83_length_659_cov_1.56579_ID_3235 (659bp)
+		This contig is unaligned. (659 bp)
+		Unaligned bases: 659  total: 44924
+
+CONTIG: NODE_84_length_655_cov_0.820076_ID_3237 (655bp)
+		This contig is unaligned. (655 bp)
+		Unaligned bases: 655  total: 45579
+
+CONTIG: NODE_85_length_652_cov_1.21333_ID_3239 (652bp)
+		This contig is unaligned. (652 bp)
+		Unaligned bases: 652  total: 46231
+
+CONTIG: NODE_86_length_652_cov_1.23429_ID_3241 (652bp)
+		This contig is unaligned. (652 bp)
+		Unaligned bases: 652  total: 46883
+
+CONTIG: NODE_87_length_648_cov_0.827255_ID_3243 (648bp)
+		This contig is unaligned. (648 bp)
+		Unaligned bases: 648  total: 47531
+
+CONTIG: NODE_88_length_646_cov_0.88632_ID_3245 (646bp)
+		This contig is unaligned. (646 bp)
+		Unaligned bases: 646  total: 48177
+
+CONTIG: NODE_89_length_644_cov_0.833656_ID_3247 (644bp)
+		This contig is unaligned. (644 bp)
+		Unaligned bases: 644  total: 48821
+
+CONTIG: NODE_90_length_644_cov_0.60735_ID_3249 (644bp)
+		This contig is unaligned. (644 bp)
+		Unaligned bases: 644  total: 49465
+
+CONTIG: NODE_91_length_638_cov_1.63796_ID_3251 (638bp)
+Top Length: 638  Top ID: 98.12
+		One align captures most of this contig: 146199 146836 | 638 1 | 638 638 | 98.12 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_91_length_638_cov_1.63796_ID_3251
+
+CONTIG: NODE_92_length_638_cov_1.95108_ID_3253 (638bp)
+		This contig is unaligned. (638 bp)
+		Unaligned bases: 638  total: 50103
+
+CONTIG: NODE_93_length_637_cov_1.68627_ID_3255 (637bp)
+Top Length: 263  Top ID: 98.1
+		This contig is partially unaligned. (Aligned 263 out of 637 bases)
+		Alignment: 50193 50455 | 374 636 | 263 263 | 98.1 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_93_length_637_cov_1.68627_ID_3255
+		Unaligned bases: 1 to 373 (373)
+		Unaligned bases: 637 to 637 (1)
+
+CONTIG: NODE_94_length_636_cov_1.26326_ID_3257 (636bp)
+		This contig is unaligned. (636 bp)
+		Unaligned bases: 636  total: 50739
+
+CONTIG: NODE_95_length_630_cov_2.16071_ID_3259 (630bp)
+Top Length: 518  Top ID: 95.58
+		This contig is partially unaligned. (Aligned 518 out of 630 bases)
+		Alignment: 1410362 1410881 | 518 1 | 520 518 | 95.58 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_95_length_630_cov_2.16071_ID_3259
+		Unaligned bases: 519 to 630 (112)
+
+CONTIG: NODE_96_length_628_cov_0.866267_ID_3261 (628bp)
+		This contig is unaligned. (628 bp)
+		Unaligned bases: 628  total: 51367
+
+CONTIG: NODE_97_length_624_cov_0.432596_ID_3263 (624bp)
+		This contig is unaligned. (624 bp)
+		Unaligned bases: 624  total: 51991
+
+CONTIG: NODE_98_length_624_cov_1.63581_ID_3265 (624bp)
+Top Length: 624  Top ID: 97.44
+		One align captures most of this contig: 445654 446277 | 624 1 | 624 624 | 97.44 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_98_length_624_cov_1.63581_ID_3265
+
+CONTIG: NODE_99_length_620_cov_1.06694_ID_3267 (620bp)
+Top Length: 620  Top ID: 95.48
+		One align captures most of this contig: 1308342 1308961 | 1 620 | 620 620 | 95.48 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_99_length_620_cov_1.06694_ID_3267
+
+CONTIG: NODE_100_length_618_cov_1.51731_ID_3269 (618bp)
+		This contig is unaligned. (618 bp)
+		Unaligned bases: 618  total: 52609
+
+CONTIG: NODE_101_length_617_cov_0.932653_ID_3271 (617bp)
+		This contig is unaligned. (617 bp)
+		Unaligned bases: 617  total: 53226
+
+CONTIG: NODE_102_length_613_cov_2.44856_ID_3273 (613bp)
+Top Length: 613  Top ID: 98.69
+		One align captures most of this contig: 1010337 1010949 | 613 1 | 613 613 | 98.69 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_102_length_613_cov_2.44856_ID_3273
+
+CONTIG: NODE_103_length_612_cov_0.91134_ID_3275 (612bp)
+		This contig is unaligned. (612 bp)
+		Unaligned bases: 612  total: 53838
+
+CONTIG: NODE_104_length_605_cov_1.659_ID_3277 (605bp)
+		This contig is unaligned. (605 bp)
+		Unaligned bases: 605  total: 54443
+
+CONTIG: NODE_105_length_604_cov_1.52411_ID_3279 (604bp)
+		This contig is unaligned. (604 bp)
+		Unaligned bases: 604  total: 55047
+
+CONTIG: NODE_106_length_601_cov_1.01055_ID_3281 (601bp)
+		This contig is unaligned. (601 bp)
+		Unaligned bases: 601  total: 55648
+
+CONTIG: NODE_107_length_598_cov_2.18259_ID_3283 (598bp)
+		This contig is unaligned. (598 bp)
+		Unaligned bases: 598  total: 56246
+
+CONTIG: NODE_108_length_598_cov_1.11465_ID_3285 (598bp)
+Top Length: 598  Top ID: 97.32
+		One align captures most of this contig: 1776081 1776678 | 1 598 | 598 598 | 97.32 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_108_length_598_cov_1.11465_ID_3285
+
+CONTIG: NODE_109_length_596_cov_1.74414_ID_3287 (596bp)
+Top Length: 596  Top ID: 98.66
+		One align captures most of this contig: 30561 31156 | 1 596 | 596 596 | 98.66 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_109_length_596_cov_1.74414_ID_3287
+
+CONTIG: NODE_110_length_593_cov_1.2897_ID_3289 (593bp)
+Top Length: 304  Top ID: 99.01
+		This contig is partially unaligned. (Aligned 304 out of 593 bases)
+		Alignment: 431274 431577 | 304 1 | 304 304 | 99.01 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_110_length_593_cov_1.2897_ID_3289
+		Unaligned bases: 305 to 593 (289)
+
+CONTIG: NODE_111_length_591_cov_0.931034_ID_3291 (591bp)
+		This contig is unaligned. (591 bp)
+		Unaligned bases: 591  total: 56837
+
+CONTIG: NODE_112_length_589_cov_1.01299_ID_3293 (589bp)
+		This contig is unaligned. (589 bp)
+		Unaligned bases: 589  total: 57426
+
+CONTIG: NODE_113_length_588_cov_1.79393_ID_3295 (588bp)
+Top Length: 588  Top ID: 96.6
+		One align captures most of this contig: 589819 590406 | 588 1 | 588 588 | 96.6 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_113_length_588_cov_1.79393_ID_3295
+
+CONTIG: NODE_114_length_587_cov_1.17174_ID_3297 (587bp)
+Top Length: 110  Top ID: 98.18
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 1386101 1386210 | 113 4 | 110 110 | 98.18 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_114_length_587_cov_1.17174_ID_3297
+		This contig is partially unaligned. (Aligned 110 out of 587 bases)
+		Alignment: 1226222 1226331 | 4 113 | 110 110 | 97.27 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_114_length_587_cov_1.17174_ID_3297
+		Unaligned bases: 1 to 3 (3)
+		Unaligned bases: 114 to 587 (474)
+
+CONTIG: NODE_115_length_584_cov_0.973742_ID_3299 (584bp)
+		This contig is unaligned. (584 bp)
+		Unaligned bases: 584  total: 58010
+
+CONTIG: NODE_116_length_583_cov_0.559211_ID_3301 (583bp)
+		This contig is unaligned. (583 bp)
+		Unaligned bases: 583  total: 58593
+
+CONTIG: NODE_117_length_582_cov_1.14945_ID_3303 (582bp)
+		This contig is unaligned. (582 bp)
+		Unaligned bases: 582  total: 59175
+
+CONTIG: NODE_118_length_582_cov_1.66374_ID_3305 (582bp)
+		This contig is unaligned. (582 bp)
+		Unaligned bases: 582  total: 59757
+
+CONTIG: NODE_119_length_582_cov_1.8022_ID_3307 (582bp)
+		This contig is unaligned. (582 bp)
+		Unaligned bases: 582  total: 60339
+
+CONTIG: NODE_120_length_581_cov_0.936123_ID_3309 (581bp)
+		This contig is unaligned. (581 bp)
+		Unaligned bases: 581  total: 60920
+
+CONTIG: NODE_121_length_579_cov_1.19469_ID_3311 (579bp)
+		This contig is unaligned. (579 bp)
+		Unaligned bases: 579  total: 61499
+
+CONTIG: NODE_122_length_575_cov_1.38839_ID_3313 (575bp)
+		This contig is unaligned. (575 bp)
+		Unaligned bases: 575  total: 62074
+
+CONTIG: NODE_123_length_574_cov_0.653244_ID_3315 (574bp)
+		This contig is unaligned. (574 bp)
+		Unaligned bases: 574  total: 62648
+
+CONTIG: NODE_124_length_571_cov_0.727477_ID_3317 (571bp)
+		This contig is unaligned. (571 bp)
+		Unaligned bases: 571  total: 63219
+
+CONTIG: NODE_125_length_571_cov_1.38514_ID_3319 (571bp)
+		This contig is unaligned. (571 bp)
+		Unaligned bases: 571  total: 63790
+
+CONTIG: NODE_126_length_570_cov_1.2167_ID_3321 (570bp)
+		This contig is unaligned. (570 bp)
+		Unaligned bases: 570  total: 64360
+
+CONTIG: NODE_127_length_566_cov_0.574032_ID_3323 (566bp)
+Top Length: 535  Top ID: 96.26
+		This contig is partially unaligned. (Aligned 535 out of 566 bases)
+		Alignment: 907935 908469 | 563 29 | 535 535 | 96.26 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_127_length_566_cov_0.574032_ID_3323
+		Unaligned bases: 1 to 28 (28)
+		Unaligned bases: 564 to 566 (3)
+
+CONTIG: NODE_128_length_565_cov_0.719178_ID_3325 (565bp)
+Top Length: 565  Top ID: 98.42
+		One align captures most of this contig: 133608 134177 | 565 1 | 570 565 | 98.42 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_128_length_565_cov_0.719178_ID_3325
+
+CONTIG: NODE_129_length_564_cov_0.887872_ID_3327 (564bp)
+		This contig is unaligned. (564 bp)
+		Unaligned bases: 564  total: 64924
+
+CONTIG: NODE_130_length_563_cov_1.31193_ID_3329 (563bp)
+		This contig is unaligned. (563 bp)
+		Unaligned bases: 563  total: 65487
+
+CONTIG: NODE_131_length_557_cov_0.753488_ID_3331 (557bp)
+Top Length: 557  Top ID: 97.13
+		One align captures most of this contig: 1241745 1242301 | 557 1 | 557 557 | 97.13 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_131_length_557_cov_0.753488_ID_3331
+
+CONTIG: NODE_132_length_554_cov_0.651054_ID_3333 (554bp)
+		This contig is unaligned. (554 bp)
+		Unaligned bases: 554  total: 66041
+
+CONTIG: NODE_133_length_554_cov_2.29274_ID_3335 (554bp)
+Top Length: 554  Top ID: 97.29
+		One align captures most of this contig: 984668 985221 | 1 554 | 554 554 | 97.29 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_133_length_554_cov_2.29274_ID_3335
+
+CONTIG: NODE_134_length_553_cov_0.730047_ID_3337 (553bp)
+		This contig is unaligned. (553 bp)
+		Unaligned bases: 553  total: 66594
+
+CONTIG: NODE_135_length_553_cov_2.15493_ID_3339 (553bp)
+Top Length: 553  Top ID: 98.01
+		One align captures most of this contig: 209961 210513 | 1 553 | 553 553 | 98.01 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_135_length_553_cov_2.15493_ID_3339
+
+CONTIG: NODE_136_length_545_cov_1.10287_ID_3341 (545bp)
+Top Length: 545  Top ID: 95.05
+		One align captures most of this contig: 1817249 1817790 | 545 1 | 542 545 | 95.05 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_136_length_545_cov_1.10287_ID_3341
+
+CONTIG: NODE_137_length_544_cov_1.52518_ID_3343 (544bp)
+		This contig is unaligned. (544 bp)
+		Unaligned bases: 544  total: 67138
+
+CONTIG: NODE_138_length_543_cov_1.01442_ID_3345 (543bp)
+		This contig is unaligned. (543 bp)
+		Unaligned bases: 543  total: 67681
+
+CONTIG: NODE_139_length_538_cov_1.22384_ID_3347 (538bp)
+Top Length: 538  Top ID: 96.84
+		One align captures most of this contig: 454282 454819 | 1 538 | 538 538 | 96.84 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_139_length_538_cov_1.22384_ID_3347
+
+CONTIG: NODE_140_length_538_cov_1.58151_ID_3349 (538bp)
+Top Length: 538  Top ID: 98.88
+		One align captures most of this contig: 566237 566774 | 538 1 | 538 538 | 98.88 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_140_length_538_cov_1.58151_ID_3349
+
+CONTIG: NODE_141_length_537_cov_1.29756_ID_3351 (537bp)
+		This contig is unaligned. (537 bp)
+		Unaligned bases: 537  total: 68218
+
+CONTIG: NODE_142_length_536_cov_0.784841_ID_3353 (536bp)
+		This contig is unaligned. (536 bp)
+		Unaligned bases: 536  total: 68754
+
+CONTIG: NODE_143_length_536_cov_1.56724_ID_3355 (536bp)
+Top Length: 536  Top ID: 95.52
+		One align captures most of this contig: 1373114 1373649 | 1 536 | 536 536 | 95.52 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_143_length_536_cov_1.56724_ID_3355
+
+CONTIG: NODE_144_length_536_cov_0.723716_ID_3357 (536bp)
+		This contig is unaligned. (536 bp)
+		Unaligned bases: 536  total: 69290
+
+CONTIG: NODE_145_length_535_cov_1.96814_ID_3359 (535bp)
+Top Length: 535  Top ID: 99.44
+		One align captures most of this contig: 1605610 1606144 | 535 1 | 535 535 | 99.44 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_145_length_535_cov_1.96814_ID_3359
+
+CONTIG: NODE_146_length_535_cov_1.52941_ID_3361 (535bp)
+Top Length: 535  Top ID: 98.13
+		One align captures most of this contig: 1062368 1062902 | 1 535 | 535 535 | 98.13 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_146_length_535_cov_1.52941_ID_3361
+
+CONTIG: NODE_147_length_530_cov_0.759305_ID_3363 (530bp)
+		This contig is unaligned. (530 bp)
+		Unaligned bases: 530  total: 69820
+
+CONTIG: NODE_148_length_530_cov_1.04467_ID_3365 (530bp)
+Top Length: 528  Top ID: 99.24
+		One align captures most of this contig: 513399 513926 | 530 3 | 528 528 | 99.24 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_148_length_530_cov_1.04467_ID_3365
+
+CONTIG: NODE_149_length_521_cov_0.690355_ID_3367 (521bp)
+		This contig is unaligned. (521 bp)
+		Unaligned bases: 521  total: 70341
+
+CONTIG: NODE_150_length_521_cov_0.718274_ID_3369 (521bp)
+Top Length: 521  Top ID: 99.62
+		One align captures most of this contig: 512352 512872 | 1 521 | 521 521 | 99.62 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_150_length_521_cov_0.718274_ID_3369
+
+CONTIG: NODE_151_length_518_cov_1.3555_ID_3371 (518bp)
+Top Length: 518  Top ID: 99.03
+		One align captures most of this contig: 352583 353100 | 1 518 | 518 518 | 99.03 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_151_length_518_cov_1.3555_ID_3371
+
+CONTIG: NODE_152_length_516_cov_1.8509_ID_3373 (516bp)
+		This contig is unaligned. (516 bp)
+		Unaligned bases: 516  total: 70857
+
+CONTIG: NODE_153_length_514_cov_1.25323_ID_3375 (514bp)
+Top Length: 514  Top ID: 97.67
+		One align captures most of this contig: 547224 547737 | 514 1 | 514 514 | 97.67 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_153_length_514_cov_1.25323_ID_3375
+
+CONTIG: NODE_154_length_512_cov_0.820779_ID_3377 (512bp)
+		This contig is unaligned. (512 bp)
+		Unaligned bases: 512  total: 71369
+
+CONTIG: NODE_155_length_510_cov_1.87728_ID_3379 (510bp)
+Top Length: 510  Top ID: 96.67
+		One align captures most of this contig: 443568 444077 | 510 1 | 510 510 | 96.67 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_155_length_510_cov_1.87728_ID_3379
+
+CONTIG: NODE_156_length_509_cov_1.08377_ID_3381 (509bp)
+Top Length: 509  Top ID: 98.04
+		One align captures most of this contig: 525006 525514 | 1 509 | 509 509 | 98.04 | NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome NODE_156_length_509_cov_1.08377_ID_3381
+
+CONTIG: NODE_157_length_507_cov_1.07632_ID_3383 (507bp)
+		This contig is unaligned. (507 bp)
+		Unaligned bases: 507  total: 71876
+
+CONTIG: NODE_158_length_507_cov_1.76316_ID_3385 (507bp)
+		This contig is unaligned. (507 bp)
+		Unaligned bases: 507  total: 72383
+
+CONTIG: NODE_159_length_500_cov_1.3378_ID_3387 (500bp)
+		This contig is unaligned. (500 bp)
+		Unaligned bases: 500  total: 72883
+
+Analyzing coverage...
+Writing SNPs into /data/projects/Assembly/Aroon/reports/spades/GCF_000931605.1_ASM93160v1_genomic/contigs_reports/nucmer_output/M10540_contigs.used_snps
+	Reference NZ_CP007471.1_Haemophilus_influenzae_strain_C486__complete_genome: 202 total alignments. 1 total regions.
+		Region: 1 to 1846503 (1846503 bp)
+			Align 1: 1 649 NODE_1_length_1150417_cov_158.528_ID_3071 815089 815739
+				Gap between this and next alignment: 649 to 685 (35 bp)
+				Next Alignment: 685 21947 NODE_1_length_1150417_cov_158.528_ID_3071 818179 839424
+
+			Align 2: 685 21947 NODE_1_length_1150417_cov_158.528_ID_3071 818179 839424
+				Gap between this and next alignment: 21947 to 30561 (8613 bp)
+				Next Alignment: 30561 31156 NODE_109_length_596_cov_1.74414_ID_3287 1 596
+
+			Align 3: 30561 31156 NODE_109_length_596_cov_1.74414_ID_3287 1 596
+				Gap between this and next alignment: 31156 to 50193 (19036 bp)
+				Next Alignment: 50193 50455 NODE_93_length_637_cov_1.68627_ID_3255 374 636
+
+			Align 4: 50193 50455 NODE_93_length_637_cov_1.68627_ID_3255 374 636
+				Gap between this and next alignment: 50455 to 51144 (688 bp)
+				Next Alignment: 51144 51949 NODE_55_length_807_cov_0.930882_ID_3179 807 1
+
+			Align 5: 51144 51949 NODE_55_length_807_cov_0.930882_ID_3179 807 1
+				Gap between this and next alignment: 51949 to 52549 (599 bp)
+				Next Alignment: 52549 87373 NODE_1_length_1150417_cov_158.528_ID_3071 865931 900743
+
+			Align 6: 52549 87373 NODE_1_length_1150417_cov_158.528_ID_3071 865931 900743
+				Gap between this and next alignment: 87373 to 87536 (162 bp)
+				Next Alignment: 87536 91054 NODE_2_length_311604_cov_175.058_ID_3073 229443 225925
+
+			Align 7: 87536 91054 NODE_2_length_311604_cov_175.058_ID_3073 229443 225925
+				Gap between this and next alignment: 91054 to 92105 (1050 bp)
+				Next Alignment: 92105 93372 NODE_2_length_311604_cov_175.058_ID_3073 225797 224530
+
+			Align 8: 92105 93372 NODE_2_length_311604_cov_175.058_ID_3073 225797 224530
+				Gap between this and next alignment: 93372 to 93522 (149 bp)
+				Next Alignment: 93522 114297 NODE_2_length_311604_cov_175.058_ID_3073 224501 203722
+
+			Align 9: 93522 114297 NODE_2_length_311604_cov_175.058_ID_3073 224501 203722
+				Gap between this and next alignment: 114297 to 124831 (10533 bp)
+				Next Alignment: 124831 134343 NODE_4_length_51343_cov_177.904_ID_3077 25976 16404
+
+			Align 10: 124831 134343 NODE_4_length_51343_cov_177.904_ID_3077 25976 16404
+				The next alignment (133608 134177 NODE_128_length_565_cov_0.719178_ID_3325 565 1) is redundant. Skipping.
+				Gap between this and next alignment: 134343 to 134391 (47 bp)
+				Next Alignment: 134391 135586 NODE_1_length_1150417_cov_158.528_ID_3071 900842 902037
+
+			Align 12: 134391 135586 NODE_1_length_1150417_cov_158.528_ID_3071 900842 902037
+				Gap between this and next alignment: 135586 to 146199 (10612 bp)
+				Next Alignment: 146199 146836 NODE_91_length_638_cov_1.63796_ID_3251 638 1
+
+			Align 13: 146199 146836 NODE_91_length_638_cov_1.63796_ID_3251 638 1
+				Gap between this and next alignment: 146836 to 151584 (4747 bp)
+				Next Alignment: 151584 152288 NODE_74_length_705_cov_1.20242_ID_3217 705 1
+
+			Align 14: 151584 152288 NODE_74_length_705_cov_1.20242_ID_3217 705 1
+				Gap between this and next alignment: 152288 to 153858 (1569 bp)
+				Next Alignment: 153858 182788 NODE_1_length_1150417_cov_158.528_ID_3071 921513 950430
+
+			Align 15: 153858 182788 NODE_1_length_1150417_cov_158.528_ID_3071 921513 950430
+				Negative gap (overlap) between this and next alignment: 182788 to 182585 (-203 bp)
+				Next Alignment: 182585 184081 NODE_19_length_1496_cov_0.853908_ID_3107 1 1496
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 205.
+			Align 16: 182789 184081 NODE_19_length_1496_cov_0.853908_ID_3107 205 1496
+				Negative gap (overlap) between this and next alignment: 184081 to 183953 (-128 bp)
+				Next Alignment: 183953 189085 NODE_1_length_1150417_cov_158.528_ID_3071 950533 955666
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 950533 to 950662.
+			Align 17: 184082 189085 NODE_1_length_1150417_cov_158.528_ID_3071 950662 955666
+				Gap between this and next alignment: 189085 to 198675 (9589 bp)
+				Next Alignment: 198675 203458 NODE_1_length_1150417_cov_158.528_ID_3071 960877 965660
+
+			Align 18: 198675 203458 NODE_1_length_1150417_cov_158.528_ID_3071 960877 965660
+				Gap between this and next alignment: 203458 to 203564 (105 bp)
+				Next Alignment: 203564 206493 NODE_1_length_1150417_cov_158.528_ID_3071 965661 968594
+
+			Align 19: 203564 206493 NODE_1_length_1150417_cov_158.528_ID_3071 965661 968594
+				Gap between this and next alignment: 206493 to 206639 (145 bp)
+				Next Alignment: 206639 212946 NODE_1_length_1150417_cov_158.528_ID_3071 982016 988328
+
+			Align 20: 206639 212946 NODE_1_length_1150417_cov_158.528_ID_3071 982016 988328
+				The next alignment (209961 210513 NODE_135_length_553_cov_2.15493_ID_3339 1 553) is redundant. Skipping.
+				Gap between this and next alignment: 212946 to 213136 (189 bp)
+				Next Alignment: 213136 214128 NODE_38_length_975_cov_1.60495_ID_3145 1 975
+
+			Align 22: 213136 214128 NODE_38_length_975_cov_1.60495_ID_3145 1 975
+				The next alignment (213927 214011 NODE_1_length_1150417_cov_158.528_ID_3071 586197 586281) is redundant. Skipping.
+				Gap between this and next alignment: 214128 to 218872 (4743 bp)
+				Next Alignment: 218872 225476 NODE_5_length_39384_cov_191.579_ID_3079 29976 36580
+
+			Align 24: 218872 225476 NODE_5_length_39384_cov_191.579_ID_3079 29976 36580
+				Gap between this and next alignment: 225476 to 229830 (4353 bp)
+				Next Alignment: 229830 238909 NODE_2_length_311604_cov_175.058_ID_3073 286589 295686
+
+			Align 25: 229830 238909 NODE_2_length_311604_cov_175.058_ID_3073 286589 295686
+				Gap between this and next alignment: 238909 to 260348 (21438 bp)
+				Next Alignment: 260348 263104 NODE_5_length_39384_cov_191.579_ID_3079 39384 36630
+
+			Align 26: 260348 263104 NODE_5_length_39384_cov_191.579_ID_3079 39384 36630
+				Gap between this and next alignment: 263104 to 263115 (10 bp)
+				Next Alignment: 263115 271379 NODE_1_length_1150417_cov_158.528_ID_3071 1048930 1040601
+
+			Align 27: 263115 271379 NODE_1_length_1150417_cov_158.528_ID_3071 1048930 1040601
+				The next alignment (270250 270358 NODE_1_length_1150417_cov_158.528_ID_3071 1118201 1118309) is redundant. Skipping.
+				Gap between this and next alignment: 271379 to 271701 (321 bp)
+				Next Alignment: 271701 278430 NODE_1_length_1150417_cov_158.528_ID_3071 1040261 1033539
+
+			Align 29: 271701 278430 NODE_1_length_1150417_cov_158.528_ID_3071 1040261 1033539
+				Negative gap (overlap) between this and next alignment: 278430 to 278429 (-1 bp)
+				Next Alignment: 278429 296114 NODE_1_length_1150417_cov_158.528_ID_3071 1031857 1014138
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1031857 to 1031855.
+			Align 30: 278431 296114 NODE_1_length_1150417_cov_158.528_ID_3071 1031855 1014138
+				Negative gap (overlap) between this and next alignment: 296114 to 296110 (-4 bp)
+				Next Alignment: 296110 298107 NODE_1_length_1150417_cov_158.528_ID_3071 1013646 1011661
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1013646 to 1013641.
+			Align 31: 296115 298107 NODE_1_length_1150417_cov_158.528_ID_3071 1013641 1011661
+				Gap between this and next alignment: 298107 to 298301 (193 bp)
+				Next Alignment: 298301 300212 NODE_1_length_1150417_cov_158.528_ID_3071 1001334 999423
+
+			Align 32: 298301 300212 NODE_1_length_1150417_cov_158.528_ID_3071 1001334 999423
+				Gap between this and next alignment: 300212 to 306644 (6431 bp)
+				Next Alignment: 306644 316970 NODE_1_length_1150417_cov_158.528_ID_3071 1011660 1001335
+
+			Align 33: 306644 316970 NODE_1_length_1150417_cov_158.528_ID_3071 1011660 1001335
+				Gap between this and next alignment: 316970 to 323827 (6856 bp)
+				Next Alignment: 323827 326059 NODE_1_length_1150417_cov_158.528_ID_3071 1108830 1111053
+
+			Align 34: 323827 326059 NODE_1_length_1150417_cov_158.528_ID_3071 1108830 1111053
+				Next Alignment: 326060 328643 NODE_1_length_1150417_cov_158.528_ID_3071 1111253 1113850
+
+			Align 35: 326060 328643 NODE_1_length_1150417_cov_158.528_ID_3071 1111253 1113850
+				Gap between this and next alignment: 328643 to 330524 (1880 bp)
+				Next Alignment: 330524 334100 NODE_1_length_1150417_cov_158.528_ID_3071 1113858 1117434
+
+			Align 36: 330524 334100 NODE_1_length_1150417_cov_158.528_ID_3071 1113858 1117434
+				The next alignment (333884 334100 NODE_1_length_1150417_cov_158.528_ID_3071 1117435 1117651) is redundant. Skipping.
+				Gap between this and next alignment: 334100 to 337530 (3429 bp)
+				Next Alignment: 337530 342057 NODE_1_length_1150417_cov_158.528_ID_3071 1121534 1126038
+
+			Align 38: 337530 342057 NODE_1_length_1150417_cov_158.528_ID_3071 1121534 1126038
+				Gap between this and next alignment: 342057 to 342775 (717 bp)
+				Next Alignment: 342775 350002 NODE_1_length_1150417_cov_158.528_ID_3071 1126092 1133315
+
+			Align 39: 342775 350002 NODE_1_length_1150417_cov_158.528_ID_3071 1126092 1133315
+				Gap between this and next alignment: 350002 to 352583 (2580 bp)
+				Next Alignment: 352583 353100 NODE_151_length_518_cov_1.3555_ID_3371 1 518
+
+			Align 40: 352583 353100 NODE_151_length_518_cov_1.3555_ID_3371 1 518
+				Gap between this and next alignment: 353100 to 353364 (263 bp)
+				Next Alignment: 353364 365420 NODE_1_length_1150417_cov_158.528_ID_3071 1137974 1150038
+
+			Align 41: 353364 365420 NODE_1_length_1150417_cov_158.528_ID_3071 1137974 1150038
+				Gap between this and next alignment: 365420 to 366117 (696 bp)
+				Next Alignment: 366117 367393 NODE_30_length_1289_cov_321.56_ID_3129 14 1289
+
+			Align 42: 366117 367393 NODE_30_length_1289_cov_321.56_ID_3129 14 1289
+				Negative gap (overlap) between this and next alignment: 367393 to 367267 (-126 bp)
+				Next Alignment: 367267 376599 NODE_8_length_10438_cov_203.443_ID_3085 10438 1090
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 10438 to 10311.
+			Align 43: 367394 376599 NODE_8_length_10438_cov_203.443_ID_3085 10311 1090
+				Gap between this and next alignment: 376599 to 378507 (1907 bp)
+				Next Alignment: 378507 378652 NODE_9_length_3454_cov_651.898_ID_3087 1 143
+
+			Align 44: 378507 378652 NODE_9_length_3454_cov_651.898_ID_3087 1 143
+				Gap between this and next alignment: 378652 to 378829 (176 bp)
+				Next Alignment: 378829 381197 NODE_9_length_3454_cov_651.898_ID_3087 296 2666
+
+			Align 45: 378829 381197 NODE_9_length_3454_cov_651.898_ID_3087 296 2666
+				Gap between this and next alignment: 381197 to 381306 (108 bp)
+				Next Alignment: 381306 382089 NODE_9_length_3454_cov_651.898_ID_3087 2671 3454
+
+			Align 46: 381306 382089 NODE_9_length_3454_cov_651.898_ID_3087 2671 3454
+				Negative gap (overlap) between this and next alignment: 382089 to 381963 (-126 bp)
+				Next Alignment: 381963 382091 NODE_80_length_679_cov_454.15_ID_3229 679 551
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 679 to 552.
+			Align 47: 382090 382091 NODE_80_length_679_cov_454.15_ID_3229 552 551
+				Gap between this and next alignment: 382091 to 382273 (181 bp)
+				Next Alignment: 382273 382399 NODE_80_length_679_cov_454.15_ID_3229 127 1
+
+			Align 48: 382273 382399 NODE_80_length_679_cov_454.15_ID_3229 127 1
+				Gap between this and next alignment: 382399 to 383912 (1512 bp)
+				Next Alignment: 383912 391984 NODE_7_length_25738_cov_199.556_ID_3083 25738 17655
+
+			Align 49: 383912 391984 NODE_7_length_25738_cov_199.556_ID_3083 25738 17655
+				Gap between this and next alignment: 391984 to 397743 (5758 bp)
+				Next Alignment: 397743 399154 NODE_23_length_1412_cov_0.735409_ID_3115 1 1412
+
+			Align 50: 397743 399154 NODE_23_length_1412_cov_0.735409_ID_3115 1 1412
+				Gap between this and next alignment: 399154 to 402607 (3452 bp)
+				Next Alignment: 402607 408430 NODE_7_length_25738_cov_199.556_ID_3083 5839 1
+
+			Align 51: 402607 408430 NODE_7_length_25738_cov_199.556_ID_3083 5839 1
+				Gap between this and next alignment: 408430 to 413323 (4892 bp)
+				Next Alignment: 413323 429865 NODE_5_length_39384_cov_191.579_ID_3079 3223 19768
+
+			Align 52: 413323 429865 NODE_5_length_39384_cov_191.579_ID_3079 3223 19768
+				Gap between this and next alignment: 429865 to 431274 (1408 bp)
+				Next Alignment: 431274 431577 NODE_110_length_593_cov_1.2897_ID_3289 304 1
+
+			Align 53: 431274 431577 NODE_110_length_593_cov_1.2897_ID_3289 304 1
+				Gap between this and next alignment: 431577 to 443568 (11990 bp)
+				Next Alignment: 443568 444077 NODE_155_length_510_cov_1.87728_ID_3379 510 1
+
+			Align 54: 443568 444077 NODE_155_length_510_cov_1.87728_ID_3379 510 1
+				Gap between this and next alignment: 444077 to 445654 (1576 bp)
+				Next Alignment: 445654 446277 NODE_98_length_624_cov_1.63581_ID_3265 624 1
+
+			Align 55: 445654 446277 NODE_98_length_624_cov_1.63581_ID_3265 624 1
+				Gap between this and next alignment: 446277 to 449759 (3481 bp)
+				Next Alignment: 449759 455193 NODE_1_length_1150417_cov_158.528_ID_3071 1097259 1091823
+
+			Align 56: 449759 455193 NODE_1_length_1150417_cov_158.528_ID_3071 1097259 1091823
+				The next alignment (454282 454819 NODE_139_length_538_cov_1.22384_ID_3347 1 538) is redundant. Skipping.
+				Gap between this and next alignment: 455193 to 493948 (38754 bp)
+				Next Alignment: 493948 494592 NODE_70_length_730_cov_0.547264_ID_3209 730 88
+
+			Align 58: 493948 494592 NODE_70_length_730_cov_0.547264_ID_3209 730 88
+				Gap between this and next alignment: 494592 to 495347 (754 bp)
+				Next Alignment: 495347 506973 NODE_2_length_311604_cov_175.058_ID_3073 286556 274930
+
+			Align 59: 495347 506973 NODE_2_length_311604_cov_175.058_ID_3073 286556 274930
+				Gap between this and next alignment: 506973 to 508273 (1299 bp)
+				Next Alignment: 508273 508997 NODE_71_length_725_cov_1.08027_ID_3211 725 1
+
+			Align 60: 508273 508997 NODE_71_length_725_cov_1.08027_ID_3211 725 1
+				Gap between this and next alignment: 508997 to 509018 (20 bp)
+				Next Alignment: 509018 509693 NODE_81_length_676_cov_1.0255_ID_3231 1 676
+
+			Align 61: 509018 509693 NODE_81_length_676_cov_1.0255_ID_3231 1 676
+				Gap between this and next alignment: 509693 to 510435 (741 bp)
+				Next Alignment: 510435 511285 NODE_48_length_851_cov_1.73066_ID_3165 851 1
+
+			Align 62: 510435 511285 NODE_48_length_851_cov_1.73066_ID_3165 851 1
+				Negative gap (overlap) between this and next alignment: 511285 to 511280 (-5 bp)
+				Next Alignment: 511280 512009 NODE_69_length_730_cov_0.779436_ID_3207 730 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 730 to 724.
+			Align 63: 511286 512009 NODE_69_length_730_cov_0.779436_ID_3207 724 1
+				Gap between this and next alignment: 512009 to 512352 (342 bp)
+				Next Alignment: 512352 512872 NODE_150_length_521_cov_0.718274_ID_3369 1 521
+
+			Align 64: 512352 512872 NODE_150_length_521_cov_0.718274_ID_3369 1 521
+				Gap between this and next alignment: 512872 to 513399 (526 bp)
+				Next Alignment: 513399 513926 NODE_148_length_530_cov_1.04467_ID_3365 530 3
+
+			Align 65: 513399 513926 NODE_148_length_530_cov_1.04467_ID_3365 530 3
+				Gap between this and next alignment: 513926 to 515068 (1141 bp)
+				Next Alignment: 515068 523732 NODE_2_length_311604_cov_175.058_ID_3073 274893 266248
+
+			Align 66: 515068 523732 NODE_2_length_311604_cov_175.058_ID_3073 274893 266248
+				Gap between this and next alignment: 523732 to 525006 (1273 bp)
+				Next Alignment: 525006 525514 NODE_156_length_509_cov_1.08377_ID_3381 1 509
+
+			Align 67: 525006 525514 NODE_156_length_509_cov_1.08377_ID_3381 1 509
+				Gap between this and next alignment: 525514 to 532068 (6553 bp)
+				Next Alignment: 532068 536954 NODE_1_length_1150417_cov_158.528_ID_3071 973495 968606
+
+			Align 68: 532068 536954 NODE_1_length_1150417_cov_158.528_ID_3071 973495 968606
+				Gap between this and next alignment: 536954 to 547224 (10269 bp)
+				Next Alignment: 547224 547737 NODE_153_length_514_cov_1.25323_ID_3375 514 1
+
+			Align 69: 547224 547737 NODE_153_length_514_cov_1.25323_ID_3375 514 1
+				Gap between this and next alignment: 547737 to 548314 (576 bp)
+				Next Alignment: 548314 559121 NODE_2_length_311604_cov_175.058_ID_3073 178654 189456
+
+			Align 70: 548314 559121 NODE_2_length_311604_cov_175.058_ID_3073 178654 189456
+				Gap between this and next alignment: 559121 to 566237 (7115 bp)
+				Next Alignment: 566237 566774 NODE_140_length_538_cov_1.58151_ID_3349 538 1
+
+			Align 71: 566237 566774 NODE_140_length_538_cov_1.58151_ID_3349 538 1
+				Gap between this and next alignment: 566774 to 567060 (285 bp)
+				Next Alignment: 567060 589711 NODE_2_length_311604_cov_175.058_ID_3073 80994 58399
+
+			Align 72: 567060 589711 NODE_2_length_311604_cov_175.058_ID_3073 80994 58399
+				The next alignment (587953 588704 NODE_66_length_752_cov_1.3696_ID_3201 1 752) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 589711 to 589703 (-8 bp)
+				Next Alignment: 589703 589779 NODE_1_length_1150417_cov_158.528_ID_3071 86070 86146
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 86070 to 86079.
+			Align 74: 589712 589779 NODE_1_length_1150417_cov_158.528_ID_3071 86079 86146
+				Gap between this and next alignment: 589779 to 589819 (39 bp)
+				Next Alignment: 589819 590406 NODE_113_length_588_cov_1.79393_ID_3295 588 1
+
+			Align 75: 589819 590406 NODE_113_length_588_cov_1.79393_ID_3295 588 1
+				Gap between this and next alignment: 590406 to 590657 (250 bp)
+				Next Alignment: 590657 616697 NODE_2_length_311604_cov_175.058_ID_3073 57474 31539
+
+			Align 76: 590657 616697 NODE_2_length_311604_cov_175.058_ID_3073 57474 31539
+				Gap between this and next alignment: 616697 to 616821 (123 bp)
+				Next Alignment: 616821 620475 NODE_2_length_311604_cov_175.058_ID_3073 31419 27765
+
+			Align 77: 616821 620475 NODE_2_length_311604_cov_175.058_ID_3073 31419 27765
+				Gap between this and next alignment: 620475 to 620569 (93 bp)
+				Next Alignment: 620569 623804 NODE_2_length_311604_cov_175.058_ID_3073 256451 253216
+
+			Align 78: 620569 623804 NODE_2_length_311604_cov_175.058_ID_3073 256451 253216
+				Gap between this and next alignment: 623804 to 625110 (1305 bp)
+				Next Alignment: 625110 635299 NODE_2_length_311604_cov_175.058_ID_3073 229444 239632
+
+			Align 79: 625110 635299 NODE_2_length_311604_cov_175.058_ID_3073 229444 239632
+				Negative gap (overlap) between this and next alignment: 635299 to 635277 (-22 bp)
+				Next Alignment: 635277 643106 NODE_2_length_311604_cov_175.058_ID_3073 239794 247622
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 239794 to 239817.
+			Align 80: 635300 643106 NODE_2_length_311604_cov_175.058_ID_3073 239817 247622
+				Gap between this and next alignment: 643106 to 648527 (5420 bp)
+				Next Alignment: 648527 651507 NODE_2_length_311604_cov_175.058_ID_3073 247623 250602
+
+			Align 81: 648527 651507 NODE_2_length_311604_cov_175.058_ID_3073 247623 250602
+				Gap between this and next alignment: 651507 to 654120 (2612 bp)
+				Next Alignment: 654120 662373 NODE_2_length_311604_cov_175.058_ID_3073 80995 89248
+
+			Align 82: 654120 662373 NODE_2_length_311604_cov_175.058_ID_3073 80995 89248
+				The next alignment (654210 654308 NODE_3_length_186707_cov_159.146_ID_3075 56343 56245) is redundant. Skipping.
+				Gap between this and next alignment: 662373 to 662378 (4 bp)
+				Next Alignment: 662378 681494 NODE_2_length_311604_cov_175.058_ID_3073 89403 108500
+
+			Align 84: 662378 681494 NODE_2_length_311604_cov_175.058_ID_3073 89403 108500
+				Gap between this and next alignment: 681494 to 681764 (269 bp)
+				Next Alignment: 681764 731776 NODE_2_length_311604_cov_175.058_ID_3073 108501 158373
+
+			Align 85: 681764 731776 NODE_2_length_311604_cov_175.058_ID_3073 108501 158373
+				Gap between this and next alignment: 731776 to 731798 (21 bp)
+				Next Alignment: 731798 732483 NODE_78_length_686_cov_1.33989_ID_3225 686 1
+
+			Align 86: 731798 732483 NODE_78_length_686_cov_1.33989_ID_3225 686 1
+				Gap between this and next alignment: 732483 to 734750 (2266 bp)
+				Next Alignment: 734750 739753 NODE_2_length_311604_cov_175.058_ID_3073 161263 166263
+
+			Align 87: 734750 739753 NODE_2_length_311604_cov_175.058_ID_3073 161263 166263
+				The next alignment (735562 735684 NODE_64_length_761_cov_2.12934_ID_3197 1 123) is redundant. Skipping.
+				The next alignment (735681 735801 NODE_36_length_1017_cov_1.18989_ID_3141 898 1017) is redundant. Skipping.
+				Gap between this and next alignment: 739753 to 739780 (26 bp)
+				Next Alignment: 739780 752450 NODE_2_length_311604_cov_175.058_ID_3073 190413 203088
+
+			Align 90: 739780 752450 NODE_2_length_311604_cov_175.058_ID_3073 190413 203088
+				Gap between this and next alignment: 752450 to 753793 (1342 bp)
+				Next Alignment: 753793 762582 NODE_4_length_51343_cov_177.904_ID_3077 42557 51343
+
+			Align 91: 753793 762582 NODE_4_length_51343_cov_177.904_ID_3077 42557 51343
+				Negative gap (overlap) between this and next alignment: 762582 to 762456 (-126 bp)
+				Next Alignment: 762456 764221 NODE_14_length_1764_cov_620.192_ID_3097 1 1764
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 128.
+			Align 92: 762583 764221 NODE_14_length_1764_cov_620.192_ID_3097 128 1764
+				Gap between this and next alignment: 764221 to 768156 (3934 bp)
+				Next Alignment: 768156 768240 NODE_2_length_311604_cov_175.058_ID_3073 24676 24592
+
+			Align 93: 768156 768240 NODE_2_length_311604_cov_175.058_ID_3073 24676 24592
+				The next alignment (768160 768240 NODE_2_length_311604_cov_175.058_ID_3073 24572 24492) is redundant. Skipping.
+				Gap between this and next alignment: 768240 to 776104 (7863 bp)
+				Next Alignment: 776104 776977 NODE_47_length_874_cov_1.63186_ID_3163 874 1
+
+			Align 95: 776104 776977 NODE_47_length_874_cov_1.63186_ID_3163 874 1
+				Gap between this and next alignment: 776977 to 777065 (87 bp)
+				Next Alignment: 777065 795720 NODE_6_length_27201_cov_168.345_ID_3081 18674 1
+
+			Align 96: 777065 795720 NODE_6_length_27201_cov_168.345_ID_3081 18674 1
+				The next alignment (779761 779840 NODE_2_length_311604_cov_175.058_ID_3073 209 130) is redundant. Skipping.
+				The next alignment (795497 795720 NODE_3_length_186707_cov_159.146_ID_3075 186485 186707) is redundant. Skipping.
+				Gap between this and next alignment: 795720 to 800919 (5198 bp)
+				Next Alignment: 800919 801045 NODE_6_length_27201_cov_168.345_ID_3081 27201 27075
+
+			Align 99: 800919 801045 NODE_6_length_27201_cov_168.345_ID_3081 27201 27075
+				Gap between this and next alignment: 801045 to 820056 (19010 bp)
+				Next Alignment: 820056 827737 NODE_4_length_51343_cov_177.904_ID_3077 16403 8730
+
+			Align 100: 820056 827737 NODE_4_length_51343_cov_177.904_ID_3077 16403 8730
+				Gap between this and next alignment: 827737 to 827801 (63 bp)
+				Next Alignment: 827801 846230 NODE_1_length_1150417_cov_158.528_ID_3071 542526 560951
+
+			Align 101: 827801 846230 NODE_1_length_1150417_cov_158.528_ID_3071 542526 560951
+				Gap between this and next alignment: 846230 to 852634 (6403 bp)
+				Next Alignment: 852634 860135 NODE_1_length_1150417_cov_158.528_ID_3071 610075 617573
+
+			Align 102: 852634 860135 NODE_1_length_1150417_cov_158.528_ID_3071 610075 617573
+				Gap between this and next alignment: 860135 to 860189 (53 bp)
+				Next Alignment: 860189 868882 NODE_1_length_1150417_cov_158.528_ID_3071 618337 627022
+
+			Align 103: 860189 868882 NODE_1_length_1150417_cov_158.528_ID_3071 618337 627022
+				Gap between this and next alignment: 868882 to 872555 (3672 bp)
+				Next Alignment: 872555 894041 NODE_1_length_1150417_cov_158.528_ID_3071 610027 588577
+
+			Align 104: 872555 894041 NODE_1_length_1150417_cov_158.528_ID_3071 610027 588577
+				Gap between this and next alignment: 894041 to 899240 (5198 bp)
+				Next Alignment: 899240 899324 NODE_6_length_27201_cov_168.345_ID_3081 26904 26820
+
+			Align 105: 899240 899324 NODE_6_length_27201_cov_168.345_ID_3081 26904 26820
+				Gap between this and next alignment: 899324 to 907935 (8610 bp)
+				Next Alignment: 907935 908469 NODE_127_length_566_cov_0.574032_ID_3323 563 29
+
+			Align 106: 907935 908469 NODE_127_length_566_cov_0.574032_ID_3323 563 29
+				Gap between this and next alignment: 908469 to 929927 (21457 bp)
+				Next Alignment: 929927 930715 NODE_34_length_1101_cov_1.04004_ID_3137 1 789
+
+			Align 107: 929927 930715 NODE_34_length_1101_cov_1.04004_ID_3137 1 789
+				Gap between this and next alignment: 930715 to 930719 (3 bp)
+				Next Alignment: 930719 930996 NODE_1_length_1150417_cov_158.528_ID_3071 540162 539885
+
+			Align 108: 930719 930996 NODE_1_length_1150417_cov_158.528_ID_3071 540162 539885
+				Negative gap (overlap) between this and next alignment: 930996 to 930995 (-1 bp)
+				Next Alignment: 930995 934530 NODE_1_length_1150417_cov_158.528_ID_3071 539528 535986
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 539528 to 539526.
+			Align 109: 930997 934530 NODE_1_length_1150417_cov_158.528_ID_3071 539526 535986
+				Gap between this and next alignment: 934530 to 943421 (8890 bp)
+				Next Alignment: 943421 944404 NODE_1_length_1150417_cov_158.528_ID_3071 535985 535000
+
+			Align 110: 943421 944404 NODE_1_length_1150417_cov_158.528_ID_3071 535985 535000
+				Gap between this and next alignment: 944404 to 944414 (9 bp)
+				Next Alignment: 944414 952665 NODE_3_length_186707_cov_159.146_ID_3075 156384 148132
+
+			Align 111: 944414 952665 NODE_3_length_186707_cov_159.146_ID_3075 156384 148132
+				Gap between this and next alignment: 952665 to 952849 (183 bp)
+				Next Alignment: 952849 953995 NODE_1_length_1150417_cov_158.528_ID_3071 584376 583230
+
+			Align 112: 952849 953995 NODE_1_length_1150417_cov_158.528_ID_3071 584376 583230
+				Gap between this and next alignment: 953995 to 954023 (27 bp)
+				Next Alignment: 954023 965342 NODE_1_length_1150417_cov_158.528_ID_3071 580334 568997
+
+			Align 113: 954023 965342 NODE_1_length_1150417_cov_158.528_ID_3071 580334 568997
+				The next alignment (961953 962213 NODE_2_length_311604_cov_175.058_ID_3073 12131 11871) is redundant. Skipping.
+				The next alignment (962317 962398 NODE_2_length_311604_cov_175.058_ID_3073 11870 11789) is redundant. Skipping.
+				Gap between this and next alignment: 965342 to 965355 (12 bp)
+				Next Alignment: 965355 965907 NODE_20_length_1482_cov_1.17638_ID_3109 1482 930
+
+			Align 116: 965355 965907 NODE_20_length_1482_cov_1.17638_ID_3109 1482 930
+				Gap between this and next alignment: 965907 to 966730 (822 bp)
+				Next Alignment: 966730 967257 NODE_20_length_1482_cov_1.17638_ID_3109 929 405
+
+			Align 117: 966730 967257 NODE_20_length_1482_cov_1.17638_ID_3109 929 405
+				Gap between this and next alignment: 967257 to 968889 (1631 bp)
+				Next Alignment: 968889 973766 NODE_1_length_1150417_cov_158.528_ID_3071 568673 563795
+
+			Align 118: 968889 973766 NODE_1_length_1150417_cov_158.528_ID_3071 568673 563795
+				Gap between this and next alignment: 973766 to 984668 (10901 bp)
+				Next Alignment: 984668 985221 NODE_133_length_554_cov_2.29274_ID_3335 1 554
+
+			Align 119: 984668 985221 NODE_133_length_554_cov_2.29274_ID_3335 1 554
+				Gap between this and next alignment: 985221 to 990893 (5671 bp)
+				Next Alignment: 990893 991596 NODE_75_length_704_cov_1.03472_ID_3219 1 704
+
+			Align 120: 990893 991596 NODE_75_length_704_cov_1.03472_ID_3219 1 704
+				Gap between this and next alignment: 991596 to 1005812 (14215 bp)
+				Next Alignment: 1005812 1007609 NODE_3_length_186707_cov_159.146_ID_3075 51292 53089
+
+			Align 121: 1005812 1007609 NODE_3_length_186707_cov_159.146_ID_3075 51292 53089
+				Gap between this and next alignment: 1007609 to 1010337 (2727 bp)
+				Next Alignment: 1010337 1010949 NODE_102_length_613_cov_2.44856_ID_3273 613 1
+
+			Align 122: 1010337 1010949 NODE_102_length_613_cov_2.44856_ID_3273 613 1
+				Gap between this and next alignment: 1010949 to 1028452 (17502 bp)
+				Next Alignment: 1028452 1052033 NODE_3_length_186707_cov_159.146_ID_3075 75510 99089
+
+			Align 123: 1028452 1052033 NODE_3_length_186707_cov_159.146_ID_3075 75510 99089
+				Gap between this and next alignment: 1052033 to 1052150 (116 bp)
+				Next Alignment: 1052150 1057811 NODE_3_length_186707_cov_159.146_ID_3075 173955 179614
+
+			Align 124: 1052150 1057811 NODE_3_length_186707_cov_159.146_ID_3075 173955 179614
+				Gap between this and next alignment: 1057811 to 1062368 (4556 bp)
+				Next Alignment: 1062368 1062902 NODE_146_length_535_cov_1.52941_ID_3361 1 535
+
+			Align 125: 1062368 1062902 NODE_146_length_535_cov_1.52941_ID_3361 1 535
+				Gap between this and next alignment: 1062902 to 1064433 (1530 bp)
+				Next Alignment: 1064433 1064557 NODE_2_length_311604_cov_175.058_ID_3073 127 1
+
+			Align 126: 1064433 1064557 NODE_2_length_311604_cov_175.058_ID_3073 127 1
+				Gap between this and next alignment: 1064557 to 1070018 (5460 bp)
+				Next Alignment: 1070018 1070164 NODE_1_length_1150417_cov_158.528_ID_3071 1 146
+
+			Align 127: 1070018 1070164 NODE_1_length_1150417_cov_158.528_ID_3071 1 146
+				The next alignment (1070062 1070164 NODE_2_length_311604_cov_175.058_ID_3073 311604 311503) is redundant. Skipping.
+				The next alignment (1070062 1070164 NODE_3_length_186707_cov_159.146_ID_3075 1 102) is redundant. Skipping.
+				The next alignment (1070062 1070164 NODE_4_length_51343_cov_177.904_ID_3077 1 102) is redundant. Skipping.
+				The next alignment (1070062 1070164 NODE_8_length_10438_cov_203.443_ID_3085 1 102) is redundant. Skipping.
+				Gap between this and next alignment: 1070164 to 1070239 (74 bp)
+				Next Alignment: 1070239 1074356 NODE_1_length_1150417_cov_158.528_ID_3071 1269 5371
+
+			Align 132: 1070239 1074356 NODE_1_length_1150417_cov_158.528_ID_3071 1269 5371
+				Gap between this and next alignment: 1074356 to 1077593 (3236 bp)
+				Next Alignment: 1077593 1090428 NODE_1_length_1150417_cov_158.528_ID_3071 16321 29186
+
+			Align 133: 1077593 1090428 NODE_1_length_1150417_cov_158.528_ID_3071 16321 29186
+				Gap between this and next alignment: 1090428 to 1090497 (68 bp)
+				Next Alignment: 1090497 1107839 NODE_1_length_1150417_cov_158.528_ID_3071 29969 47300
+
+			Align 134: 1090497 1107839 NODE_1_length_1150417_cov_158.528_ID_3071 29969 47300
+				Gap between this and next alignment: 1107839 to 1123006 (15166 bp)
+				Next Alignment: 1123006 1130563 NODE_1_length_1150417_cov_158.528_ID_3071 62360 69918
+
+			Align 135: 1123006 1130563 NODE_1_length_1150417_cov_158.528_ID_3071 62360 69918
+				Gap between this and next alignment: 1130563 to 1139633 (9069 bp)
+				Next Alignment: 1139633 1158471 NODE_1_length_1150417_cov_158.528_ID_3071 151175 170005
+
+			Align 136: 1139633 1158471 NODE_1_length_1150417_cov_158.528_ID_3071 151175 170005
+				Gap between this and next alignment: 1158471 to 1166940 (8468 bp)
+				Next Alignment: 1166940 1167191 NODE_1_length_1150417_cov_158.528_ID_3071 399508 399759
+
+			Align 137: 1166940 1167191 NODE_1_length_1150417_cov_158.528_ID_3071 399508 399759
+				Gap between this and next alignment: 1167191 to 1169057 (1865 bp)
+				Next Alignment: 1169057 1169188 NODE_1_length_1150417_cov_158.528_ID_3071 1117859 1117728
+
+			Align 138: 1169057 1169188 NODE_1_length_1150417_cov_158.528_ID_3071 1117859 1117728
+				Gap between this and next alignment: 1169188 to 1197920 (28731 bp)
+				Next Alignment: 1197920 1210777 NODE_1_length_1150417_cov_158.528_ID_3071 368092 355237
+
+			Align 139: 1197920 1210777 NODE_1_length_1150417_cov_158.528_ID_3071 368092 355237
+				Gap between this and next alignment: 1210777 to 1211186 (408 bp)
+				Next Alignment: 1211186 1212020 NODE_51_length_835_cov_1.51554_ID_3171 835 1
+
+			Align 140: 1211186 1212020 NODE_51_length_835_cov_1.51554_ID_3171 835 1
+				Gap between this and next alignment: 1212020 to 1225373 (13352 bp)
+				Next Alignment: 1225373 1225708 NODE_1_length_1150417_cov_158.528_ID_3071 193365 193700
+
+			Align 141: 1225373 1225708 NODE_1_length_1150417_cov_158.528_ID_3071 193365 193700
+				Gap between this and next alignment: 1225708 to 1226222 (513 bp)
+				Next Alignment: 1226222 1226331 NODE_114_length_587_cov_1.17174_ID_3297 4 113
+
+			Align 142: 1226222 1226331 NODE_114_length_587_cov_1.17174_ID_3297 4 113
+				Gap between this and next alignment: 1226331 to 1226381 (49 bp)
+				Next Alignment: 1226381 1238130 NODE_1_length_1150417_cov_158.528_ID_3071 349059 337310
+
+			Align 143: 1226381 1238130 NODE_1_length_1150417_cov_158.528_ID_3071 349059 337310
+				Gap between this and next alignment: 1238130 to 1241745 (3614 bp)
+				Next Alignment: 1241745 1242301 NODE_131_length_557_cov_0.753488_ID_3331 557 1
+
+			Align 144: 1241745 1242301 NODE_131_length_557_cov_0.753488_ID_3331 557 1
+				Gap between this and next alignment: 1242301 to 1247891 (5589 bp)
+				Next Alignment: 1247891 1256416 NODE_1_length_1150417_cov_158.528_ID_3071 334478 325953
+
+			Align 145: 1247891 1256416 NODE_1_length_1150417_cov_158.528_ID_3071 334478 325953
+				Gap between this and next alignment: 1256416 to 1256475 (58 bp)
+				Next Alignment: 1256475 1261083 NODE_1_length_1150417_cov_158.528_ID_3071 228124 232725
+
+			Align 146: 1256475 1261083 NODE_1_length_1150417_cov_158.528_ID_3071 228124 232725
+				Gap between this and next alignment: 1261083 to 1272754 (11670 bp)
+				Next Alignment: 1272754 1273587 NODE_1_length_1150417_cov_158.528_ID_3071 207822 208654
+
+			Align 147: 1272754 1273587 NODE_1_length_1150417_cov_158.528_ID_3071 207822 208654
+				Gap between this and next alignment: 1273587 to 1274659 (1071 bp)
+				Next Alignment: 1274659 1277132 NODE_1_length_1150417_cov_158.528_ID_3071 210442 212912
+
+			Align 148: 1274659 1277132 NODE_1_length_1150417_cov_158.528_ID_3071 210442 212912
+				Negative gap (overlap) between this and next alignment: 1277132 to 1277123 (-9 bp)
+				Next Alignment: 1277123 1291300 NODE_1_length_1150417_cov_158.528_ID_3071 213947 228108
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 213947 to 213957.
+			Align 149: 1277133 1291300 NODE_1_length_1150417_cov_158.528_ID_3071 213957 228108
+				Gap between this and next alignment: 1291300 to 1291377 (76 bp)
+				Next Alignment: 1291377 1292958 NODE_1_length_1150417_cov_158.528_ID_3071 325949 324368
+
+			Align 150: 1291377 1292958 NODE_1_length_1150417_cov_158.528_ID_3071 325949 324368
+				Next Alignment: 1292959 1299852 NODE_1_length_1150417_cov_158.528_ID_3071 324085 317198
+
+			Align 151: 1292959 1299852 NODE_1_length_1150417_cov_158.528_ID_3071 324085 317198
+				Gap between this and next alignment: 1299852 to 1299862 (9 bp)
+				Next Alignment: 1299862 1301032 NODE_1_length_1150417_cov_158.528_ID_3071 264691 265861
+
+			Align 152: 1299862 1301032 NODE_1_length_1150417_cov_158.528_ID_3071 264691 265861
+				Gap between this and next alignment: 1301032 to 1303491 (2458 bp)
+				Next Alignment: 1303491 1304281 NODE_61_length_790_cov_0.846154_ID_3191 790 1
+
+			Align 153: 1303491 1304281 NODE_61_length_790_cov_0.846154_ID_3191 790 1
+				Gap between this and next alignment: 1304281 to 1308342 (4060 bp)
+				Next Alignment: 1308342 1308961 NODE_99_length_620_cov_1.06694_ID_3267 1 620
+
+			Align 154: 1308342 1308961 NODE_99_length_620_cov_1.06694_ID_3267 1 620
+				Gap between this and next alignment: 1308961 to 1313888 (4926 bp)
+				Next Alignment: 1313888 1314127 NODE_56_length_805_cov_0.643068_ID_3181 805 566
+
+			Align 155: 1313888 1314127 NODE_56_length_805_cov_0.643068_ID_3181 805 566
+				Gap between this and next alignment: 1314127 to 1319389 (5261 bp)
+				Next Alignment: 1319389 1320357 NODE_40_length_970_cov_1.86714_ID_3149 1 968
+
+			Align 156: 1319389 1320357 NODE_40_length_970_cov_1.86714_ID_3149 1 968
+				Gap between this and next alignment: 1320357 to 1324410 (4052 bp)
+				Next Alignment: 1324410 1325791 NODE_1_length_1150417_cov_158.528_ID_3071 281036 282417
+
+			Align 157: 1324410 1325791 NODE_1_length_1150417_cov_158.528_ID_3071 281036 282417
+				Negative gap (overlap) between this and next alignment: 1325791 to 1325789 (-2 bp)
+				Next Alignment: 1325789 1331885 NODE_1_length_1150417_cov_158.528_ID_3071 282808 288885
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 282808 to 282811.
+			Align 158: 1325792 1331885 NODE_1_length_1150417_cov_158.528_ID_3071 282811 288885
+				Gap between this and next alignment: 1331885 to 1341046 (9160 bp)
+				Next Alignment: 1341046 1359367 NODE_1_length_1150417_cov_158.528_ID_3071 298331 316680
+
+			Align 159: 1341046 1359367 NODE_1_length_1150417_cov_158.528_ID_3071 298331 316680
+				Gap between this and next alignment: 1359367 to 1373114 (13746 bp)
+				Next Alignment: 1373114 1373649 NODE_143_length_536_cov_1.56724_ID_3355 1 536
+
+			Align 160: 1373114 1373649 NODE_143_length_536_cov_1.56724_ID_3355 1 536
+				Gap between this and next alignment: 1373649 to 1402135 (28485 bp)
+				Next Alignment: 1402135 1402952 NODE_53_length_818_cov_1.04631_ID_3175 1 818
+
+			Align 161: 1402135 1402952 NODE_53_length_818_cov_1.04631_ID_3175 1 818
+				Gap between this and next alignment: 1402952 to 1403559 (606 bp)
+				Next Alignment: 1403559 1404519 NODE_41_length_961_cov_0.703837_ID_3151 1 961
+
+			Align 162: 1403559 1404519 NODE_41_length_961_cov_0.703837_ID_3151 1 961
+				Gap between this and next alignment: 1404519 to 1409871 (5351 bp)
+				Next Alignment: 1409871 1410296 NODE_1_length_1150417_cov_158.528_ID_3071 397211 397635
+
+			Align 163: 1409871 1410296 NODE_1_length_1150417_cov_158.528_ID_3071 397211 397635
+				Gap between this and next alignment: 1410296 to 1410362 (65 bp)
+				Next Alignment: 1410362 1410881 NODE_95_length_630_cov_2.16071_ID_3259 518 1
+
+			Align 164: 1410362 1410881 NODE_95_length_630_cov_2.16071_ID_3259 518 1
+				Gap between this and next alignment: 1410881 to 1411175 (293 bp)
+				Next Alignment: 1411175 1417772 NODE_1_length_1150417_cov_158.528_ID_3071 435766 442356
+
+			Align 165: 1411175 1417772 NODE_1_length_1150417_cov_158.528_ID_3071 435766 442356
+				Gap between this and next alignment: 1417772 to 1417987 (214 bp)
+				Next Alignment: 1417987 1419314 NODE_17_length_1606_cov_0.872887_ID_3103 1606 279
+
+			Align 166: 1417987 1419314 NODE_17_length_1606_cov_0.872887_ID_3103 1606 279
+				Gap between this and next alignment: 1419314 to 1441606 (22291 bp)
+				Next Alignment: 1441606 1441821 NODE_1_length_1150417_cov_158.528_ID_3071 465407 465192
+
+			Align 167: 1441606 1441821 NODE_1_length_1150417_cov_158.528_ID_3071 465407 465192
+				Gap between this and next alignment: 1441821 to 1463261 (21439 bp)
+				Next Alignment: 1463261 1477286 NODE_1_length_1150417_cov_158.528_ID_3071 487242 501308
+
+			Align 168: 1463261 1477286 NODE_1_length_1150417_cov_158.528_ID_3071 487242 501308
+				Gap between this and next alignment: 1477286 to 1477587 (300 bp)
+				Next Alignment: 1477587 1479119 NODE_1_length_1150417_cov_158.528_ID_3071 501309 502841
+
+			Align 169: 1477587 1479119 NODE_1_length_1150417_cov_158.528_ID_3071 501309 502841
+				Negative gap (overlap) between this and next alignment: 1479119 to 1479009 (-110 bp)
+				Next Alignment: 1479009 1480327 NODE_27_length_1318_cov_1.02267_ID_3123 1318 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1318 to 1207.
+			Align 170: 1479120 1480327 NODE_27_length_1318_cov_1.02267_ID_3123 1207 1
+				Gap between this and next alignment: 1480327 to 1481045 (717 bp)
+				Next Alignment: 1481045 1481496 NODE_45_length_902_cov_1.3871_ID_3159 902 452
+
+			Align 171: 1481045 1481496 NODE_45_length_902_cov_1.3871_ID_3159 902 452
+				Gap between this and next alignment: 1481496 to 1481504 (7 bp)
+				Next Alignment: 1481504 1481712 NODE_45_length_902_cov_1.3871_ID_3159 208 1
+
+			Align 172: 1481504 1481712 NODE_45_length_902_cov_1.3871_ID_3159 208 1
+				Gap between this and next alignment: 1481712 to 1482205 (492 bp)
+				Next Alignment: 1482205 1482294 NODE_70_length_730_cov_0.547264_ID_3209 2 87
+
+			Align 173: 1482205 1482294 NODE_70_length_730_cov_0.547264_ID_3209 2 87
+				Gap between this and next alignment: 1482294 to 1482410 (115 bp)
+				Next Alignment: 1482410 1497154 NODE_1_length_1150417_cov_158.528_ID_3071 102152 87415
+
+			Align 174: 1482410 1497154 NODE_1_length_1150417_cov_158.528_ID_3071 102152 87415
+				Gap between this and next alignment: 1497154 to 1497161 (6 bp)
+				Next Alignment: 1497161 1513131 NODE_1_length_1150417_cov_158.528_ID_3071 85879 69921
+
+			Align 175: 1497161 1513131 NODE_1_length_1150417_cov_158.528_ID_3071 85879 69921
+				Gap between this and next alignment: 1513131 to 1524754 (11622 bp)
+				Next Alignment: 1524754 1541062 NODE_1_length_1150417_cov_158.528_ID_3071 151140 134839
+
+			Align 176: 1524754 1541062 NODE_1_length_1150417_cov_158.528_ID_3071 151140 134839
+				Gap between this and next alignment: 1541062 to 1541274 (211 bp)
+				Next Alignment: 1541274 1541511 NODE_76_length_702_cov_0.813913_ID_3221 702 465
+
+			Align 177: 1541274 1541511 NODE_76_length_702_cov_0.813913_ID_3221 702 465
+				Gap between this and next alignment: 1541511 to 1551994 (10482 bp)
+				Next Alignment: 1551994 1552893 NODE_1_length_1150417_cov_158.528_ID_3071 120818 119921
+
+			Align 178: 1551994 1552893 NODE_1_length_1150417_cov_158.528_ID_3071 120818 119921
+				Negative gap (overlap) between this and next alignment: 1552893 to 1552884 (-9 bp)
+				Next Alignment: 1552884 1559588 NODE_1_length_1150417_cov_158.528_ID_3071 118943 112241
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 118943 to 118933.
+			Align 179: 1552894 1559588 NODE_1_length_1150417_cov_158.528_ID_3071 118933 112241
+				Gap between this and next alignment: 1559588 to 1562663 (3074 bp)
+				Next Alignment: 1562663 1572765 NODE_1_length_1150417_cov_158.528_ID_3071 112240 102153
+
+			Align 180: 1562663 1572765 NODE_1_length_1150417_cov_158.528_ID_3071 112240 102153
+				Gap between this and next alignment: 1572765 to 1572951 (185 bp)
+				Next Alignment: 1572951 1575829 NODE_1_length_1150417_cov_158.528_ID_3071 503007 505877
+
+			Align 181: 1572951 1575829 NODE_1_length_1150417_cov_158.528_ID_3071 503007 505877
+				Gap between this and next alignment: 1575829 to 1576004 (174 bp)
+				Next Alignment: 1576004 1583174 NODE_1_length_1150417_cov_158.528_ID_3071 506070 513244
+
+			Align 182: 1576004 1583174 NODE_1_length_1150417_cov_158.528_ID_3071 506070 513244
+				Gap between this and next alignment: 1583174 to 1583277 (102 bp)
+				Next Alignment: 1583277 1602562 NODE_1_length_1150417_cov_158.528_ID_3071 513387 532686
+
+			Align 183: 1583277 1602562 NODE_1_length_1150417_cov_158.528_ID_3071 513387 532686
+				Gap between this and next alignment: 1602562 to 1605610 (3047 bp)
+				Next Alignment: 1605610 1606144 NODE_145_length_535_cov_1.96814_ID_3359 535 1
+
+			Align 184: 1605610 1606144 NODE_145_length_535_cov_1.96814_ID_3359 535 1
+				Gap between this and next alignment: 1606144 to 1606398 (253 bp)
+				Next Alignment: 1606398 1617261 NODE_3_length_186707_cov_159.146_ID_3075 157720 168579
+
+			Align 185: 1606398 1617261 NODE_3_length_186707_cov_159.146_ID_3075 157720 168579
+				Gap between this and next alignment: 1617261 to 1622006 (4744 bp)
+				Next Alignment: 1622006 1626867 NODE_3_length_186707_cov_159.146_ID_3075 145281 140435
+
+			Align 186: 1622006 1626867 NODE_3_length_186707_cov_159.146_ID_3075 145281 140435
+				Gap between this and next alignment: 1626867 to 1630538 (3670 bp)
+				Next Alignment: 1630538 1667597 NODE_3_length_186707_cov_159.146_ID_3075 136117 99084
+
+			Align 187: 1630538 1667597 NODE_3_length_186707_cov_159.146_ID_3075 136117 99084
+				Negative gap (overlap) between this and next alignment: 1667597 to 1667419 (-178 bp)
+				Next Alignment: 1667419 1667996 NODE_73_length_711_cov_1.40411_ID_3215 711 133
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 711 to 532.
+			Align 188: 1667598 1667996 NODE_73_length_711_cov_1.40411_ID_3215 532 133
+				Gap between this and next alignment: 1667996 to 1668002 (5 bp)
+				Next Alignment: 1668002 1681555 NODE_1_length_1150417_cov_158.528_ID_3071 627030 640581
+
+			Align 189: 1668002 1681555 NODE_1_length_1150417_cov_158.528_ID_3071 627030 640581
+				Gap between this and next alignment: 1681555 to 1686308 (4752 bp)
+				Next Alignment: 1686308 1700823 NODE_1_length_1150417_cov_158.528_ID_3071 723912 709402
+
+			Align 190: 1686308 1700823 NODE_1_length_1150417_cov_158.528_ID_3071 723912 709402
+				Gap between this and next alignment: 1700823 to 1701014 (190 bp)
+				Next Alignment: 1701014 1705466 NODE_1_length_1150417_cov_158.528_ID_3071 709217 704753
+
+			Align 191: 1701014 1705466 NODE_1_length_1150417_cov_158.528_ID_3071 709217 704753
+				Gap between this and next alignment: 1705466 to 1718554 (13087 bp)
+				Next Alignment: 1718554 1739151 NODE_1_length_1150417_cov_158.528_ID_3071 640582 661170
+
+			Align 192: 1718554 1739151 NODE_1_length_1150417_cov_158.528_ID_3071 640582 661170
+				Gap between this and next alignment: 1739151 to 1739274 (122 bp)
+				Next Alignment: 1739274 1761078 NODE_1_length_1150417_cov_158.528_ID_3071 661295 683098
+
+			Align 193: 1739274 1761078 NODE_1_length_1150417_cov_158.528_ID_3071 661295 683098
+				Gap between this and next alignment: 1761078 to 1761375 (296 bp)
+				Next Alignment: 1761375 1773731 NODE_1_length_1150417_cov_158.528_ID_3071 683257 695617
+
+			Align 194: 1761375 1773731 NODE_1_length_1150417_cov_158.528_ID_3071 683257 695617
+				Gap between this and next alignment: 1773731 to 1776081 (2349 bp)
+				Next Alignment: 1776081 1776678 NODE_108_length_598_cov_1.11465_ID_3285 1 598
+
+			Align 195: 1776081 1776678 NODE_108_length_598_cov_1.11465_ID_3285 1 598
+				Gap between this and next alignment: 1776678 to 1782302 (5623 bp)
+				Next Alignment: 1782302 1790029 NODE_1_length_1150417_cov_158.528_ID_3071 750533 758260
+
+			Align 196: 1782302 1790029 NODE_1_length_1150417_cov_158.528_ID_3071 750533 758260
+				Gap between this and next alignment: 1790029 to 1792689 (2659 bp)
+				Next Alignment: 1792689 1813305 NODE_1_length_1150417_cov_158.528_ID_3071 761623 782260
+
+			Align 197: 1792689 1813305 NODE_1_length_1150417_cov_158.528_ID_3071 761623 782260
+				The next alignment (1799266 1799505 NODE_21_length_1469_cov_1.90686_ID_3111 240 1) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 1813305 to 1813144 (-161 bp)
+				Next Alignment: 1813144 1817649 NODE_1_length_1150417_cov_158.528_ID_3071 782386 786903
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 782386 to 782550.
+			Align 199: 1813306 1817649 NODE_1_length_1150417_cov_158.528_ID_3071 782550 786903
+				The next alignment (1813163 1813286 NODE_1_length_1150417_cov_158.528_ID_3071 782261 782385) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 1817649 to 1817249 (-400 bp)
+				Next Alignment: 1817249 1817790 NODE_136_length_545_cov_1.10287_ID_3341 545 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 545 to 144.
+			Align 201: 1817650 1817790 NODE_136_length_545_cov_1.10287_ID_3341 144 1
+				Gap between this and next alignment: 1817790 to 1830511 (12720 bp)
+				Next Alignment: 1830511 1846503 NODE_1_length_1150417_cov_158.528_ID_3071 799116 815088
+
+			Align 202: 1830511 1846503 NODE_1_length_1150417_cov_158.528_ID_3071 799116 815088
+			END in current alignment.  Modifying 1846503 to 1846503.
+
+Analysis is finished!
+Founded SNPs were written into /data/projects/Assembly/Aroon/reports/spades/GCF_000931605.1_ASM93160v1_genomic/contigs_reports/nucmer_output/M10540_contigs.used_snps
+
+Results:
+	Local Misassemblies: 39
+	Misassemblies: 82
+		Relocations: 80
+		Translocations: 0
+		Inversions: 2
+	Misassembled Contigs: 8
+	Misassembled Contig Bases: 1616855
+	Misassemblies Inter-Contig Overlap: 0
+Uncovered Regions: 0 (0)
+Unaligned Contigs: 89 + 16 part
+Partially Unaligned Contigs with Misassemblies: 2
+Unaligned Contig Bases: 173374
+
+Ambiguously Mapped Contigs: 1
+Total Bases in Ambiguously Mapped Contigs: 1764
+Note that --allow-ambiguity option was set to "one" and only first alignment per each contig was used.
+
+	Covered Bases: 1142566
+
+	SNPs: 40724
+	Insertions: 1103
+	Deletions: 1374
+
+	Positive Gaps: 160
+		Internal Gaps:  63
+		External Gaps:  97
+		External Gap Total:  482389
+		External Gap Average: 4973
+	Negative Gaps: 18
+		Internal Overlaps:  8
+		External Overlaps:  10
+		External Overlaps Total: -1410
+		External Overlaps Average: -141
+	Contigs with Redundant Alignments: 5 (4671)

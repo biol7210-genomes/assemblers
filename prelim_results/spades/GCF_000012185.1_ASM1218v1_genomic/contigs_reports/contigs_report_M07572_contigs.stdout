@@ -1,0 +1,3788 @@
+Aligning contigs to reference...
+	Running Nucmer
+Parsing coords...
+Loading reference...
+	Loaded [NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome]
+Loading SNPs...
+Loading regions...
+	No regions given, using whole reference.
+	Total Regions: 1
+	Total Region Length: 1914490
+Analyzing contigs...
+CONTIG: NODE_1_length_305777_cov_150.12_ID_13032 (305777bp)
+Top Length: 150138  Top ID: 99.0
+		This contig is misassembled. 8 total aligns.
+			Real Alignment 1: 1066150 1086078 | 362 20287 | 19929 19926 | 97.45 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_1_length_305777_cov_150.12_ID_13032
+			  Overlap between these two alignments (local misassembly). Inconsistency = -482 
+			Real Alignment 2: 1092812 1106082 | 27503 40690 | 13271 13188 | 96.07 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_1_length_305777_cov_150.12_ID_13032
+			  Gap between these two alignments (local misassembly). Inconsistency = 38 
+			Excluding internal overlap of size 12 between Alignment 3 and 4:  1143406 1145058 | 77539 79197 | 1653 1659 --> 1143418 1145058 | 77551 79197 | 1641 1647
+			Real Alignment 3: 1124031 1142981 | 58601 77550 | 18951 18950 | 98.65 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_1_length_305777_cov_150.12_ID_13032
+			  Gap between these two alignments (local misassembly). Inconsistency = 436 
+			Real Alignment 4: 1143418 1145058 | 77551 79197 | 1641 1647 | 95.78 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_1_length_305777_cov_150.12_ID_13032
+			  Extensive misassembly ( relocation, inconsistency = -1551 ) between these two alignments
+			Real Alignment 5: 1146913 1161970 | 82603 97664 | 15058 15062 | 99.55 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_1_length_305777_cov_150.12_ID_13032
+			  Fake misassembly between these two alignments: inconsistency = -84 , gap in the contig is small or absent or filled mostly with Ns (long indel: insertion of length 84; 0 mismatches)
+			Real Alignment 6: 1161957 1312097 | 97735 247872 | 150141 150138 | 99.0 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_1_length_305777_cov_150.12_ID_13032
+			  Overlap between these two alignments (local misassembly). Inconsistency = -38 
+			Real Alignment 7: 1312203 1319360 | 248016 255185 | 7158 7170 | 95.15 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_1_length_305777_cov_150.12_ID_13032
+			  Overlap between these two alignments (local misassembly). Inconsistency = -12 
+			Real Alignment 8: 1319497 1369936 | 255334 305777 | 50440 50444 | 99.09 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_1_length_305777_cov_150.12_ID_13032
+
+CONTIG: NODE_2_length_233697_cov_163.445_ID_13034 (233697bp)
+Top Length: 184925  Top ID: 99.1
+		Skipping redundant alignment 305717 306544 | 812 1 | 828 812 | 97.34 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_2_length_233697_cov_163.445_ID_13034
+		Skipping redundant alignment 678633 679399 | 751 1 | 767 751 | 97.26 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_2_length_233697_cov_163.445_ID_13034
+		Skipping redundant alignment 1900720 1901485 | 750 1 | 766 750 | 97.52 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_2_length_233697_cov_163.445_ID_13034
+		Skipping redundant alignment 189256 190021 | 750 1 | 766 750 | 97.13 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_2_length_233697_cov_163.445_ID_13034
+		Skipping redundant alignment 810537 811294 | 1 742 | 758 742 | 97.36 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_2_length_233697_cov_163.445_ID_13034
+		Skipping redundant alignment 544266 544357 | 39420 39511 | 92 92 | 100.0 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_2_length_233697_cov_163.445_ID_13034
+		Skipping redundant alignment 544290 544381 | 39420 39511 | 92 92 | 100.0 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_2_length_233697_cov_163.445_ID_13034
+		Skipping redundant alignment 544264 544353 | 39422 39511 | 90 90 | 100.0 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_2_length_233697_cov_163.445_ID_13034
+		Skipping redundant alignment 286780 286849 | 114103 114172 | 70 70 | 100.0 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_2_length_233697_cov_163.445_ID_13034
+		This contig is misassembled. 11 total aligns.
+			Real Alignment 1: 844107 1028970 | 1 184925 | 184864 184925 | 99.1 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_2_length_233697_cov_163.445_ID_13034
+			  Gap between these two alignments (local misassembly). Inconsistency = 28 
+			Real Alignment 2: 1029091 1066155 | 185018 222071 | 37065 37054 | 99.0 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_2_length_233697_cov_163.445_ID_13034
+
+CONTIG: NODE_3_length_197341_cov_170.258_ID_13036 (197341bp)
+Top Length: 91345  Top ID: 99.66
+		Skipping redundant alignment 148716 148794 | 4162 4084 | 79 79 | 100.0 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_3_length_197341_cov_170.258_ID_13036
+		Skipping redundant alignment 206315 206393 | 4162 4084 | 79 79 | 100.0 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_3_length_197341_cov_170.258_ID_13036
+		Skipping redundant alignment 724474 724580 | 80712 80607 | 107 106 | 96.26 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_3_length_197341_cov_170.258_ID_13036
+		This contig is misassembled. 11 total aligns.
+			Real Alignment 1: 1409945 1412342 | 2650 252 | 2398 2399 | 99.33 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_3_length_197341_cov_170.258_ID_13036
+			  Extensive misassembly ( relocation, inconsistency = -943041 ) between these two alignments
+			Real Alignment 2: 470638 513229 | 3987 46592 | 42592 42606 | 97.05 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_3_length_197341_cov_170.258_ID_13036
+			  Overlap between these two alignments (local misassembly). Inconsistency = -450 
+			Real Alignment 3: 513229 544312 | 47042 78123 | 31084 31082 | 99.66 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_3_length_197341_cov_170.258_ID_13036
+			  Overlap between these two alignments (local misassembly). Inconsistency = -120 
+			Excluding internal overlap of size 7 between Alignment 4 and 5:  638147 643139 | 170951 175942 | 4993 4992 --> 638154 643139 | 170958 175942 | 4986 4985
+			Real Alignment 4: 545682 636990 | 79613 170957 | 91309 91345 | 99.66 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_3_length_197341_cov_170.258_ID_13036
+			  Extensive misassembly ( relocation, inconsistency = 1163 ) between these two alignments
+			Real Alignment 5: 638154 643139 | 170958 175942 | 4986 4985 | 95.67 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_3_length_197341_cov_170.258_ID_13036
+			  Overlap between these two alignments (local misassembly). Inconsistency = -165 
+			Real Alignment 6: 643141 643837 | 176109 176805 | 697 697 | 99.14 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_3_length_197341_cov_170.258_ID_13036
+			  Gap between these two alignments (local misassembly). Inconsistency = 245 
+			Real Alignment 7: 644956 652071 | 177679 184797 | 7116 7119 | 99.28 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_3_length_197341_cov_170.258_ID_13036
+			  Extensive misassembly ( relocation, inconsistency = 2705 ) between these two alignments
+			Real Alignment 8: 654778 667326 | 184799 197341 | 12549 12543 | 98.02 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_3_length_197341_cov_170.258_ID_13036
+
+CONTIG: NODE_4_length_166508_cov_134.437_ID_13038 (166508bp)
+Top Length: 52214  Top ID: 97.45
+		Skipping redundant alignment 982797 982910 | 23666 23554 | 114 113 | 97.37 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_4_length_166508_cov_134.437_ID_13038
+		Skipping redundant alignment 981925 982871 | 24595 23640 | 947 956 | 96.03 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_4_length_166508_cov_134.437_ID_13038
+		Skipping redundant alignment 438523 448593 | 33713 23639 | 10071 10075 | 99.96 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_4_length_166508_cov_134.437_ID_13038
+		Skipping redundant alignment 981925 982871 | 24595 23644 | 947 952 | 96.43 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_4_length_166508_cov_134.437_ID_13038
+		Skipping redundant alignment 47124 47222 | 48392 48490 | 99 99 | 100.0 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_4_length_166508_cov_134.437_ID_13038
+		Skipping redundant alignment 805474 805827 | 166155 166508 | 354 354 | 99.15 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_4_length_166508_cov_134.437_ID_13038
+		Skipping redundant alignment 838830 839151 | 166187 166508 | 322 322 | 99.07 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_4_length_166508_cov_134.437_ID_13038
+		Skipping redundant alignment 1906435 1906743 | 166508 166201 | 309 308 | 98.06 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_4_length_166508_cov_134.437_ID_13038
+		Skipping redundant alignment 684348 684647 | 166508 166211 | 300 298 | 99.33 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_4_length_166508_cov_134.437_ID_13038
+		Skipping redundant alignment 194731 194927 | 166508 166315 | 197 194 | 98.48 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_4_length_166508_cov_134.437_ID_13038
+		This contig is misassembled. 15 total aligns.
+			Excluding internal overlap of size 24 between Alignment 1 and 2:  448518 470686 | 23666 1497 | 22169 22170 --> 448542 470686 | 23642 1497 | 22145 22146
+			Real Alignment 1: 448542 470686 | 23642 1497 | 22145 22146 | 99.28 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_4_length_166508_cov_134.437_ID_13038
+			  Fake misassembly between these two alignments: inconsistency = -52 , gap in the contig is small or absent or filled mostly with Ns (long indel: insertion of length 52; 0 mismatches)
+			Excluding internal overlap of size 17 between Alignment 2 and 3:  409104 448593 | 63132 23643 | 39490 39490 --> 409121 448593 | 63115 23643 | 39473 39473
+			Real Alignment 2: 409121 448593 | 63115 23643 | 39473 39473 | 99.77 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_4_length_166508_cov_134.437_ID_13038
+			  Extensive misassembly ( relocation, inconsistency = 5791 ) between these two alignments
+			Real Alignment 3: 351204 403329 | 115329 63116 | 52126 52214 | 97.45 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_4_length_166508_cov_134.437_ID_13038
+			  Extensive misassembly ( relocation, inconsistency = -11230 ) between these two alignments
+			Real Alignment 4: 342006 351217 | 135759 126546 | 9212 9214 | 98.61 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_4_length_166508_cov_134.437_ID_13038
+			  Overlap between these two alignments (local misassembly). Inconsistency = -12 
+			Real Alignment 5: 311254 340400 | 166508 137377 | 29147 29132 | 98.42 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_4_length_166508_cov_134.437_ID_13038
+
+CONTIG: NODE_5_length_140698_cov_126.851_ID_13040 (140698bp)
+Top Length: 60890  Top ID: 99.29
+		Skipping redundant alignment 678632 678767 | 136 1 | 136 136 | 97.06 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_5_length_140698_cov_126.851_ID_13040
+		Skipping redundant alignment 811169 811294 | 1 126 | 126 126 | 98.41 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_5_length_140698_cov_126.851_ID_13040
+		Skipping redundant alignment 206178 206439 | 40601 40339 | 262 263 | 95.83 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_5_length_140698_cov_126.851_ID_13040
+		Skipping redundant alignment 470735 470813 | 40385 40463 | 79 79 | 100.0 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_5_length_140698_cov_126.851_ID_13040
+		Skipping redundant alignment 206096 206177 | 40786 40705 | 82 82 | 100.0 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_5_length_140698_cov_126.851_ID_13040
+		Skipping redundant alignment 1879033 1879110 | 40784 40707 | 78 78 | 100.0 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_5_length_140698_cov_126.851_ID_13040
+		Skipping redundant alignment 805520 805759 | 140458 140698 | 240 241 | 97.93 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_5_length_140698_cov_126.851_ID_13040
+		Skipping redundant alignment 838844 839083 | 140458 140698 | 240 241 | 97.93 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_5_length_140698_cov_126.851_ID_13040
+		Skipping redundant alignment 311322 311564 | 140698 140458 | 243 241 | 97.12 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_5_length_140698_cov_126.851_ID_13040
+		Skipping redundant alignment 684416 684657 | 140698 140460 | 242 239 | 98.35 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_5_length_140698_cov_126.851_ID_13040
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 189245 189389 | 145 1 | 145 145 | 96.55 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_5_length_140698_cov_126.851_ID_13040
+		This contig is misassembled. 18 total aligns.
+			Real Alignment 1: 1900708 1900853 | 145 1 | 146 145 | 96.58 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_5_length_140698_cov_126.851_ID_13040
+			  Extensive misassembly ( relocation, inconsistency = 1711680 ) between these two alignments
+			Excluding internal overlap of size 70 between Alignment 2 and 3:  89103 92263 | 43667 40509 | 3161 3159 --> 89103 92193 | 43667 40579 | 3091 3089
+			Real Alignment 2: 148601 188361 | 40578 812 | 39761 39767 | 99.67 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_5_length_140698_cov_126.851_ID_13040
+			  Extensive misassembly ( relocation, inconsistency = 56407 ) between these two alignments
+			Excluding internal overlap of size 17 between Alignment 3 and 4:  88694 88988 | 43945 43651 | 295 295 --> 88694 88971 | 43945 43668 | 278 278
+			Real Alignment 3: 89103 92193 | 43667 40579 | 3091 3089 | 98.32 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_5_length_140698_cov_126.851_ID_13040
+			  Gap between these two alignments (local misassembly). Inconsistency = 131 
+			Excluding internal overlap of size 1 between Alignment 4 and 5:  88694 88971 | 43945 43668 | 278 278 --> 88695 88971 | 43944 43668 | 277 277
+			Real Alignment 4: 88695 88971 | 43944 43668 | 277 277 | 96.61 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_5_length_140698_cov_126.851_ID_13040
+			  Gap between these two alignments (local misassembly). Inconsistency = 111 
+			Real Alignment 5: 60888 88583 | 71642 43945 | 27696 27698 | 96.76 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_5_length_140698_cov_126.851_ID_13040
+			  Overlap between these two alignments (local misassembly). Inconsistency = -144 
+			Real Alignment 6: 1 60853 | 132710 71821 | 60853 60890 | 99.29 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_5_length_140698_cov_126.851_ID_13040
+			  Fake misassembly (caused by linear representation of circular genome) between these two alignments
+			Real Alignment 7: 1906503 1914490 | 140698 132711 | 7988 7988 | 99.97 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_5_length_140698_cov_126.851_ID_13040
+
+CONTIG: NODE_6_length_125428_cov_140.034_ID_13042 (125428bp)
+Top Length: 96233  Top ID: 99.12
+		Skipping redundant alignment 1453314 1453559 | 124200 124445 | 246 246 | 98.37 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_6_length_125428_cov_140.034_ID_13042
+		This contig is misassembled. 5 total aligns.
+			Real Alignment 1: 1378821 1379036 | 3128 3342 | 216 215 | 98.61 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_6_length_125428_cov_140.034_ID_13042
+			  Extensive misassembly ( relocation, inconsistency = 434914 ) between these two alignments
+			Real Alignment 2: 1814141 1830148 | 19547 3533 | 16008 16015 | 96.4 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_6_length_125428_cov_140.034_ID_13042
+			  Overlap between these two alignments (local misassembly). Inconsistency = -428 
+			Real Alignment 3: 1717907 1814134 | 116214 19982 | 96228 96233 | 99.12 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_6_length_125428_cov_140.034_ID_13042
+			  Overlap between these two alignments (local misassembly). Inconsistency = -489 
+			Real Alignment 4: 1709181 1715586 | 125428 119024 | 6406 6405 | 98.17 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_6_length_125428_cov_140.034_ID_13042
+
+CONTIG: NODE_7_length_120675_cov_145.056_ID_13044 (120675bp)
+Top Length: 120675  Top ID: 98.68
+		Marking as insignificant: 1456202 1456330 | 120664 120536 | 129 129 | 99.22 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_7_length_120675_cov_145.056_ID_13044
+		Marking as insignificant: 1501611 1502047 | 93566 93126 | 437 441 | 97.05 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_7_length_120675_cov_145.056_ID_13044
+		Marking as insignificant: 1502049 1502710 | 92700 92040 | 662 661 | 97.28 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_7_length_120675_cov_145.056_ID_13044
+		One align captures most of this contig: 1586780 1707532 | 1 120675 | 120753 120675 | 98.68 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_7_length_120675_cov_145.056_ID_13044
+
+CONTIG: NODE_8_length_111326_cov_124.389_ID_13046 (111326bp)
+Top Length: 111326  Top ID: 99.21
+		Marking as insignificant: 958116 958185 | 92113 92182 | 70 70 | 100.0 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_8_length_111326_cov_124.389_ID_13046
+		Marking as insignificant: 1879033 1879110 | 11382 11459 | 78 78 | 100.0 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_8_length_111326_cov_124.389_ID_13046
+		Marking as insignificant: 470735 470813 | 11677 11599 | 79 79 | 100.0 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_8_length_111326_cov_124.389_ID_13046
+		Marking as insignificant: 823125 823204 | 278 199 | 80 80 | 100.0 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_8_length_111326_cov_124.389_ID_13046
+		Marking as insignificant: 811469 811549 | 19793 19713 | 81 81 | 100.0 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_8_length_111326_cov_124.389_ID_13046
+		Marking as insignificant: 91986 92067 | 11380 11461 | 82 82 | 100.0 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_8_length_111326_cov_124.389_ID_13046
+		Marking as insignificant: 811465 811549 | 19897 19813 | 85 85 | 100.0 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_8_length_111326_cov_124.389_ID_13046
+		Marking as insignificant: 92171 92263 | 11462 11554 | 93 93 | 98.92 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_8_length_111326_cov_124.389_ID_13046
+		Marking as insignificant: 811169 811294 | 111326 111201 | 126 126 | 98.41 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_8_length_111326_cov_124.389_ID_13046
+		Marking as insignificant: 189256 189389 | 111193 111326 | 134 134 | 97.76 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_8_length_111326_cov_124.389_ID_13046
+		Marking as insignificant: 1900720 1900853 | 111193 111326 | 134 134 | 98.51 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_8_length_111326_cov_124.389_ID_13046
+		Marking as insignificant: 678633 678767 | 111192 111326 | 135 135 | 98.52 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_8_length_111326_cov_124.389_ID_13046
+		Marking as insignificant: 844739 844933 | 111326 111134 | 195 193 | 95.9 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_8_length_111326_cov_124.389_ID_13046
+		Marking as insignificant: 311254 311449 | 1 196 | 196 196 | 97.46 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_8_length_111326_cov_124.389_ID_13046
+		Marking as insignificant: 838958 839151 | 196 1 | 194 196 | 97.96 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_8_length_111326_cov_124.389_ID_13046
+		Marking as insignificant: 805634 805827 | 196 1 | 194 196 | 97.96 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_8_length_111326_cov_124.389_ID_13046
+		Marking as insignificant: 1906435 1906629 | 1 196 | 195 196 | 98.47 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_8_length_111326_cov_124.389_ID_13046
+		Marking as insignificant: 684348 684543 | 1 196 | 196 196 | 98.48 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_8_length_111326_cov_124.389_ID_13046
+		Marking as insignificant: 148601 148840 | 11485 11723 | 240 239 | 95.44 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_8_length_111326_cov_124.389_ID_13046
+		One align captures most of this contig: 194731 305912 | 1 111326 | 111182 111326 | 99.21 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_8_length_111326_cov_124.389_ID_13046
+
+CONTIG: NODE_9_length_79549_cov_154.355_ID_13048 (79549bp)
+Top Length: 44859  Top ID: 98.49
+		This contig is misassembled. 3 total aligns.
+			Real Alignment 1: 1502634 1547570 | 375 45233 | 44937 44859 | 98.49 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_9_length_79549_cov_154.355_ID_13048
+			  Overlap between these two alignments (local misassembly). Inconsistency = -561 
+			Real Alignment 2: 1547794 1552220 | 46018 50440 | 4427 4423 | 98.15 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_9_length_79549_cov_154.355_ID_13048
+			  Extensive misassembly ( relocation, inconsistency = -1043 ) between these two alignments
+			Real Alignment 3: 1552211 1580289 | 51474 79549 | 28079 28076 | 98.55 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_9_length_79549_cov_154.355_ID_13048
+
+CONTIG: NODE_10_length_75725_cov_162.34_ID_13050 (75725bp)
+Top Length: 39592  Top ID: 99.19
+		Skipping redundant alignment 1679040 1679629 | 31377 31966 | 590 590 | 96.78 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_10_length_75725_cov_162.34_ID_13050
+		Skipping redundant alignment 1680055 1680494 | 31968 32403 | 440 436 | 96.59 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_10_length_75725_cov_162.34_ID_13050
+		Skipping redundant alignment 982797 982871 | 46369 46295 | 75 75 | 100.0 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_10_length_75725_cov_162.34_ID_13050
+		Skipping redundant alignment 448518 448593 | 46373 46298 | 76 76 | 100.0 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_10_length_75725_cov_162.34_ID_13050
+		Skipping redundant alignment 448518 448593 | 46385 46310 | 76 76 | 100.0 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_10_length_75725_cov_162.34_ID_13050
+		Skipping redundant alignment 982797 982871 | 46385 46311 | 75 75 | 100.0 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_10_length_75725_cov_162.34_ID_13050
+		Skipping redundant alignment 448517 448593 | 46390 46314 | 77 77 | 100.0 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_10_length_75725_cov_162.34_ID_13050
+		Skipping redundant alignment 982796 982871 | 46390 46315 | 76 76 | 100.0 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_10_length_75725_cov_162.34_ID_13050
+		This contig is misassembled. 11 total aligns.
+			Real Alignment 1: 1454255 1455385 | 1131 1 | 1131 1131 | 95.94 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_10_length_75725_cov_162.34_ID_13050
+			  Extensive misassembly ( relocation, inconsistency = -78629 ) between these two alignments
+			Excluding internal overlap of size 75 between Alignment 2 and 3:  1457459 1462202 | 75638 70894 | 4744 4745 --> 1457459 1462127 | 75638 70969 | 4669 4670
+			Real Alignment 2: 1463084 1502638 | 70968 31377 | 39555 39592 | 99.19 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_10_length_75725_cov_162.34_ID_13050
+			  Gap between these two alignments (local misassembly). Inconsistency = 956 
+			Real Alignment 3: 1457459 1462127 | 75638 70969 | 4669 4670 | 99.85 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_10_length_75725_cov_162.34_ID_13050
+
+CONTIG: NODE_11_length_70256_cov_172.842_ID_13052 (70256bp)
+Top Length: 44914  Top ID: 97.67
+		Skipping redundant alignment 311401 311610 | 1 209 | 210 209 | 99.05 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_11_length_70256_cov_172.842_ID_13052
+		Skipping redundant alignment 838830 839006 | 177 1 | 177 177 | 100.0 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_11_length_70256_cov_172.842_ID_13052
+		Skipping redundant alignment 1906581 1906743 | 1 163 | 163 163 | 98.16 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_11_length_70256_cov_172.842_ID_13052
+		Skipping redundant alignment 684495 684647 | 1 153 | 153 153 | 99.35 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_11_length_70256_cov_172.842_ID_13052
+		This contig is misassembled. 6 total aligns.
+			Real Alignment 1: 794691 805682 | 10958 1 | 10992 10958 | 98.34 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_11_length_70256_cov_172.842_ID_13052
+			  Gap between these two alignments (local misassembly). Inconsistency = 706 
+			Real Alignment 2: 747052 791966 | 57890 12977 | 44915 44914 | 97.67 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_11_length_70256_cov_172.842_ID_13052
+
+CONTIG: NODE_12_length_61872_cov_131.511_ID_13054 (61872bp)
+Top Length: 54399  Top ID: 99.67
+		Skipping redundant alignment 1369810 1369936 | 127 1 | 127 127 | 98.43 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_12_length_61872_cov_131.511_ID_13054
+		Skipping redundant alignment 91988 92065 | 39956 40033 | 78 78 | 100.0 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_12_length_61872_cov_131.511_ID_13054
+		Skipping redundant alignment 206098 206175 | 39956 40033 | 78 78 | 100.0 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_12_length_61872_cov_131.511_ID_13054
+		This contig is misassembled. 5 total aligns.
+			Excluding internal overlap of size 218 between Alignment 1 and 2:  1838912 1846602 | 1 7691 | 7691 7691 --> 1838912 1846384 | 1 7473 | 7473 7473
+			Real Alignment 1: 1838912 1846384 | 1 7473 | 7473 7473 | 98.34 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_12_length_61872_cov_131.511_ID_13054
+			  Gap between these two alignments (local misassembly). Inconsistency = 168 
+			Real Alignment 2: 1846553 1900965 | 7474 61872 | 54413 54399 | 99.67 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_12_length_61872_cov_131.511_ID_13054
+
+CONTIG: NODE_13_length_40859_cov_172.627_ID_13056 (40859bp)
+Top Length: 10585  Top ID: 98.96
+		Skipping redundant alignment 1615263 1615340 | 31993 32070 | 78 78 | 98.72 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_13_length_40859_cov_172.627_ID_13056
+		Skipping redundant alignment 1615271 1615342 | 32005 32076 | 72 72 | 100.0 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_13_length_40859_cov_172.627_ID_13056
+		This contig is misassembled. 9 total aligns.
+			Real Alignment 1: 710707 719911 | 1 9217 | 9205 9217 | 97.67 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_13_length_40859_cov_172.627_ID_13056
+			  Extensive misassembly ( relocation, inconsistency = -3932 ) between these two alignments
+			Real Alignment 2: 719919 723020 | 13157 16260 | 3102 3104 | 98.62 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_13_length_40859_cov_172.627_ID_13056
+			  Gap between these two alignments (local misassembly). Inconsistency = 635 
+			Real Alignment 3: 723671 724373 | 16276 16979 | 703 704 | 96.74 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_13_length_40859_cov_172.627_ID_13056
+			  Overlap between these two alignments (local misassembly). Inconsistency = -821 
+			Real Alignment 4: 724589 735196 | 18016 28600 | 10608 10585 | 98.96 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_13_length_40859_cov_172.627_ID_13056
+			  Extensive misassembly ( relocation, inconsistency = 57180 ) between these two alignments
+			Real Alignment 5: 795739 795850 | 31963 32074 | 112 112 | 98.21 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_13_length_40859_cov_172.627_ID_13056
+			  Extensive misassembly ( relocation, inconsistency = -55045 ) between these two alignments
+			Real Alignment 6: 744629 747056 | 35898 38320 | 2428 2423 | 98.52 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_13_length_40859_cov_172.627_ID_13056
+			  Extensive misassembly ( relocation, inconsistency = 709283 ) between these two alignments
+			Real Alignment 7: 1456426 1457503 | 39488 38407 | 1078 1082 | 95.38 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_13_length_40859_cov_172.627_ID_13056
+
+CONTIG: NODE_14_length_29933_cov_139.088_ID_13058 (29933bp)
+Top Length: 20173  Top ID: 97.52
+		Skipping redundant alignment 1830289 1830408 | 120 1 | 120 120 | 100.0 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_14_length_29933_cov_139.088_ID_13058
+		Skipping redundant alignment 1830134 1830408 | 310 29 | 275 282 | 95.04 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_14_length_29933_cov_139.088_ID_13058
+		Skipping redundant alignment 1830134 1830408 | 310 36 | 275 275 | 97.45 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_14_length_29933_cov_139.088_ID_13058
+		This contig is misassembled. 5 total aligns.
+			Real Alignment 1: 1378786 1387188 | 8 8489 | 8403 8482 | 95.02 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_14_length_29933_cov_139.088_ID_13058
+			  Extensive misassembly ( relocation, inconsistency = 2636 ) between these two alignments
+			Real Alignment 2: 1389829 1409989 | 8494 28666 | 20161 20173 | 97.52 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_14_length_29933_cov_139.088_ID_13058
+
+CONTIG: NODE_15_length_27840_cov_174.874_ID_13060 (27840bp)
+Top Length: 27840  Top ID: 98.97
+		Marking as insignificant: 194930 195009 | 15804 15883 | 80 80 | 100.0 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_15_length_27840_cov_174.874_ID_13060
+		Marking as insignificant: 214424 214504 | 27459 27539 | 81 81 | 100.0 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_15_length_27840_cov_174.874_ID_13060
+		Marking as insignificant: 214524 214608 | 27459 27543 | 85 85 | 100.0 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_15_length_27840_cov_174.874_ID_13060
+		Marking as insignificant: 678642 678768 | 27714 27840 | 127 127 | 98.43 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_15_length_27840_cov_174.874_ID_13060
+		Marking as insignificant: 189264 189390 | 27714 27840 | 127 127 | 98.43 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_15_length_27840_cov_174.874_ID_13060
+		Marking as insignificant: 1900728 1900854 | 27714 27840 | 127 127 | 99.21 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_15_length_27840_cov_174.874_ID_13060
+		Marking as insignificant: 844738 844864 | 27840 27714 | 127 127 | 99.21 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_15_length_27840_cov_174.874_ID_13060
+		Marking as insignificant: 305787 305913 | 27714 27840 | 127 127 | 99.21 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_15_length_27840_cov_174.874_ID_13060
+		Marking as insignificant: 684495 684647 | 1 154 | 153 154 | 98.7 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_15_length_27840_cov_174.874_ID_13060
+		Marking as insignificant: 1906581 1906743 | 1 164 | 163 164 | 97.56 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_15_length_27840_cov_174.874_ID_13060
+		Marking as insignificant: 805506 805682 | 178 1 | 177 178 | 99.44 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_15_length_27840_cov_174.874_ID_13060
+		Marking as insignificant: 311401 311578 | 1 178 | 178 178 | 99.44 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_15_length_27840_cov_174.874_ID_13060
+		One align captures most of this contig: 811168 839006 | 27840 1 | 27839 27840 | 98.97 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_15_length_27840_cov_174.874_ID_13060
+
+CONTIG: NODE_16_length_25244_cov_171.863_ID_13062 (25244bp)
+Top Length: 25244  Top ID: 97.94
+		Marking as insignificant: 1615271 1615340 | 8551 8482 | 70 70 | 100.0 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_16_length_25244_cov_171.863_ID_13062
+		Marking as insignificant: 1615271 1615340 | 8563 8494 | 70 70 | 100.0 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_16_length_25244_cov_171.863_ID_13062
+		Marking as insignificant: 1615263 1615340 | 8575 8498 | 78 78 | 98.72 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_16_length_25244_cov_171.863_ID_13062
+		Marking as insignificant: 795739 795856 | 8605 8488 | 118 118 | 97.46 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_16_length_25244_cov_171.863_ID_13062
+		Marking as insignificant: 668335 668461 | 25244 25118 | 127 127 | 98.43 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_16_length_25244_cov_171.863_ID_13062
+		Marking as insignificant: 311401 311554 | 1 153 | 154 153 | 98.05 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_16_length_25244_cov_171.863_ID_13062
+		Marking as insignificant: 838854 839006 | 153 1 | 153 153 | 99.35 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_16_length_25244_cov_171.863_ID_13062
+		Marking as insignificant: 805530 805682 | 153 1 | 153 153 | 99.35 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_16_length_25244_cov_171.863_ID_13062
+		Marking as insignificant: 1906581 1906741 | 1 163 | 161 163 | 98.77 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_16_length_25244_cov_171.863_ID_13062
+		One align captures most of this contig: 684495 709698 | 1 25244 | 25204 25244 | 97.94 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_16_length_25244_cov_171.863_ID_13062
+
+CONTIG: NODE_17_length_22457_cov_146.165_ID_13064 (22457bp)
+		This contig is unaligned. (22457 bp)
+		Unaligned bases: 22457  total: 22457
+
+CONTIG: NODE_18_length_20655_cov_166.701_ID_13066 (20655bp)
+Top Length: 220  Top ID: 96.36
+		This contig is partially unaligned. (Aligned 220 out of 20655 bases)
+		Alignment: 1459300 1459519 | 3132 3351 | 220 220 | 96.36 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_18_length_20655_cov_166.701_ID_13066
+		Unaligned bases: 1 to 3131 (3131)
+		Unaligned bases: 3352 to 20655 (17304)
+
+CONTIG: NODE_19_length_18708_cov_205.752_ID_13068 (18708bp)
+Top Length: 169  Top ID: 98.22
+		This contig is partially unaligned. (Aligned 169 out of 18708 bases)
+		Alignment: 1709694 1709862 | 18708 18540 | 169 169 | 98.22 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_19_length_18708_cov_205.752_ID_13068
+		Unaligned bases: 1 to 18539 (18539)
+
+CONTIG: NODE_20_length_10433_cov_169.33_ID_13070 (10433bp)
+Top Length: 10433  Top ID: 99.95
+		Marking as insignificant: 811169 811294 | 1 126 | 126 126 | 98.41 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_20_length_10433_cov_169.33_ID_13070
+		Marking as insignificant: 709572 709698 | 10307 10433 | 127 127 | 100.0 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_20_length_10433_cov_169.33_ID_13070
+		Marking as insignificant: 189256 189389 | 134 1 | 134 134 | 97.76 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_20_length_10433_cov_169.33_ID_13070
+		Marking as insignificant: 305780 305912 | 133 1 | 133 133 | 98.5 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_20_length_10433_cov_169.33_ID_13070
+		Marking as insignificant: 1900720 1900853 | 134 1 | 134 134 | 98.51 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_20_length_10433_cov_169.33_ID_13070
+		Marking as insignificant: 844739 844873 | 1 135 | 135 135 | 98.52 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_20_length_10433_cov_169.33_ID_13070
+		One align captures most of this contig: 668335 678767 | 10433 1 | 10433 10433 | 99.95 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_20_length_10433_cov_169.33_ID_13070
+
+CONTIG: NODE_21_length_7573_cov_285.706_ID_13072 (7573bp)
+Top Length: 3604  Top ID: 96.26
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 1412533 1416107 | 73 3676 | 3575 3604 | 96.26 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_21_length_7573_cov_285.706_ID_13072
+		This contig is misassembled. 4 total aligns.
+			Excluding internal overlap of size 1 between Alignment 1 and 2:  1416404 1418022 | 3676 5294 | 1619 1619 --> 1416405 1418022 | 3677 5294 | 1618 1618
+			Real Alignment 1: 1412533 1416161 | 73 3676 | 3629 3604 | 96.17 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_21_length_7573_cov_285.706_ID_13072
+			  Gap between these two alignments (local misassembly). Inconsistency = 243 
+			Real Alignment 2: 1416405 1418022 | 3677 5294 | 1618 1618 | 96.17 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_21_length_7573_cov_285.706_ID_13072
+			  Overlap between these two alignments (local misassembly). Inconsistency = -27 
+			Real Alignment 3: 1418807 1420274 | 6106 7573 | 1468 1468 | 98.57 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_21_length_7573_cov_285.706_ID_13072
+
+CONTIG: NODE_22_length_6948_cov_137.409_ID_13074 (6948bp)
+		This contig is unaligned. (6948 bp)
+		Unaligned bases: 6948  total: 29405
+
+CONTIG: NODE_23_length_5904_cov_133.392_ID_13076 (5904bp)
+Top Length: 1054  Top ID: 96.11
+		Skipping redundant alignment 1427672 1427932 | 5644 5904 | 261 261 | 98.08 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_23_length_5904_cov_133.392_ID_13076
+		This contig is misassembled. 5 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 5904 and total length of all aligns is 2846
+		Alignment: 1420148 1420274 | 1 127 | 127 127 | 100.0 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_23_length_5904_cov_133.392_ID_13076
+		Alignment: 1421627 1422599 | 1206 2179 | 973 974 | 99.28 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_23_length_5904_cov_133.392_ID_13076
+		Alignment: 1424799 1425849 | 3900 4953 | 1051 1054 | 96.11 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_23_length_5904_cov_133.392_ID_13076
+		Alignment: 1586342 1587032 | 5904 5214 | 691 691 | 97.83 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_23_length_5904_cov_133.392_ID_13076
+		Unaligned bases: 3058
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: NODE_24_length_5517_cov_273.107_ID_13078 (5517bp)
+Top Length: 2146  Top ID: 95.99
+		This contig is partially unaligned. (Aligned 2146 out of 5517 bases)
+		Alignment: 1369810 1371955 | 1 2146 | 2146 2146 | 95.99 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_24_length_5517_cov_273.107_ID_13078
+		Unaligned bases: 2147 to 5517 (3371)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+
+CONTIG: NODE_25_length_4302_cov_167.126_ID_13080 (4302bp)
+		This contig is unaligned. (4302 bp)
+		Unaligned bases: 4302  total: 33707
+
+CONTIG: NODE_26_length_4188_cov_162.402_ID_13082 (4188bp)
+Top Length: 4185  Top ID: 99.64
+		One align captures most of this contig: 1580774 1584958 | 4 4188 | 4185 4185 | 99.64 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_26_length_4188_cov_162.402_ID_13082
+
+CONTIG: NODE_27_length_4067_cov_302.498_ID_13084 (4067bp)
+		This contig is unaligned. (4067 bp)
+		Unaligned bases: 4067  total: 37774
+
+CONTIG: NODE_28_length_3083_cov_778.911_ID_13086 (3083bp)
+Top Length: 3083  Top ID: 98.7
+		This contig has 6 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 189895 192979 | 1 3083 | 3085 3083 | 98.7 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_28_length_3083_cov_778.911_ID_13086
+		Skipping alignment  306418 309502 | 1 3083 | 3085 3083 | 98.7 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_28_length_3083_cov_778.911_ID_13086
+		Skipping alignment  807579 810663 | 3083 1 | 3085 3083 | 98.7 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_28_length_3083_cov_778.911_ID_13086
+		Skipping alignment  679273 682357 | 1 3083 | 3085 3083 | 98.38 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_28_length_3083_cov_778.911_ID_13086
+		Skipping alignment  841148 844233 | 3083 1 | 3086 3083 | 98.38 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_28_length_3083_cov_778.911_ID_13086
+		Skipping alignment  1901359 1904444 | 1 3083 | 3086 3083 | 98.38 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_28_length_3083_cov_778.911_ID_13086
+
+CONTIG: NODE_29_length_3058_cov_135.423_ID_13088 (3058bp)
+		This contig is unaligned. (3058 bp)
+		Unaligned bases: 3058  total: 40832
+
+CONTIG: NODE_30_length_2938_cov_277.963_ID_13090 (2938bp)
+		This contig is unaligned. (2938 bp)
+		Unaligned bases: 2938  total: 43770
+
+CONTIG: NODE_31_length_2738_cov_1.40291_ID_13092 (2738bp)
+		This contig is unaligned. (2738 bp)
+		Unaligned bases: 2738  total: 46508
+
+CONTIG: NODE_32_length_2712_cov_135.17_ID_13094 (2712bp)
+Top Length: 753  Top ID: 97.22
+		This contig is misassembled. 4 total aligns.
+			Real Alignment 1: 1584808 1584958 | 151 1 | 151 151 | 96.03 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_32_length_2712_cov_135.17_ID_13094
+			  Extensive misassembly ( relocation, inconsistency = -155904 ) between these two alignments
+			Real Alignment 2: 1429304 1429939 | 401 1037 | 636 637 | 99.22 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_32_length_2712_cov_135.17_ID_13094
+			  Gap between these two alignments (local misassembly). Inconsistency = 8 
+			Real Alignment 3: 1430248 1430358 | 1338 1448 | 111 111 | 97.3 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_32_length_2712_cov_135.17_ID_13094
+			  Gap between these two alignments (local misassembly). Inconsistency = 198 
+			Real Alignment 4: 1430569 1431321 | 1461 2213 | 753 753 | 97.22 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_32_length_2712_cov_135.17_ID_13094
+
+CONTIG: NODE_33_length_2665_cov_2.00079_ID_13096 (2665bp)
+		This contig is unaligned. (2665 bp)
+		Unaligned bases: 2665  total: 49173
+
+CONTIG: NODE_34_length_2556_cov_1.41704_ID_13098 (2556bp)
+		This contig is unaligned. (2556 bp)
+		Unaligned bases: 2556  total: 51729
+
+CONTIG: NODE_35_length_2487_cov_1.0072_ID_13100 (2487bp)
+		This contig is unaligned. (2487 bp)
+		Unaligned bases: 2487  total: 54216
+
+CONTIG: NODE_36_length_2485_cov_1.7799_ID_13102 (2485bp)
+		This contig is unaligned. (2485 bp)
+		Unaligned bases: 2485  total: 56701
+
+CONTIG: NODE_37_length_2479_cov_1.37543_ID_13104 (2479bp)
+		This contig is unaligned. (2479 bp)
+		Unaligned bases: 2479  total: 59180
+
+CONTIG: NODE_38_length_2389_cov_1.14677_ID_13106 (2389bp)
+		This contig is unaligned. (2389 bp)
+		Unaligned bases: 2389  total: 61569
+
+CONTIG: NODE_39_length_2301_cov_0.928243_ID_13108 (2301bp)
+		This contig is unaligned. (2301 bp)
+		Unaligned bases: 2301  total: 63870
+
+CONTIG: NODE_40_length_2126_cov_1.09205_ID_13114 (2126bp)
+		This contig is unaligned. (2126 bp)
+		Unaligned bases: 2126  total: 65996
+
+CONTIG: NODE_41_length_2021_cov_156.249_ID_13116 (2021bp)
+		This contig is unaligned. (2021 bp)
+		Unaligned bases: 2021  total: 68017
+
+CONTIG: NODE_42_length_1967_cov_1.02391_ID_13118 (1967bp)
+		This contig is unaligned. (1967 bp)
+		Unaligned bases: 1967  total: 69984
+
+CONTIG: NODE_43_length_1922_cov_1.2585_ID_13124 (1922bp)
+		This contig is unaligned. (1922 bp)
+		Unaligned bases: 1922  total: 71906
+
+CONTIG: NODE_44_length_1906_cov_175.069_ID_13126 (1906bp)
+Top Length: 1485  Top ID: 99.6
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 1420148 1421632 | 1 1485 | 1485 1485 | 99.6 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_44_length_1906_cov_175.069_ID_13126
+			  Extensive misassembly ( relocation, inconsistency = 158235 ) between these two alignments
+			Real Alignment 2: 1579994 1580289 | 1612 1906 | 296 295 | 95.29 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_44_length_1906_cov_175.069_ID_13126
+
+CONTIG: NODE_45_length_1903_cov_0.947072_ID_13128 (1903bp)
+		This contig is unaligned. (1903 bp)
+		Unaligned bases: 1903  total: 73809
+
+CONTIG: NODE_46_length_1895_cov_0.93948_ID_13130 (1895bp)
+		This contig is unaligned. (1895 bp)
+		Unaligned bases: 1895  total: 75704
+
+CONTIG: NODE_47_length_1876_cov_0.933105_ID_13132 (1876bp)
+		This contig is unaligned. (1876 bp)
+		Unaligned bases: 1876  total: 77580
+
+CONTIG: NODE_48_length_1786_cov_0.948162_ID_13134 (1786bp)
+		This contig is unaligned. (1786 bp)
+		Unaligned bases: 1786  total: 79366
+
+CONTIG: NODE_49_length_1764_cov_1.5223_ID_13136 (1764bp)
+		This contig is unaligned. (1764 bp)
+		Unaligned bases: 1764  total: 81130
+
+CONTIG: NODE_50_length_1694_cov_0.811104_ID_13138 (1694bp)
+		This contig is unaligned. (1694 bp)
+		Unaligned bases: 1694  total: 82824
+
+CONTIG: NODE_51_length_1691_cov_1.03581_ID_13140 (1691bp)
+		This contig is unaligned. (1691 bp)
+		Unaligned bases: 1691  total: 84515
+
+CONTIG: NODE_52_length_1678_cov_0.953578_ID_13142 (1678bp)
+		This contig is unaligned. (1678 bp)
+		Unaligned bases: 1678  total: 86193
+
+CONTIG: NODE_53_length_1674_cov_0.758242_ID_13144 (1674bp)
+		This contig is unaligned. (1674 bp)
+		Unaligned bases: 1674  total: 87867
+
+CONTIG: NODE_54_length_1671_cov_1.02202_ID_13146 (1671bp)
+		This contig is unaligned. (1671 bp)
+		Unaligned bases: 1671  total: 89538
+
+CONTIG: NODE_55_length_1654_cov_1.0262_ID_13152 (1654bp)
+		This contig is unaligned. (1654 bp)
+		Unaligned bases: 1654  total: 91192
+
+CONTIG: NODE_56_length_1645_cov_743.177_ID_13154 (1645bp)
+Top Length: 1645  Top ID: 100.0
+		This contig has 6 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 805701 807345 | 1 1645 | 1645 1645 | 100.0 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_56_length_1645_cov_743.177_ID_13154
+		Skipping alignment  839025 840668 | 1 1644 | 1644 1644 | 100.0 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_56_length_1645_cov_743.177_ID_13154
+		Skipping alignment  682831 684474 | 1644 1 | 1644 1644 | 99.94 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_56_length_1645_cov_743.177_ID_13154
+		Skipping alignment  1904918 1906561 | 1644 1 | 1644 1644 | 99.94 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_56_length_1645_cov_743.177_ID_13154
+		Skipping alignment  193213 194858 | 1645 1 | 1646 1645 | 99.82 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_56_length_1645_cov_743.177_ID_13154
+		Skipping alignment  309736 311380 | 1645 1 | 1645 1645 | 99.7 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_56_length_1645_cov_743.177_ID_13154
+
+CONTIG: NODE_57_length_1638_cov_0.756453_ID_13156 (1638bp)
+		This contig is unaligned. (1638 bp)
+		Unaligned bases: 1638  total: 92830
+
+CONTIG: NODE_58_length_1636_cov_1.34327_ID_13158 (1636bp)
+		This contig is unaligned. (1636 bp)
+		Unaligned bases: 1636  total: 94466
+
+CONTIG: NODE_59_length_1634_cov_1.07764_ID_13160 (1634bp)
+		This contig is unaligned. (1634 bp)
+		Unaligned bases: 1634  total: 96100
+
+CONTIG: NODE_60_length_1632_cov_0.908306_ID_13162 (1632bp)
+		This contig is unaligned. (1632 bp)
+		Unaligned bases: 1632  total: 97732
+
+CONTIG: NODE_61_length_1614_cov_0.810356_ID_13164 (1614bp)
+		This contig is unaligned. (1614 bp)
+		Unaligned bases: 1614  total: 99346
+
+CONTIG: NODE_62_length_1611_cov_0.74124_ID_13166 (1611bp)
+		This contig is unaligned. (1611 bp)
+		Unaligned bases: 1611  total: 100957
+
+CONTIG: NODE_63_length_1602_cov_1.13695_ID_13168 (1602bp)
+		This contig is unaligned. (1602 bp)
+		Unaligned bases: 1602  total: 102559
+
+CONTIG: NODE_64_length_1595_cov_0.831744_ID_13170 (1595bp)
+		This contig is unaligned. (1595 bp)
+		Unaligned bases: 1595  total: 104154
+
+CONTIG: NODE_65_length_1574_cov_0.822391_ID_13172 (1574bp)
+		This contig is unaligned. (1574 bp)
+		Unaligned bases: 1574  total: 105728
+
+CONTIG: NODE_66_length_1567_cov_0.980556_ID_13174 (1567bp)
+		This contig is unaligned. (1567 bp)
+		Unaligned bases: 1567  total: 107295
+
+CONTIG: NODE_67_length_1560_cov_1.0321_ID_13122 (1560bp)
+		This contig is unaligned. (1560 bp)
+		Unaligned bases: 1560  total: 108855
+
+CONTIG: NODE_68_length_1548_cov_1.13089_ID_13176 (1548bp)
+		This contig is unaligned. (1548 bp)
+		Unaligned bases: 1548  total: 110403
+
+CONTIG: NODE_69_length_1543_cov_0.835452_ID_13112 (1543bp)
+		This contig is unaligned. (1543 bp)
+		Unaligned bases: 1543  total: 111946
+
+CONTIG: NODE_70_length_1522_cov_0.987097_ID_13178 (1522bp)
+		This contig is unaligned. (1522 bp)
+		Unaligned bases: 1522  total: 113468
+
+CONTIG: NODE_71_length_1489_cov_0.784141_ID_13184 (1489bp)
+		This contig is unaligned. (1489 bp)
+		Unaligned bases: 1489  total: 114957
+
+CONTIG: NODE_72_length_1481_cov_1.17061_ID_13186 (1481bp)
+		This contig is unaligned. (1481 bp)
+		Unaligned bases: 1481  total: 116438
+
+CONTIG: NODE_73_length_1473_cov_1.06092_ID_13188 (1473bp)
+		This contig is unaligned. (1473 bp)
+		Unaligned bases: 1473  total: 117911
+
+CONTIG: NODE_74_length_1470_cov_0.855547_ID_13190 (1470bp)
+		This contig is unaligned. (1470 bp)
+		Unaligned bases: 1470  total: 119381
+
+CONTIG: NODE_75_length_1455_cov_1.0994_ID_13192 (1455bp)
+		This contig is unaligned. (1455 bp)
+		Unaligned bases: 1455  total: 120836
+
+CONTIG: NODE_76_length_1443_cov_1.24164_ID_13194 (1443bp)
+		This contig is unaligned. (1443 bp)
+		Unaligned bases: 1443  total: 122279
+
+CONTIG: NODE_77_length_1439_cov_0.811738_ID_13196 (1439bp)
+		This contig is unaligned. (1439 bp)
+		Unaligned bases: 1439  total: 123718
+
+CONTIG: NODE_78_length_1436_cov_1.44996_ID_13198 (1436bp)
+		This contig is unaligned. (1436 bp)
+		Unaligned bases: 1436  total: 125154
+
+CONTIG: NODE_79_length_1416_cov_1.22498_ID_13200 (1416bp)
+		This contig is unaligned. (1416 bp)
+		Unaligned bases: 1416  total: 126570
+
+CONTIG: NODE_80_length_1391_cov_1.11709_ID_13202 (1391bp)
+		This contig is unaligned. (1391 bp)
+		Unaligned bases: 1391  total: 127961
+
+CONTIG: NODE_81_length_1387_cov_1.34365_ID_13204 (1387bp)
+		This contig is unaligned. (1387 bp)
+		Unaligned bases: 1387  total: 129348
+
+CONTIG: NODE_82_length_1378_cov_1.19664_ID_13206 (1378bp)
+		This contig is unaligned. (1378 bp)
+		Unaligned bases: 1378  total: 130726
+
+CONTIG: NODE_83_length_1375_cov_0.820513_ID_13208 (1375bp)
+		This contig is unaligned. (1375 bp)
+		Unaligned bases: 1375  total: 132101
+
+CONTIG: NODE_84_length_1370_cov_0.955752_ID_13210 (1370bp)
+		This contig is unaligned. (1370 bp)
+		Unaligned bases: 1370  total: 133471
+
+CONTIG: NODE_85_length_1365_cov_1.10016_ID_13212 (1365bp)
+		This contig is unaligned. (1365 bp)
+		Unaligned bases: 1365  total: 134836
+
+CONTIG: NODE_86_length_1340_cov_338.384_ID_13214 (1340bp)
+		This contig is unaligned. (1340 bp)
+		Unaligned bases: 1340  total: 136176
+
+CONTIG: NODE_87_length_1333_cov_1.10779_ID_13216 (1333bp)
+		This contig is unaligned. (1333 bp)
+		Unaligned bases: 1333  total: 137509
+
+CONTIG: NODE_88_length_1330_cov_0.991687_ID_13218 (1330bp)
+		This contig is unaligned. (1330 bp)
+		Unaligned bases: 1330  total: 138839
+
+CONTIG: NODE_89_length_1317_cov_0.982353_ID_13220 (1317bp)
+		This contig is unaligned. (1317 bp)
+		Unaligned bases: 1317  total: 140156
+
+CONTIG: NODE_90_length_1315_cov_0.654882_ID_13222 (1315bp)
+		This contig is unaligned. (1315 bp)
+		Unaligned bases: 1315  total: 141471
+
+CONTIG: NODE_91_length_1315_cov_0.973906_ID_13224 (1315bp)
+		This contig is unaligned. (1315 bp)
+		Unaligned bases: 1315  total: 142786
+
+CONTIG: NODE_92_length_1302_cov_1.14894_ID_13226 (1302bp)
+		This contig is unaligned. (1302 bp)
+		Unaligned bases: 1302  total: 144088
+
+CONTIG: NODE_93_length_1300_cov_1.08099_ID_13228 (1300bp)
+		This contig is unaligned. (1300 bp)
+		Unaligned bases: 1300  total: 145388
+
+CONTIG: NODE_94_length_1299_cov_0.715017_ID_13230 (1299bp)
+		This contig is unaligned. (1299 bp)
+		Unaligned bases: 1299  total: 146687
+
+CONTIG: NODE_95_length_1298_cov_0.77626_ID_13232 (1298bp)
+		This contig is unaligned. (1298 bp)
+		Unaligned bases: 1298  total: 147985
+
+CONTIG: NODE_96_length_1289_cov_1.53098_ID_13234 (1289bp)
+		This contig is unaligned. (1289 bp)
+		Unaligned bases: 1289  total: 149274
+
+CONTIG: NODE_97_length_1285_cov_0.909326_ID_13240 (1285bp)
+		This contig is unaligned. (1285 bp)
+		Unaligned bases: 1285  total: 150559
+
+CONTIG: NODE_98_length_1265_cov_1.04306_ID_13242 (1265bp)
+		This contig is unaligned. (1265 bp)
+		Unaligned bases: 1265  total: 151824
+
+CONTIG: NODE_99_length_1262_cov_342.568_ID_13244 (1262bp)
+Top Length: 1262  Top ID: 99.92
+		Marking as insignificant: 667200 668461 | 1 1262 | 1262 1262 | 98.42 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_99_length_1262_cov_342.568_ID_13244
+		One align captures most of this contig: 709572 710833 | 1262 1 | 1262 1262 | 99.92 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_99_length_1262_cov_342.568_ID_13244
+
+CONTIG: NODE_100_length_1257_cov_0.717699_ID_13246 (1257bp)
+		This contig is unaligned. (1257 bp)
+		Unaligned bases: 1257  total: 153081
+
+CONTIG: NODE_101_length_1253_cov_0.941385_ID_13248 (1253bp)
+		This contig is unaligned. (1253 bp)
+		Unaligned bases: 1253  total: 154334
+
+CONTIG: NODE_102_length_1243_cov_1.28495_ID_13250 (1243bp)
+		This contig is unaligned. (1243 bp)
+		Unaligned bases: 1243  total: 155577
+
+CONTIG: NODE_103_length_1229_cov_0.727768_ID_13252 (1229bp)
+		This contig is unaligned. (1229 bp)
+		Unaligned bases: 1229  total: 156806
+
+CONTIG: NODE_104_length_1224_cov_0.914312_ID_13254 (1224bp)
+		This contig is unaligned. (1224 bp)
+		Unaligned bases: 1224  total: 158030
+
+CONTIG: NODE_105_length_1223_cov_1.22263_ID_13256 (1223bp)
+		This contig is unaligned. (1223 bp)
+		Unaligned bases: 1223  total: 159253
+
+CONTIG: NODE_106_length_1221_cov_1.04022_ID_13258 (1221bp)
+		This contig is unaligned. (1221 bp)
+		Unaligned bases: 1221  total: 160474
+
+CONTIG: NODE_107_length_1220_cov_1.31382_ID_13260 (1220bp)
+		This contig is unaligned. (1220 bp)
+		Unaligned bases: 1220  total: 161694
+
+CONTIG: NODE_108_length_1216_cov_0.875115_ID_13262 (1216bp)
+		This contig is unaligned. (1216 bp)
+		Unaligned bases: 1216  total: 162910
+
+CONTIG: NODE_109_length_1213_cov_1.00829_ID_13264 (1213bp)
+		This contig is unaligned. (1213 bp)
+		Unaligned bases: 1213  total: 164123
+
+CONTIG: NODE_110_length_1209_cov_0.891867_ID_13266 (1209bp)
+		This contig is unaligned. (1209 bp)
+		Unaligned bases: 1209  total: 165332
+
+CONTIG: NODE_111_length_1209_cov_1.04713_ID_13268 (1209bp)
+		This contig is unaligned. (1209 bp)
+		Unaligned bases: 1209  total: 166541
+
+CONTIG: NODE_112_length_1208_cov_1.20722_ID_13270 (1208bp)
+		This contig is unaligned. (1208 bp)
+		Unaligned bases: 1208  total: 167749
+
+CONTIG: NODE_113_length_1194_cov_1.17901_ID_13272 (1194bp)
+		This contig is unaligned. (1194 bp)
+		Unaligned bases: 1194  total: 168943
+
+CONTIG: NODE_114_length_1194_cov_0.991565_ID_13274 (1194bp)
+		This contig is unaligned. (1194 bp)
+		Unaligned bases: 1194  total: 170137
+
+CONTIG: NODE_115_length_1189_cov_1.17043_ID_13276 (1189bp)
+		This contig is unaligned. (1189 bp)
+		Unaligned bases: 1189  total: 171326
+
+CONTIG: NODE_116_length_1183_cov_0.91572_ID_13278 (1183bp)
+		This contig is unaligned. (1183 bp)
+		Unaligned bases: 1183  total: 172509
+
+CONTIG: NODE_117_length_1181_cov_1.39564_ID_13280 (1181bp)
+		This contig is unaligned. (1181 bp)
+		Unaligned bases: 1181  total: 173690
+
+CONTIG: NODE_118_length_1180_cov_1.32669_ID_13282 (1180bp)
+		This contig is unaligned. (1180 bp)
+		Unaligned bases: 1180  total: 174870
+
+CONTIG: NODE_119_length_1174_cov_158.231_ID_13284 (1174bp)
+		This contig is unaligned. (1174 bp)
+		Unaligned bases: 1174  total: 176044
+
+CONTIG: NODE_120_length_1170_cov_1.19367_ID_13286 (1170bp)
+		This contig is unaligned. (1170 bp)
+		Unaligned bases: 1170  total: 177214
+
+CONTIG: NODE_121_length_1168_cov_1.31604_ID_13288 (1168bp)
+		This contig is unaligned. (1168 bp)
+		Unaligned bases: 1168  total: 178382
+
+CONTIG: NODE_122_length_1164_cov_285.284_ID_13290 (1164bp)
+Top Length: 1164  Top ID: 98.97
+		Marking as insignificant: 1428279 1428649 | 1 371 | 371 371 | 96.5 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_122_length_1164_cov_285.284_ID_13290
+		One align captures most of this contig: 1584832 1585995 | 1164 1 | 1164 1164 | 98.97 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_122_length_1164_cov_285.284_ID_13290
+
+CONTIG: NODE_123_length_1159_cov_0.853682_ID_13292 (1159bp)
+		This contig is unaligned. (1159 bp)
+		Unaligned bases: 1159  total: 179541
+
+CONTIG: NODE_124_length_1157_cov_137.827_ID_13294 (1157bp)
+		This contig is unaligned. (1157 bp)
+		Unaligned bases: 1157  total: 180698
+
+CONTIG: NODE_125_length_1156_cov_1.26919_ID_13296 (1156bp)
+		This contig is unaligned. (1156 bp)
+		Unaligned bases: 1156  total: 181854
+
+CONTIG: NODE_126_length_1147_cov_0.887255_ID_13298 (1147bp)
+		This contig is unaligned. (1147 bp)
+		Unaligned bases: 1147  total: 183001
+
+CONTIG: NODE_127_length_1141_cov_0.727811_ID_13148 (1141bp)
+		This contig is unaligned. (1141 bp)
+		Unaligned bases: 1141  total: 184142
+
+CONTIG: NODE_128_length_1097_cov_0.881443_ID_13300 (1097bp)
+		This contig is unaligned. (1097 bp)
+		Unaligned bases: 1097  total: 185239
+
+CONTIG: NODE_129_length_1094_cov_0.735264_ID_13302 (1094bp)
+		This contig is unaligned. (1094 bp)
+		Unaligned bases: 1094  total: 186333
+
+CONTIG: NODE_130_length_1091_cov_0.920124_ID_13304 (1091bp)
+		This contig is unaligned. (1091 bp)
+		Unaligned bases: 1091  total: 187424
+
+CONTIG: NODE_131_length_1090_cov_1.66147_ID_13306 (1090bp)
+		This contig is unaligned. (1090 bp)
+		Unaligned bases: 1090  total: 188514
+
+CONTIG: NODE_132_length_1087_cov_0.803125_ID_13308 (1087bp)
+		This contig is unaligned. (1087 bp)
+		Unaligned bases: 1087  total: 189601
+
+CONTIG: NODE_133_length_1086_cov_1.06152_ID_13310 (1086bp)
+		This contig is unaligned. (1086 bp)
+		Unaligned bases: 1086  total: 190687
+
+CONTIG: NODE_134_length_1085_cov_0.797495_ID_13312 (1085bp)
+		This contig is unaligned. (1085 bp)
+		Unaligned bases: 1085  total: 191772
+
+CONTIG: NODE_135_length_1079_cov_0.610294_ID_13314 (1079bp)
+		This contig is unaligned. (1079 bp)
+		Unaligned bases: 1079  total: 192851
+
+CONTIG: NODE_136_length_1071_cov_1.10487_ID_13316 (1071bp)
+		This contig is unaligned. (1071 bp)
+		Unaligned bases: 1071  total: 193922
+
+CONTIG: NODE_137_length_1070_cov_1.07317_ID_13318 (1070bp)
+		This contig is unaligned. (1070 bp)
+		Unaligned bases: 1070  total: 194992
+
+CONTIG: NODE_138_length_1069_cov_1.19639_ID_13320 (1069bp)
+		This contig is unaligned. (1069 bp)
+		Unaligned bases: 1069  total: 196061
+
+CONTIG: NODE_139_length_1068_cov_1.01488_ID_13322 (1068bp)
+		This contig is unaligned. (1068 bp)
+		Unaligned bases: 1068  total: 197129
+
+CONTIG: NODE_140_length_1066_cov_0.960596_ID_13328 (1066bp)
+		This contig is unaligned. (1066 bp)
+		Unaligned bases: 1066  total: 198195
+
+CONTIG: NODE_141_length_1061_cov_1.02998_ID_13330 (1061bp)
+		This contig is unaligned. (1061 bp)
+		Unaligned bases: 1061  total: 199256
+
+CONTIG: NODE_142_length_1056_cov_1.02153_ID_13332 (1056bp)
+		This contig is unaligned. (1056 bp)
+		Unaligned bases: 1056  total: 200312
+
+CONTIG: NODE_143_length_1055_cov_0.90625_ID_13334 (1055bp)
+		This contig is unaligned. (1055 bp)
+		Unaligned bases: 1055  total: 201367
+
+CONTIG: NODE_144_length_1054_cov_1.21575_ID_13336 (1054bp)
+		This contig is unaligned. (1054 bp)
+		Unaligned bases: 1054  total: 202421
+
+CONTIG: NODE_145_length_1053_cov_0.970842_ID_13338 (1053bp)
+		This contig is unaligned. (1053 bp)
+		Unaligned bases: 1053  total: 203474
+
+CONTIG: NODE_146_length_1052_cov_1.33622_ID_13340 (1052bp)
+		This contig is unaligned. (1052 bp)
+		Unaligned bases: 1052  total: 204526
+
+CONTIG: NODE_147_length_1048_cov_0.785016_ID_13342 (1048bp)
+		This contig is unaligned. (1048 bp)
+		Unaligned bases: 1048  total: 205574
+
+CONTIG: NODE_148_length_1046_cov_1.05332_ID_13344 (1046bp)
+		This contig is unaligned. (1046 bp)
+		Unaligned bases: 1046  total: 206620
+
+CONTIG: NODE_149_length_1046_cov_1.40479_ID_13346 (1046bp)
+		This contig is unaligned. (1046 bp)
+		Unaligned bases: 1046  total: 207666
+
+CONTIG: NODE_150_length_1045_cov_1.06863_ID_13348 (1045bp)
+		This contig is unaligned. (1045 bp)
+		Unaligned bases: 1045  total: 208711
+
+CONTIG: NODE_151_length_1038_cov_1.53787_ID_13350 (1038bp)
+		This contig is unaligned. (1038 bp)
+		Unaligned bases: 1038  total: 209749
+
+CONTIG: NODE_152_length_1038_cov_0.552141_ID_13352 (1038bp)
+		This contig is unaligned. (1038 bp)
+		Unaligned bases: 1038  total: 210787
+
+CONTIG: NODE_153_length_1037_cov_1.27912_ID_13354 (1037bp)
+		This contig is unaligned. (1037 bp)
+		Unaligned bases: 1037  total: 211824
+
+CONTIG: NODE_154_length_1032_cov_0.859669_ID_13356 (1032bp)
+		This contig is unaligned. (1032 bp)
+		Unaligned bases: 1032  total: 212856
+
+CONTIG: NODE_155_length_1028_cov_0.655938_ID_13358 (1028bp)
+		This contig is unaligned. (1028 bp)
+		Unaligned bases: 1028  total: 213884
+
+CONTIG: NODE_156_length_1026_cov_0.967742_ID_13360 (1026bp)
+		This contig is unaligned. (1026 bp)
+		Unaligned bases: 1026  total: 214910
+
+CONTIG: NODE_157_length_1022_cov_0.893855_ID_13362 (1022bp)
+		This contig is unaligned. (1022 bp)
+		Unaligned bases: 1022  total: 215932
+
+CONTIG: NODE_158_length_1022_cov_1.09721_ID_13364 (1022bp)
+		This contig is unaligned. (1022 bp)
+		Unaligned bases: 1022  total: 216954
+
+CONTIG: NODE_159_length_1021_cov_1.12081_ID_13366 (1021bp)
+		This contig is unaligned. (1021 bp)
+		Unaligned bases: 1021  total: 217975
+
+CONTIG: NODE_160_length_1020_cov_1.11982_ID_13368 (1020bp)
+		This contig is unaligned. (1020 bp)
+		Unaligned bases: 1020  total: 218995
+
+CONTIG: NODE_161_length_1014_cov_1.05975_ID_13370 (1014bp)
+		This contig is unaligned. (1014 bp)
+		Unaligned bases: 1014  total: 220009
+
+CONTIG: NODE_162_length_1006_cov_1.05802_ID_13372 (1006bp)
+		This contig is unaligned. (1006 bp)
+		Unaligned bases: 1006  total: 221015
+
+CONTIG: NODE_163_length_1005_cov_0.912301_ID_13374 (1005bp)
+		This contig is unaligned. (1005 bp)
+		Unaligned bases: 1005  total: 222020
+
+CONTIG: NODE_164_length_998_cov_0.646383_ID_13376 (998bp)
+		This contig is unaligned. (998 bp)
+		Unaligned bases: 998  total: 223018
+
+CONTIG: NODE_165_length_989_cov_0.62297_ID_13378 (989bp)
+		This contig is unaligned. (989 bp)
+		Unaligned bases: 989  total: 224007
+
+CONTIG: NODE_166_length_986_cov_1.16997_ID_13380 (986bp)
+		This contig is unaligned. (986 bp)
+		Unaligned bases: 986  total: 224993
+
+CONTIG: NODE_167_length_984_cov_0.924154_ID_13382 (984bp)
+		This contig is unaligned. (984 bp)
+		Unaligned bases: 984  total: 225977
+
+CONTIG: NODE_168_length_983_cov_0.915888_ID_13384 (983bp)
+		This contig is unaligned. (983 bp)
+		Unaligned bases: 983  total: 226960
+
+CONTIG: NODE_169_length_982_cov_0.840936_ID_13386 (982bp)
+		This contig is unaligned. (982 bp)
+		Unaligned bases: 982  total: 227942
+
+CONTIG: NODE_170_length_980_cov_1.95428_ID_13388 (980bp)
+		This contig is unaligned. (980 bp)
+		Unaligned bases: 980  total: 228922
+
+CONTIG: NODE_171_length_980_cov_0.80891_ID_13390 (980bp)
+		This contig is unaligned. (980 bp)
+		Unaligned bases: 980  total: 229902
+
+CONTIG: NODE_172_length_980_cov_0.883939_ID_13392 (980bp)
+		This contig is unaligned. (980 bp)
+		Unaligned bases: 980  total: 230882
+
+CONTIG: NODE_173_length_978_cov_1.22679_ID_13394 (978bp)
+		This contig is unaligned. (978 bp)
+		Unaligned bases: 978  total: 231860
+
+CONTIG: NODE_174_length_975_cov_1.55071_ID_13396 (975bp)
+		This contig is unaligned. (975 bp)
+		Unaligned bases: 975  total: 232835
+
+CONTIG: NODE_175_length_972_cov_1.33846_ID_13398 (972bp)
+		This contig is unaligned. (972 bp)
+		Unaligned bases: 972  total: 233807
+
+CONTIG: NODE_176_length_970_cov_0.596679_ID_13400 (970bp)
+		This contig is unaligned. (970 bp)
+		Unaligned bases: 970  total: 234777
+
+CONTIG: NODE_177_length_970_cov_624.897_ID_13402 (970bp)
+		This contig is unaligned. (970 bp)
+		Unaligned bases: 970  total: 235747
+
+CONTIG: NODE_178_length_967_cov_1.14286_ID_13404 (967bp)
+		This contig is unaligned. (967 bp)
+		Unaligned bases: 967  total: 236714
+
+CONTIG: NODE_179_length_967_cov_1.05_ID_13406 (967bp)
+		This contig is unaligned. (967 bp)
+		Unaligned bases: 967  total: 237681
+
+CONTIG: NODE_180_length_963_cov_0.818182_ID_13408 (963bp)
+		This contig is unaligned. (963 bp)
+		Unaligned bases: 963  total: 238644
+
+CONTIG: NODE_181_length_962_cov_0.956886_ID_13410 (962bp)
+		This contig is unaligned. (962 bp)
+		Unaligned bases: 962  total: 239606
+
+CONTIG: NODE_182_length_961_cov_0.702638_ID_13412 (961bp)
+		This contig is unaligned. (961 bp)
+		Unaligned bases: 961  total: 240567
+
+CONTIG: NODE_183_length_960_cov_0.992797_ID_13414 (960bp)
+		This contig is unaligned. (960 bp)
+		Unaligned bases: 960  total: 241527
+
+CONTIG: NODE_184_length_960_cov_0.948379_ID_13416 (960bp)
+		This contig is unaligned. (960 bp)
+		Unaligned bases: 960  total: 242487
+
+CONTIG: NODE_185_length_959_cov_0.888221_ID_13418 (959bp)
+		This contig is unaligned. (959 bp)
+		Unaligned bases: 959  total: 243446
+
+CONTIG: NODE_186_length_959_cov_0.84375_ID_13420 (959bp)
+		This contig is unaligned. (959 bp)
+		Unaligned bases: 959  total: 244405
+
+CONTIG: NODE_187_length_958_cov_314.155_ID_13422 (958bp)
+Top Length: 958  Top ID: 97.91
+		This contig has 2 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 1707406 1708363 | 1 958 | 958 958 | 97.91 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_187_length_958_cov_314.155_ID_13422
+		Skipping alignment  1455360 1456317 | 958 1 | 958 958 | 97.29 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_187_length_958_cov_314.155_ID_13422
+
+CONTIG: NODE_188_length_957_cov_0.790361_ID_13424 (957bp)
+		This contig is unaligned. (957 bp)
+		Unaligned bases: 957  total: 245362
+
+CONTIG: NODE_189_length_954_cov_1.23579_ID_13426 (954bp)
+		This contig is unaligned. (954 bp)
+		Unaligned bases: 954  total: 246316
+
+CONTIG: NODE_190_length_953_cov_0.90799_ID_13428 (953bp)
+		This contig is unaligned. (953 bp)
+		Unaligned bases: 953  total: 247269
+
+CONTIG: NODE_191_length_949_cov_0.875912_ID_13430 (949bp)
+		This contig is unaligned. (949 bp)
+		Unaligned bases: 949  total: 248218
+
+CONTIG: NODE_192_length_949_cov_1.00973_ID_13432 (949bp)
+		This contig is unaligned. (949 bp)
+		Unaligned bases: 949  total: 249167
+
+CONTIG: NODE_193_length_946_cov_1.13187_ID_13434 (946bp)
+		This contig is unaligned. (946 bp)
+		Unaligned bases: 946  total: 250113
+
+CONTIG: NODE_194_length_941_cov_0.871007_ID_13436 (941bp)
+		This contig is unaligned. (941 bp)
+		Unaligned bases: 941  total: 251054
+
+CONTIG: NODE_195_length_937_cov_0.744444_ID_13438 (937bp)
+		This contig is unaligned. (937 bp)
+		Unaligned bases: 937  total: 251991
+
+CONTIG: NODE_196_length_936_cov_1.1199_ID_13440 (936bp)
+		This contig is unaligned. (936 bp)
+		Unaligned bases: 936  total: 252927
+
+CONTIG: NODE_197_length_935_cov_1.11262_ID_13442 (935bp)
+		This contig is unaligned. (935 bp)
+		Unaligned bases: 935  total: 253862
+
+CONTIG: NODE_198_length_935_cov_0.605198_ID_13444 (935bp)
+		This contig is unaligned. (935 bp)
+		Unaligned bases: 935  total: 254797
+
+CONTIG: NODE_199_length_934_cov_0.933086_ID_13446 (934bp)
+		This contig is unaligned. (934 bp)
+		Unaligned bases: 934  total: 255731
+
+CONTIG: NODE_200_length_932_cov_0.880745_ID_13448 (932bp)
+		This contig is unaligned. (932 bp)
+		Unaligned bases: 932  total: 256663
+
+CONTIG: NODE_201_length_930_cov_0.936488_ID_13450 (930bp)
+		This contig is unaligned. (930 bp)
+		Unaligned bases: 930  total: 257593
+
+CONTIG: NODE_202_length_927_cov_0.93875_ID_13452 (927bp)
+		This contig is unaligned. (927 bp)
+		Unaligned bases: 927  total: 258520
+
+CONTIG: NODE_203_length_926_cov_0.869837_ID_13454 (926bp)
+		This contig is unaligned. (926 bp)
+		Unaligned bases: 926  total: 259446
+
+CONTIG: NODE_204_length_921_cov_0.955919_ID_13456 (921bp)
+		This contig is unaligned. (921 bp)
+		Unaligned bases: 921  total: 260367
+
+CONTIG: NODE_205_length_919_cov_0.536616_ID_13458 (919bp)
+		This contig is unaligned. (919 bp)
+		Unaligned bases: 919  total: 261286
+
+CONTIG: NODE_206_length_918_cov_1.35145_ID_13460 (918bp)
+		This contig is unaligned. (918 bp)
+		Unaligned bases: 918  total: 262204
+
+CONTIG: NODE_207_length_917_cov_0.902532_ID_13462 (917bp)
+		This contig is unaligned. (917 bp)
+		Unaligned bases: 917  total: 263121
+
+CONTIG: NODE_208_length_912_cov_0.745223_ID_13468 (912bp)
+		This contig is unaligned. (912 bp)
+		Unaligned bases: 912  total: 264033
+
+CONTIG: NODE_209_length_911_cov_1.06505_ID_13470 (911bp)
+		This contig is unaligned. (911 bp)
+		Unaligned bases: 911  total: 264944
+
+CONTIG: NODE_210_length_910_cov_1.22222_ID_13472 (910bp)
+		This contig is unaligned. (910 bp)
+		Unaligned bases: 910  total: 265854
+
+CONTIG: NODE_211_length_910_cov_1.89783_ID_13474 (910bp)
+		This contig is unaligned. (910 bp)
+		Unaligned bases: 910  total: 266764
+
+CONTIG: NODE_212_length_907_cov_0.916667_ID_13476 (907bp)
+		This contig is unaligned. (907 bp)
+		Unaligned bases: 907  total: 267671
+
+CONTIG: NODE_213_length_905_cov_1.10026_ID_13478 (905bp)
+		This contig is unaligned. (905 bp)
+		Unaligned bases: 905  total: 268576
+
+CONTIG: NODE_214_length_905_cov_0.958869_ID_13480 (905bp)
+		This contig is unaligned. (905 bp)
+		Unaligned bases: 905  total: 269481
+
+CONTIG: NODE_215_length_901_cov_1.49483_ID_13482 (901bp)
+		This contig is unaligned. (901 bp)
+		Unaligned bases: 901  total: 270382
+
+CONTIG: NODE_216_length_901_cov_0.896641_ID_13484 (901bp)
+		This contig is unaligned. (901 bp)
+		Unaligned bases: 901  total: 271283
+
+CONTIG: NODE_217_length_899_cov_1.23964_ID_13486 (899bp)
+		This contig is unaligned. (899 bp)
+		Unaligned bases: 899  total: 272182
+
+CONTIG: NODE_218_length_898_cov_1.36446_ID_13488 (898bp)
+		This contig is unaligned. (898 bp)
+		Unaligned bases: 898  total: 273080
+
+CONTIG: NODE_219_length_898_cov_0.821012_ID_13490 (898bp)
+		This contig is unaligned. (898 bp)
+		Unaligned bases: 898  total: 273978
+
+CONTIG: NODE_220_length_895_cov_1.44922_ID_13492 (895bp)
+		This contig is unaligned. (895 bp)
+		Unaligned bases: 895  total: 274873
+
+CONTIG: NODE_221_length_891_cov_0.784031_ID_13494 (891bp)
+		This contig is unaligned. (891 bp)
+		Unaligned bases: 891  total: 275764
+
+CONTIG: NODE_222_length_890_cov_1.09305_ID_13496 (890bp)
+		This contig is unaligned. (890 bp)
+		Unaligned bases: 890  total: 276654
+
+CONTIG: NODE_223_length_889_cov_0.817585_ID_13498 (889bp)
+		This contig is unaligned. (889 bp)
+		Unaligned bases: 889  total: 277543
+
+CONTIG: NODE_224_length_886_cov_1.24638_ID_13500 (886bp)
+		This contig is unaligned. (886 bp)
+		Unaligned bases: 886  total: 278429
+
+CONTIG: NODE_225_length_885_cov_1.11478_ID_13502 (885bp)
+		This contig is unaligned. (885 bp)
+		Unaligned bases: 885  total: 279314
+
+CONTIG: NODE_226_length_884_cov_1.1638_ID_13504 (884bp)
+		This contig is unaligned. (884 bp)
+		Unaligned bases: 884  total: 280198
+
+CONTIG: NODE_227_length_880_cov_0.754316_ID_13506 (880bp)
+		This contig is unaligned. (880 bp)
+		Unaligned bases: 880  total: 281078
+
+CONTIG: NODE_228_length_879_cov_0.933511_ID_13508 (879bp)
+		This contig is unaligned. (879 bp)
+		Unaligned bases: 879  total: 281957
+
+CONTIG: NODE_229_length_876_cov_0.712951_ID_13510 (876bp)
+		This contig is unaligned. (876 bp)
+		Unaligned bases: 876  total: 282833
+
+CONTIG: NODE_230_length_873_cov_1.2118_ID_13512 (873bp)
+		This contig is unaligned. (873 bp)
+		Unaligned bases: 873  total: 283706
+
+CONTIG: NODE_231_length_872_cov_0.848322_ID_13514 (872bp)
+		This contig is unaligned. (872 bp)
+		Unaligned bases: 872  total: 284578
+
+CONTIG: NODE_232_length_871_cov_0.997312_ID_13516 (871bp)
+		This contig is unaligned. (871 bp)
+		Unaligned bases: 871  total: 285449
+
+CONTIG: NODE_233_length_870_cov_0.862719_ID_13518 (870bp)
+		This contig is unaligned. (870 bp)
+		Unaligned bases: 870  total: 286319
+
+CONTIG: NODE_234_length_870_cov_1.17362_ID_13520 (870bp)
+		This contig is unaligned. (870 bp)
+		Unaligned bases: 870  total: 287189
+
+CONTIG: NODE_235_length_870_cov_1.17631_ID_13522 (870bp)
+		This contig is unaligned. (870 bp)
+		Unaligned bases: 870  total: 288059
+
+CONTIG: NODE_236_length_869_cov_0.625337_ID_13524 (869bp)
+		This contig is unaligned. (869 bp)
+		Unaligned bases: 869  total: 288928
+
+CONTIG: NODE_237_length_867_cov_0.855405_ID_13526 (867bp)
+		This contig is unaligned. (867 bp)
+		Unaligned bases: 867  total: 289795
+
+CONTIG: NODE_238_length_862_cov_0.814966_ID_13528 (862bp)
+		This contig is unaligned. (862 bp)
+		Unaligned bases: 862  total: 290657
+
+CONTIG: NODE_239_length_860_cov_0.859482_ID_13530 (860bp)
+		This contig is unaligned. (860 bp)
+		Unaligned bases: 860  total: 291517
+
+CONTIG: NODE_240_length_859_cov_1.51093_ID_13532 (859bp)
+		This contig is unaligned. (859 bp)
+		Unaligned bases: 859  total: 292376
+
+CONTIG: NODE_241_length_858_cov_1.00821_ID_13534 (858bp)
+		This contig is unaligned. (858 bp)
+		Unaligned bases: 858  total: 293234
+
+CONTIG: NODE_242_length_858_cov_1.19973_ID_13182 (858bp)
+		This contig is unaligned. (858 bp)
+		Unaligned bases: 858  total: 294092
+
+CONTIG: NODE_243_length_855_cov_1.31593_ID_13536 (855bp)
+		This contig is unaligned. (855 bp)
+		Unaligned bases: 855  total: 294947
+
+CONTIG: NODE_244_length_855_cov_0.751374_ID_13538 (855bp)
+		This contig is unaligned. (855 bp)
+		Unaligned bases: 855  total: 295802
+
+CONTIG: NODE_245_length_855_cov_334.082_ID_13540 (855bp)
+		This contig is unaligned. (855 bp)
+		Unaligned bases: 855  total: 296657
+
+CONTIG: NODE_246_length_853_cov_1.02617_ID_13542 (853bp)
+		This contig is unaligned. (853 bp)
+		Unaligned bases: 853  total: 297510
+
+CONTIG: NODE_247_length_853_cov_0.891185_ID_13544 (853bp)
+		This contig is unaligned. (853 bp)
+		Unaligned bases: 853  total: 298363
+
+CONTIG: NODE_248_length_853_cov_1.04683_ID_13546 (853bp)
+		This contig is unaligned. (853 bp)
+		Unaligned bases: 853  total: 299216
+
+CONTIG: NODE_249_length_850_cov_0.84509_ID_13548 (850bp)
+		This contig is unaligned. (850 bp)
+		Unaligned bases: 850  total: 300066
+
+CONTIG: NODE_250_length_849_cov_0.890582_ID_13550 (849bp)
+		This contig is unaligned. (849 bp)
+		Unaligned bases: 849  total: 300915
+
+CONTIG: NODE_251_length_848_cov_1.31761_ID_13552 (848bp)
+		This contig is unaligned. (848 bp)
+		Unaligned bases: 848  total: 301763
+
+CONTIG: NODE_252_length_848_cov_0.823856_ID_13554 (848bp)
+		This contig is unaligned. (848 bp)
+		Unaligned bases: 848  total: 302611
+
+CONTIG: NODE_253_length_846_cov_1.36718_ID_13556 (846bp)
+		This contig is unaligned. (846 bp)
+		Unaligned bases: 846  total: 303457
+
+CONTIG: NODE_254_length_846_cov_0.809458_ID_13558 (846bp)
+		This contig is unaligned. (846 bp)
+		Unaligned bases: 846  total: 304303
+
+CONTIG: NODE_255_length_845_cov_1.04318_ID_13560 (845bp)
+		This contig is unaligned. (845 bp)
+		Unaligned bases: 845  total: 305148
+
+CONTIG: NODE_256_length_845_cov_1.16713_ID_13562 (845bp)
+		This contig is unaligned. (845 bp)
+		Unaligned bases: 845  total: 305993
+
+CONTIG: NODE_257_length_843_cov_0.956704_ID_13564 (843bp)
+		This contig is unaligned. (843 bp)
+		Unaligned bases: 843  total: 306836
+
+CONTIG: NODE_258_length_840_cov_1.2777_ID_13566 (840bp)
+		This contig is unaligned. (840 bp)
+		Unaligned bases: 840  total: 307676
+
+CONTIG: NODE_259_length_838_cov_1.13502_ID_13568 (838bp)
+		This contig is unaligned. (838 bp)
+		Unaligned bases: 838  total: 308514
+
+CONTIG: NODE_260_length_837_cov_0.75493_ID_13570 (837bp)
+		This contig is unaligned. (837 bp)
+		Unaligned bases: 837  total: 309351
+
+CONTIG: NODE_261_length_837_cov_0.674648_ID_13572 (837bp)
+		This contig is unaligned. (837 bp)
+		Unaligned bases: 837  total: 310188
+
+CONTIG: NODE_262_length_835_cov_1.19915_ID_13574 (835bp)
+		This contig is unaligned. (835 bp)
+		Unaligned bases: 835  total: 311023
+
+CONTIG: NODE_263_length_834_cov_1.04243_ID_13576 (834bp)
+		This contig is unaligned. (834 bp)
+		Unaligned bases: 834  total: 311857
+
+CONTIG: NODE_264_length_831_cov_1.54119_ID_13578 (831bp)
+		This contig is unaligned. (831 bp)
+		Unaligned bases: 831  total: 312688
+
+CONTIG: NODE_265_length_830_cov_1.22191_ID_13580 (830bp)
+		This contig is unaligned. (830 bp)
+		Unaligned bases: 830  total: 313518
+
+CONTIG: NODE_266_length_830_cov_1.65149_ID_13582 (830bp)
+		This contig is unaligned. (830 bp)
+		Unaligned bases: 830  total: 314348
+
+CONTIG: NODE_267_length_830_cov_0.746799_ID_13584 (830bp)
+		This contig is unaligned. (830 bp)
+		Unaligned bases: 830  total: 315178
+
+CONTIG: NODE_268_length_829_cov_1.16382_ID_13586 (829bp)
+		This contig is unaligned. (829 bp)
+		Unaligned bases: 829  total: 316007
+
+CONTIG: NODE_269_length_828_cov_0.988588_ID_13588 (828bp)
+		This contig is unaligned. (828 bp)
+		Unaligned bases: 828  total: 316835
+
+CONTIG: NODE_270_length_827_cov_0.864286_ID_13590 (827bp)
+		This contig is unaligned. (827 bp)
+		Unaligned bases: 827  total: 317662
+
+CONTIG: NODE_271_length_826_cov_0.834049_ID_13592 (826bp)
+		This contig is unaligned. (826 bp)
+		Unaligned bases: 826  total: 318488
+
+CONTIG: NODE_272_length_824_cov_1.54232_ID_13594 (824bp)
+		This contig is unaligned. (824 bp)
+		Unaligned bases: 824  total: 319312
+
+CONTIG: NODE_273_length_823_cov_1.05316_ID_13596 (823bp)
+		This contig is unaligned. (823 bp)
+		Unaligned bases: 823  total: 320135
+
+CONTIG: NODE_274_length_823_cov_1.06609_ID_13598 (823bp)
+		This contig is unaligned. (823 bp)
+		Unaligned bases: 823  total: 320958
+
+CONTIG: NODE_275_length_821_cov_0.668588_ID_13600 (821bp)
+		This contig is unaligned. (821 bp)
+		Unaligned bases: 821  total: 321779
+
+CONTIG: NODE_276_length_821_cov_0.664265_ID_13602 (821bp)
+		This contig is unaligned. (821 bp)
+		Unaligned bases: 821  total: 322600
+
+CONTIG: NODE_277_length_821_cov_0.644092_ID_13604 (821bp)
+		This contig is unaligned. (821 bp)
+		Unaligned bases: 821  total: 323421
+
+CONTIG: NODE_278_length_818_cov_0.739508_ID_13606 (818bp)
+		This contig is unaligned. (818 bp)
+		Unaligned bases: 818  total: 324239
+
+CONTIG: NODE_279_length_818_cov_1.1042_ID_13608 (818bp)
+		This contig is unaligned. (818 bp)
+		Unaligned bases: 818  total: 325057
+
+CONTIG: NODE_280_length_816_cov_0.952104_ID_13610 (816bp)
+		This contig is unaligned. (816 bp)
+		Unaligned bases: 816  total: 325873
+
+CONTIG: NODE_281_length_814_cov_1.16739_ID_13612 (814bp)
+		This contig is unaligned. (814 bp)
+		Unaligned bases: 814  total: 326687
+
+CONTIG: NODE_282_length_813_cov_0.779883_ID_13614 (813bp)
+		This contig is unaligned. (813 bp)
+		Unaligned bases: 813  total: 327500
+
+CONTIG: NODE_283_length_812_cov_1.2292_ID_13616 (812bp)
+		This contig is unaligned. (812 bp)
+		Unaligned bases: 812  total: 328312
+
+CONTIG: NODE_284_length_812_cov_0.89635_ID_13618 (812bp)
+		This contig is unaligned. (812 bp)
+		Unaligned bases: 812  total: 329124
+
+CONTIG: NODE_285_length_811_cov_1.21345_ID_13620 (811bp)
+		This contig is unaligned. (811 bp)
+		Unaligned bases: 811  total: 329935
+
+CONTIG: NODE_286_length_811_cov_1.33918_ID_13622 (811bp)
+		This contig is unaligned. (811 bp)
+		Unaligned bases: 811  total: 330746
+
+CONTIG: NODE_287_length_811_cov_1.36404_ID_13624 (811bp)
+		This contig is unaligned. (811 bp)
+		Unaligned bases: 811  total: 331557
+
+CONTIG: NODE_288_length_811_cov_1.23538_ID_13626 (811bp)
+		This contig is unaligned. (811 bp)
+		Unaligned bases: 811  total: 332368
+
+CONTIG: NODE_289_length_811_cov_0.679825_ID_13628 (811bp)
+		This contig is unaligned. (811 bp)
+		Unaligned bases: 811  total: 333179
+
+CONTIG: NODE_290_length_809_cov_1.54985_ID_13630 (809bp)
+		This contig is unaligned. (809 bp)
+		Unaligned bases: 809  total: 333988
+
+CONTIG: NODE_291_length_809_cov_0.686217_ID_13632 (809bp)
+		This contig is unaligned. (809 bp)
+		Unaligned bases: 809  total: 334797
+
+CONTIG: NODE_292_length_808_cov_0.788546_ID_13634 (808bp)
+		This contig is unaligned. (808 bp)
+		Unaligned bases: 808  total: 335605
+
+CONTIG: NODE_293_length_808_cov_1.81645_ID_13636 (808bp)
+		This contig is unaligned. (808 bp)
+		Unaligned bases: 808  total: 336413
+
+CONTIG: NODE_294_length_807_cov_1.36912_ID_13638 (807bp)
+		This contig is unaligned. (807 bp)
+		Unaligned bases: 807  total: 337220
+
+CONTIG: NODE_295_length_806_cov_0.952872_ID_13640 (806bp)
+		This contig is unaligned. (806 bp)
+		Unaligned bases: 806  total: 338026
+
+CONTIG: NODE_296_length_806_cov_0.73785_ID_13642 (806bp)
+		This contig is unaligned. (806 bp)
+		Unaligned bases: 806  total: 338832
+
+CONTIG: NODE_297_length_801_cov_0.728487_ID_13644 (801bp)
+		This contig is unaligned. (801 bp)
+		Unaligned bases: 801  total: 339633
+
+CONTIG: NODE_298_length_799_cov_0.754464_ID_13646 (799bp)
+		This contig is unaligned. (799 bp)
+		Unaligned bases: 799  total: 340432
+
+CONTIG: NODE_299_length_799_cov_0.988095_ID_13648 (799bp)
+		This contig is unaligned. (799 bp)
+		Unaligned bases: 799  total: 341231
+
+CONTIG: NODE_300_length_796_cov_0.953662_ID_13650 (796bp)
+		This contig is unaligned. (796 bp)
+		Unaligned bases: 796  total: 342027
+
+CONTIG: NODE_301_length_796_cov_0.554559_ID_13652 (796bp)
+		This contig is unaligned. (796 bp)
+		Unaligned bases: 796  total: 342823
+
+CONTIG: NODE_302_length_794_cov_0.931034_ID_13654 (794bp)
+		This contig is unaligned. (794 bp)
+		Unaligned bases: 794  total: 343617
+
+CONTIG: NODE_303_length_792_cov_1.48722_ID_13656 (792bp)
+		This contig is unaligned. (792 bp)
+		Unaligned bases: 792  total: 344409
+
+CONTIG: NODE_304_length_792_cov_1.34887_ID_13658 (792bp)
+		This contig is unaligned. (792 bp)
+		Unaligned bases: 792  total: 345201
+
+CONTIG: NODE_305_length_792_cov_0.625564_ID_13660 (792bp)
+		This contig is unaligned. (792 bp)
+		Unaligned bases: 792  total: 345993
+
+CONTIG: NODE_306_length_791_cov_0.819277_ID_13662 (791bp)
+		This contig is unaligned. (791 bp)
+		Unaligned bases: 791  total: 346784
+
+CONTIG: NODE_307_length_789_cov_0.81571_ID_13664 (789bp)
+		This contig is unaligned. (789 bp)
+		Unaligned bases: 789  total: 347573
+
+CONTIG: NODE_308_length_787_cov_0.801515_ID_13666 (787bp)
+		This contig is unaligned. (787 bp)
+		Unaligned bases: 787  total: 348360
+
+CONTIG: NODE_309_length_786_cov_0.93475_ID_13668 (786bp)
+		This contig is unaligned. (786 bp)
+		Unaligned bases: 786  total: 349146
+
+CONTIG: NODE_310_length_785_cov_0.819149_ID_13670 (785bp)
+		This contig is unaligned. (785 bp)
+		Unaligned bases: 785  total: 349931
+
+CONTIG: NODE_311_length_785_cov_1.27812_ID_13672 (785bp)
+		This contig is unaligned. (785 bp)
+		Unaligned bases: 785  total: 350716
+
+CONTIG: NODE_312_length_785_cov_0.960486_ID_13674 (785bp)
+		This contig is unaligned. (785 bp)
+		Unaligned bases: 785  total: 351501
+
+CONTIG: NODE_313_length_783_cov_0.670732_ID_13676 (783bp)
+		This contig is unaligned. (783 bp)
+		Unaligned bases: 783  total: 352284
+
+CONTIG: NODE_314_length_782_cov_0.818321_ID_13678 (782bp)
+		This contig is unaligned. (782 bp)
+		Unaligned bases: 782  total: 353066
+
+CONTIG: NODE_315_length_780_cov_1.70444_ID_13680 (780bp)
+		This contig is unaligned. (780 bp)
+		Unaligned bases: 780  total: 353846
+
+CONTIG: NODE_316_length_780_cov_1.31547_ID_13682 (780bp)
+		This contig is unaligned. (780 bp)
+		Unaligned bases: 780  total: 354626
+
+CONTIG: NODE_317_length_780_cov_1.10107_ID_13684 (780bp)
+		This contig is unaligned. (780 bp)
+		Unaligned bases: 780  total: 355406
+
+CONTIG: NODE_318_length_777_cov_1.10923_ID_13686 (777bp)
+		This contig is unaligned. (777 bp)
+		Unaligned bases: 777  total: 356183
+
+CONTIG: NODE_319_length_777_cov_1.12923_ID_13688 (777bp)
+		This contig is unaligned. (777 bp)
+		Unaligned bases: 777  total: 356960
+
+CONTIG: NODE_320_length_775_cov_1.28395_ID_13690 (775bp)
+		This contig is unaligned. (775 bp)
+		Unaligned bases: 775  total: 357735
+
+CONTIG: NODE_321_length_775_cov_1.5108_ID_13692 (775bp)
+		This contig is unaligned. (775 bp)
+		Unaligned bases: 775  total: 358510
+
+CONTIG: NODE_322_length_775_cov_0.976852_ID_13694 (775bp)
+		This contig is unaligned. (775 bp)
+		Unaligned bases: 775  total: 359285
+
+CONTIG: NODE_323_length_772_cov_0.782946_ID_13696 (772bp)
+		This contig is unaligned. (772 bp)
+		Unaligned bases: 772  total: 360057
+
+CONTIG: NODE_324_length_772_cov_0.945736_ID_13698 (772bp)
+		This contig is unaligned. (772 bp)
+		Unaligned bases: 772  total: 360829
+
+CONTIG: NODE_325_length_771_cov_1.58696_ID_13700 (771bp)
+		This contig is unaligned. (771 bp)
+		Unaligned bases: 771  total: 361600
+
+CONTIG: NODE_326_length_771_cov_1_ID_13702 (771bp)
+		This contig is unaligned. (771 bp)
+		Unaligned bases: 771  total: 362371
+
+CONTIG: NODE_327_length_771_cov_1.48602_ID_13704 (771bp)
+		This contig is unaligned. (771 bp)
+		Unaligned bases: 771  total: 363142
+
+CONTIG: NODE_328_length_771_cov_0.962733_ID_13706 (771bp)
+		This contig is unaligned. (771 bp)
+		Unaligned bases: 771  total: 363913
+
+CONTIG: NODE_329_length_770_cov_0.830482_ID_13708 (770bp)
+		This contig is unaligned. (770 bp)
+		Unaligned bases: 770  total: 364683
+
+CONTIG: NODE_330_length_768_cov_0.705148_ID_13710 (768bp)
+		This contig is unaligned. (768 bp)
+		Unaligned bases: 768  total: 365451
+
+CONTIG: NODE_331_length_767_cov_1.44375_ID_13236 (767bp)
+		This contig is unaligned. (767 bp)
+		Unaligned bases: 767  total: 366218
+
+CONTIG: NODE_332_length_767_cov_1.44063_ID_13712 (767bp)
+		This contig is unaligned. (767 bp)
+		Unaligned bases: 767  total: 366985
+
+CONTIG: NODE_333_length_767_cov_1.67344_ID_13714 (767bp)
+		This contig is unaligned. (767 bp)
+		Unaligned bases: 767  total: 367752
+
+CONTIG: NODE_334_length_766_cov_0.87011_ID_13716 (766bp)
+		This contig is unaligned. (766 bp)
+		Unaligned bases: 766  total: 368518
+
+CONTIG: NODE_335_length_764_cov_1.05181_ID_13718 (764bp)
+		This contig is unaligned. (764 bp)
+		Unaligned bases: 764  total: 369282
+
+CONTIG: NODE_336_length_761_cov_0.695584_ID_13720 (761bp)
+		This contig is unaligned. (761 bp)
+		Unaligned bases: 761  total: 370043
+
+CONTIG: NODE_337_length_760_cov_1.37441_ID_13722 (760bp)
+		This contig is unaligned. (760 bp)
+		Unaligned bases: 760  total: 370803
+
+CONTIG: NODE_338_length_758_cov_1.17274_ID_13724 (758bp)
+		This contig is unaligned. (758 bp)
+		Unaligned bases: 758  total: 371561
+
+CONTIG: NODE_339_length_757_cov_1.61111_ID_13726 (757bp)
+		This contig is unaligned. (757 bp)
+		Unaligned bases: 757  total: 372318
+
+CONTIG: NODE_340_length_757_cov_0.830159_ID_13728 (757bp)
+		This contig is unaligned. (757 bp)
+		Unaligned bases: 757  total: 373075
+
+CONTIG: NODE_341_length_757_cov_1.00476_ID_13730 (757bp)
+		This contig is unaligned. (757 bp)
+		Unaligned bases: 757  total: 373832
+
+CONTIG: NODE_342_length_757_cov_0.615873_ID_13732 (757bp)
+		This contig is unaligned. (757 bp)
+		Unaligned bases: 757  total: 374589
+
+CONTIG: NODE_343_length_757_cov_1.32381_ID_13734 (757bp)
+		This contig is unaligned. (757 bp)
+		Unaligned bases: 757  total: 375346
+
+CONTIG: NODE_344_length_756_cov_0.969841_ID_13736 (756bp)
+		This contig is unaligned. (756 bp)
+		Unaligned bases: 756  total: 376102
+
+CONTIG: NODE_345_length_756_cov_0.680445_ID_13738 (756bp)
+		This contig is unaligned. (756 bp)
+		Unaligned bases: 756  total: 376858
+
+CONTIG: NODE_346_length_756_cov_1.14467_ID_13740 (756bp)
+		This contig is unaligned. (756 bp)
+		Unaligned bases: 756  total: 377614
+
+CONTIG: NODE_347_length_754_cov_0.984051_ID_13742 (754bp)
+		This contig is unaligned. (754 bp)
+		Unaligned bases: 754  total: 378368
+
+CONTIG: NODE_348_length_753_cov_1.42173_ID_13744 (753bp)
+		This contig is unaligned. (753 bp)
+		Unaligned bases: 753  total: 379121
+
+CONTIG: NODE_349_length_753_cov_0.889776_ID_13746 (753bp)
+		This contig is unaligned. (753 bp)
+		Unaligned bases: 753  total: 379874
+
+CONTIG: NODE_350_length_752_cov_0.8864_ID_13748 (752bp)
+		This contig is unaligned. (752 bp)
+		Unaligned bases: 752  total: 380626
+
+CONTIG: NODE_351_length_751_cov_0.685897_ID_13750 (751bp)
+		This contig is unaligned. (751 bp)
+		Unaligned bases: 751  total: 381377
+
+CONTIG: NODE_352_length_751_cov_0.690705_ID_13752 (751bp)
+		This contig is unaligned. (751 bp)
+		Unaligned bases: 751  total: 382128
+
+CONTIG: NODE_353_length_750_cov_0.853933_ID_13754 (750bp)
+		This contig is unaligned. (750 bp)
+		Unaligned bases: 750  total: 382878
+
+CONTIG: NODE_354_length_746_cov_1.36187_ID_13756 (746bp)
+		This contig is unaligned. (746 bp)
+		Unaligned bases: 746  total: 383624
+
+CONTIG: NODE_355_length_746_cov_0.978998_ID_13758 (746bp)
+		This contig is unaligned. (746 bp)
+		Unaligned bases: 746  total: 384370
+
+CONTIG: NODE_356_length_745_cov_1.81553_ID_13760 (745bp)
+		This contig is unaligned. (745 bp)
+		Unaligned bases: 745  total: 385115
+
+CONTIG: NODE_357_length_745_cov_1.02104_ID_13762 (745bp)
+		This contig is unaligned. (745 bp)
+		Unaligned bases: 745  total: 385860
+
+CONTIG: NODE_358_length_745_cov_0.919094_ID_13110 (745bp)
+		This contig is unaligned. (745 bp)
+		Unaligned bases: 745  total: 386605
+
+CONTIG: NODE_359_length_745_cov_1.15858_ID_13764 (745bp)
+		This contig is unaligned. (745 bp)
+		Unaligned bases: 745  total: 387350
+
+CONTIG: NODE_360_length_745_cov_1.09547_ID_13766 (745bp)
+		This contig is unaligned. (745 bp)
+		Unaligned bases: 745  total: 388095
+
+CONTIG: NODE_361_length_745_cov_0.695793_ID_13768 (745bp)
+		This contig is unaligned. (745 bp)
+		Unaligned bases: 745  total: 388840
+
+CONTIG: NODE_362_length_744_cov_1.31442_ID_13770 (744bp)
+		This contig is unaligned. (744 bp)
+		Unaligned bases: 744  total: 389584
+
+CONTIG: NODE_363_length_743_cov_1.01136_ID_13772 (743bp)
+		This contig is unaligned. (743 bp)
+		Unaligned bases: 743  total: 390327
+
+CONTIG: NODE_364_length_742_cov_0.665041_ID_13774 (742bp)
+		This contig is unaligned. (742 bp)
+		Unaligned bases: 742  total: 391069
+
+CONTIG: NODE_365_length_741_cov_1.55212_ID_13776 (741bp)
+		This contig is unaligned. (741 bp)
+		Unaligned bases: 741  total: 391810
+
+CONTIG: NODE_366_length_741_cov_0.692182_ID_13778 (741bp)
+		This contig is unaligned. (741 bp)
+		Unaligned bases: 741  total: 392551
+
+CONTIG: NODE_367_length_741_cov_0.954397_ID_13780 (741bp)
+		This contig is unaligned. (741 bp)
+		Unaligned bases: 741  total: 393292
+
+CONTIG: NODE_368_length_740_cov_1.05057_ID_13782 (740bp)
+		This contig is unaligned. (740 bp)
+		Unaligned bases: 740  total: 394032
+
+CONTIG: NODE_369_length_739_cov_1.12745_ID_13784 (739bp)
+		This contig is unaligned. (739 bp)
+		Unaligned bases: 739  total: 394771
+
+CONTIG: NODE_370_length_739_cov_0.789216_ID_13786 (739bp)
+		This contig is unaligned. (739 bp)
+		Unaligned bases: 739  total: 395510
+
+CONTIG: NODE_371_length_737_cov_0.944262_ID_13788 (737bp)
+		This contig is unaligned. (737 bp)
+		Unaligned bases: 737  total: 396247
+
+CONTIG: NODE_372_length_737_cov_0.788525_ID_13790 (737bp)
+		This contig is unaligned. (737 bp)
+		Unaligned bases: 737  total: 396984
+
+CONTIG: NODE_373_length_736_cov_1.02135_ID_13792 (736bp)
+		This contig is unaligned. (736 bp)
+		Unaligned bases: 736  total: 397720
+
+CONTIG: NODE_374_length_735_cov_0.870066_ID_13794 (735bp)
+		This contig is unaligned. (735 bp)
+		Unaligned bases: 735  total: 398455
+
+CONTIG: NODE_375_length_735_cov_355.505_ID_13796 (735bp)
+Top Length: 735  Top ID: 95.52
+		One align captures most of this contig: 1580163 1580897 | 1 735 | 735 735 | 95.52 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_375_length_735_cov_355.505_ID_13796
+
+CONTIG: NODE_376_length_732_cov_0.892562_ID_13798 (732bp)
+		This contig is unaligned. (732 bp)
+		Unaligned bases: 732  total: 399187
+
+CONTIG: NODE_377_length_732_cov_1.37355_ID_13800 (732bp)
+		This contig is unaligned. (732 bp)
+		Unaligned bases: 732  total: 399919
+
+CONTIG: NODE_378_length_732_cov_0.745455_ID_13802 (732bp)
+		This contig is unaligned. (732 bp)
+		Unaligned bases: 732  total: 400651
+
+CONTIG: NODE_379_length_732_cov_0.917355_ID_13804 (732bp)
+		This contig is unaligned. (732 bp)
+		Unaligned bases: 732  total: 401383
+
+CONTIG: NODE_380_length_732_cov_474.512_ID_13806 (732bp)
+Top Length: 729  Top ID: 96.04
+		Marking as insignificant: 807579 807705 | 127 1 | 127 127 | 98.43 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_380_length_732_cov_474.512_ID_13806
+		Marking as insignificant: 309376 309502 | 1 127 | 127 127 | 98.43 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_380_length_732_cov_474.512_ID_13806
+		Marking as insignificant: 192853 192979 | 1 127 | 127 127 | 98.43 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_380_length_732_cov_474.512_ID_13806
+		Marking as insignificant: 807219 807397 | 732 554 | 179 179 | 99.44 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_380_length_732_cov_474.512_ID_13806
+		Marking as insignificant: 309684 309862 | 554 732 | 179 179 | 99.44 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_380_length_732_cov_474.512_ID_13806
+		Marking as insignificant: 193161 193339 | 554 732 | 179 179 | 99.44 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_380_length_732_cov_474.512_ID_13806
+		This contig has 3 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 840543 841273 | 732 4 | 731 729 | 96.04 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_380_length_732_cov_474.512_ID_13806
+		Skipping alignment  682232 682956 | 4 732 | 725 729 | 95.76 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_380_length_732_cov_474.512_ID_13806
+		Skipping alignment  1904319 1905043 | 4 732 | 725 729 | 95.76 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_380_length_732_cov_474.512_ID_13806
+
+CONTIG: NODE_381_length_729_cov_0.715947_ID_13808 (729bp)
+		This contig is unaligned. (729 bp)
+		Unaligned bases: 729  total: 402112
+
+CONTIG: NODE_382_length_729_cov_0.581395_ID_13810 (729bp)
+		This contig is unaligned. (729 bp)
+		Unaligned bases: 729  total: 402841
+
+CONTIG: NODE_383_length_729_cov_0.523256_ID_13812 (729bp)
+		This contig is unaligned. (729 bp)
+		Unaligned bases: 729  total: 403570
+
+CONTIG: NODE_384_length_728_cov_1.28785_ID_13814 (728bp)
+		This contig is unaligned. (728 bp)
+		Unaligned bases: 728  total: 404298
+
+CONTIG: NODE_385_length_727_cov_0.893333_ID_13816 (727bp)
+		This contig is unaligned. (727 bp)
+		Unaligned bases: 727  total: 405025
+
+CONTIG: NODE_386_length_726_cov_0.701169_ID_13818 (726bp)
+		This contig is unaligned. (726 bp)
+		Unaligned bases: 726  total: 405751
+
+CONTIG: NODE_387_length_726_cov_1.20534_ID_13820 (726bp)
+		This contig is unaligned. (726 bp)
+		Unaligned bases: 726  total: 406477
+
+CONTIG: NODE_388_length_725_cov_1.16722_ID_13822 (725bp)
+		This contig is unaligned. (725 bp)
+		Unaligned bases: 725  total: 407202
+
+CONTIG: NODE_389_length_725_cov_0.643813_ID_13824 (725bp)
+		This contig is unaligned. (725 bp)
+		Unaligned bases: 725  total: 407927
+
+CONTIG: NODE_390_length_723_cov_0.753356_ID_13826 (723bp)
+		This contig is unaligned. (723 bp)
+		Unaligned bases: 723  total: 408650
+
+CONTIG: NODE_391_length_722_cov_1.06891_ID_13828 (722bp)
+		This contig is unaligned. (722 bp)
+		Unaligned bases: 722  total: 409372
+
+CONTIG: NODE_392_length_720_cov_1.31703_ID_13830 (720bp)
+		This contig is unaligned. (720 bp)
+		Unaligned bases: 720  total: 410092
+
+CONTIG: NODE_393_length_719_cov_0.836149_ID_13832 (719bp)
+		This contig is unaligned. (719 bp)
+		Unaligned bases: 719  total: 410811
+
+CONTIG: NODE_394_length_719_cov_1.77703_ID_13834 (719bp)
+		This contig is unaligned. (719 bp)
+		Unaligned bases: 719  total: 411530
+
+CONTIG: NODE_395_length_719_cov_0.739865_ID_13836 (719bp)
+		This contig is unaligned. (719 bp)
+		Unaligned bases: 719  total: 412249
+
+CONTIG: NODE_396_length_718_cov_0.692047_ID_13838 (718bp)
+		This contig is unaligned. (718 bp)
+		Unaligned bases: 718  total: 412967
+
+CONTIG: NODE_397_length_716_cov_1.09338_ID_13840 (716bp)
+		This contig is unaligned. (716 bp)
+		Unaligned bases: 716  total: 413683
+
+CONTIG: NODE_398_length_715_cov_1.27381_ID_13842 (715bp)
+		This contig is unaligned. (715 bp)
+		Unaligned bases: 715  total: 414398
+
+CONTIG: NODE_399_length_713_cov_1.27986_ID_13844 (713bp)
+		This contig is unaligned. (713 bp)
+		Unaligned bases: 713  total: 415111
+
+CONTIG: NODE_400_length_713_cov_0.788396_ID_13846 (713bp)
+		This contig is unaligned. (713 bp)
+		Unaligned bases: 713  total: 415824
+
+CONTIG: NODE_401_length_713_cov_0.735495_ID_13848 (713bp)
+		This contig is unaligned. (713 bp)
+		Unaligned bases: 713  total: 416537
+
+CONTIG: NODE_402_length_712_cov_1.37949_ID_13850 (712bp)
+		This contig is unaligned. (712 bp)
+		Unaligned bases: 712  total: 417249
+
+CONTIG: NODE_403_length_709_cov_0.738832_ID_13852 (709bp)
+		This contig is unaligned. (709 bp)
+		Unaligned bases: 709  total: 417958
+
+CONTIG: NODE_404_length_709_cov_1.09278_ID_13854 (709bp)
+		This contig is unaligned. (709 bp)
+		Unaligned bases: 709  total: 418667
+
+CONTIG: NODE_405_length_709_cov_1.00344_ID_13856 (709bp)
+		This contig is unaligned. (709 bp)
+		Unaligned bases: 709  total: 419376
+
+CONTIG: NODE_406_length_707_cov_0.896552_ID_13858 (707bp)
+		This contig is unaligned. (707 bp)
+		Unaligned bases: 707  total: 420083
+
+CONTIG: NODE_407_length_705_cov_1.29239_ID_13860 (705bp)
+		This contig is unaligned. (705 bp)
+		Unaligned bases: 705  total: 420788
+
+CONTIG: NODE_408_length_704_cov_0.887348_ID_13862 (704bp)
+		This contig is unaligned. (704 bp)
+		Unaligned bases: 704  total: 421492
+
+CONTIG: NODE_409_length_702_cov_1.0713_ID_13864 (702bp)
+		This contig is unaligned. (702 bp)
+		Unaligned bases: 702  total: 422194
+
+CONTIG: NODE_410_length_701_cov_0.749129_ID_13866 (701bp)
+		This contig is unaligned. (701 bp)
+		Unaligned bases: 701  total: 422895
+
+CONTIG: NODE_411_length_701_cov_1.12195_ID_13868 (701bp)
+		This contig is unaligned. (701 bp)
+		Unaligned bases: 701  total: 423596
+
+CONTIG: NODE_412_length_701_cov_1.03659_ID_13870 (701bp)
+		This contig is unaligned. (701 bp)
+		Unaligned bases: 701  total: 424297
+
+CONTIG: NODE_413_length_700_cov_1.22339_ID_13872 (700bp)
+		This contig is unaligned. (700 bp)
+		Unaligned bases: 700  total: 424997
+
+CONTIG: NODE_414_length_699_cov_1.23601_ID_13874 (699bp)
+		This contig is unaligned. (699 bp)
+		Unaligned bases: 699  total: 425696
+
+CONTIG: NODE_415_length_698_cov_1.25569_ID_13876 (698bp)
+		This contig is unaligned. (698 bp)
+		Unaligned bases: 698  total: 426394
+
+CONTIG: NODE_416_length_697_cov_0.880702_ID_13878 (697bp)
+		This contig is unaligned. (697 bp)
+		Unaligned bases: 697  total: 427091
+
+CONTIG: NODE_417_length_695_cov_0.927817_ID_13880 (695bp)
+		This contig is unaligned. (695 bp)
+		Unaligned bases: 695  total: 427786
+
+CONTIG: NODE_418_length_694_cov_1.11993_ID_13882 (694bp)
+		This contig is unaligned. (694 bp)
+		Unaligned bases: 694  total: 428480
+
+CONTIG: NODE_419_length_694_cov_1.17108_ID_13884 (694bp)
+		This contig is unaligned. (694 bp)
+		Unaligned bases: 694  total: 429174
+
+CONTIG: NODE_420_length_693_cov_0.761484_ID_13886 (693bp)
+		This contig is unaligned. (693 bp)
+		Unaligned bases: 693  total: 429867
+
+CONTIG: NODE_421_length_693_cov_1.26855_ID_13888 (693bp)
+		This contig is unaligned. (693 bp)
+		Unaligned bases: 693  total: 430560
+
+CONTIG: NODE_422_length_693_cov_0.913428_ID_13890 (693bp)
+		This contig is unaligned. (693 bp)
+		Unaligned bases: 693  total: 431253
+
+CONTIG: NODE_423_length_693_cov_0.95583_ID_13892 (693bp)
+		This contig is unaligned. (693 bp)
+		Unaligned bases: 693  total: 431946
+
+CONTIG: NODE_424_length_692_cov_1.35044_ID_13894 (692bp)
+		This contig is unaligned. (692 bp)
+		Unaligned bases: 692  total: 432638
+
+CONTIG: NODE_425_length_690_cov_0.888099_ID_13896 (690bp)
+		This contig is unaligned. (690 bp)
+		Unaligned bases: 690  total: 433328
+
+CONTIG: NODE_426_length_690_cov_1.16341_ID_13898 (690bp)
+		This contig is unaligned. (690 bp)
+		Unaligned bases: 690  total: 434018
+
+CONTIG: NODE_427_length_689_cov_1.49822_ID_13900 (689bp)
+		This contig is unaligned. (689 bp)
+		Unaligned bases: 689  total: 434707
+
+CONTIG: NODE_428_length_689_cov_0.741993_ID_13902 (689bp)
+		This contig is unaligned. (689 bp)
+		Unaligned bases: 689  total: 435396
+
+CONTIG: NODE_429_length_688_cov_1.47415_ID_13904 (688bp)
+		This contig is unaligned. (688 bp)
+		Unaligned bases: 688  total: 436084
+
+CONTIG: NODE_430_length_687_cov_0.871429_ID_13906 (687bp)
+		This contig is unaligned. (687 bp)
+		Unaligned bases: 687  total: 436771
+
+CONTIG: NODE_431_length_687_cov_0.946429_ID_13908 (687bp)
+		This contig is unaligned. (687 bp)
+		Unaligned bases: 687  total: 437458
+
+CONTIG: NODE_432_length_687_cov_0.671429_ID_13910 (687bp)
+		This contig is unaligned. (687 bp)
+		Unaligned bases: 687  total: 438145
+
+CONTIG: NODE_433_length_687_cov_0.701786_ID_13912 (687bp)
+		This contig is unaligned. (687 bp)
+		Unaligned bases: 687  total: 438832
+
+CONTIG: NODE_434_length_686_cov_0.948122_ID_13914 (686bp)
+		This contig is unaligned. (686 bp)
+		Unaligned bases: 686  total: 439518
+
+CONTIG: NODE_435_length_686_cov_1.53488_ID_13916 (686bp)
+		This contig is unaligned. (686 bp)
+		Unaligned bases: 686  total: 440204
+
+CONTIG: NODE_436_length_685_cov_0.772401_ID_13918 (685bp)
+		This contig is unaligned. (685 bp)
+		Unaligned bases: 685  total: 440889
+
+CONTIG: NODE_437_length_683_cov_1.35432_ID_13920 (683bp)
+		This contig is unaligned. (683 bp)
+		Unaligned bases: 683  total: 441572
+
+CONTIG: NODE_438_length_682_cov_0.920721_ID_13922 (682bp)
+		This contig is unaligned. (682 bp)
+		Unaligned bases: 682  total: 442254
+
+CONTIG: NODE_439_length_681_cov_1.18773_ID_13924 (681bp)
+		This contig is unaligned. (681 bp)
+		Unaligned bases: 681  total: 442935
+
+CONTIG: NODE_440_length_680_cov_0.62387_ID_13926 (680bp)
+		This contig is unaligned. (680 bp)
+		Unaligned bases: 680  total: 443615
+
+CONTIG: NODE_441_length_680_cov_122.486_ID_13928 (680bp)
+		This contig is unaligned. (680 bp)
+		Unaligned bases: 680  total: 444295
+
+CONTIG: NODE_442_length_679_cov_1.51268_ID_13930 (679bp)
+		This contig is unaligned. (679 bp)
+		Unaligned bases: 679  total: 444974
+
+CONTIG: NODE_443_length_679_cov_0.789855_ID_13932 (679bp)
+		This contig is unaligned. (679 bp)
+		Unaligned bases: 679  total: 445653
+
+CONTIG: NODE_444_length_678_cov_1.02541_ID_13934 (678bp)
+		This contig is unaligned. (678 bp)
+		Unaligned bases: 678  total: 446331
+
+CONTIG: NODE_445_length_676_cov_1.07104_ID_13936 (676bp)
+		This contig is unaligned. (676 bp)
+		Unaligned bases: 676  total: 447007
+
+CONTIG: NODE_446_length_676_cov_0.881603_ID_13938 (676bp)
+		This contig is unaligned. (676 bp)
+		Unaligned bases: 676  total: 447683
+
+CONTIG: NODE_447_length_674_cov_1.55759_ID_13940 (674bp)
+		This contig is unaligned. (674 bp)
+		Unaligned bases: 674  total: 448357
+
+CONTIG: NODE_448_length_674_cov_0.760512_ID_13942 (674bp)
+		This contig is unaligned. (674 bp)
+		Unaligned bases: 674  total: 449031
+
+CONTIG: NODE_449_length_673_cov_1.16667_ID_13944 (673bp)
+		This contig is unaligned. (673 bp)
+		Unaligned bases: 673  total: 449704
+
+CONTIG: NODE_450_length_672_cov_1.16881_ID_13946 (672bp)
+		This contig is unaligned. (672 bp)
+		Unaligned bases: 672  total: 450376
+
+CONTIG: NODE_451_length_672_cov_1.02752_ID_13948 (672bp)
+		This contig is unaligned. (672 bp)
+		Unaligned bases: 672  total: 451048
+
+CONTIG: NODE_452_length_672_cov_0.684404_ID_13950 (672bp)
+		This contig is unaligned. (672 bp)
+		Unaligned bases: 672  total: 451720
+
+CONTIG: NODE_453_length_671_cov_1.75551_ID_13952 (671bp)
+		This contig is unaligned. (671 bp)
+		Unaligned bases: 671  total: 452391
+
+CONTIG: NODE_454_length_671_cov_0.965074_ID_13954 (671bp)
+		This contig is unaligned. (671 bp)
+		Unaligned bases: 671  total: 453062
+
+CONTIG: NODE_455_length_671_cov_0.977941_ID_13956 (671bp)
+		This contig is unaligned. (671 bp)
+		Unaligned bases: 671  total: 453733
+
+CONTIG: NODE_456_length_671_cov_0.867647_ID_13958 (671bp)
+		This contig is unaligned. (671 bp)
+		Unaligned bases: 671  total: 454404
+
+CONTIG: NODE_457_length_670_cov_1.32413_ID_13960 (670bp)
+		This contig is unaligned. (670 bp)
+		Unaligned bases: 670  total: 455074
+
+CONTIG: NODE_458_length_670_cov_1.24862_ID_13962 (670bp)
+		This contig is unaligned. (670 bp)
+		Unaligned bases: 670  total: 455744
+
+CONTIG: NODE_459_length_669_cov_1.49815_ID_13964 (669bp)
+		This contig is unaligned. (669 bp)
+		Unaligned bases: 669  total: 456413
+
+CONTIG: NODE_460_length_668_cov_0.789279_ID_13966 (668bp)
+		This contig is unaligned. (668 bp)
+		Unaligned bases: 668  total: 457081
+
+CONTIG: NODE_461_length_667_cov_1.76481_ID_13968 (667bp)
+		This contig is unaligned. (667 bp)
+		Unaligned bases: 667  total: 457748
+
+CONTIG: NODE_462_length_667_cov_0.998148_ID_13970 (667bp)
+		This contig is unaligned. (667 bp)
+		Unaligned bases: 667  total: 458415
+
+CONTIG: NODE_463_length_667_cov_0.892593_ID_13972 (667bp)
+		This contig is unaligned. (667 bp)
+		Unaligned bases: 667  total: 459082
+
+CONTIG: NODE_464_length_666_cov_0.705009_ID_13974 (666bp)
+		This contig is unaligned. (666 bp)
+		Unaligned bases: 666  total: 459748
+
+CONTIG: NODE_465_length_665_cov_0.998141_ID_13976 (665bp)
+		This contig is unaligned. (665 bp)
+		Unaligned bases: 665  total: 460413
+
+CONTIG: NODE_466_length_664_cov_1_ID_13978 (664bp)
+		This contig is unaligned. (664 bp)
+		Unaligned bases: 664  total: 461077
+
+CONTIG: NODE_467_length_664_cov_1.04655_ID_13980 (664bp)
+		This contig is unaligned. (664 bp)
+		Unaligned bases: 664  total: 461741
+
+CONTIG: NODE_468_length_662_cov_0.826168_ID_13982 (662bp)
+		This contig is unaligned. (662 bp)
+		Unaligned bases: 662  total: 462403
+
+CONTIG: NODE_469_length_661_cov_0.644195_ID_13984 (661bp)
+		This contig is unaligned. (661 bp)
+		Unaligned bases: 661  total: 463064
+
+CONTIG: NODE_470_length_661_cov_1_ID_13986 (661bp)
+		This contig is unaligned. (661 bp)
+		Unaligned bases: 661  total: 463725
+
+CONTIG: NODE_471_length_658_cov_0.672316_ID_13988 (658bp)
+		This contig is unaligned. (658 bp)
+		Unaligned bases: 658  total: 464383
+
+CONTIG: NODE_472_length_658_cov_0.728814_ID_13990 (658bp)
+		This contig is unaligned. (658 bp)
+		Unaligned bases: 658  total: 465041
+
+CONTIG: NODE_473_length_657_cov_0.958491_ID_13992 (657bp)
+		This contig is unaligned. (657 bp)
+		Unaligned bases: 657  total: 465698
+
+CONTIG: NODE_474_length_656_cov_1.81474_ID_13994 (656bp)
+		This contig is unaligned. (656 bp)
+		Unaligned bases: 656  total: 466354
+
+CONTIG: NODE_475_length_655_cov_0.981061_ID_13996 (655bp)
+		This contig is unaligned. (655 bp)
+		Unaligned bases: 655  total: 467009
+
+CONTIG: NODE_476_length_655_cov_1.13636_ID_13998 (655bp)
+		This contig is unaligned. (655 bp)
+		Unaligned bases: 655  total: 467664
+
+CONTIG: NODE_477_length_654_cov_0.927894_ID_14000 (654bp)
+		This contig is unaligned. (654 bp)
+		Unaligned bases: 654  total: 468318
+
+CONTIG: NODE_478_length_654_cov_1.49146_ID_14002 (654bp)
+		This contig is unaligned. (654 bp)
+		Unaligned bases: 654  total: 468972
+
+CONTIG: NODE_479_length_654_cov_0.798861_ID_14004 (654bp)
+		This contig is unaligned. (654 bp)
+		Unaligned bases: 654  total: 469626
+
+CONTIG: NODE_480_length_654_cov_0.694497_ID_14006 (654bp)
+		This contig is unaligned. (654 bp)
+		Unaligned bases: 654  total: 470280
+
+CONTIG: NODE_481_length_653_cov_1.22814_ID_14008 (653bp)
+		This contig is unaligned. (653 bp)
+		Unaligned bases: 653  total: 470933
+
+CONTIG: NODE_482_length_653_cov_0.954373_ID_14010 (653bp)
+		This contig is unaligned. (653 bp)
+		Unaligned bases: 653  total: 471586
+
+CONTIG: NODE_483_length_653_cov_0.629278_ID_14012 (653bp)
+		This contig is unaligned. (653 bp)
+		Unaligned bases: 653  total: 472239
+
+CONTIG: NODE_484_length_652_cov_0.902857_ID_14014 (652bp)
+		This contig is unaligned. (652 bp)
+		Unaligned bases: 652  total: 472891
+
+CONTIG: NODE_485_length_652_cov_0.940952_ID_14016 (652bp)
+		This contig is unaligned. (652 bp)
+		Unaligned bases: 652  total: 473543
+
+CONTIG: NODE_486_length_651_cov_1.21565_ID_14018 (651bp)
+		This contig is unaligned. (651 bp)
+		Unaligned bases: 651  total: 474194
+
+CONTIG: NODE_487_length_649_cov_0.800766_ID_14020 (649bp)
+		This contig is unaligned. (649 bp)
+		Unaligned bases: 649  total: 474843
+
+CONTIG: NODE_488_length_649_cov_0.998084_ID_14022 (649bp)
+		This contig is unaligned. (649 bp)
+		Unaligned bases: 649  total: 475492
+
+CONTIG: NODE_489_length_648_cov_0.737044_ID_14024 (648bp)
+		This contig is unaligned. (648 bp)
+		Unaligned bases: 648  total: 476140
+
+CONTIG: NODE_490_length_648_cov_0.606526_ID_14026 (648bp)
+		This contig is unaligned. (648 bp)
+		Unaligned bases: 648  total: 476788
+
+CONTIG: NODE_491_length_647_cov_0.834615_ID_14028 (647bp)
+		This contig is unaligned. (647 bp)
+		Unaligned bases: 647  total: 477435
+
+CONTIG: NODE_492_length_647_cov_1.55385_ID_14030 (647bp)
+		This contig is unaligned. (647 bp)
+		Unaligned bases: 647  total: 478082
+
+CONTIG: NODE_493_length_647_cov_1.18462_ID_14032 (647bp)
+		This contig is unaligned. (647 bp)
+		Unaligned bases: 647  total: 478729
+
+CONTIG: NODE_494_length_647_cov_1.39231_ID_14034 (647bp)
+		This contig is unaligned. (647 bp)
+		Unaligned bases: 647  total: 479376
+
+CONTIG: NODE_495_length_647_cov_0.521154_ID_14036 (647bp)
+		This contig is unaligned. (647 bp)
+		Unaligned bases: 647  total: 480023
+
+CONTIG: NODE_496_length_644_cov_1.37718_ID_14038 (644bp)
+		This contig is unaligned. (644 bp)
+		Unaligned bases: 644  total: 480667
+
+CONTIG: NODE_497_length_644_cov_1.05803_ID_14040 (644bp)
+		This contig is unaligned. (644 bp)
+		Unaligned bases: 644  total: 481311
+
+CONTIG: NODE_498_length_643_cov_1.46512_ID_14042 (643bp)
+		This contig is unaligned. (643 bp)
+		Unaligned bases: 643  total: 481954
+
+CONTIG: NODE_499_length_643_cov_0.47093_ID_14044 (643bp)
+		This contig is unaligned. (643 bp)
+		Unaligned bases: 643  total: 482597
+
+CONTIG: NODE_500_length_642_cov_0.937864_ID_14046 (642bp)
+		This contig is unaligned. (642 bp)
+		Unaligned bases: 642  total: 483239
+
+CONTIG: NODE_501_length_642_cov_1.39223_ID_14048 (642bp)
+		This contig is unaligned. (642 bp)
+		Unaligned bases: 642  total: 483881
+
+CONTIG: NODE_502_length_641_cov_0.651751_ID_14050 (641bp)
+		This contig is unaligned. (641 bp)
+		Unaligned bases: 641  total: 484522
+
+CONTIG: NODE_503_length_640_cov_1.97856_ID_14052 (640bp)
+		This contig is unaligned. (640 bp)
+		Unaligned bases: 640  total: 485162
+
+CONTIG: NODE_504_length_639_cov_0.841797_ID_14054 (639bp)
+		This contig is unaligned. (639 bp)
+		Unaligned bases: 639  total: 485801
+
+CONTIG: NODE_505_length_639_cov_1.03906_ID_14056 (639bp)
+		This contig is unaligned. (639 bp)
+		Unaligned bases: 639  total: 486440
+
+CONTIG: NODE_506_length_639_cov_1.17578_ID_14058 (639bp)
+		This contig is unaligned. (639 bp)
+		Unaligned bases: 639  total: 487079
+
+CONTIG: NODE_507_length_638_cov_1.25245_ID_14060 (638bp)
+		This contig is unaligned. (638 bp)
+		Unaligned bases: 638  total: 487717
+
+CONTIG: NODE_508_length_638_cov_0.808219_ID_14062 (638bp)
+		This contig is unaligned. (638 bp)
+		Unaligned bases: 638  total: 488355
+
+CONTIG: NODE_509_length_637_cov_1.19412_ID_14064 (637bp)
+		This contig is unaligned. (637 bp)
+		Unaligned bases: 637  total: 488992
+
+CONTIG: NODE_510_length_636_cov_0.797642_ID_14066 (636bp)
+		This contig is unaligned. (636 bp)
+		Unaligned bases: 636  total: 489628
+
+CONTIG: NODE_511_length_636_cov_1.18271_ID_14068 (636bp)
+		This contig is unaligned. (636 bp)
+		Unaligned bases: 636  total: 490264
+
+CONTIG: NODE_512_length_635_cov_0.848425_ID_14070 (635bp)
+		This contig is unaligned. (635 bp)
+		Unaligned bases: 635  total: 490899
+
+CONTIG: NODE_513_length_633_cov_0.849802_ID_14072 (633bp)
+		This contig is unaligned. (633 bp)
+		Unaligned bases: 633  total: 491532
+
+CONTIG: NODE_514_length_633_cov_0.875494_ID_13180 (633bp)
+		This contig is unaligned. (633 bp)
+		Unaligned bases: 633  total: 492165
+
+CONTIG: NODE_515_length_633_cov_1.36957_ID_14074 (633bp)
+		This contig is unaligned. (633 bp)
+		Unaligned bases: 633  total: 492798
+
+CONTIG: NODE_516_length_632_cov_1.48317_ID_14076 (632bp)
+		This contig is unaligned. (632 bp)
+		Unaligned bases: 632  total: 493430
+
+CONTIG: NODE_517_length_631_cov_1.27579_ID_14078 (631bp)
+		This contig is unaligned. (631 bp)
+		Unaligned bases: 631  total: 494061
+
+CONTIG: NODE_518_length_631_cov_0.855159_ID_14080 (631bp)
+		This contig is unaligned. (631 bp)
+		Unaligned bases: 631  total: 494692
+
+CONTIG: NODE_519_length_629_cov_1.28685_ID_14082 (629bp)
+		This contig is unaligned. (629 bp)
+		Unaligned bases: 629  total: 495321
+
+CONTIG: NODE_520_length_629_cov_0.507968_ID_14084 (629bp)
+Top Length: 413  Top ID: 95.65
+		This contig is partially unaligned. (Aligned 413 out of 629 bases)
+		Alignment: 653742 654154 | 629 217 | 413 413 | 95.65 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_520_length_629_cov_0.507968_ID_14084
+		Unaligned bases: 1 to 216 (216)
+
+CONTIG: NODE_521_length_627_cov_1.062_ID_14086 (627bp)
+		This contig is unaligned. (627 bp)
+		Unaligned bases: 627  total: 495948
+
+CONTIG: NODE_522_length_627_cov_0.846_ID_14088 (627bp)
+		This contig is unaligned. (627 bp)
+		Unaligned bases: 627  total: 496575
+
+CONTIG: NODE_523_length_627_cov_0.754_ID_14090 (627bp)
+		This contig is unaligned. (627 bp)
+		Unaligned bases: 627  total: 497202
+
+CONTIG: NODE_524_length_626_cov_0.855711_ID_14092 (626bp)
+		This contig is unaligned. (626 bp)
+		Unaligned bases: 626  total: 497828
+
+CONTIG: NODE_525_length_626_cov_1.18437_ID_14094 (626bp)
+		This contig is unaligned. (626 bp)
+		Unaligned bases: 626  total: 498454
+
+CONTIG: NODE_526_length_624_cov_1.43058_ID_14096 (624bp)
+		This contig is unaligned. (624 bp)
+		Unaligned bases: 624  total: 499078
+
+CONTIG: NODE_527_length_623_cov_0.705645_ID_14098 (623bp)
+		This contig is unaligned. (623 bp)
+		Unaligned bases: 623  total: 499701
+
+CONTIG: NODE_528_length_623_cov_1.52218_ID_14100 (623bp)
+		This contig is unaligned. (623 bp)
+		Unaligned bases: 623  total: 500324
+
+CONTIG: NODE_529_length_622_cov_1.09495_ID_14102 (622bp)
+		This contig is unaligned. (622 bp)
+		Unaligned bases: 622  total: 500946
+
+CONTIG: NODE_530_length_619_cov_1.47967_ID_14104 (619bp)
+		This contig is unaligned. (619 bp)
+		Unaligned bases: 619  total: 501565
+
+CONTIG: NODE_531_length_618_cov_1.50305_ID_14106 (618bp)
+		This contig is unaligned. (618 bp)
+		Unaligned bases: 618  total: 502183
+
+CONTIG: NODE_532_length_618_cov_1.45214_ID_14108 (618bp)
+		This contig is unaligned. (618 bp)
+		Unaligned bases: 618  total: 502801
+
+CONTIG: NODE_533_length_617_cov_0.604082_ID_14110 (617bp)
+		This contig is unaligned. (617 bp)
+		Unaligned bases: 617  total: 503418
+
+CONTIG: NODE_534_length_617_cov_0.661224_ID_14112 (617bp)
+		This contig is unaligned. (617 bp)
+		Unaligned bases: 617  total: 504035
+
+CONTIG: NODE_535_length_614_cov_0.874743_ID_14114 (614bp)
+		This contig is unaligned. (614 bp)
+		Unaligned bases: 614  total: 504649
+
+CONTIG: NODE_536_length_614_cov_0.743326_ID_14116 (614bp)
+		This contig is unaligned. (614 bp)
+		Unaligned bases: 614  total: 505263
+
+CONTIG: NODE_537_length_614_cov_0.774127_ID_14118 (614bp)
+		This contig is unaligned. (614 bp)
+		Unaligned bases: 614  total: 505877
+
+CONTIG: NODE_538_length_614_cov_0.973306_ID_14120 (614bp)
+		This contig is unaligned. (614 bp)
+		Unaligned bases: 614  total: 506491
+
+CONTIG: NODE_539_length_613_cov_1.52058_ID_14122 (613bp)
+		This contig is unaligned. (613 bp)
+		Unaligned bases: 613  total: 507104
+
+CONTIG: NODE_540_length_613_cov_1.10288_ID_14124 (613bp)
+		This contig is unaligned. (613 bp)
+		Unaligned bases: 613  total: 507717
+
+CONTIG: NODE_541_length_613_cov_0.738683_ID_14126 (613bp)
+		This contig is unaligned. (613 bp)
+		Unaligned bases: 613  total: 508330
+
+CONTIG: NODE_542_length_612_cov_1.2701_ID_14128 (612bp)
+		This contig is unaligned. (612 bp)
+		Unaligned bases: 612  total: 508942
+
+CONTIG: NODE_543_length_611_cov_0.836777_ID_14130 (611bp)
+		This contig is unaligned. (611 bp)
+		Unaligned bases: 611  total: 509553
+
+CONTIG: NODE_544_length_611_cov_0.803719_ID_14132 (611bp)
+		This contig is unaligned. (611 bp)
+		Unaligned bases: 611  total: 510164
+
+CONTIG: NODE_545_length_610_cov_1.22567_ID_14134 (610bp)
+		This contig is unaligned. (610 bp)
+		Unaligned bases: 610  total: 510774
+
+CONTIG: NODE_546_length_610_cov_0.778468_ID_14136 (610bp)
+		This contig is unaligned. (610 bp)
+		Unaligned bases: 610  total: 511384
+
+CONTIG: NODE_547_length_609_cov_1.70332_ID_14138 (609bp)
+		This contig is unaligned. (609 bp)
+		Unaligned bases: 609  total: 511993
+
+CONTIG: NODE_548_length_608_cov_1.17672_ID_14140 (608bp)
+		This contig is unaligned. (608 bp)
+		Unaligned bases: 608  total: 512601
+
+CONTIG: NODE_549_length_607_cov_0.883333_ID_14142 (607bp)
+		This contig is unaligned. (607 bp)
+		Unaligned bases: 607  total: 513208
+
+CONTIG: NODE_550_length_607_cov_0.897917_ID_14144 (607bp)
+		This contig is unaligned. (607 bp)
+		Unaligned bases: 607  total: 513815
+
+CONTIG: NODE_551_length_606_cov_0.563674_ID_14146 (606bp)
+		This contig is unaligned. (606 bp)
+		Unaligned bases: 606  total: 514421
+
+CONTIG: NODE_552_length_606_cov_0.780793_ID_14148 (606bp)
+		This contig is unaligned. (606 bp)
+		Unaligned bases: 606  total: 515027
+
+CONTIG: NODE_553_length_605_cov_1.24059_ID_14150 (605bp)
+		This contig is unaligned. (605 bp)
+		Unaligned bases: 605  total: 515632
+
+CONTIG: NODE_554_length_605_cov_0.67364_ID_14152 (605bp)
+		This contig is unaligned. (605 bp)
+		Unaligned bases: 605  total: 516237
+
+CONTIG: NODE_555_length_604_cov_0.840671_ID_14154 (604bp)
+		This contig is unaligned. (604 bp)
+		Unaligned bases: 604  total: 516841
+
+CONTIG: NODE_556_length_604_cov_0.677149_ID_14156 (604bp)
+		This contig is unaligned. (604 bp)
+		Unaligned bases: 604  total: 517445
+
+CONTIG: NODE_557_length_603_cov_0.920168_ID_14158 (603bp)
+		This contig is unaligned. (603 bp)
+		Unaligned bases: 603  total: 518048
+
+CONTIG: NODE_558_length_603_cov_1.30672_ID_14160 (603bp)
+		This contig is unaligned. (603 bp)
+		Unaligned bases: 603  total: 518651
+
+CONTIG: NODE_559_length_603_cov_0.951681_ID_14162 (603bp)
+		This contig is unaligned. (603 bp)
+		Unaligned bases: 603  total: 519254
+
+CONTIG: NODE_560_length_602_cov_1.07579_ID_14164 (602bp)
+		This contig is unaligned. (602 bp)
+		Unaligned bases: 602  total: 519856
+
+CONTIG: NODE_561_length_602_cov_0.907368_ID_14166 (602bp)
+		This contig is unaligned. (602 bp)
+		Unaligned bases: 602  total: 520458
+
+CONTIG: NODE_562_length_602_cov_0.938947_ID_14168 (602bp)
+		This contig is unaligned. (602 bp)
+		Unaligned bases: 602  total: 521060
+
+CONTIG: NODE_563_length_602_cov_1.08_ID_14170 (602bp)
+		This contig is unaligned. (602 bp)
+		Unaligned bases: 602  total: 521662
+
+CONTIG: NODE_564_length_600_cov_1.10782_ID_14172 (600bp)
+		This contig is unaligned. (600 bp)
+		Unaligned bases: 600  total: 522262
+
+CONTIG: NODE_565_length_600_cov_1.38478_ID_14174 (600bp)
+		This contig is unaligned. (600 bp)
+		Unaligned bases: 600  total: 522862
+
+CONTIG: NODE_566_length_600_cov_471.829_ID_14176 (600bp)
+Top Length: 600  Top ID: 99.67
+		Marking as insignificant: 1427806 1428405 | 1 600 | 600 600 | 98.0 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_566_length_600_cov_471.829_ID_14176
+		One align captures most of this contig: 1585869 1586468 | 600 1 | 600 600 | 99.67 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_566_length_600_cov_471.829_ID_14176
+
+CONTIG: NODE_567_length_599_cov_1.38347_ID_14178 (599bp)
+		This contig is unaligned. (599 bp)
+		Unaligned bases: 599  total: 523461
+
+CONTIG: NODE_568_length_598_cov_0.908705_ID_14180 (598bp)
+		This contig is unaligned. (598 bp)
+		Unaligned bases: 598  total: 524059
+
+CONTIG: NODE_569_length_598_cov_1.05732_ID_14182 (598bp)
+		This contig is unaligned. (598 bp)
+		Unaligned bases: 598  total: 524657
+
+CONTIG: NODE_570_length_598_cov_1.0552_ID_14184 (598bp)
+		This contig is unaligned. (598 bp)
+		Unaligned bases: 598  total: 525255
+
+CONTIG: NODE_571_length_597_cov_0.908511_ID_14186 (597bp)
+		This contig is unaligned. (597 bp)
+		Unaligned bases: 597  total: 525852
+
+CONTIG: NODE_572_length_597_cov_1.00638_ID_14188 (597bp)
+		This contig is unaligned. (597 bp)
+		Unaligned bases: 597  total: 526449
+
+CONTIG: NODE_573_length_597_cov_1.0383_ID_14190 (597bp)
+		This contig is unaligned. (597 bp)
+		Unaligned bases: 597  total: 527046
+
+CONTIG: NODE_574_length_596_cov_1.36674_ID_14192 (596bp)
+		This contig is unaligned. (596 bp)
+		Unaligned bases: 596  total: 527642
+
+CONTIG: NODE_575_length_595_cov_1.26923_ID_14194 (595bp)
+		This contig is unaligned. (595 bp)
+		Unaligned bases: 595  total: 528237
+
+CONTIG: NODE_576_length_595_cov_0.995726_ID_14196 (595bp)
+		This contig is unaligned. (595 bp)
+		Unaligned bases: 595  total: 528832
+
+CONTIG: NODE_577_length_594_cov_1.41328_ID_14198 (594bp)
+		This contig is unaligned. (594 bp)
+		Unaligned bases: 594  total: 529426
+
+CONTIG: NODE_578_length_593_cov_0.654506_ID_14200 (593bp)
+		This contig is unaligned. (593 bp)
+		Unaligned bases: 593  total: 530019
+
+CONTIG: NODE_579_length_593_cov_1.01073_ID_14202 (593bp)
+		This contig is unaligned. (593 bp)
+		Unaligned bases: 593  total: 530612
+
+CONTIG: NODE_580_length_592_cov_0.929032_ID_14204 (592bp)
+		This contig is unaligned. (592 bp)
+		Unaligned bases: 592  total: 531204
+
+CONTIG: NODE_581_length_591_cov_0.693966_ID_14206 (591bp)
+		This contig is unaligned. (591 bp)
+		Unaligned bases: 591  total: 531795
+
+CONTIG: NODE_582_length_591_cov_1.1681_ID_14208 (591bp)
+		This contig is unaligned. (591 bp)
+		Unaligned bases: 591  total: 532386
+
+CONTIG: NODE_583_length_590_cov_0.924406_ID_14210 (590bp)
+		This contig is unaligned. (590 bp)
+		Unaligned bases: 590  total: 532976
+
+CONTIG: NODE_584_length_589_cov_0.880952_ID_14212 (589bp)
+		This contig is unaligned. (589 bp)
+		Unaligned bases: 589  total: 533565
+
+CONTIG: NODE_585_length_589_cov_1.07143_ID_14214 (589bp)
+		This contig is unaligned. (589 bp)
+		Unaligned bases: 589  total: 534154
+
+CONTIG: NODE_586_length_589_cov_1.32035_ID_14216 (589bp)
+		This contig is unaligned. (589 bp)
+		Unaligned bases: 589  total: 534743
+
+CONTIG: NODE_587_length_588_cov_0.62039_ID_14218 (588bp)
+		This contig is unaligned. (588 bp)
+		Unaligned bases: 588  total: 535331
+
+CONTIG: NODE_588_length_587_cov_1.34348_ID_14220 (587bp)
+		This contig is unaligned. (587 bp)
+		Unaligned bases: 587  total: 535918
+
+CONTIG: NODE_589_length_587_cov_0.652174_ID_14222 (587bp)
+		This contig is unaligned. (587 bp)
+		Unaligned bases: 587  total: 536505
+
+CONTIG: NODE_590_length_587_cov_0.771739_ID_14224 (587bp)
+		This contig is unaligned. (587 bp)
+		Unaligned bases: 587  total: 537092
+
+CONTIG: NODE_591_length_587_cov_0.830435_ID_14226 (587bp)
+		This contig is unaligned. (587 bp)
+		Unaligned bases: 587  total: 537679
+
+CONTIG: NODE_592_length_587_cov_0.819565_ID_14228 (587bp)
+		This contig is unaligned. (587 bp)
+		Unaligned bases: 587  total: 538266
+
+CONTIG: NODE_593_length_586_cov_1.15251_ID_14230 (586bp)
+		This contig is unaligned. (586 bp)
+		Unaligned bases: 586  total: 538852
+
+CONTIG: NODE_594_length_585_cov_1.49782_ID_14232 (585bp)
+		This contig is unaligned. (585 bp)
+		Unaligned bases: 585  total: 539437
+
+CONTIG: NODE_595_length_585_cov_0.655022_ID_14234 (585bp)
+		This contig is unaligned. (585 bp)
+		Unaligned bases: 585  total: 540022
+
+CONTIG: NODE_596_length_585_cov_0.746725_ID_14236 (585bp)
+		This contig is unaligned. (585 bp)
+		Unaligned bases: 585  total: 540607
+
+CONTIG: NODE_597_length_585_cov_0.696507_ID_14238 (585bp)
+		This contig is unaligned. (585 bp)
+		Unaligned bases: 585  total: 541192
+
+CONTIG: NODE_598_length_584_cov_1.37418_ID_14240 (584bp)
+		This contig is unaligned. (584 bp)
+		Unaligned bases: 584  total: 541776
+
+CONTIG: NODE_599_length_584_cov_0.835886_ID_14242 (584bp)
+		This contig is unaligned. (584 bp)
+		Unaligned bases: 584  total: 542360
+
+CONTIG: NODE_600_length_583_cov_1.12939_ID_14244 (583bp)
+		This contig is unaligned. (583 bp)
+		Unaligned bases: 583  total: 542943
+
+CONTIG: NODE_601_length_583_cov_1.16228_ID_14246 (583bp)
+		This contig is unaligned. (583 bp)
+		Unaligned bases: 583  total: 543526
+
+CONTIG: NODE_602_length_583_cov_1_ID_14248 (583bp)
+		This contig is unaligned. (583 bp)
+		Unaligned bases: 583  total: 544109
+
+CONTIG: NODE_603_length_582_cov_1.03956_ID_14250 (582bp)
+		This contig is unaligned. (582 bp)
+		Unaligned bases: 582  total: 544691
+
+CONTIG: NODE_604_length_581_cov_1.40969_ID_14252 (581bp)
+		This contig is unaligned. (581 bp)
+		Unaligned bases: 581  total: 545272
+
+CONTIG: NODE_605_length_580_cov_1.60927_ID_14254 (580bp)
+		This contig is unaligned. (580 bp)
+		Unaligned bases: 580  total: 545852
+
+CONTIG: NODE_606_length_580_cov_1.0287_ID_14256 (580bp)
+		This contig is unaligned. (580 bp)
+		Unaligned bases: 580  total: 546432
+
+CONTIG: NODE_607_length_577_cov_0.695556_ID_14258 (577bp)
+		This contig is unaligned. (577 bp)
+		Unaligned bases: 577  total: 547009
+
+CONTIG: NODE_608_length_577_cov_0.957778_ID_14260 (577bp)
+		This contig is unaligned. (577 bp)
+		Unaligned bases: 577  total: 547586
+
+CONTIG: NODE_609_length_577_cov_1.19333_ID_14262 (577bp)
+		This contig is unaligned. (577 bp)
+		Unaligned bases: 577  total: 548163
+
+CONTIG: NODE_610_length_576_cov_1.08909_ID_14264 (576bp)
+		This contig is unaligned. (576 bp)
+		Unaligned bases: 576  total: 548739
+
+CONTIG: NODE_611_length_576_cov_0.948775_ID_14266 (576bp)
+		This contig is unaligned. (576 bp)
+		Unaligned bases: 576  total: 549315
+
+CONTIG: NODE_612_length_576_cov_0.924276_ID_14268 (576bp)
+		This contig is unaligned. (576 bp)
+		Unaligned bases: 576  total: 549891
+
+CONTIG: NODE_613_length_575_cov_1.09598_ID_14270 (575bp)
+		This contig is unaligned. (575 bp)
+		Unaligned bases: 575  total: 550466
+
+CONTIG: NODE_614_length_575_cov_0.950893_ID_14272 (575bp)
+		This contig is unaligned. (575 bp)
+		Unaligned bases: 575  total: 551041
+
+CONTIG: NODE_615_length_575_cov_0.810268_ID_14274 (575bp)
+		This contig is unaligned. (575 bp)
+		Unaligned bases: 575  total: 551616
+
+CONTIG: NODE_616_length_574_cov_1.19239_ID_14276 (574bp)
+		This contig is unaligned. (574 bp)
+		Unaligned bases: 574  total: 552190
+
+CONTIG: NODE_617_length_573_cov_0.930493_ID_14278 (573bp)
+		This contig is unaligned. (573 bp)
+		Unaligned bases: 573  total: 552763
+
+CONTIG: NODE_618_length_573_cov_0.632287_ID_14280 (573bp)
+		This contig is unaligned. (573 bp)
+		Unaligned bases: 573  total: 553336
+
+CONTIG: NODE_619_length_573_cov_0.860987_ID_14282 (573bp)
+		This contig is unaligned. (573 bp)
+		Unaligned bases: 573  total: 553909
+
+CONTIG: NODE_620_length_572_cov_1.44719_ID_14284 (572bp)
+		This contig is unaligned. (572 bp)
+		Unaligned bases: 572  total: 554481
+
+CONTIG: NODE_621_length_572_cov_0.757303_ID_14286 (572bp)
+		This contig is unaligned. (572 bp)
+		Unaligned bases: 572  total: 555053
+
+CONTIG: NODE_622_length_572_cov_0.67191_ID_14288 (572bp)
+		This contig is unaligned. (572 bp)
+		Unaligned bases: 572  total: 555625
+
+CONTIG: NODE_623_length_571_cov_0.95045_ID_14290 (571bp)
+		This contig is unaligned. (571 bp)
+		Unaligned bases: 571  total: 556196
+
+CONTIG: NODE_624_length_571_cov_0.727477_ID_14292 (571bp)
+		This contig is unaligned. (571 bp)
+		Unaligned bases: 571  total: 556767
+
+CONTIG: NODE_625_length_571_cov_1.88514_ID_14294 (571bp)
+		This contig is unaligned. (571 bp)
+		Unaligned bases: 571  total: 557338
+
+CONTIG: NODE_626_length_570_cov_1.40181_ID_14296 (570bp)
+		This contig is unaligned. (570 bp)
+		Unaligned bases: 570  total: 557908
+
+CONTIG: NODE_627_length_568_cov_0.732426_ID_14298 (568bp)
+		This contig is unaligned. (568 bp)
+		Unaligned bases: 568  total: 558476
+
+CONTIG: NODE_628_length_566_cov_0.920273_ID_14300 (566bp)
+		This contig is unaligned. (566 bp)
+		Unaligned bases: 566  total: 559042
+
+CONTIG: NODE_629_length_564_cov_1.41876_ID_14302 (564bp)
+		This contig is unaligned. (564 bp)
+		Unaligned bases: 564  total: 559606
+
+CONTIG: NODE_630_length_564_cov_0.581236_ID_14304 (564bp)
+		This contig is unaligned. (564 bp)
+		Unaligned bases: 564  total: 560170
+
+CONTIG: NODE_631_length_564_cov_0.878719_ID_14306 (564bp)
+		This contig is unaligned. (564 bp)
+		Unaligned bases: 564  total: 560734
+
+CONTIG: NODE_632_length_563_cov_1.22018_ID_14308 (563bp)
+		This contig is unaligned. (563 bp)
+		Unaligned bases: 563  total: 561297
+
+CONTIG: NODE_633_length_563_cov_1.13532_ID_14310 (563bp)
+		This contig is unaligned. (563 bp)
+		Unaligned bases: 563  total: 561860
+
+CONTIG: NODE_634_length_562_cov_0.645977_ID_14312 (562bp)
+		This contig is unaligned. (562 bp)
+		Unaligned bases: 562  total: 562422
+
+CONTIG: NODE_635_length_562_cov_1.48276_ID_14314 (562bp)
+		This contig is unaligned. (562 bp)
+		Unaligned bases: 562  total: 562984
+
+CONTIG: NODE_636_length_562_cov_0.85977_ID_14316 (562bp)
+		This contig is unaligned. (562 bp)
+		Unaligned bases: 562  total: 563546
+
+CONTIG: NODE_637_length_562_cov_0.554023_ID_14318 (562bp)
+		This contig is unaligned. (562 bp)
+		Unaligned bases: 562  total: 564108
+
+CONTIG: NODE_638_length_561_cov_1.54608_ID_14320 (561bp)
+		This contig is unaligned. (561 bp)
+		Unaligned bases: 561  total: 564669
+
+CONTIG: NODE_639_length_561_cov_0.735023_ID_14322 (561bp)
+		This contig is unaligned. (561 bp)
+		Unaligned bases: 561  total: 565230
+
+CONTIG: NODE_640_length_561_cov_1.15899_ID_14324 (561bp)
+		This contig is unaligned. (561 bp)
+		Unaligned bases: 561  total: 565791
+
+CONTIG: NODE_641_length_560_cov_1.05081_ID_14326 (560bp)
+		This contig is unaligned. (560 bp)
+		Unaligned bases: 560  total: 566351
+
+CONTIG: NODE_642_length_560_cov_0.512702_ID_14328 (560bp)
+		This contig is unaligned. (560 bp)
+		Unaligned bases: 560  total: 566911
+
+CONTIG: NODE_643_length_559_cov_1.05556_ID_14330 (559bp)
+		This contig is unaligned. (559 bp)
+		Unaligned bases: 559  total: 567470
+
+CONTIG: NODE_644_length_559_cov_0.986111_ID_14332 (559bp)
+		This contig is unaligned. (559 bp)
+		Unaligned bases: 559  total: 568029
+
+CONTIG: NODE_645_length_559_cov_0.631944_ID_14334 (559bp)
+		This contig is unaligned. (559 bp)
+		Unaligned bases: 559  total: 568588
+
+CONTIG: NODE_646_length_559_cov_1.25463_ID_14336 (559bp)
+		This contig is unaligned. (559 bp)
+		Unaligned bases: 559  total: 569147
+
+CONTIG: NODE_647_length_559_cov_294.093_ID_14338 (559bp)
+Top Length: 559  Top ID: 96.28
+		Marking as insignificant: 1427658 1427932 | 285 559 | 275 275 | 97.82 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_647_length_559_cov_294.093_ID_14338
+		One align captures most of this contig: 1586342 1586906 | 559 1 | 565 559 | 96.28 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_647_length_559_cov_294.093_ID_14338
+
+CONTIG: NODE_648_length_558_cov_0.802784_ID_14340 (558bp)
+		This contig is unaligned. (558 bp)
+		Unaligned bases: 558  total: 569705
+
+CONTIG: NODE_649_length_557_cov_0.995349_ID_13326 (557bp)
+		This contig is unaligned. (557 bp)
+		Unaligned bases: 557  total: 570262
+
+CONTIG: NODE_650_length_556_cov_0.715618_ID_14342 (556bp)
+		This contig is unaligned. (556 bp)
+		Unaligned bases: 556  total: 570818
+
+CONTIG: NODE_651_length_556_cov_1.32168_ID_14344 (556bp)
+		This contig is unaligned. (556 bp)
+		Unaligned bases: 556  total: 571374
+
+CONTIG: NODE_652_length_556_cov_0.629371_ID_14346 (556bp)
+		This contig is unaligned. (556 bp)
+		Unaligned bases: 556  total: 571930
+
+CONTIG: NODE_653_length_555_cov_1.15654_ID_14348 (555bp)
+		This contig is unaligned. (555 bp)
+		Unaligned bases: 555  total: 572485
+
+CONTIG: NODE_654_length_555_cov_1.89486_ID_14350 (555bp)
+		This contig is unaligned. (555 bp)
+		Unaligned bases: 555  total: 573040
+
+CONTIG: NODE_655_length_554_cov_0.758782_ID_14352 (554bp)
+		This contig is unaligned. (554 bp)
+		Unaligned bases: 554  total: 573594
+
+CONTIG: NODE_656_length_553_cov_1.48122_ID_14354 (553bp)
+		This contig is unaligned. (553 bp)
+		Unaligned bases: 553  total: 574147
+
+CONTIG: NODE_657_length_553_cov_0.701878_ID_14356 (553bp)
+		This contig is unaligned. (553 bp)
+		Unaligned bases: 553  total: 574700
+
+CONTIG: NODE_658_length_553_cov_1.38732_ID_14358 (553bp)
+		This contig is unaligned. (553 bp)
+		Unaligned bases: 553  total: 575253
+
+CONTIG: NODE_659_length_552_cov_0.607059_ID_14360 (552bp)
+		This contig is unaligned. (552 bp)
+		Unaligned bases: 552  total: 575805
+
+CONTIG: NODE_660_length_551_cov_0.992925_ID_14362 (551bp)
+		This contig is unaligned. (551 bp)
+		Unaligned bases: 551  total: 576356
+
+CONTIG: NODE_661_length_551_cov_0.764151_ID_14364 (551bp)
+		This contig is unaligned. (551 bp)
+		Unaligned bases: 551  total: 576907
+
+CONTIG: NODE_662_length_550_cov_0.761229_ID_14366 (550bp)
+		This contig is unaligned. (550 bp)
+		Unaligned bases: 550  total: 577457
+
+CONTIG: NODE_663_length_550_cov_0.661939_ID_14368 (550bp)
+Top Length: 550  Top ID: 99.27
+		One align captures most of this contig: 102852 103401 | 1 550 | 550 550 | 99.27 | NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome NODE_663_length_550_cov_0.661939_ID_14368
+
+CONTIG: NODE_664_length_550_cov_1.05437_ID_14370 (550bp)
+		This contig is unaligned. (550 bp)
+		Unaligned bases: 550  total: 578007
+
+CONTIG: NODE_665_length_549_cov_0.635071_ID_14372 (549bp)
+		This contig is unaligned. (549 bp)
+		Unaligned bases: 549  total: 578556
+
+CONTIG: NODE_666_length_549_cov_0.838863_ID_14374 (549bp)
+		This contig is unaligned. (549 bp)
+		Unaligned bases: 549  total: 579105
+
+CONTIG: NODE_667_length_549_cov_0.848341_ID_14376 (549bp)
+		This contig is unaligned. (549 bp)
+		Unaligned bases: 549  total: 579654
+
+CONTIG: NODE_668_length_548_cov_0.752969_ID_14378 (548bp)
+		This contig is unaligned. (548 bp)
+		Unaligned bases: 548  total: 580202
+
+CONTIG: NODE_669_length_548_cov_1.25178_ID_14380 (548bp)
+		This contig is unaligned. (548 bp)
+		Unaligned bases: 548  total: 580750
+
+CONTIG: NODE_670_length_548_cov_1.53682_ID_14382 (548bp)
+		This contig is unaligned. (548 bp)
+		Unaligned bases: 548  total: 581298
+
+CONTIG: NODE_671_length_547_cov_0.761905_ID_14384 (547bp)
+		This contig is unaligned. (547 bp)
+		Unaligned bases: 547  total: 581845
+
+CONTIG: NODE_672_length_547_cov_1.60476_ID_14386 (547bp)
+		This contig is unaligned. (547 bp)
+		Unaligned bases: 547  total: 582392
+
+CONTIG: NODE_673_length_547_cov_0.680952_ID_14388 (547bp)
+		This contig is unaligned. (547 bp)
+		Unaligned bases: 547  total: 582939
+
+CONTIG: NODE_674_length_545_cov_1.15311_ID_14390 (545bp)
+		This contig is unaligned. (545 bp)
+		Unaligned bases: 545  total: 583484
+
+CONTIG: NODE_675_length_545_cov_0.77512_ID_14392 (545bp)
+		This contig is unaligned. (545 bp)
+		Unaligned bases: 545  total: 584029
+
+CONTIG: NODE_676_length_545_cov_0.753589_ID_14394 (545bp)
+		This contig is unaligned. (545 bp)
+		Unaligned bases: 545  total: 584574
+
+CONTIG: NODE_677_length_545_cov_0.834928_ID_14396 (545bp)
+		This contig is unaligned. (545 bp)
+		Unaligned bases: 545  total: 585119
+
+CONTIG: NODE_678_length_544_cov_1.48201_ID_14398 (544bp)
+		This contig is unaligned. (544 bp)
+		Unaligned bases: 544  total: 585663
+
+CONTIG: NODE_679_length_544_cov_0.618705_ID_14400 (544bp)
+		This contig is unaligned. (544 bp)
+		Unaligned bases: 544  total: 586207
+
+CONTIG: NODE_680_length_542_cov_1.29157_ID_14402 (542bp)
+		This contig is unaligned. (542 bp)
+		Unaligned bases: 542  total: 586749
+
+CONTIG: NODE_681_length_542_cov_1.5012_ID_14404 (542bp)
+		This contig is unaligned. (542 bp)
+		Unaligned bases: 542  total: 587291
+
+CONTIG: NODE_682_length_541_cov_1.03623_ID_14406 (541bp)
+		This contig is unaligned. (541 bp)
+		Unaligned bases: 541  total: 587832
+
+CONTIG: NODE_683_length_541_cov_0.615942_ID_14408 (541bp)
+		This contig is unaligned. (541 bp)
+		Unaligned bases: 541  total: 588373
+
+CONTIG: NODE_684_length_540_cov_0.961259_ID_14410 (540bp)
+		This contig is unaligned. (540 bp)
+		Unaligned bases: 540  total: 588913
+
+CONTIG: NODE_685_length_540_cov_1.57869_ID_14412 (540bp)
+		This contig is unaligned. (540 bp)
+		Unaligned bases: 540  total: 589453
+
+CONTIG: NODE_686_length_539_cov_1.03155_ID_14414 (539bp)
+		This contig is unaligned. (539 bp)
+		Unaligned bases: 539  total: 589992
+
+CONTIG: NODE_687_length_539_cov_0.616505_ID_14416 (539bp)
+		This contig is unaligned. (539 bp)
+		Unaligned bases: 539  total: 590531
+
+CONTIG: NODE_688_length_538_cov_0.788321_ID_14418 (538bp)
+		This contig is unaligned. (538 bp)
+		Unaligned bases: 538  total: 591069
+
+CONTIG: NODE_689_length_538_cov_0.744526_ID_14420 (538bp)
+		This contig is unaligned. (538 bp)
+		Unaligned bases: 538  total: 591607
+
+CONTIG: NODE_690_length_538_cov_0.666667_ID_14422 (538bp)
+		This contig is unaligned. (538 bp)
+		Unaligned bases: 538  total: 592145
+
+CONTIG: NODE_691_length_538_cov_0.70073_ID_14424 (538bp)
+		This contig is unaligned. (538 bp)
+		Unaligned bases: 538  total: 592683
+
+CONTIG: NODE_692_length_538_cov_0.729927_ID_14426 (538bp)
+		This contig is unaligned. (538 bp)
+		Unaligned bases: 538  total: 593221
+
+CONTIG: NODE_693_length_538_cov_0.620438_ID_14428 (538bp)
+		This contig is unaligned. (538 bp)
+		Unaligned bases: 538  total: 593759
+
+CONTIG: NODE_694_length_537_cov_0.787805_ID_14430 (537bp)
+		This contig is unaligned. (537 bp)
+		Unaligned bases: 537  total: 594296
+
+CONTIG: NODE_695_length_537_cov_0.787805_ID_14432 (537bp)
+		This contig is unaligned. (537 bp)
+		Unaligned bases: 537  total: 594833
+
+CONTIG: NODE_696_length_537_cov_0.978049_ID_14434 (537bp)
+		This contig is unaligned. (537 bp)
+		Unaligned bases: 537  total: 595370
+
+CONTIG: NODE_697_length_537_cov_0.97561_ID_14436 (537bp)
+		This contig is unaligned. (537 bp)
+		Unaligned bases: 537  total: 595907
+
+CONTIG: NODE_698_length_536_cov_0.855746_ID_14438 (536bp)
+		This contig is unaligned. (536 bp)
+		Unaligned bases: 536  total: 596443
+
+CONTIG: NODE_699_length_536_cov_0.557457_ID_14440 (536bp)
+		This contig is unaligned. (536 bp)
+		Unaligned bases: 536  total: 596979
+
+CONTIG: NODE_700_length_535_cov_0.791667_ID_14442 (535bp)
+		This contig is unaligned. (535 bp)
+		Unaligned bases: 535  total: 597514
+
+CONTIG: NODE_701_length_534_cov_1.03194_ID_14444 (534bp)
+		This contig is unaligned. (534 bp)
+		Unaligned bases: 534  total: 598048
+
+CONTIG: NODE_702_length_534_cov_1.27518_ID_14446 (534bp)
+		This contig is unaligned. (534 bp)
+		Unaligned bases: 534  total: 598582
+
+CONTIG: NODE_703_length_534_cov_0.597052_ID_14448 (534bp)
+		This contig is unaligned. (534 bp)
+		Unaligned bases: 534  total: 599116
+
+CONTIG: NODE_704_length_534_cov_1.18428_ID_14450 (534bp)
+		This contig is unaligned. (534 bp)
+		Unaligned bases: 534  total: 599650
+
+CONTIG: NODE_705_length_534_cov_304.204_ID_14452 (534bp)
+		This contig is unaligned. (534 bp)
+		Unaligned bases: 534  total: 600184
+
+CONTIG: NODE_706_length_533_cov_1.32759_ID_14454 (533bp)
+		This contig is unaligned. (533 bp)
+		Unaligned bases: 533  total: 600717
+
+CONTIG: NODE_707_length_532_cov_1.0642_ID_14456 (532bp)
+		This contig is unaligned. (532 bp)
+		Unaligned bases: 532  total: 601249
+
+CONTIG: NODE_708_length_532_cov_0.624691_ID_14458 (532bp)
+		This contig is unaligned. (532 bp)
+		Unaligned bases: 532  total: 601781
+
+CONTIG: NODE_709_length_532_cov_0.859259_ID_14460 (532bp)
+		This contig is unaligned. (532 bp)
+		Unaligned bases: 532  total: 602313
+
+CONTIG: NODE_710_length_531_cov_1.31931_ID_14462 (531bp)
+		This contig is unaligned. (531 bp)
+		Unaligned bases: 531  total: 602844
+
+CONTIG: NODE_711_length_531_cov_1.60396_ID_14464 (531bp)
+		This contig is unaligned. (531 bp)
+		Unaligned bases: 531  total: 603375
+
+CONTIG: NODE_712_length_531_cov_1.24257_ID_14466 (531bp)
+		This contig is unaligned. (531 bp)
+		Unaligned bases: 531  total: 603906
+
+CONTIG: NODE_713_length_530_cov_1.33499_ID_14468 (530bp)
+		This contig is unaligned. (530 bp)
+		Unaligned bases: 530  total: 604436
+
+CONTIG: NODE_714_length_530_cov_0.719603_ID_14470 (530bp)
+		This contig is unaligned. (530 bp)
+		Unaligned bases: 530  total: 604966
+
+CONTIG: NODE_715_length_528_cov_0.78803_ID_14472 (528bp)
+		This contig is unaligned. (528 bp)
+		Unaligned bases: 528  total: 605494
+
+CONTIG: NODE_716_length_528_cov_0.790524_ID_14474 (528bp)
+		This contig is unaligned. (528 bp)
+		Unaligned bases: 528  total: 606022
+
+CONTIG: NODE_717_length_528_cov_0.922693_ID_14476 (528bp)
+		This contig is unaligned. (528 bp)
+		Unaligned bases: 528  total: 606550
+
+CONTIG: NODE_718_length_528_cov_0.80798_ID_14478 (528bp)
+		This contig is unaligned. (528 bp)
+		Unaligned bases: 528  total: 607078
+
+CONTIG: NODE_719_length_527_cov_1.175_ID_14480 (527bp)
+		This contig is unaligned. (527 bp)
+		Unaligned bases: 527  total: 607605
+
+CONTIG: NODE_720_length_526_cov_0.897243_ID_14482 (526bp)
+		This contig is unaligned. (526 bp)
+		Unaligned bases: 526  total: 608131
+
+CONTIG: NODE_721_length_526_cov_0.937343_ID_14484 (526bp)
+		This contig is unaligned. (526 bp)
+		Unaligned bases: 526  total: 608657
+
+CONTIG: NODE_722_length_525_cov_0.806533_ID_14486 (525bp)
+		This contig is unaligned. (525 bp)
+		Unaligned bases: 525  total: 609182
+
+CONTIG: NODE_723_length_525_cov_0.806533_ID_14488 (525bp)
+		This contig is unaligned. (525 bp)
+		Unaligned bases: 525  total: 609707
+
+CONTIG: NODE_724_length_525_cov_1.05528_ID_14490 (525bp)
+		This contig is unaligned. (525 bp)
+		Unaligned bases: 525  total: 610232
+
+CONTIG: NODE_725_length_524_cov_0.717884_ID_14492 (524bp)
+		This contig is unaligned. (524 bp)
+		Unaligned bases: 524  total: 610756
+
+CONTIG: NODE_726_length_524_cov_1.28715_ID_14494 (524bp)
+		This contig is unaligned. (524 bp)
+		Unaligned bases: 524  total: 611280
+
+CONTIG: NODE_727_length_524_cov_0.513854_ID_14496 (524bp)
+		This contig is unaligned. (524 bp)
+		Unaligned bases: 524  total: 611804
+
+CONTIG: NODE_728_length_523_cov_1.08838_ID_14498 (523bp)
+		This contig is unaligned. (523 bp)
+		Unaligned bases: 523  total: 612327
+
+CONTIG: NODE_729_length_522_cov_1.05823_ID_14500 (522bp)
+		This contig is unaligned. (522 bp)
+		Unaligned bases: 522  total: 612849
+
+CONTIG: NODE_730_length_522_cov_0.807595_ID_14502 (522bp)
+		This contig is unaligned. (522 bp)
+		Unaligned bases: 522  total: 613371
+
+CONTIG: NODE_731_length_522_cov_1.22532_ID_14504 (522bp)
+		This contig is unaligned. (522 bp)
+		Unaligned bases: 522  total: 613893
+
+CONTIG: NODE_732_length_521_cov_1.63452_ID_14506 (521bp)
+		This contig is unaligned. (521 bp)
+		Unaligned bases: 521  total: 614414
+
+CONTIG: NODE_733_length_520_cov_0.821883_ID_14508 (520bp)
+		This contig is unaligned. (520 bp)
+		Unaligned bases: 520  total: 614934
+
+CONTIG: NODE_734_length_519_cov_1.05612_ID_14510 (519bp)
+		This contig is unaligned. (519 bp)
+		Unaligned bases: 519  total: 615453
+
+CONTIG: NODE_735_length_519_cov_0.711735_ID_14512 (519bp)
+		This contig is unaligned. (519 bp)
+		Unaligned bases: 519  total: 615972
+
+CONTIG: NODE_736_length_518_cov_1.35038_ID_14514 (518bp)
+		This contig is unaligned. (518 bp)
+		Unaligned bases: 518  total: 616490
+
+CONTIG: NODE_737_length_517_cov_1.84103_ID_14516 (517bp)
+		This contig is unaligned. (517 bp)
+		Unaligned bases: 517  total: 617007
+
+CONTIG: NODE_738_length_517_cov_0.571795_ID_14518 (517bp)
+		This contig is unaligned. (517 bp)
+		Unaligned bases: 517  total: 617524
+
+CONTIG: NODE_739_length_516_cov_1.55527_ID_13150 (516bp)
+		This contig is unaligned. (516 bp)
+		Unaligned bases: 516  total: 618040
+
+CONTIG: NODE_740_length_515_cov_1.32732_ID_14520 (515bp)
+		This contig is unaligned. (515 bp)
+		Unaligned bases: 515  total: 618555
+
+CONTIG: NODE_741_length_515_cov_1.34278_ID_14522 (515bp)
+		This contig is unaligned. (515 bp)
+		Unaligned bases: 515  total: 619070
+
+CONTIG: NODE_742_length_515_cov_1.02062_ID_14524 (515bp)
+		This contig is unaligned. (515 bp)
+		Unaligned bases: 515  total: 619585
+
+CONTIG: NODE_743_length_514_cov_0.72093_ID_14526 (514bp)
+		This contig is unaligned. (514 bp)
+		Unaligned bases: 514  total: 620099
+
+CONTIG: NODE_744_length_513_cov_1.10363_ID_14528 (513bp)
+		This contig is unaligned. (513 bp)
+		Unaligned bases: 513  total: 620612
+
+CONTIG: NODE_745_length_513_cov_1.35233_ID_14530 (513bp)
+		This contig is unaligned. (513 bp)
+		Unaligned bases: 513  total: 621125
+
+CONTIG: NODE_746_length_513_cov_1.03109_ID_14532 (513bp)
+		This contig is unaligned. (513 bp)
+		Unaligned bases: 513  total: 621638
+
+CONTIG: NODE_747_length_512_cov_0.828571_ID_14534 (512bp)
+		This contig is unaligned. (512 bp)
+		Unaligned bases: 512  total: 622150
+
+CONTIG: NODE_748_length_512_cov_0.825974_ID_14536 (512bp)
+		This contig is unaligned. (512 bp)
+		Unaligned bases: 512  total: 622662
+
+CONTIG: NODE_749_length_512_cov_0.706494_ID_14538 (512bp)
+		This contig is unaligned. (512 bp)
+		Unaligned bases: 512  total: 623174
+
+CONTIG: NODE_750_length_511_cov_0.934896_ID_14540 (511bp)
+		This contig is unaligned. (511 bp)
+		Unaligned bases: 511  total: 623685
+
+CONTIG: NODE_751_length_511_cov_1.38802_ID_14542 (511bp)
+		This contig is unaligned. (511 bp)
+		Unaligned bases: 511  total: 624196
+
+CONTIG: NODE_752_length_511_cov_1.10677_ID_14544 (511bp)
+		This contig is unaligned. (511 bp)
+		Unaligned bases: 511  total: 624707
+
+CONTIG: NODE_753_length_511_cov_1.59115_ID_14546 (511bp)
+		This contig is unaligned. (511 bp)
+		Unaligned bases: 511  total: 625218
+
+CONTIG: NODE_754_length_511_cov_0.786458_ID_14548 (511bp)
+		This contig is unaligned. (511 bp)
+		Unaligned bases: 511  total: 625729
+
+CONTIG: NODE_755_length_510_cov_0.937337_ID_14550 (510bp)
+		This contig is unaligned. (510 bp)
+		Unaligned bases: 510  total: 626239
+
+CONTIG: NODE_756_length_510_cov_1.11488_ID_14552 (510bp)
+		This contig is unaligned. (510 bp)
+		Unaligned bases: 510  total: 626749
+
+CONTIG: NODE_757_length_509_cov_0.814136_ID_14554 (509bp)
+		This contig is unaligned. (509 bp)
+		Unaligned bases: 509  total: 627258
+
+CONTIG: NODE_758_length_509_cov_0.897906_ID_14556 (509bp)
+		This contig is unaligned. (509 bp)
+		Unaligned bases: 509  total: 627767
+
+CONTIG: NODE_759_length_509_cov_0.625654_ID_14558 (509bp)
+		This contig is unaligned. (509 bp)
+		Unaligned bases: 509  total: 628276
+
+CONTIG: NODE_760_length_508_cov_0.847769_ID_14560 (508bp)
+		This contig is unaligned. (508 bp)
+		Unaligned bases: 508  total: 628784
+
+CONTIG: NODE_761_length_508_cov_1.65092_ID_13238 (508bp)
+		This contig is unaligned. (508 bp)
+		Unaligned bases: 508  total: 629292
+
+CONTIG: NODE_762_length_508_cov_1.04987_ID_14562 (508bp)
+		This contig is unaligned. (508 bp)
+		Unaligned bases: 508  total: 629800
+
+CONTIG: NODE_763_length_507_cov_0.636842_ID_14564 (507bp)
+		This contig is unaligned. (507 bp)
+		Unaligned bases: 507  total: 630307
+
+CONTIG: NODE_764_length_505_cov_1.13492_ID_14566 (505bp)
+		This contig is unaligned. (505 bp)
+		Unaligned bases: 505  total: 630812
+
+CONTIG: NODE_765_length_505_cov_1.07407_ID_14568 (505bp)
+		This contig is unaligned. (505 bp)
+		Unaligned bases: 505  total: 631317
+
+CONTIG: NODE_766_length_505_cov_0.679894_ID_14570 (505bp)
+		This contig is unaligned. (505 bp)
+		Unaligned bases: 505  total: 631822
+
+CONTIG: NODE_767_length_505_cov_0.936508_ID_14572 (505bp)
+		This contig is unaligned. (505 bp)
+		Unaligned bases: 505  total: 632327
+
+CONTIG: NODE_768_length_503_cov_1.93617_ID_14574 (503bp)
+		This contig is unaligned. (503 bp)
+		Unaligned bases: 503  total: 632830
+
+CONTIG: NODE_769_length_503_cov_0.845745_ID_14576 (503bp)
+		This contig is unaligned. (503 bp)
+		Unaligned bases: 503  total: 633333
+
+CONTIG: NODE_770_length_503_cov_0.707447_ID_14578 (503bp)
+		This contig is unaligned. (503 bp)
+		Unaligned bases: 503  total: 633836
+
+CONTIG: NODE_771_length_501_cov_1.99465_ID_13324 (501bp)
+		This contig is unaligned. (501 bp)
+		Unaligned bases: 501  total: 634337
+
+CONTIG: NODE_772_length_501_cov_1.0107_ID_14580 (501bp)
+		This contig is unaligned. (501 bp)
+		Unaligned bases: 501  total: 634838
+
+CONTIG: NODE_773_length_501_cov_0.649733_ID_14582 (501bp)
+		This contig is unaligned. (501 bp)
+		Unaligned bases: 501  total: 635339
+
+CONTIG: NODE_774_length_500_cov_1.15282_ID_14584 (500bp)
+		This contig is unaligned. (500 bp)
+		Unaligned bases: 500  total: 635839
+
+CONTIG: NODE_775_length_500_cov_0.828418_ID_14586 (500bp)
+		This contig is unaligned. (500 bp)
+		Unaligned bases: 500  total: 636339
+
+Analyzing coverage...
+Writing SNPs into /data/projects/Assembly/Aroon/reports/spades/GCF_000012185.1_ASM1218v1_genomic/contigs_reports/nucmer_output/M07572_contigs.used_snps
+	Reference NC_007146.2_Haemophilus_influenzae_86-028NP__complete_genome: 86 total alignments. 1 total regions.
+		Region: 1 to 1914490 (1914490 bp)
+			Align 1: 1 60853 NODE_5_length_140698_cov_126.851_ID_13040 132710 71821
+				Gap between this and next alignment: 60853 to 60888 (34 bp)
+				Next Alignment: 60888 88583 NODE_5_length_140698_cov_126.851_ID_13040 71642 43945
+
+			Align 2: 60888 88583 NODE_5_length_140698_cov_126.851_ID_13040 71642 43945
+				Gap between this and next alignment: 88583 to 88695 (111 bp)
+				Next Alignment: 88695 88971 NODE_5_length_140698_cov_126.851_ID_13040 43944 43668
+
+			Align 3: 88695 88971 NODE_5_length_140698_cov_126.851_ID_13040 43944 43668
+				Gap between this and next alignment: 88971 to 89103 (131 bp)
+				Next Alignment: 89103 92193 NODE_5_length_140698_cov_126.851_ID_13040 43667 40579
+
+			Align 4: 89103 92193 NODE_5_length_140698_cov_126.851_ID_13040 43667 40579
+				Gap between this and next alignment: 92193 to 102852 (10658 bp)
+				Next Alignment: 102852 103401 NODE_663_length_550_cov_0.661939_ID_14368 1 550
+
+			Align 5: 102852 103401 NODE_663_length_550_cov_0.661939_ID_14368 1 550
+				Gap between this and next alignment: 103401 to 148601 (45199 bp)
+				Next Alignment: 148601 188361 NODE_5_length_140698_cov_126.851_ID_13040 40578 812
+
+			Align 6: 148601 188361 NODE_5_length_140698_cov_126.851_ID_13040 40578 812
+				Gap between this and next alignment: 188361 to 189895 (1533 bp)
+				Next Alignment: 189895 192979 NODE_28_length_3083_cov_778.911_ID_13086 1 3083
+
+			Align 7: 189895 192979 NODE_28_length_3083_cov_778.911_ID_13086 1 3083
+				Gap between this and next alignment: 192979 to 194731 (1751 bp)
+				Next Alignment: 194731 305912 NODE_8_length_111326_cov_124.389_ID_13046 1 111326
+
+			Align 8: 194731 305912 NODE_8_length_111326_cov_124.389_ID_13046 1 111326
+				Gap between this and next alignment: 305912 to 311254 (5341 bp)
+				Next Alignment: 311254 340400 NODE_4_length_166508_cov_134.437_ID_13038 166508 137377
+
+			Align 9: 311254 340400 NODE_4_length_166508_cov_134.437_ID_13038 166508 137377
+				Gap between this and next alignment: 340400 to 342006 (1605 bp)
+				Next Alignment: 342006 351217 NODE_4_length_166508_cov_134.437_ID_13038 135759 126546
+
+			Align 10: 342006 351217 NODE_4_length_166508_cov_134.437_ID_13038 135759 126546
+				Negative gap (overlap) between this and next alignment: 351217 to 351204 (-13 bp)
+				Next Alignment: 351204 403329 NODE_4_length_166508_cov_134.437_ID_13038 115329 63116
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 115329 to 115315.
+			Align 11: 351218 403329 NODE_4_length_166508_cov_134.437_ID_13038 115315 63116
+				Gap between this and next alignment: 403329 to 409121 (5791 bp)
+				Next Alignment: 409121 448593 NODE_4_length_166508_cov_134.437_ID_13038 63115 23643
+
+			Align 12: 409121 448593 NODE_4_length_166508_cov_134.437_ID_13038 63115 23643
+				Negative gap (overlap) between this and next alignment: 448593 to 448542 (-51 bp)
+				Next Alignment: 448542 470686 NODE_4_length_166508_cov_134.437_ID_13038 23642 1497
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 23642 to 23590.
+			Align 13: 448594 470686 NODE_4_length_166508_cov_134.437_ID_13038 23590 1497
+				Negative gap (overlap) between this and next alignment: 470686 to 470638 (-48 bp)
+				Next Alignment: 470638 513229 NODE_3_length_197341_cov_170.258_ID_13036 3987 46592
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 3987 to 4036.
+			Align 14: 470687 513229 NODE_3_length_197341_cov_170.258_ID_13036 4036 46592
+				Negative gap (overlap) between this and next alignment: 513229 to 513229 (0 bp)
+				Next Alignment: 513229 544312 NODE_3_length_197341_cov_170.258_ID_13036 47042 78123
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 47042 to 47043.
+			Align 15: 513230 544312 NODE_3_length_197341_cov_170.258_ID_13036 47043 78123
+				Gap between this and next alignment: 544312 to 545682 (1369 bp)
+				Next Alignment: 545682 636990 NODE_3_length_197341_cov_170.258_ID_13036 79613 170957
+
+			Align 16: 545682 636990 NODE_3_length_197341_cov_170.258_ID_13036 79613 170957
+				Gap between this and next alignment: 636990 to 638154 (1163 bp)
+				Next Alignment: 638154 643139 NODE_3_length_197341_cov_170.258_ID_13036 170958 175942
+
+			Align 17: 638154 643139 NODE_3_length_197341_cov_170.258_ID_13036 170958 175942
+				Gap between this and next alignment: 643139 to 643141 (1 bp)
+				Next Alignment: 643141 643837 NODE_3_length_197341_cov_170.258_ID_13036 176109 176805
+
+			Align 18: 643141 643837 NODE_3_length_197341_cov_170.258_ID_13036 176109 176805
+				Gap between this and next alignment: 643837 to 644956 (1118 bp)
+				Next Alignment: 644956 652071 NODE_3_length_197341_cov_170.258_ID_13036 177679 184797
+
+			Align 19: 644956 652071 NODE_3_length_197341_cov_170.258_ID_13036 177679 184797
+				Gap between this and next alignment: 652071 to 653742 (1670 bp)
+				Next Alignment: 653742 654154 NODE_520_length_629_cov_0.507968_ID_14084 629 217
+
+			Align 20: 653742 654154 NODE_520_length_629_cov_0.507968_ID_14084 629 217
+				Gap between this and next alignment: 654154 to 654778 (623 bp)
+				Next Alignment: 654778 667326 NODE_3_length_197341_cov_170.258_ID_13036 184799 197341
+
+			Align 21: 654778 667326 NODE_3_length_197341_cov_170.258_ID_13036 184799 197341
+				Gap between this and next alignment: 667326 to 668335 (1008 bp)
+				Next Alignment: 668335 678767 NODE_20_length_10433_cov_169.33_ID_13070 10433 1
+
+			Align 22: 668335 678767 NODE_20_length_10433_cov_169.33_ID_13070 10433 1
+				Gap between this and next alignment: 678767 to 684495 (5727 bp)
+				Next Alignment: 684495 709698 NODE_16_length_25244_cov_171.863_ID_13062 1 25244
+
+			Align 23: 684495 709698 NODE_16_length_25244_cov_171.863_ID_13062 1 25244
+				Negative gap (overlap) between this and next alignment: 709698 to 709572 (-126 bp)
+				Next Alignment: 709572 710833 NODE_99_length_1262_cov_342.568_ID_13244 1262 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1262 to 1135.
+			Align 24: 709699 710833 NODE_99_length_1262_cov_342.568_ID_13244 1135 1
+				Negative gap (overlap) between this and next alignment: 710833 to 710707 (-126 bp)
+				Next Alignment: 710707 719911 NODE_13_length_40859_cov_172.627_ID_13056 1 9217
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 128.
+			Align 25: 710834 719911 NODE_13_length_40859_cov_172.627_ID_13056 128 9217
+				Gap between this and next alignment: 719911 to 719919 (7 bp)
+				Next Alignment: 719919 723020 NODE_13_length_40859_cov_172.627_ID_13056 13157 16260
+
+			Align 26: 719919 723020 NODE_13_length_40859_cov_172.627_ID_13056 13157 16260
+				Gap between this and next alignment: 723020 to 723671 (650 bp)
+				Next Alignment: 723671 724373 NODE_13_length_40859_cov_172.627_ID_13056 16276 16979
+
+			Align 27: 723671 724373 NODE_13_length_40859_cov_172.627_ID_13056 16276 16979
+				Gap between this and next alignment: 724373 to 724589 (215 bp)
+				Next Alignment: 724589 735196 NODE_13_length_40859_cov_172.627_ID_13056 18016 28600
+
+			Align 28: 724589 735196 NODE_13_length_40859_cov_172.627_ID_13056 18016 28600
+				Gap between this and next alignment: 735196 to 744629 (9432 bp)
+				Next Alignment: 744629 747056 NODE_13_length_40859_cov_172.627_ID_13056 35898 38320
+
+			Align 29: 744629 747056 NODE_13_length_40859_cov_172.627_ID_13056 35898 38320
+				Negative gap (overlap) between this and next alignment: 747056 to 747052 (-4 bp)
+				Next Alignment: 747052 791966 NODE_11_length_70256_cov_172.842_ID_13052 57890 12977
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 57890 to 57885.
+			Align 30: 747057 791966 NODE_11_length_70256_cov_172.842_ID_13052 57885 12977
+				Gap between this and next alignment: 791966 to 794691 (2724 bp)
+				Next Alignment: 794691 805682 NODE_11_length_70256_cov_172.842_ID_13052 10958 1
+
+			Align 31: 794691 805682 NODE_11_length_70256_cov_172.842_ID_13052 10958 1
+				The next alignment (795739 795850 NODE_13_length_40859_cov_172.627_ID_13056 31963 32074) is redundant. Skipping.
+				Gap between this and next alignment: 805682 to 805701 (18 bp)
+				Next Alignment: 805701 807345 NODE_56_length_1645_cov_743.177_ID_13154 1 1645
+
+			Align 33: 805701 807345 NODE_56_length_1645_cov_743.177_ID_13154 1 1645
+				Gap between this and next alignment: 807345 to 811168 (3822 bp)
+				Next Alignment: 811168 839006 NODE_15_length_27840_cov_174.874_ID_13060 27840 1
+
+			Align 34: 811168 839006 NODE_15_length_27840_cov_174.874_ID_13060 27840 1
+				Gap between this and next alignment: 839006 to 840543 (1536 bp)
+				Next Alignment: 840543 841273 NODE_380_length_732_cov_474.512_ID_13806 732 4
+
+			Align 35: 840543 841273 NODE_380_length_732_cov_474.512_ID_13806 732 4
+				Gap between this and next alignment: 841273 to 844107 (2833 bp)
+				Next Alignment: 844107 1028970 NODE_2_length_233697_cov_163.445_ID_13034 1 184925
+
+			Align 36: 844107 1028970 NODE_2_length_233697_cov_163.445_ID_13034 1 184925
+				Gap between this and next alignment: 1028970 to 1029091 (120 bp)
+				Next Alignment: 1029091 1066155 NODE_2_length_233697_cov_163.445_ID_13034 185018 222071
+
+			Align 37: 1029091 1066155 NODE_2_length_233697_cov_163.445_ID_13034 185018 222071
+				Negative gap (overlap) between this and next alignment: 1066155 to 1066150 (-5 bp)
+				Next Alignment: 1066150 1086078 NODE_1_length_305777_cov_150.12_ID_13032 362 20287
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 362 to 368.
+			Align 38: 1066156 1086078 NODE_1_length_305777_cov_150.12_ID_13032 368 20287
+				Gap between this and next alignment: 1086078 to 1092812 (6733 bp)
+				Next Alignment: 1092812 1106082 NODE_1_length_305777_cov_150.12_ID_13032 27503 40690
+
+			Align 39: 1092812 1106082 NODE_1_length_305777_cov_150.12_ID_13032 27503 40690
+				Gap between this and next alignment: 1106082 to 1124031 (17948 bp)
+				Next Alignment: 1124031 1142981 NODE_1_length_305777_cov_150.12_ID_13032 58601 77550
+
+			Align 40: 1124031 1142981 NODE_1_length_305777_cov_150.12_ID_13032 58601 77550
+				Gap between this and next alignment: 1142981 to 1143418 (436 bp)
+				Next Alignment: 1143418 1145058 NODE_1_length_305777_cov_150.12_ID_13032 77551 79197
+
+			Align 41: 1143418 1145058 NODE_1_length_305777_cov_150.12_ID_13032 77551 79197
+				Gap between this and next alignment: 1145058 to 1146913 (1854 bp)
+				Next Alignment: 1146913 1161970 NODE_1_length_305777_cov_150.12_ID_13032 82603 97664
+
+			Align 42: 1146913 1161970 NODE_1_length_305777_cov_150.12_ID_13032 82603 97664
+				Negative gap (overlap) between this and next alignment: 1161970 to 1161957 (-13 bp)
+				Next Alignment: 1161957 1312097 NODE_1_length_305777_cov_150.12_ID_13032 97735 247872
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 97735 to 97749.
+			Align 43: 1161971 1312097 NODE_1_length_305777_cov_150.12_ID_13032 97749 247872
+				Gap between this and next alignment: 1312097 to 1312203 (105 bp)
+				Next Alignment: 1312203 1319360 NODE_1_length_305777_cov_150.12_ID_13032 248016 255185
+
+			Align 44: 1312203 1319360 NODE_1_length_305777_cov_150.12_ID_13032 248016 255185
+				Gap between this and next alignment: 1319360 to 1319497 (136 bp)
+				Next Alignment: 1319497 1369936 NODE_1_length_305777_cov_150.12_ID_13032 255334 305777
+
+			Align 45: 1319497 1369936 NODE_1_length_305777_cov_150.12_ID_13032 255334 305777
+				Negative gap (overlap) between this and next alignment: 1369936 to 1369810 (-126 bp)
+				Next Alignment: 1369810 1371955 NODE_24_length_5517_cov_273.107_ID_13078 1 2146
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 128.
+			Align 46: 1369937 1371955 NODE_24_length_5517_cov_273.107_ID_13078 128 2146
+				Gap between this and next alignment: 1371955 to 1378786 (6830 bp)
+				Next Alignment: 1378786 1387188 NODE_14_length_29933_cov_139.088_ID_13058 8 8489
+
+			Align 47: 1378786 1387188 NODE_14_length_29933_cov_139.088_ID_13058 8 8489
+				The next alignment (1378821 1379036 NODE_6_length_125428_cov_140.034_ID_13042 3128 3342) is redundant. Skipping.
+				Gap between this and next alignment: 1387188 to 1389829 (2640 bp)
+				Next Alignment: 1389829 1409989 NODE_14_length_29933_cov_139.088_ID_13058 8494 28666
+
+			Align 49: 1389829 1409989 NODE_14_length_29933_cov_139.088_ID_13058 8494 28666
+				Negative gap (overlap) between this and next alignment: 1409989 to 1409945 (-44 bp)
+				Next Alignment: 1409945 1412342 NODE_3_length_197341_cov_170.258_ID_13036 2650 252
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 2650 to 2604.
+			Align 50: 1409990 1412342 NODE_3_length_197341_cov_170.258_ID_13036 2604 252
+				Gap between this and next alignment: 1412342 to 1412533 (190 bp)
+				Next Alignment: 1412533 1416161 NODE_21_length_7573_cov_285.706_ID_13072 73 3676
+
+			Align 51: 1412533 1416161 NODE_21_length_7573_cov_285.706_ID_13072 73 3676
+				Gap between this and next alignment: 1416161 to 1416405 (243 bp)
+				Next Alignment: 1416405 1418022 NODE_21_length_7573_cov_285.706_ID_13072 3677 5294
+
+			Align 52: 1416405 1418022 NODE_21_length_7573_cov_285.706_ID_13072 3677 5294
+				Gap between this and next alignment: 1418022 to 1418807 (784 bp)
+				Next Alignment: 1418807 1420274 NODE_21_length_7573_cov_285.706_ID_13072 6106 7573
+
+			Align 53: 1418807 1420274 NODE_21_length_7573_cov_285.706_ID_13072 6106 7573
+				The next alignment (1420148 1420274 NODE_23_length_5904_cov_133.392_ID_13076 1 127) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 1420274 to 1420148 (-126 bp)
+				Next Alignment: 1420148 1421632 NODE_44_length_1906_cov_175.069_ID_13126 1 1485
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 128.
+			Align 55: 1420275 1421632 NODE_44_length_1906_cov_175.069_ID_13126 128 1485
+				Negative gap (overlap) between this and next alignment: 1421632 to 1421627 (-5 bp)
+				Next Alignment: 1421627 1422599 NODE_23_length_5904_cov_133.392_ID_13076 1206 2179
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1206 to 1212.
+			Align 56: 1421633 1422599 NODE_23_length_5904_cov_133.392_ID_13076 1212 2179
+				Gap between this and next alignment: 1422599 to 1424799 (2199 bp)
+				Next Alignment: 1424799 1425849 NODE_23_length_5904_cov_133.392_ID_13076 3900 4953
+
+			Align 57: 1424799 1425849 NODE_23_length_5904_cov_133.392_ID_13076 3900 4953
+				Gap between this and next alignment: 1425849 to 1429304 (3454 bp)
+				Next Alignment: 1429304 1429939 NODE_32_length_2712_cov_135.17_ID_13094 401 1037
+
+			Align 58: 1429304 1429939 NODE_32_length_2712_cov_135.17_ID_13094 401 1037
+				Gap between this and next alignment: 1429939 to 1430248 (308 bp)
+				Next Alignment: 1430248 1430358 NODE_32_length_2712_cov_135.17_ID_13094 1338 1448
+
+			Align 59: 1430248 1430358 NODE_32_length_2712_cov_135.17_ID_13094 1338 1448
+				Gap between this and next alignment: 1430358 to 1430569 (210 bp)
+				Next Alignment: 1430569 1431321 NODE_32_length_2712_cov_135.17_ID_13094 1461 2213
+
+			Align 60: 1430569 1431321 NODE_32_length_2712_cov_135.17_ID_13094 1461 2213
+				Gap between this and next alignment: 1431321 to 1454255 (22933 bp)
+				Next Alignment: 1454255 1455385 NODE_10_length_75725_cov_162.34_ID_13050 1131 1
+
+			Align 61: 1454255 1455385 NODE_10_length_75725_cov_162.34_ID_13050 1131 1
+				Gap between this and next alignment: 1455385 to 1456426 (1040 bp)
+				Next Alignment: 1456426 1457503 NODE_13_length_40859_cov_172.627_ID_13056 39488 38407
+
+			Align 62: 1456426 1457503 NODE_13_length_40859_cov_172.627_ID_13056 39488 38407
+				Negative gap (overlap) between this and next alignment: 1457503 to 1457459 (-44 bp)
+				Next Alignment: 1457459 1462127 NODE_10_length_75725_cov_162.34_ID_13050 75638 70969
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 75638 to 75591.
+			Align 63: 1457504 1462127 NODE_10_length_75725_cov_162.34_ID_13050 75591 70969
+				The next alignment (1459300 1459519 NODE_18_length_20655_cov_166.701_ID_13066 3132 3351) is redundant. Skipping.
+				Gap between this and next alignment: 1462127 to 1463084 (956 bp)
+				Next Alignment: 1463084 1502638 NODE_10_length_75725_cov_162.34_ID_13050 70968 31377
+
+			Align 65: 1463084 1502638 NODE_10_length_75725_cov_162.34_ID_13050 70968 31377
+				Negative gap (overlap) between this and next alignment: 1502638 to 1502634 (-4 bp)
+				Next Alignment: 1502634 1547570 NODE_9_length_79549_cov_154.355_ID_13048 375 45233
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 375 to 380.
+			Align 66: 1502639 1547570 NODE_9_length_79549_cov_154.355_ID_13048 380 45233
+				Gap between this and next alignment: 1547570 to 1547794 (223 bp)
+				Next Alignment: 1547794 1552220 NODE_9_length_79549_cov_154.355_ID_13048 46018 50440
+
+			Align 67: 1547794 1552220 NODE_9_length_79549_cov_154.355_ID_13048 46018 50440
+				Negative gap (overlap) between this and next alignment: 1552220 to 1552211 (-9 bp)
+				Next Alignment: 1552211 1580289 NODE_9_length_79549_cov_154.355_ID_13048 51474 79549
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 51474 to 51484.
+			Align 68: 1552221 1580289 NODE_9_length_79549_cov_154.355_ID_13048 51484 79549
+				The next alignment (1579994 1580289 NODE_44_length_1906_cov_175.069_ID_13126 1612 1906) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 1580289 to 1580163 (-126 bp)
+				Next Alignment: 1580163 1580897 NODE_375_length_735_cov_355.505_ID_13796 1 735
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 128.
+			Align 70: 1580290 1580897 NODE_375_length_735_cov_355.505_ID_13796 128 735
+				Negative gap (overlap) between this and next alignment: 1580897 to 1580774 (-123 bp)
+				Next Alignment: 1580774 1584958 NODE_26_length_4188_cov_162.402_ID_13082 4 4188
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 4 to 128.
+			Align 71: 1580898 1584958 NODE_26_length_4188_cov_162.402_ID_13082 128 4188
+				The next alignment (1584808 1584958 NODE_32_length_2712_cov_135.17_ID_13094 151 1) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 1584958 to 1584832 (-126 bp)
+				Next Alignment: 1584832 1585995 NODE_122_length_1164_cov_285.284_ID_13290 1164 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1164 to 1037.
+			Align 73: 1584959 1585995 NODE_122_length_1164_cov_285.284_ID_13290 1037 1
+				Negative gap (overlap) between this and next alignment: 1585995 to 1585869 (-126 bp)
+				Next Alignment: 1585869 1586468 NODE_566_length_600_cov_471.829_ID_14176 600 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 600 to 473.
+			Align 74: 1585996 1586468 NODE_566_length_600_cov_471.829_ID_14176 473 1
+				Negative gap (overlap) between this and next alignment: 1586468 to 1586342 (-126 bp)
+				Next Alignment: 1586342 1587032 NODE_23_length_5904_cov_133.392_ID_13076 5904 5214
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 5904 to 5777.
+			Align 75: 1586469 1587032 NODE_23_length_5904_cov_133.392_ID_13076 5777 5214
+				The next alignment (1586342 1586906 NODE_647_length_559_cov_294.093_ID_14338 559 1) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 1587032 to 1586780 (-252 bp)
+				Next Alignment: 1586780 1707532 NODE_7_length_120675_cov_145.056_ID_13044 1 120675
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 254.
+			Align 77: 1587033 1707532 NODE_7_length_120675_cov_145.056_ID_13044 254 120675
+				Negative gap (overlap) between this and next alignment: 1707532 to 1707406 (-126 bp)
+				Next Alignment: 1707406 1708363 NODE_187_length_958_cov_314.155_ID_13422 1 958
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 128.
+			Align 78: 1707533 1708363 NODE_187_length_958_cov_314.155_ID_13422 128 958
+				Gap between this and next alignment: 1708363 to 1709181 (817 bp)
+				Next Alignment: 1709181 1715586 NODE_6_length_125428_cov_140.034_ID_13042 125428 119024
+
+			Align 79: 1709181 1715586 NODE_6_length_125428_cov_140.034_ID_13042 125428 119024
+				The next alignment (1709694 1709862 NODE_19_length_18708_cov_205.752_ID_13068 18708 18540) is redundant. Skipping.
+				Gap between this and next alignment: 1715586 to 1717907 (2320 bp)
+				Next Alignment: 1717907 1814134 NODE_6_length_125428_cov_140.034_ID_13042 116214 19982
+
+			Align 81: 1717907 1814134 NODE_6_length_125428_cov_140.034_ID_13042 116214 19982
+				Gap between this and next alignment: 1814134 to 1814141 (6 bp)
+				Next Alignment: 1814141 1830148 NODE_6_length_125428_cov_140.034_ID_13042 19547 3533
+
+			Align 82: 1814141 1830148 NODE_6_length_125428_cov_140.034_ID_13042 19547 3533
+				Gap between this and next alignment: 1830148 to 1838912 (8763 bp)
+				Next Alignment: 1838912 1846384 NODE_12_length_61872_cov_131.511_ID_13054 1 7473
+
+			Align 83: 1838912 1846384 NODE_12_length_61872_cov_131.511_ID_13054 1 7473
+				Gap between this and next alignment: 1846384 to 1846553 (168 bp)
+				Next Alignment: 1846553 1900965 NODE_12_length_61872_cov_131.511_ID_13054 7474 61872
+
+			Align 84: 1846553 1900965 NODE_12_length_61872_cov_131.511_ID_13054 7474 61872
+				The next alignment (1900708 1900853 NODE_5_length_140698_cov_126.851_ID_13040 145 1) is redundant. Skipping.
+				Gap between this and next alignment: 1900965 to 1906503 (5537 bp)
+				Next Alignment: 1906503 1914490 NODE_5_length_140698_cov_126.851_ID_13040 140698 132711
+
+			Align 86: 1906503 1914490 NODE_5_length_140698_cov_126.851_ID_13040 140698 132711
+			END in current alignment.  Modifying 1914490 to 1914490.
+
+Analysis is finished!
+Founded SNPs were written into /data/projects/Assembly/Aroon/reports/spades/GCF_000012185.1_ASM1218v1_genomic/contigs_reports/nucmer_output/M07572_contigs.used_snps
+
+Results:
+	Local Misassemblies: 26
+	Misassemblies: 18
+		Relocations: 18
+		Translocations: 0
+		Inversions: 0
+	Misassembled Contigs: 11
+	Misassembled Contig Bases: 1166436
+	Misassemblies Inter-Contig Overlap: 0
+Uncovered Regions: 0 (0)
+Unaligned Contigs: 739 + 5 part
+Partially Unaligned Contigs with Misassemblies: 1
+Unaligned Contig Bases: 681958
+
+Ambiguously Mapped Contigs: 4
+Total Bases in Ambiguously Mapped Contigs: 6415
+Note that --allow-ambiguity option was set to "one" and only first alignment per each contig was used.
+
+	Covered Bases: 1721467
+
+	SNPs: 19364
+	Insertions: 1360
+	Deletions: 940
+
+	Positive Gaps: 53
+		Internal Gaps:  32
+		External Gaps:  21
+		External Gap Total:  131283
+		External Gap Average: 6252
+	Negative Gaps: 23
+		Internal Overlaps:  5
+		External Overlaps:  18
+		External Overlaps Total: -1663
+		External Overlaps Average: -92
+	Contigs with Redundant Alignments: 9 (2002)

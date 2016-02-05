@@ -1,0 +1,210 @@
+/data/home/achande3/staging/quast-3.2/quast.py -o ./reports/spades/GCF_000968335.1_ASM96833v1_genomic -R ./reference/GCF_000968335.1_ASM96833v1_genomic.fna.gz --threads 6 ./spades/M05964/contigs.fasta ./spades/M07572/contigs.fasta ./spades/M10540/contigs.fasta ./spades/M16180/contigs.fasta
+
+Version: 3.2, build 26.11.2015 18:55
+
+System information:
+  OS: Linux-2.6.32-573.12.1.el6.x86_64-x86_64-with-redhat-6.7-Santiago (linux_64)
+  Python version: 2.7.11
+  CPUs number: 6
+
+Started: 2016-02-05 09:09:35
+
+Logging to /data/projects/Assembly/Aroon/reports/spades/GCF_000968335.1_ASM96833v1_genomic/quast.log
+
+Main parameters: 
+  Threads: 6, minimum contig length: 500, ambiguity: one, threshold for extensive misassembly size: 1000
+
+Reference:
+  ./reference/GCF_000968335.1_ASM96833v1_genomic.fna.gz ==> GCF_000968335.1_ASM96833v1_genomic
+
+Contigs:
+  1  ./spades/M05964/contigs.fasta ==> M05964_contigs
+  2  ./spades/M07572/contigs.fasta ==> M07572_contigs
+  3  ./spades/M10540/contigs.fasta ==> M10540_contigs
+  4  ./spades/M16180/contigs.fasta ==> M16180_contigs
+
+2016-02-05 09:09:37
+Running Basic statistics processor...
+  Reference genome:
+    GCF_000968335.1_ASM96833v1_genomic.fna, Reference length = 1969659, Reference GC % = 38.31
+  Contig files: 
+    1  M05964_contigs
+    2  M07572_contigs
+    3  M10540_contigs
+    4  M16180_contigs
+  Calculating N50 and L50...
+    1  M05964_contigs, N50 = 120793, L50 = 5, Total length = 2404236, GC % = 41.19, # N's per 100 kbp =  0.00
+    2  M07572_contigs, N50 = 120675, L50 = 7, Total length = 2538580, GC % = 41.57, # N's per 100 kbp =  0.00
+    3  M10540_contigs, N50 = 1150417, L50 = 1, Total length = 1927120, GC % = 37.84, # N's per 100 kbp =  0.00
+    4  M16180_contigs, N50 = 165472, L50 = 4, Total length = 2098123, GC % = 37.98, # N's per 100 kbp =  0.00
+  Drawing Nx plot...
+    saved to /data/projects/Assembly/Aroon/reports/spades/GCF_000968335.1_ASM96833v1_genomic/basic_stats/Nx_plot.pdf
+  Drawing NGx plot...
+    saved to /data/projects/Assembly/Aroon/reports/spades/GCF_000968335.1_ASM96833v1_genomic/basic_stats/NGx_plot.pdf
+  Drawing cumulative plot...
+    saved to /data/projects/Assembly/Aroon/reports/spades/GCF_000968335.1_ASM96833v1_genomic/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /data/projects/Assembly/Aroon/reports/spades/GCF_000968335.1_ASM96833v1_genomic/basic_stats/GC_content_plot.pdf
+Done.
+
+2016-02-05 09:09:39
+Running Contig analyzer...
+  1  M05964_contigs
+  1  Logging to files /data/projects/Assembly/Aroon/reports/spades/GCF_000968335.1_ASM96833v1_genomic/contigs_reports/contigs_report_M05964_contigs.stdout and contigs_report_M05964_contigs.stderr...
+  1  Running Nucmer
+  1  /data/home/achande3/staging/quast-3.2/libs/MUMmer3.23-linux/nucmer -c 65 -l 65 \
+     --maxmatch -p reports/spades/GCF_000968335.1_ASM96833v1_genomic/contigs_reports/nucmer_output/M05964_contigs \
+     reports/spades/GCF_000968335.1_ASM96833v1_genomic/quast_corrected_input/GCF_000968335.1_ASM96833v1_genomic.fna \
+     reports/spades/GCF_000968335.1_ASM96833v1_genomic/quast_corrected_input/M05964_contigs.fasta \
+     >> reports/spades/GCF_000968335.1_ASM96833v1_genomic/contigs_reports/contigs_report_M05964_contigs.stdout \
+     2>> reports/spades/GCF_000968335.1_ASM96833v1_genomic/contigs_reports/contigs_report_M05964_contigs.stderr
+  2  M07572_contigs
+  2  Logging to files /data/projects/Assembly/Aroon/reports/spades/GCF_000968335.1_ASM96833v1_genomic/contigs_reports/contigs_report_M07572_contigs.stdout and contigs_report_M07572_contigs.stderr...
+  2  Running Nucmer
+  2  /data/home/achande3/staging/quast-3.2/libs/MUMmer3.23-linux/nucmer -c 65 -l 65 \
+     --maxmatch -p reports/spades/GCF_000968335.1_ASM96833v1_genomic/contigs_reports/nucmer_output/M07572_contigs \
+     reports/spades/GCF_000968335.1_ASM96833v1_genomic/quast_corrected_input/GCF_000968335.1_ASM96833v1_genomic.fna \
+     reports/spades/GCF_000968335.1_ASM96833v1_genomic/quast_corrected_input/M07572_contigs.fasta \
+     >> reports/spades/GCF_000968335.1_ASM96833v1_genomic/contigs_reports/contigs_report_M07572_contigs.stdout \
+     2>> reports/spades/GCF_000968335.1_ASM96833v1_genomic/contigs_reports/contigs_report_M07572_contigs.stderr
+  3  M10540_contigs
+  3  Logging to files /data/projects/Assembly/Aroon/reports/spades/GCF_000968335.1_ASM96833v1_genomic/contigs_reports/contigs_report_M10540_contigs.stdout and contigs_report_M10540_contigs.stderr...
+  3  Running Nucmer
+  3  /data/home/achande3/staging/quast-3.2/libs/MUMmer3.23-linux/nucmer -c 65 -l 65 \
+     --maxmatch -p reports/spades/GCF_000968335.1_ASM96833v1_genomic/contigs_reports/nucmer_output/M10540_contigs \
+     reports/spades/GCF_000968335.1_ASM96833v1_genomic/quast_corrected_input/GCF_000968335.1_ASM96833v1_genomic.fna \
+     reports/spades/GCF_000968335.1_ASM96833v1_genomic/quast_corrected_input/M10540_contigs.fasta \
+     >> reports/spades/GCF_000968335.1_ASM96833v1_genomic/contigs_reports/contigs_report_M10540_contigs.stdout \
+     2>> reports/spades/GCF_000968335.1_ASM96833v1_genomic/contigs_reports/contigs_report_M10540_contigs.stderr
+  4  M16180_contigs
+  4  Logging to files /data/projects/Assembly/Aroon/reports/spades/GCF_000968335.1_ASM96833v1_genomic/contigs_reports/contigs_report_M16180_contigs.stdout and contigs_report_M16180_contigs.stderr...
+  4  Running Nucmer
+  4  /data/home/achande3/staging/quast-3.2/libs/MUMmer3.23-linux/nucmer -c 65 -l 65 \
+     --maxmatch -p reports/spades/GCF_000968335.1_ASM96833v1_genomic/contigs_reports/nucmer_output/M16180_contigs \
+     reports/spades/GCF_000968335.1_ASM96833v1_genomic/quast_corrected_input/GCF_000968335.1_ASM96833v1_genomic.fna \
+     reports/spades/GCF_000968335.1_ASM96833v1_genomic/quast_corrected_input/M16180_contigs.fasta \
+     >> reports/spades/GCF_000968335.1_ASM96833v1_genomic/contigs_reports/contigs_report_M16180_contigs.stdout \
+     2>> reports/spades/GCF_000968335.1_ASM96833v1_genomic/contigs_reports/contigs_report_M16180_contigs.stderr
+  4  /data/home/achande3/staging/quast-3.2/libs/MUMmer3.23-linux/delta-filter -i 95 \
+     -l 0 reports/spades/GCF_000968335.1_ASM96833v1_genomic/contigs_reports/nucmer_output/M16180_contigs.delta \
+     > reports/spades/GCF_000968335.1_ASM96833v1_genomic/contigs_reports/nucmer_output/M16180_contigs.fdelta \
+     2> reports/spades/GCF_000968335.1_ASM96833v1_genomic/contigs_reports/contigs_report_M16180_contigs.stderr
+  4  /data/home/achande3/staging/quast-3.2/libs/MUMmer3.23-linux/show-coords reports/spades/GCF_000968335.1_ASM96833v1_genomic/contigs_reports/nucmer_output/M16180_contigs.delta \
+     > reports/spades/GCF_000968335.1_ASM96833v1_genomic/contigs_reports/nucmer_output/M16180_contigs.coords_tmp \
+     2> reports/spades/GCF_000968335.1_ASM96833v1_genomic/contigs_reports/contigs_report_M16180_contigs.stderr
+  4  /data/home/achande3/staging/quast-3.2/libs/MUMmer3.23-linux/show-snps -S -T -H \
+     reports/spades/GCF_000968335.1_ASM96833v1_genomic/contigs_reports/nucmer_output/M16180_contigs.delta \
+     < reports/spades/GCF_000968335.1_ASM96833v1_genomic/contigs_reports/nucmer_output/M16180_contigs.coords.headless \
+     > reports/spades/GCF_000968335.1_ASM96833v1_genomic/contigs_reports/nucmer_output/M16180_contigs.all_snps \
+     2> reports/spades/GCF_000968335.1_ASM96833v1_genomic/contigs_reports/contigs_report_M16180_contigs.stderr
+  1  /data/home/achande3/staging/quast-3.2/libs/MUMmer3.23-linux/delta-filter -i 95 \
+     -l 0 reports/spades/GCF_000968335.1_ASM96833v1_genomic/contigs_reports/nucmer_output/M05964_contigs.delta \
+     > reports/spades/GCF_000968335.1_ASM96833v1_genomic/contigs_reports/nucmer_output/M05964_contigs.fdelta \
+     2> reports/spades/GCF_000968335.1_ASM96833v1_genomic/contigs_reports/contigs_report_M05964_contigs.stderr
+  1  /data/home/achande3/staging/quast-3.2/libs/MUMmer3.23-linux/show-coords reports/spades/GCF_000968335.1_ASM96833v1_genomic/contigs_reports/nucmer_output/M05964_contigs.delta \
+     > reports/spades/GCF_000968335.1_ASM96833v1_genomic/contigs_reports/nucmer_output/M05964_contigs.coords_tmp \
+     2> reports/spades/GCF_000968335.1_ASM96833v1_genomic/contigs_reports/contigs_report_M05964_contigs.stderr
+  1  /data/home/achande3/staging/quast-3.2/libs/MUMmer3.23-linux/show-snps -S -T -H \
+     reports/spades/GCF_000968335.1_ASM96833v1_genomic/contigs_reports/nucmer_output/M05964_contigs.delta \
+     < reports/spades/GCF_000968335.1_ASM96833v1_genomic/contigs_reports/nucmer_output/M05964_contigs.coords.headless \
+     > reports/spades/GCF_000968335.1_ASM96833v1_genomic/contigs_reports/nucmer_output/M05964_contigs.all_snps \
+     2> reports/spades/GCF_000968335.1_ASM96833v1_genomic/contigs_reports/contigs_report_M05964_contigs.stderr
+  2  /data/home/achande3/staging/quast-3.2/libs/MUMmer3.23-linux/delta-filter -i 95 \
+     -l 0 reports/spades/GCF_000968335.1_ASM96833v1_genomic/contigs_reports/nucmer_output/M07572_contigs.delta \
+     > reports/spades/GCF_000968335.1_ASM96833v1_genomic/contigs_reports/nucmer_output/M07572_contigs.fdelta \
+     2> reports/spades/GCF_000968335.1_ASM96833v1_genomic/contigs_reports/contigs_report_M07572_contigs.stderr
+  2  /data/home/achande3/staging/quast-3.2/libs/MUMmer3.23-linux/show-coords reports/spades/GCF_000968335.1_ASM96833v1_genomic/contigs_reports/nucmer_output/M07572_contigs.delta \
+     > reports/spades/GCF_000968335.1_ASM96833v1_genomic/contigs_reports/nucmer_output/M07572_contigs.coords_tmp \
+     2> reports/spades/GCF_000968335.1_ASM96833v1_genomic/contigs_reports/contigs_report_M07572_contigs.stderr
+  2  /data/home/achande3/staging/quast-3.2/libs/MUMmer3.23-linux/show-snps -S -T -H \
+     reports/spades/GCF_000968335.1_ASM96833v1_genomic/contigs_reports/nucmer_output/M07572_contigs.delta \
+     < reports/spades/GCF_000968335.1_ASM96833v1_genomic/contigs_reports/nucmer_output/M07572_contigs.coords.headless \
+     > reports/spades/GCF_000968335.1_ASM96833v1_genomic/contigs_reports/nucmer_output/M07572_contigs.all_snps \
+     2> reports/spades/GCF_000968335.1_ASM96833v1_genomic/contigs_reports/contigs_report_M07572_contigs.stderr
+  3  /data/home/achande3/staging/quast-3.2/libs/MUMmer3.23-linux/delta-filter -i 95 \
+     -l 0 reports/spades/GCF_000968335.1_ASM96833v1_genomic/contigs_reports/nucmer_output/M10540_contigs.delta \
+     > reports/spades/GCF_000968335.1_ASM96833v1_genomic/contigs_reports/nucmer_output/M10540_contigs.fdelta \
+     2> reports/spades/GCF_000968335.1_ASM96833v1_genomic/contigs_reports/contigs_report_M10540_contigs.stderr
+  3  /data/home/achande3/staging/quast-3.2/libs/MUMmer3.23-linux/show-coords reports/spades/GCF_000968335.1_ASM96833v1_genomic/contigs_reports/nucmer_output/M10540_contigs.delta \
+     > reports/spades/GCF_000968335.1_ASM96833v1_genomic/contigs_reports/nucmer_output/M10540_contigs.coords_tmp \
+     2> reports/spades/GCF_000968335.1_ASM96833v1_genomic/contigs_reports/contigs_report_M10540_contigs.stderr
+  3  /data/home/achande3/staging/quast-3.2/libs/MUMmer3.23-linux/show-snps -S -T -H \
+     reports/spades/GCF_000968335.1_ASM96833v1_genomic/contigs_reports/nucmer_output/M10540_contigs.delta \
+     < reports/spades/GCF_000968335.1_ASM96833v1_genomic/contigs_reports/nucmer_output/M10540_contigs.coords.headless \
+     > reports/spades/GCF_000968335.1_ASM96833v1_genomic/contigs_reports/nucmer_output/M10540_contigs.all_snps \
+     2> reports/spades/GCF_000968335.1_ASM96833v1_genomic/contigs_reports/contigs_report_M10540_contigs.stderr
+  4  Alignments: reports/spades/GCF_000968335.1_ASM96833v1_genomic/contigs_reports/alignments_M16180_contigs.tsv
+  4  Analysis is finished.
+
+  1  Alignments: reports/spades/GCF_000968335.1_ASM96833v1_genomic/contigs_reports/alignments_M05964_contigs.tsv
+  1  Analysis is finished.
+
+  3  Alignments: reports/spades/GCF_000968335.1_ASM96833v1_genomic/contigs_reports/alignments_M10540_contigs.tsv
+  3  Analysis is finished.
+
+  2  Alignments: reports/spades/GCF_000968335.1_ASM96833v1_genomic/contigs_reports/alignments_M07572_contigs.tsv
+  2  Analysis is finished.
+
+  Creating total report...
+    saved to /data/projects/Assembly/Aroon/reports/spades/GCF_000968335.1_ASM96833v1_genomic/contigs_reports/misassemblies_report.txt, misassemblies_report.tsv, and misassemblies_report.tex
+  Transposed version of total report...
+    saved to /data/projects/Assembly/Aroon/reports/spades/GCF_000968335.1_ASM96833v1_genomic/contigs_reports/transposed_report_misassemblies.txt, transposed_report_misassemblies.tsv, and transposed_report_misassemblies.tex
+  Creating total report...
+    saved to /data/projects/Assembly/Aroon/reports/spades/GCF_000968335.1_ASM96833v1_genomic/contigs_reports/unaligned_report.txt, unaligned_report.tsv, and unaligned_report.tex
+  Drawing misassemblies by types plot...
+    saved to /data/projects/Assembly/Aroon/reports/spades/GCF_000968335.1_ASM96833v1_genomic/contigs_reports/misassemblies_plot.pdf
+Done.
+
+2016-02-05 09:09:56
+Running NA-NGA calculation...
+  1  M05964_contigs, Largest alignment = 178366, NA50 = 36146, NGA50 = 59822, LA50 = 15, LGA50 = 10
+  2  M07572_contigs, Largest alignment = 153177, NA50 = 25298, NGA50 = 34879, LA50 = 23, LGA50 = 14
+  3  M10540_contigs, Largest alignment = 51310, NA50 = 5581, NGA50 = 3284, LA50 = 57, LGA50 = 62
+  4  M16180_contigs, Largest alignment = 154272, NA50 = 35073, NGA50 = 36053, LA50 = 16, LGA50 = 14
+  Drawing cumulative plot...
+    saved to /data/projects/Assembly/Aroon/reports/spades/GCF_000968335.1_ASM96833v1_genomic/aligned_stats/cumulative_plot.pdf
+  Drawing NAx plot...
+    saved to /data/projects/Assembly/Aroon/reports/spades/GCF_000968335.1_ASM96833v1_genomic/aligned_stats/NAx_plot.pdf
+  Drawing NGAx plot...
+    saved to /data/projects/Assembly/Aroon/reports/spades/GCF_000968335.1_ASM96833v1_genomic/aligned_stats/NGAx_plot.pdf
+Done.
+
+2016-02-05 09:09:58
+Running Genome analyzer...
+  NOTICE: No file with genes provided. Use the -G option if you want to specify it.
+  NOTICE: No file with operons provided. Use the -O option if you want to specify it.
+  1  M05964_contigs
+  2  M07572_contigs
+  4  M16180_contigs
+  3  M10540_contigs
+  3  Analysis is finished.
+  1  Analysis is finished.
+  4  Analysis is finished.
+  2  Analysis is finished.
+  Drawing Genome fraction, % histogram...
+    saved to /data/projects/Assembly/Aroon/reports/spades/GCF_000968335.1_ASM96833v1_genomic/genome_stats/genome_fraction_histogram.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding option to enable it.
+
+2016-02-05 09:09:59
+Drawing large plots...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating contig alignment plot...
+  2 of 2: Creating PDF with all tables and plots...
+Done
+
+2016-02-05 09:10:06
+RESULTS:
+  Text versions of total report are saved to /data/projects/Assembly/Aroon/reports/spades/GCF_000968335.1_ASM96833v1_genomic/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /data/projects/Assembly/Aroon/reports/spades/GCF_000968335.1_ASM96833v1_genomic/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) saved to /data/projects/Assembly/Aroon/reports/spades/GCF_000968335.1_ASM96833v1_genomic/report.html
+  PDF version (tables and plots) saved to /data/projects/Assembly/Aroon/reports/spades/GCF_000968335.1_ASM96833v1_genomic/report.pdf
+  Contig alignment plot: /data/projects/Assembly/Aroon/reports/spades/GCF_000968335.1_ASM96833v1_genomic/alignment.svg
+  Log saved to /data/projects/Assembly/Aroon/reports/spades/GCF_000968335.1_ASM96833v1_genomic/quast.log
+
+Finished: 2016-02-05 09:10:06
+Elapsed time: 0:00:30.838239
+NOTICEs: 3; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!
