@@ -27,7 +27,7 @@ the precision of De Bruijn Graph and provide less work when assembling the conti
 
 ##System Requirements
 
-	Requires GNU C++ to be pre-installed on ones machine
+	Requires GNU C++ to be pre-installed on ones machine 
   
 ##Installation
 
