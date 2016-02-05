@@ -26,16 +26,29 @@ and higher coverage for contigs and scaffolds. It is publicly available at the l
 
 ##System Requirements
 
-	- Requires GNU C++ to be pre-installed on ones machine
+	Requires GNU C++ to be pre-installed on ones machine
   
 ##Installation
 
-	- Copy source code to a new main directory
+	Copy entire source code to a new main directory
   
 ##Inputs
 
-	- Accepts paired-end reads that are less than 50bp and has a coverage greater than 100
+	Accepts paired-end reads that are less than 50bp and has a coverage greater than 100
+	
+##Commands to Run Assembler
+	
+	BCALM command: ulimit -n 1100
+	
+	g++ main.cpp -o EPGA -lpthread
+	
+	perl EPGA.pl library.txt K-merLength ThreadNumber  //kmer length <32
+	
+##Outputs 
+
+	Two files: contigSetLong.fa and scaffoldLong.fa
 
 ##References
 
 http://www.ncbi.nlm.nih.gov/pubmed/26315905
+
