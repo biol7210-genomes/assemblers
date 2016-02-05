@@ -1,0 +1,570 @@
+/data/home/achande3/staging/quast-3.2/quast.py -o ./reports/abyss/GCF_000027305.1_ASM2730v1_genomic -R ./reference/GCF_000027305.1_ASM2730v1_genomic.fna.gz --threads 6 ./abyss/k44/M05964-contigs.fa ./abyss/k44/M07572-contigs.fa ./abyss/k44/M10540-contigs.fa ./abyss/k44/M16180-contigs.fa ./abyss/k77/M05964-contigs.fa ./abyss/k77/M07572-contigs.fa ./abyss/k77/M10540-contigs.fa ./abyss/k77/M16180-contigs.fa ./abyss/k127/M05964-contigs.fa ./abyss/k127/M07572-contigs.fa ./abyss/k127/M10540-contigs.fa ./abyss/k127/M16180-contigs.fa ./abyss/k99/M05964-contigs.fa ./abyss/k99/M07572-contigs.fa ./abyss/k99/M10540-contigs.fa ./abyss/k99/M16180-contigs.fa
+
+Version: 3.2, build 26.11.2015 18:55
+
+System information:
+  OS: Linux-2.6.32-573.12.1.el6.x86_64-x86_64-with-redhat-6.7-Santiago (linux_64)
+  Python version: 2.7.11
+  CPUs number: 6
+
+Started: 2016-02-05 09:17:40
+
+Logging to /data/projects/Assembly/Aroon/reports/abyss/GCF_000027305.1_ASM2730v1_genomic/quast.log
+
+Main parameters: 
+  Threads: 6, minimum contig length: 500, ambiguity: one, threshold for extensive misassembly size: 1000
+
+Reference:
+  ./reference/GCF_000027305.1_ASM2730v1_genomic.fna.gz ==> GCF_000027305.1_ASM2730v1_genomic
+
+Contigs:
+  1  ./abyss/k44/M05964-contigs.fa ==> k44_M05964-contigs
+  2  ./abyss/k44/M07572-contigs.fa ==> k44_M07572-contigs
+  3  ./abyss/k44/M10540-contigs.fa ==> k44_M10540-contigs
+  4  ./abyss/k44/M16180-contigs.fa ==> k44_M16180-contigs
+  5  ./abyss/k77/M05964-contigs.fa ==> k77_M05964-contigs
+  6  ./abyss/k77/M07572-contigs.fa ==> k77_M07572-contigs
+  7  ./abyss/k77/M10540-contigs.fa ==> k77_M10540-contigs
+  8  ./abyss/k77/M16180-contigs.fa ==> k77_M16180-contigs
+  9  ./abyss/k127/M05964-contigs.fa ==> k127_M05964-contigs
+  10 ./abyss/k127/M07572-contigs.fa ==> k127_M07572-contigs
+  11 ./abyss/k127/M10540-contigs.fa ==> k127_M10540-contigs
+  12 ./abyss/k127/M16180-contigs.fa ==> k127_M16180-contigs
+  13 ./abyss/k99/M05964-contigs.fa ==> k99_M05964-contigs
+  14 ./abyss/k99/M07572-contigs.fa ==> k99_M07572-contigs
+  15 ./abyss/k99/M10540-contigs.fa ==> k99_M10540-contigs
+  16 ./abyss/k99/M16180-contigs.fa ==> k99_M16180-contigs
+
+2016-02-05 09:17:43
+Running Basic statistics processor...
+  Reference genome:
+    GCF_000027305.1_ASM2730v1_genomic.fna, Reference length = 1830138, Reference GC % = 38.15
+  Contig files: 
+    1  k44_M05964-contigs
+    2  k44_M07572-contigs
+    3  k44_M10540-contigs
+    4  k44_M16180-contigs
+    5  k77_M05964-contigs
+    6  k77_M07572-contigs
+    7  k77_M10540-contigs
+    8  k77_M16180-contigs
+    9  k127_M05964-contigs
+    10 k127_M07572-contigs
+    11 k127_M10540-contigs
+    12 k127_M16180-contigs
+    13 k99_M05964-contigs
+    14 k99_M07572-contigs
+    15 k99_M10540-contigs
+    16 k99_M16180-contigs
+  Calculating N50 and L50...
+    1  k44_M05964-contigs, N50 = 97979, L50 = 5, Total length = 1846118, GC % = 37.95, # N's per 100 kbp =  8.29
+    2  k44_M07572-contigs, N50 = 80448, L50 = 9, Total length = 1995099, GC % = 38.36, # N's per 100 kbp =  8.32
+    3  k44_M10540-contigs, N50 = 157960, L50 = 4, Total length = 1842389, GC % = 38.10, # N's per 100 kbp =  0.05
+    4  k44_M16180-contigs, N50 = 82364, L50 = 7, Total length = 1864193, GC % = 38.08, # N's per 100 kbp =  1.45
+    5  k77_M05964-contigs, N50 = 144973, L50 = 4, Total length = 1854153, GC % = 37.95, # N's per 100 kbp =  1.19
+    6  k77_M07572-contigs, N50 = 103159, L50 = 6, Total length = 2022140, GC % = 38.40, # N's per 100 kbp =  0.49
+    7  k77_M10540-contigs, N50 = 285281, L50 = 3, Total length = 1840807, GC % = 38.10, # N's per 100 kbp =  0.00
+    8  k77_M16180-contigs, N50 = 100164, L50 = 5, Total length = 1872401, GC % = 38.09, # N's per 100 kbp =  0.80
+    9  k127_M05964-contigs, N50 = 183050, L50 = 3, Total length = 1941913, GC % = 38.00, # N's per 100 kbp =  0.00
+    10 k127_M07572-contigs, N50 = 141208, L50 = 5, Total length = 2044301, GC % = 38.44, # N's per 100 kbp =  0.00
+    11 k127_M10540-contigs, N50 = 333934, L50 = 3, Total length = 1839251, GC % = 38.07, # N's per 100 kbp =  0.00
+    12 k127_M16180-contigs, N50 = 138055, L50 = 5, Total length = 1888140, GC % = 38.18, # N's per 100 kbp =  0.00
+    13 k99_M05964-contigs, N50 = 182978, L50 = 3, Total length = 1864279, GC % = 38.00, # N's per 100 kbp =  0.00
+    14 k99_M07572-contigs, N50 = 141152, L50 = 5, Total length = 2035777, GC % = 38.44, # N's per 100 kbp =  0.00
+    15 k99_M10540-contigs, N50 = 311520, L50 = 3, Total length = 1833634, GC % = 38.04, # N's per 100 kbp =  0.05
+    16 k99_M16180-contigs, N50 = 125281, L50 = 5, Total length = 1891040, GC % = 38.18, # N's per 100 kbp =  0.05
+  Drawing Nx plot...
+    saved to /data/projects/Assembly/Aroon/reports/abyss/GCF_000027305.1_ASM2730v1_genomic/basic_stats/Nx_plot.pdf
+  Drawing NGx plot...
+    saved to /data/projects/Assembly/Aroon/reports/abyss/GCF_000027305.1_ASM2730v1_genomic/basic_stats/NGx_plot.pdf
+  Drawing cumulative plot...
+    saved to /data/projects/Assembly/Aroon/reports/abyss/GCF_000027305.1_ASM2730v1_genomic/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /data/projects/Assembly/Aroon/reports/abyss/GCF_000027305.1_ASM2730v1_genomic/basic_stats/GC_content_plot.pdf
+Done.
+
+2016-02-05 09:17:49
+Running Contig analyzer...
+  1  k44_M05964-contigs
+  2  k44_M07572-contigs
+  1  Logging to files /data/projects/Assembly/Aroon/reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k44_M05964-contigs.stdout and contigs_report_k44_M05964-contigs.stderr...
+  1  Running Nucmer
+  2  Logging to files /data/projects/Assembly/Aroon/reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k44_M07572-contigs.stdout and contigs_report_k44_M07572-contigs.stderr...
+  2  Running Nucmer
+  1  /data/home/achande3/staging/quast-3.2/libs/MUMmer3.23-linux/nucmer -c 65 -l 65 \
+     --maxmatch -p reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k44_M05964-contigs \
+     reports/abyss/GCF_000027305.1_ASM2730v1_genomic/quast_corrected_input/GCF_000027305.1_ASM2730v1_genomic.fna \
+     reports/abyss/GCF_000027305.1_ASM2730v1_genomic/quast_corrected_input/k44_M05964-contigs.fa \
+     >> reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k44_M05964-contigs.stdout \
+     2>> reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k44_M05964-contigs.stderr
+  2  /data/home/achande3/staging/quast-3.2/libs/MUMmer3.23-linux/nucmer -c 65 -l 65 \
+     --maxmatch -p reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k44_M07572-contigs \
+     reports/abyss/GCF_000027305.1_ASM2730v1_genomic/quast_corrected_input/GCF_000027305.1_ASM2730v1_genomic.fna \
+     reports/abyss/GCF_000027305.1_ASM2730v1_genomic/quast_corrected_input/k44_M07572-contigs.fa \
+     >> reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k44_M07572-contigs.stdout \
+     2>> reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k44_M07572-contigs.stderr
+  3  k44_M10540-contigs
+  3  Logging to files /data/projects/Assembly/Aroon/reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k44_M10540-contigs.stdout and contigs_report_k44_M10540-contigs.stderr...
+  4  k44_M16180-contigs
+  3  Running Nucmer
+  4  Logging to files /data/projects/Assembly/Aroon/reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k44_M16180-contigs.stdout and contigs_report_k44_M16180-contigs.stderr...
+  4  Running Nucmer
+  3  /data/home/achande3/staging/quast-3.2/libs/MUMmer3.23-linux/nucmer -c 65 -l 65 \
+     --maxmatch -p reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k44_M10540-contigs \
+     reports/abyss/GCF_000027305.1_ASM2730v1_genomic/quast_corrected_input/GCF_000027305.1_ASM2730v1_genomic.fna \
+     reports/abyss/GCF_000027305.1_ASM2730v1_genomic/quast_corrected_input/k44_M10540-contigs.fa \
+     >> reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k44_M10540-contigs.stdout \
+     2>> reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k44_M10540-contigs.stderr
+  5  k77_M05964-contigs
+  4  /data/home/achande3/staging/quast-3.2/libs/MUMmer3.23-linux/nucmer -c 65 -l 65 \
+     --maxmatch -p reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k44_M16180-contigs \
+     reports/abyss/GCF_000027305.1_ASM2730v1_genomic/quast_corrected_input/GCF_000027305.1_ASM2730v1_genomic.fna \
+     reports/abyss/GCF_000027305.1_ASM2730v1_genomic/quast_corrected_input/k44_M16180-contigs.fa \
+     >> reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k44_M16180-contigs.stdout \
+     2>> reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k44_M16180-contigs.stderr
+  5  Logging to files /data/projects/Assembly/Aroon/reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k77_M05964-contigs.stdout and contigs_report_k77_M05964-contigs.stderr...
+  5  Running Nucmer
+  6  k77_M07572-contigs
+  6  Logging to files /data/projects/Assembly/Aroon/reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k77_M07572-contigs.stdout and contigs_report_k77_M07572-contigs.stderr...
+  6  Running Nucmer
+  5  /data/home/achande3/staging/quast-3.2/libs/MUMmer3.23-linux/nucmer -c 65 -l 65 \
+     --maxmatch -p reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k77_M05964-contigs \
+     reports/abyss/GCF_000027305.1_ASM2730v1_genomic/quast_corrected_input/GCF_000027305.1_ASM2730v1_genomic.fna \
+     reports/abyss/GCF_000027305.1_ASM2730v1_genomic/quast_corrected_input/k77_M05964-contigs.fa \
+     >> reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k77_M05964-contigs.stdout \
+     2>> reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k77_M05964-contigs.stderr
+  6  /data/home/achande3/staging/quast-3.2/libs/MUMmer3.23-linux/nucmer -c 65 -l 65 \
+     --maxmatch -p reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k77_M07572-contigs \
+     reports/abyss/GCF_000027305.1_ASM2730v1_genomic/quast_corrected_input/GCF_000027305.1_ASM2730v1_genomic.fna \
+     reports/abyss/GCF_000027305.1_ASM2730v1_genomic/quast_corrected_input/k77_M07572-contigs.fa \
+     >> reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k77_M07572-contigs.stdout \
+     2>> reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k77_M07572-contigs.stderr
+  4  /data/home/achande3/staging/quast-3.2/libs/MUMmer3.23-linux/delta-filter -i 95 \
+     -l 0 reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k44_M16180-contigs.delta \
+     > reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k44_M16180-contigs.fdelta \
+     2> reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k44_M16180-contigs.stderr
+  4  /data/home/achande3/staging/quast-3.2/libs/MUMmer3.23-linux/show-coords reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k44_M16180-contigs.delta \
+     > reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k44_M16180-contigs.coords_tmp \
+     2> reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k44_M16180-contigs.stderr
+  4  /data/home/achande3/staging/quast-3.2/libs/MUMmer3.23-linux/show-snps -S -T -H \
+     reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k44_M16180-contigs.delta \
+     < reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k44_M16180-contigs.coords.headless \
+     > reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k44_M16180-contigs.all_snps \
+     2> reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k44_M16180-contigs.stderr
+  6  /data/home/achande3/staging/quast-3.2/libs/MUMmer3.23-linux/delta-filter -i 95 \
+     -l 0 reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k77_M07572-contigs.delta \
+     > reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k77_M07572-contigs.fdelta \
+     2> reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k77_M07572-contigs.stderr
+  6  /data/home/achande3/staging/quast-3.2/libs/MUMmer3.23-linux/show-coords reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k77_M07572-contigs.delta \
+     > reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k77_M07572-contigs.coords_tmp \
+     2> reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k77_M07572-contigs.stderr
+  6  /data/home/achande3/staging/quast-3.2/libs/MUMmer3.23-linux/show-snps -S -T -H \
+     reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k77_M07572-contigs.delta \
+     < reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k77_M07572-contigs.coords.headless \
+     > reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k77_M07572-contigs.all_snps \
+     2> reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k77_M07572-contigs.stderr
+  2  /data/home/achande3/staging/quast-3.2/libs/MUMmer3.23-linux/delta-filter -i 95 \
+     -l 0 reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k44_M07572-contigs.delta \
+     > reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k44_M07572-contigs.fdelta \
+     2> reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k44_M07572-contigs.stderr
+  2  /data/home/achande3/staging/quast-3.2/libs/MUMmer3.23-linux/show-coords reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k44_M07572-contigs.delta \
+     > reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k44_M07572-contigs.coords_tmp \
+     2> reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k44_M07572-contigs.stderr
+  2  /data/home/achande3/staging/quast-3.2/libs/MUMmer3.23-linux/show-snps -S -T -H \
+     reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k44_M07572-contigs.delta \
+     < reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k44_M07572-contigs.coords.headless \
+     > reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k44_M07572-contigs.all_snps \
+     2> reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k44_M07572-contigs.stderr
+  5  /data/home/achande3/staging/quast-3.2/libs/MUMmer3.23-linux/delta-filter -i 95 \
+     -l 0 reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k77_M05964-contigs.delta \
+     > reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k77_M05964-contigs.fdelta \
+     2> reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k77_M05964-contigs.stderr
+  5  /data/home/achande3/staging/quast-3.2/libs/MUMmer3.23-linux/show-coords reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k77_M05964-contigs.delta \
+     > reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k77_M05964-contigs.coords_tmp \
+     2> reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k77_M05964-contigs.stderr
+  5  /data/home/achande3/staging/quast-3.2/libs/MUMmer3.23-linux/show-snps -S -T -H \
+     reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k77_M05964-contigs.delta \
+     < reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k77_M05964-contigs.coords.headless \
+     > reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k77_M05964-contigs.all_snps \
+     2> reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k77_M05964-contigs.stderr
+  1  /data/home/achande3/staging/quast-3.2/libs/MUMmer3.23-linux/delta-filter -i 95 \
+     -l 0 reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k44_M05964-contigs.delta \
+     > reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k44_M05964-contigs.fdelta \
+     2> reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k44_M05964-contigs.stderr
+  1  /data/home/achande3/staging/quast-3.2/libs/MUMmer3.23-linux/show-coords reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k44_M05964-contigs.delta \
+     > reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k44_M05964-contigs.coords_tmp \
+     2> reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k44_M05964-contigs.stderr
+  1  /data/home/achande3/staging/quast-3.2/libs/MUMmer3.23-linux/show-snps -S -T -H \
+     reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k44_M05964-contigs.delta \
+     < reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k44_M05964-contigs.coords.headless \
+     > reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k44_M05964-contigs.all_snps \
+     2> reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k44_M05964-contigs.stderr
+  6  Alignments: reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/alignments_k77_M07572-contigs.tsv
+  6  Analysis is finished.
+
+  7  k77_M10540-contigs
+  7  Logging to files /data/projects/Assembly/Aroon/reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k77_M10540-contigs.stdout and contigs_report_k77_M10540-contigs.stderr...
+  7  Running Nucmer
+  7  /data/home/achande3/staging/quast-3.2/libs/MUMmer3.23-linux/nucmer -c 65 -l 65 \
+     --maxmatch -p reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k77_M10540-contigs \
+     reports/abyss/GCF_000027305.1_ASM2730v1_genomic/quast_corrected_input/GCF_000027305.1_ASM2730v1_genomic.fna \
+     reports/abyss/GCF_000027305.1_ASM2730v1_genomic/quast_corrected_input/k77_M10540-contigs.fa \
+     >> reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k77_M10540-contigs.stdout \
+     2>> reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k77_M10540-contigs.stderr
+  5  Alignments: reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/alignments_k77_M05964-contigs.tsv
+  5  Analysis is finished.
+
+  8  k77_M16180-contigs
+  8  Logging to files /data/projects/Assembly/Aroon/reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k77_M16180-contigs.stdout and contigs_report_k77_M16180-contigs.stderr...
+  8  Running Nucmer
+  8  /data/home/achande3/staging/quast-3.2/libs/MUMmer3.23-linux/nucmer -c 65 -l 65 \
+     --maxmatch -p reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k77_M16180-contigs \
+     reports/abyss/GCF_000027305.1_ASM2730v1_genomic/quast_corrected_input/GCF_000027305.1_ASM2730v1_genomic.fna \
+     reports/abyss/GCF_000027305.1_ASM2730v1_genomic/quast_corrected_input/k77_M16180-contigs.fa \
+     >> reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k77_M16180-contigs.stdout \
+     2>> reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k77_M16180-contigs.stderr
+  4  Alignments: reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/alignments_k44_M16180-contigs.tsv
+  4  Analysis is finished.
+
+  9  k127_M05964-contigs
+  9  Logging to files /data/projects/Assembly/Aroon/reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k127_M05964-contigs.stdout and contigs_report_k127_M05964-contigs.stderr...
+  9  Running Nucmer
+  9  /data/home/achande3/staging/quast-3.2/libs/MUMmer3.23-linux/nucmer -c 65 -l 65 \
+     --maxmatch -p reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k127_M05964-contigs \
+     reports/abyss/GCF_000027305.1_ASM2730v1_genomic/quast_corrected_input/GCF_000027305.1_ASM2730v1_genomic.fna \
+     reports/abyss/GCF_000027305.1_ASM2730v1_genomic/quast_corrected_input/k127_M05964-contigs.fa \
+     >> reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k127_M05964-contigs.stdout \
+     2>> reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k127_M05964-contigs.stderr
+  2  Alignments: reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/alignments_k44_M07572-contigs.tsv
+  2  Analysis is finished.
+
+  10 k127_M07572-contigs
+  10 Logging to files /data/projects/Assembly/Aroon/reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k127_M07572-contigs.stdout and contigs_report_k127_M07572-contigs.stderr...
+  10 Running Nucmer
+  10 /data/home/achande3/staging/quast-3.2/libs/MUMmer3.23-linux/nucmer -c 65 -l 65 \
+     --maxmatch -p reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k127_M07572-contigs \
+     reports/abyss/GCF_000027305.1_ASM2730v1_genomic/quast_corrected_input/GCF_000027305.1_ASM2730v1_genomic.fna \
+     reports/abyss/GCF_000027305.1_ASM2730v1_genomic/quast_corrected_input/k127_M07572-contigs.fa \
+     >> reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k127_M07572-contigs.stdout \
+     2>> reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k127_M07572-contigs.stderr
+  3  /data/home/achande3/staging/quast-3.2/libs/MUMmer3.23-linux/delta-filter -i 95 \
+     -l 0 reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k44_M10540-contigs.delta \
+     > reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k44_M10540-contigs.fdelta \
+     2> reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k44_M10540-contigs.stderr
+  3  /data/home/achande3/staging/quast-3.2/libs/MUMmer3.23-linux/show-coords reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k44_M10540-contigs.delta \
+     > reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k44_M10540-contigs.coords_tmp \
+     2> reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k44_M10540-contigs.stderr
+  3  /data/home/achande3/staging/quast-3.2/libs/MUMmer3.23-linux/show-snps -S -T -H \
+     reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k44_M10540-contigs.delta \
+     < reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k44_M10540-contigs.coords.headless \
+     > reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k44_M10540-contigs.all_snps \
+     2> reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k44_M10540-contigs.stderr
+  1  Alignments: reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/alignments_k44_M05964-contigs.tsv
+  1  Analysis is finished.
+
+  11 k127_M10540-contigs
+  11 Logging to files /data/projects/Assembly/Aroon/reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k127_M10540-contigs.stdout and contigs_report_k127_M10540-contigs.stderr...
+  11 Running Nucmer
+  11 /data/home/achande3/staging/quast-3.2/libs/MUMmer3.23-linux/nucmer -c 65 -l 65 \
+     --maxmatch -p reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k127_M10540-contigs \
+     reports/abyss/GCF_000027305.1_ASM2730v1_genomic/quast_corrected_input/GCF_000027305.1_ASM2730v1_genomic.fna \
+     reports/abyss/GCF_000027305.1_ASM2730v1_genomic/quast_corrected_input/k127_M10540-contigs.fa \
+     >> reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k127_M10540-contigs.stdout \
+     2>> reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k127_M10540-contigs.stderr
+  3  Alignments: reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/alignments_k44_M10540-contigs.tsv
+  3  Analysis is finished.
+
+  12 k127_M16180-contigs
+  12 Logging to files /data/projects/Assembly/Aroon/reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k127_M16180-contigs.stdout and contigs_report_k127_M16180-contigs.stderr...
+  12 Running Nucmer
+  12 /data/home/achande3/staging/quast-3.2/libs/MUMmer3.23-linux/nucmer -c 65 -l 65 \
+     --maxmatch -p reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k127_M16180-contigs \
+     reports/abyss/GCF_000027305.1_ASM2730v1_genomic/quast_corrected_input/GCF_000027305.1_ASM2730v1_genomic.fna \
+     reports/abyss/GCF_000027305.1_ASM2730v1_genomic/quast_corrected_input/k127_M16180-contigs.fa \
+     >> reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k127_M16180-contigs.stdout \
+     2>> reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k127_M16180-contigs.stderr
+  8  /data/home/achande3/staging/quast-3.2/libs/MUMmer3.23-linux/delta-filter -i 95 \
+     -l 0 reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k77_M16180-contigs.delta \
+     > reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k77_M16180-contigs.fdelta \
+     2> reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k77_M16180-contigs.stderr
+  8  /data/home/achande3/staging/quast-3.2/libs/MUMmer3.23-linux/show-coords reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k77_M16180-contigs.delta \
+     > reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k77_M16180-contigs.coords_tmp \
+     2> reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k77_M16180-contigs.stderr
+  8  /data/home/achande3/staging/quast-3.2/libs/MUMmer3.23-linux/show-snps -S -T -H \
+     reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k77_M16180-contigs.delta \
+     < reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k77_M16180-contigs.coords.headless \
+     > reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k77_M16180-contigs.all_snps \
+     2> reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k77_M16180-contigs.stderr
+  10 /data/home/achande3/staging/quast-3.2/libs/MUMmer3.23-linux/delta-filter -i 95 \
+     -l 0 reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k127_M07572-contigs.delta \
+     > reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k127_M07572-contigs.fdelta \
+     2> reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k127_M07572-contigs.stderr
+  10 /data/home/achande3/staging/quast-3.2/libs/MUMmer3.23-linux/show-coords reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k127_M07572-contigs.delta \
+     > reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k127_M07572-contigs.coords_tmp \
+     2> reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k127_M07572-contigs.stderr
+  10 /data/home/achande3/staging/quast-3.2/libs/MUMmer3.23-linux/show-snps -S -T -H \
+     reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k127_M07572-contigs.delta \
+     < reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k127_M07572-contigs.coords.headless \
+     > reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k127_M07572-contigs.all_snps \
+     2> reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k127_M07572-contigs.stderr
+  9  /data/home/achande3/staging/quast-3.2/libs/MUMmer3.23-linux/delta-filter -i 95 \
+     -l 0 reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k127_M05964-contigs.delta \
+     > reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k127_M05964-contigs.fdelta \
+     2> reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k127_M05964-contigs.stderr
+  9  /data/home/achande3/staging/quast-3.2/libs/MUMmer3.23-linux/show-coords reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k127_M05964-contigs.delta \
+     > reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k127_M05964-contigs.coords_tmp \
+     2> reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k127_M05964-contigs.stderr
+  9  /data/home/achande3/staging/quast-3.2/libs/MUMmer3.23-linux/show-snps -S -T -H \
+     reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k127_M05964-contigs.delta \
+     < reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k127_M05964-contigs.coords.headless \
+     > reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k127_M05964-contigs.all_snps \
+     2> reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k127_M05964-contigs.stderr
+  12 /data/home/achande3/staging/quast-3.2/libs/MUMmer3.23-linux/delta-filter -i 95 \
+     -l 0 reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k127_M16180-contigs.delta \
+     > reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k127_M16180-contigs.fdelta \
+     2> reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k127_M16180-contigs.stderr
+  12 /data/home/achande3/staging/quast-3.2/libs/MUMmer3.23-linux/show-coords reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k127_M16180-contigs.delta \
+     > reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k127_M16180-contigs.coords_tmp \
+     2> reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k127_M16180-contigs.stderr
+  12 /data/home/achande3/staging/quast-3.2/libs/MUMmer3.23-linux/show-snps -S -T -H \
+     reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k127_M16180-contigs.delta \
+     < reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k127_M16180-contigs.coords.headless \
+     > reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k127_M16180-contigs.all_snps \
+     2> reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k127_M16180-contigs.stderr
+  8  Alignments: reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/alignments_k77_M16180-contigs.tsv
+  8  Analysis is finished.
+
+  13 k99_M05964-contigs
+  13 Logging to files /data/projects/Assembly/Aroon/reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k99_M05964-contigs.stdout and contigs_report_k99_M05964-contigs.stderr...
+  13 Running Nucmer
+  13 /data/home/achande3/staging/quast-3.2/libs/MUMmer3.23-linux/nucmer -c 65 -l 65 \
+     --maxmatch -p reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k99_M05964-contigs \
+     reports/abyss/GCF_000027305.1_ASM2730v1_genomic/quast_corrected_input/GCF_000027305.1_ASM2730v1_genomic.fna \
+     reports/abyss/GCF_000027305.1_ASM2730v1_genomic/quast_corrected_input/k99_M05964-contigs.fa \
+     >> reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k99_M05964-contigs.stdout \
+     2>> reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k99_M05964-contigs.stderr
+  10 Alignments: reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/alignments_k127_M07572-contigs.tsv
+  10 Analysis is finished.
+
+  14 k99_M07572-contigs
+  14 Logging to files /data/projects/Assembly/Aroon/reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k99_M07572-contigs.stdout and contigs_report_k99_M07572-contigs.stderr...
+  14 Running Nucmer
+  14 /data/home/achande3/staging/quast-3.2/libs/MUMmer3.23-linux/nucmer -c 65 -l 65 \
+     --maxmatch -p reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k99_M07572-contigs \
+     reports/abyss/GCF_000027305.1_ASM2730v1_genomic/quast_corrected_input/GCF_000027305.1_ASM2730v1_genomic.fna \
+     reports/abyss/GCF_000027305.1_ASM2730v1_genomic/quast_corrected_input/k99_M07572-contigs.fa \
+     >> reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k99_M07572-contigs.stdout \
+     2>> reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k99_M07572-contigs.stderr
+  12 Alignments: reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/alignments_k127_M16180-contigs.tsv
+  12 Analysis is finished.
+
+  15 k99_M10540-contigs
+  15 Logging to files /data/projects/Assembly/Aroon/reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k99_M10540-contigs.stdout and contigs_report_k99_M10540-contigs.stderr...
+  15 Running Nucmer
+  15 /data/home/achande3/staging/quast-3.2/libs/MUMmer3.23-linux/nucmer -c 65 -l 65 \
+     --maxmatch -p reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k99_M10540-contigs \
+     reports/abyss/GCF_000027305.1_ASM2730v1_genomic/quast_corrected_input/GCF_000027305.1_ASM2730v1_genomic.fna \
+     reports/abyss/GCF_000027305.1_ASM2730v1_genomic/quast_corrected_input/k99_M10540-contigs.fa \
+     >> reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k99_M10540-contigs.stdout \
+     2>> reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k99_M10540-contigs.stderr
+  9  Alignments: reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/alignments_k127_M05964-contigs.tsv
+  9  Analysis is finished.
+
+  16 k99_M16180-contigs
+  16 Logging to files /data/projects/Assembly/Aroon/reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k99_M16180-contigs.stdout and contigs_report_k99_M16180-contigs.stderr...
+  16 Running Nucmer
+  16 /data/home/achande3/staging/quast-3.2/libs/MUMmer3.23-linux/nucmer -c 65 -l 65 \
+     --maxmatch -p reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k99_M16180-contigs \
+     reports/abyss/GCF_000027305.1_ASM2730v1_genomic/quast_corrected_input/GCF_000027305.1_ASM2730v1_genomic.fna \
+     reports/abyss/GCF_000027305.1_ASM2730v1_genomic/quast_corrected_input/k99_M16180-contigs.fa \
+     >> reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k99_M16180-contigs.stdout \
+     2>> reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k99_M16180-contigs.stderr
+  7  /data/home/achande3/staging/quast-3.2/libs/MUMmer3.23-linux/delta-filter -i 95 \
+     -l 0 reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k77_M10540-contigs.delta \
+     > reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k77_M10540-contigs.fdelta \
+     2> reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k77_M10540-contigs.stderr
+  7  /data/home/achande3/staging/quast-3.2/libs/MUMmer3.23-linux/show-coords reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k77_M10540-contigs.delta \
+     > reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k77_M10540-contigs.coords_tmp \
+     2> reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k77_M10540-contigs.stderr
+  7  /data/home/achande3/staging/quast-3.2/libs/MUMmer3.23-linux/show-snps -S -T -H \
+     reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k77_M10540-contigs.delta \
+     < reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k77_M10540-contigs.coords.headless \
+     > reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k77_M10540-contigs.all_snps \
+     2> reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k77_M10540-contigs.stderr
+  11 /data/home/achande3/staging/quast-3.2/libs/MUMmer3.23-linux/delta-filter -i 95 \
+     -l 0 reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k127_M10540-contigs.delta \
+     > reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k127_M10540-contigs.fdelta \
+     2> reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k127_M10540-contigs.stderr
+  11 /data/home/achande3/staging/quast-3.2/libs/MUMmer3.23-linux/show-coords reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k127_M10540-contigs.delta \
+     > reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k127_M10540-contigs.coords_tmp \
+     2> reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k127_M10540-contigs.stderr
+  11 /data/home/achande3/staging/quast-3.2/libs/MUMmer3.23-linux/show-snps -S -T -H \
+     reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k127_M10540-contigs.delta \
+     < reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k127_M10540-contigs.coords.headless \
+     > reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k127_M10540-contigs.all_snps \
+     2> reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k127_M10540-contigs.stderr
+  7  Alignments: reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/alignments_k77_M10540-contigs.tsv
+  7  Analysis is finished.
+
+  11 Alignments: reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/alignments_k127_M10540-contigs.tsv
+  11 Analysis is finished.
+
+  16 /data/home/achande3/staging/quast-3.2/libs/MUMmer3.23-linux/delta-filter -i 95 \
+     -l 0 reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k99_M16180-contigs.delta \
+     > reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k99_M16180-contigs.fdelta \
+     2> reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k99_M16180-contigs.stderr
+  16 /data/home/achande3/staging/quast-3.2/libs/MUMmer3.23-linux/show-coords reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k99_M16180-contigs.delta \
+     > reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k99_M16180-contigs.coords_tmp \
+     2> reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k99_M16180-contigs.stderr
+  16 /data/home/achande3/staging/quast-3.2/libs/MUMmer3.23-linux/show-snps -S -T -H \
+     reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k99_M16180-contigs.delta \
+     < reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k99_M16180-contigs.coords.headless \
+     > reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k99_M16180-contigs.all_snps \
+     2> reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k99_M16180-contigs.stderr
+  13 /data/home/achande3/staging/quast-3.2/libs/MUMmer3.23-linux/delta-filter -i 95 \
+     -l 0 reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k99_M05964-contigs.delta \
+     > reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k99_M05964-contigs.fdelta \
+     2> reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k99_M05964-contigs.stderr
+  13 /data/home/achande3/staging/quast-3.2/libs/MUMmer3.23-linux/show-coords reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k99_M05964-contigs.delta \
+     > reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k99_M05964-contigs.coords_tmp \
+     2> reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k99_M05964-contigs.stderr
+  13 /data/home/achande3/staging/quast-3.2/libs/MUMmer3.23-linux/show-snps -S -T -H \
+     reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k99_M05964-contigs.delta \
+     < reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k99_M05964-contigs.coords.headless \
+     > reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k99_M05964-contigs.all_snps \
+     2> reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k99_M05964-contigs.stderr
+  14 /data/home/achande3/staging/quast-3.2/libs/MUMmer3.23-linux/delta-filter -i 95 \
+     -l 0 reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k99_M07572-contigs.delta \
+     > reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k99_M07572-contigs.fdelta \
+     2> reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k99_M07572-contigs.stderr
+  14 /data/home/achande3/staging/quast-3.2/libs/MUMmer3.23-linux/show-coords reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k99_M07572-contigs.delta \
+     > reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k99_M07572-contigs.coords_tmp \
+     2> reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k99_M07572-contigs.stderr
+  14 /data/home/achande3/staging/quast-3.2/libs/MUMmer3.23-linux/show-snps -S -T -H \
+     reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k99_M07572-contigs.delta \
+     < reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k99_M07572-contigs.coords.headless \
+     > reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k99_M07572-contigs.all_snps \
+     2> reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k99_M07572-contigs.stderr
+  16 Alignments: reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/alignments_k99_M16180-contigs.tsv
+  16 Analysis is finished.
+
+  13 Alignments: reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/alignments_k99_M05964-contigs.tsv
+  13 Analysis is finished.
+
+  14 Alignments: reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/alignments_k99_M07572-contigs.tsv
+  14 Analysis is finished.
+
+  15 /data/home/achande3/staging/quast-3.2/libs/MUMmer3.23-linux/delta-filter -i 95 \
+     -l 0 reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k99_M10540-contigs.delta \
+     > reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k99_M10540-contigs.fdelta \
+     2> reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k99_M10540-contigs.stderr
+  15 /data/home/achande3/staging/quast-3.2/libs/MUMmer3.23-linux/show-coords reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k99_M10540-contigs.delta \
+     > reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k99_M10540-contigs.coords_tmp \
+     2> reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k99_M10540-contigs.stderr
+  15 /data/home/achande3/staging/quast-3.2/libs/MUMmer3.23-linux/show-snps -S -T -H \
+     reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k99_M10540-contigs.delta \
+     < reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k99_M10540-contigs.coords.headless \
+     > reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/nucmer_output/k99_M10540-contigs.all_snps \
+     2> reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/contigs_report_k99_M10540-contigs.stderr
+  15 Alignments: reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/alignments_k99_M10540-contigs.tsv
+  15 Analysis is finished.
+
+  Creating total report...
+    saved to /data/projects/Assembly/Aroon/reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/misassemblies_report.txt, misassemblies_report.tsv, and misassemblies_report.tex
+  Transposed version of total report...
+    saved to /data/projects/Assembly/Aroon/reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/transposed_report_misassemblies.txt, transposed_report_misassemblies.tsv, and transposed_report_misassemblies.tex
+  Creating total report...
+    saved to /data/projects/Assembly/Aroon/reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/unaligned_report.txt, unaligned_report.tsv, and unaligned_report.tex
+  Drawing misassemblies by types plot...
+    saved to /data/projects/Assembly/Aroon/reports/abyss/GCF_000027305.1_ASM2730v1_genomic/contigs_reports/misassemblies_plot.pdf
+Done.
+
+2016-02-05 09:18:42
+Running NA-NGA calculation...
+  1  k44_M05964-contigs, Largest alignment = 146760, NA50 = 35835, NGA50 = 35835, LA50 = 15, LGA50 = 15
+  2  k44_M07572-contigs, Largest alignment = 110672, NA50 = 29964, NGA50 = 35717, LA50 = 19, LGA50 = 16
+  3  k44_M10540-contigs, Largest alignment = 67112, NA50 = 6591, NGA50 = 6605, LA50 = 51, LGA50 = 50
+  4  k44_M16180-contigs, Largest alignment = 111261, NA50 = 35706, NGA50 = 36395, LA50 = 14, LGA50 = 13
+  5  k77_M05964-contigs, Largest alignment = 146760, NA50 = 38389, NGA50 = 38389, LA50 = 14, LGA50 = 14
+  6  k77_M07572-contigs, Largest alignment = 110672, NA50 = 36359, NGA50 = 37887, LA50 = 18, LGA50 = 15
+  7  k77_M10540-contigs, Largest alignment = 74272, NA50 = 6605, NGA50 = 6605, LA50 = 47, LGA50 = 47
+  8  k77_M16180-contigs, Largest alignment = 125826, NA50 = 36363, NGA50 = 38749, LA50 = 13, LGA50 = 12
+  9  k127_M05964-contigs, Largest alignment = 146760, NA50 = 38389, NGA50 = 40061, LA50 = 15, LGA50 = 13
+  10 k127_M07572-contigs, Largest alignment = 112912, NA50 = 38410, NGA50 = 40982, LA50 = 16, LGA50 = 13
+  11 k127_M10540-contigs, Largest alignment = 74272, NA50 = 6805, NGA50 = 6805, LA50 = 43, LGA50 = 43
+  12 k127_M16180-contigs, Largest alignment = 125826, NA50 = 41004, NGA50 = 46355, LA50 = 12, LGA50 = 11
+  13 k99_M05964-contigs, Largest alignment = 146760, NA50 = 38765, NGA50 = 40061, LA50 = 14, LGA50 = 13
+  14 k99_M07572-contigs, Largest alignment = 110672, NA50 = 36413, NGA50 = 39695, LA50 = 17, LGA50 = 14
+  15 k99_M10540-contigs, Largest alignment = 74272, NA50 = 6988, NGA50 = 6988, LA50 = 43, LGA50 = 43
+  16 k99_M16180-contigs, Largest alignment = 125826, NA50 = 38749, NGA50 = 41004, LA50 = 13, LGA50 = 12
+  Drawing cumulative plot...
+    saved to /data/projects/Assembly/Aroon/reports/abyss/GCF_000027305.1_ASM2730v1_genomic/aligned_stats/cumulative_plot.pdf
+  Drawing NAx plot...
+    saved to /data/projects/Assembly/Aroon/reports/abyss/GCF_000027305.1_ASM2730v1_genomic/aligned_stats/NAx_plot.pdf
+  Drawing NGAx plot...
+    saved to /data/projects/Assembly/Aroon/reports/abyss/GCF_000027305.1_ASM2730v1_genomic/aligned_stats/NGAx_plot.pdf
+Done.
+
+2016-02-05 09:18:44
+Running Genome analyzer...
+  NOTICE: No file with genes provided. Use the -G option if you want to specify it.
+  NOTICE: No file with operons provided. Use the -O option if you want to specify it.
+  1  k44_M05964-contigs
+  2  k44_M07572-contigs
+  3  k44_M10540-contigs
+  4  k44_M16180-contigs
+  5  k77_M05964-contigs
+  6  k77_M07572-contigs
+  1  Analysis is finished.
+  7  k77_M10540-contigs
+  2  Analysis is finished.
+  8  k77_M16180-contigs
+  3  Analysis is finished.
+  9  k127_M05964-contigs
+  4  Analysis is finished.
+  10 k127_M07572-contigs
+  5  Analysis is finished.
+  11 k127_M10540-contigs
+  7  Analysis is finished.
+  12 k127_M16180-contigs
+  6  Analysis is finished.
+  13 k99_M05964-contigs
+  8  Analysis is finished.
+  14 k99_M07572-contigs
+  10 Analysis is finished.
+  15 k99_M10540-contigs
+  11 Analysis is finished.
+  16 k99_M16180-contigs
+  12 Analysis is finished.
+  9  Analysis is finished.
+  15 Analysis is finished.
+  13 Analysis is finished.
+  14 Analysis is finished.
+  16 Analysis is finished.
+  Drawing Genome fraction, % histogram...
+    saved to /data/projects/Assembly/Aroon/reports/abyss/GCF_000027305.1_ASM2730v1_genomic/genome_stats/genome_fraction_histogram.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding option to enable it.
+
+2016-02-05 09:18:49
+Drawing large plots...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating contig alignment plot...
+  2 of 2: Creating PDF with all tables and plots...
+Done
+
+2016-02-05 09:19:06
+RESULTS:
+  Text versions of total report are saved to /data/projects/Assembly/Aroon/reports/abyss/GCF_000027305.1_ASM2730v1_genomic/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /data/projects/Assembly/Aroon/reports/abyss/GCF_000027305.1_ASM2730v1_genomic/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) saved to /data/projects/Assembly/Aroon/reports/abyss/GCF_000027305.1_ASM2730v1_genomic/report.html
+  PDF version (tables and plots) saved to /data/projects/Assembly/Aroon/reports/abyss/GCF_000027305.1_ASM2730v1_genomic/report.pdf
+  Contig alignment plot: /data/projects/Assembly/Aroon/reports/abyss/GCF_000027305.1_ASM2730v1_genomic/alignment.svg
+  Log saved to /data/projects/Assembly/Aroon/reports/abyss/GCF_000027305.1_ASM2730v1_genomic/quast.log
+
+Finished: 2016-02-05 09:19:06
+Elapsed time: 0:01:26.092458
+NOTICEs: 3; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!

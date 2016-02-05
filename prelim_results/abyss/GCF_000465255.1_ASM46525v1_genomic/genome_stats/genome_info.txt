@@ -1,0 +1,29 @@
+reference chromosomes:
+	NC_022356.1_Haemophilus_influenzae_KR494__complete_genome (total length: 1856176 bp, maximal covered length: 1826380 bp)
+
+total genome size: 1856176
+
+gap min size: 50
+partial gene/operon min size: 100
+
+
+
+assembly                 | genome    | duplication | gaps      | genes     | partial   | operons   | partial   |
+                         | fraction  | ratio       | number    |           | genes     |           | operons   |
+================================================================================================================
+k44_M05964-contigs       | 58.43131% | 1.36078     | 108       | -         | -         | -         | -         |
+k44_M07572-contigs       | 60.12345% | 1.30648     | 109       | -         | -         | -         | -         |
+k44_M10540-contigs       | 98.33270% | 1.00940     | 27        | -         | -         | -         | -         |
+k44_M16180-contigs       | 53.55370% | 1.32610     | 107       | -         | -         | -         | -         |
+k77_M05964-contigs       | 58.01460% | 1.41014     | 108       | -         | -         | -         | -         |
+k77_M07572-contigs       | 60.01742% | 1.31626     | 110       | -         | -         | -         | -         |
+k77_M10540-contigs       | 98.39476% | 1.00790     | 20        | -         | -         | -         | -         |
+k77_M16180-contigs       | 55.05539% | 1.41626     | 108       | -         | -         | -         | -         |
+k127_M05964-contigs      | 59.29384% | 1.45104     | 107       | -         | -         | -         | -         |
+k127_M07572-contigs      | 60.23157% | 1.40997     | 105       | -         | -         | -         | -         |
+k127_M10540-contigs      | 98.03181% | 1.01078     | 16        | -         | -         | -         | -         |
+k127_M16180-contigs      | 54.38396% | 1.36858     | 110       | -         | -         | -         | -         |
+k99_M05964-contigs       | 58.59105% | 1.42498     | 108       | -         | -         | -         | -         |
+k99_M07572-contigs       | 60.28022% | 1.40959     | 107       | -         | -         | -         | -         |
+k99_M10540-contigs       | 97.98979% | 1.00812     | 20        | -         | -         | -         | -         |
+k99_M16180-contigs       | 55.18593% | 1.40933     | 110       | -         | -         | -         | -         |
