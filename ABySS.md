@@ -1,4 +1,4 @@
-The ABySS algorithm proceeds in two stages. First, all possible substrings of length k (termed k-mers) are generated from the sequence reads. The k-mer data set is then processed to remove read errors and initial contigs are built. In the second stage, mate-pair information is used to extend contigs by resolving ambiguities in contig overlaps. Details of the assembly algorithm are provided in the Methods section.
+The ABySS algorithm proceeds in two stages. First, all possible substrings of length k (termed k-mers) are generated from the sequence reads. The k-mer data set is then processed to remove read errors and initial contigs are built. In the second stage, mate-pair information is used to extend contigs by resolving ambiguities in contig overlaps.
 
 A common shortcoming of the available tools is their inability to efficiently assemble vast amounts of data generated from large-scale sequencing projects, such as the sequencing of individualhuman genomes to catalog natural genetic variation. To address this limitation, ABySS is developed.
 
