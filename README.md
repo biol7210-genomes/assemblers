@@ -20,7 +20,7 @@ Assembly programs and algorithms to describe:
 
 **[PEAR](/PEAR.md)** -- Namratha
 
-ABySS -- Cheng
+**[ABySS](/ABySS.md)** -- Cheng
 
 **[AlignGraph](/AlignGraph.md)** -- Alli
 
