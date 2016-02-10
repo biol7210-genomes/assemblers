@@ -1,6 +1,7 @@
 #ABySS (Assembly By Short Sequencing)
 
 -Amounts of data generated from large-scale sequencing projects
+
 -3.5 billion paired-end reads from the genome of an African male publicly released by Illumina
 
 Algorithmic Approach:
