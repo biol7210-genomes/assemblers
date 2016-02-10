@@ -11,6 +11,7 @@ The k-mer data set is then processed to remove read errors and initial contigs a
 2. Mate-pair information is used to extend contigs by resolving ambiguities in contig overlaps
 
 Evaluation of ABySS Performance:
+
 -Simulated data
 
 -Experimental sequence data
