@@ -15,6 +15,5 @@ Evaluation of ABySS Performance:
 -Comparison of short read assemblers
 -Polymorphic and novel human sequence identified in the assembled experimental data
 
-
-
+Reference: http://www.bcgsc.ca/platform/bioinfo/software/abyss
 
