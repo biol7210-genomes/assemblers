@@ -12,8 +12,11 @@ The k-mer data set is then processed to remove read errors and initial contigs a
 
 Evaluation of ABySS Performance:
 -Simulated data
+
 -Experimental sequence data
+
 -Comparison of short read assemblers
+
 -Polymorphic and novel human sequence identified in the assembled experimental data
 
 Reference: http://www.bcgsc.ca/platform/bioinfo/software/abyss
