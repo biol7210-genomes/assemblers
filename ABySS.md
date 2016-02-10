@@ -5,7 +5,7 @@
 -3.5 billion paired-end reads from the genome of an African male publicly released by Illumina
 
 ##Algorithmic Approach:
-All possible substrings of length k (termed k-mers) are generated from the sequence reads
+All possible substrings of length k (termed k-mers) are generated from the sequence reads\s\s
 The k-mer data set is then processed to remove read errors and initial contigs are built
 
 Mate-pair information is used to extend contigs by resolving ambiguities in contig overlaps
