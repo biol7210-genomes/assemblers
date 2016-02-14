@@ -22,8 +22,9 @@ Performance tests show AlignGraph is able to considerably improve the contigs an
 ###Installation:
 Bowtie2 and BLAT/PBLAT are required to run AlignGraph
 
-Steps to install AlignGraph:
+###Steps to install AlignGraph:
 git clone https://github.com/baoe/AlignGraph 
+
 cp ./AlignGraph/AlignGraph ../../bin 
 cd ../ 
 wget https://github.com/icebert/pblat/tarball/master 
@@ -56,14 +57,14 @@ export GTEXTUTILS_CFLAGS=-I/data/projects/assembly/include
 make 
 make install
 
-===Preprocessing for AlignGraph===
+###Preprocessing for AlignGraph
 cd aligngraph
 fastq_to_fasta -i <(gzip -dc ../../files/M05964_HUY4067A110_TCCGGAGA-TAATCTTA_L002_R1_001_val_1.fq.gz) -o ./M05964_HUY4067A110_TCCGGAGA-TAATCTTA_L002_R1_001_val_1.fa
 fastq_to_fasta -i <(gzip -dc ../../files/M05964_HUY4067A110_TCCGGAGA-TAATCTTA_L002_R2_001_val_2.fq.gz) -o ./M05964_HUY4067A110_TCCGGAGA-TAATCTTA_L002_R2_001_val_2.fa
 cp ../../aroon/reference/GCF_000016465.1_ASM1646v1_genomic.fna.gz ./
 gunzip GCF_000016465.1_ASM1646v1_genomic.fna.gz
 
-===Running AlignGraph===
+###Running AlignGraph
 screen -s ag
 AlignGraph --read1 M05964_HUY4067A110_TCCGGAGA-TAATCTTA_L002_R1_001_val_1.fa --read2 M05964_HUY4067A110_TCCGGAGA-TAATCTTA_L002_R2_001_val_2.fa --contig ../abyss/k99/M05964-contigs.fa --genome ./GCF_000016465.1_ASM1646v1_genomic.fa  --distanceLow 20 --distanceHigh 2000 --extendedContig M05964_extendedContigs.fa --remainingContig M05964_remainingContigs.fa --iterativeMap
 
