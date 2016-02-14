@@ -18,3 +18,10 @@ Pilon requires as input a FASTA file of the genome - either an existing draft as
 Pilon then outputs a FASTA file containing an improved representation of the genome from the read data and an optional VCF file detailing variation seen between the read data and the input genome. There is also an option to produce tracks that can be displayed in genome viewers such as IGV and GenomeView.
 
 ![Pilon](/assets/pilon.png)
+
+# Pros
+
+
+# Cons
+* High memory usage
+* 
