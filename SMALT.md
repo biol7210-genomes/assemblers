@@ -16,34 +16,34 @@
 
 ##Commands
 
- Index the reference
+ #Index the reference
  
 smalt index -k 13 <index_name> <reference_file>
 
- Mapping
+ #Mapping
  
 smalt map -F fastq -f sam -i 1000 -n 2 -o <mapping_result.sam> <index_name> <query_file_1> <query_file_2>
 
- Convert the .sam file to .bam file
+ #Convert the .sam file to .bam file
  
 samtools view -bS <mapping_result.sam> > <mapping_result.bam>
 
- Sort the .bam file
+ #Sort the .bam file
  
 samtools sort -o <sorted_result.bam> <mapping_result.bam>
 
- Index the .bam file
+ #Index the .bam file
  
 samtools index <sorted_result.bam> <index_file>
 
- Consensus sequence calling
+ #Consensus sequence calling
  
 samtools mpileup -f <reference_file> -gu <sorted_result.bam> | bcftools call -c -O b -o <output.bcf> 
 
- Convert the result to .fastq file
+ #Convert the result to .fastq file
  
 bcftools view -O v <output.bcf> | vcfutils.pl vcf2fq > <output.fastq>
 
- Convert the .fastq file to .fasta file
+ #Convert the .fastq file to .fasta file
  
 seqret -sequence <output.fastq> -outseq <output.fasta>
