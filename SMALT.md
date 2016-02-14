@@ -18,7 +18,7 @@
 
  #Index the reference
  
-'smalt index -k 13 <index_name> <reference_file>'
+`smalt index -k 13 <index_name> <reference_file>`
 
  #Mapping
  
