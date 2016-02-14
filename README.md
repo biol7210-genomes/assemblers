@@ -30,7 +30,7 @@ Assembly programs and algorithms to describe:
 
 **[Pilon](/pilon.md)** -- Tyrone
 
-**[DISCOVAR de novo](/DISCOVAR_de_novo.md)**
+~~[DISCOVAR de novo](/DISCOVAR_de_novo.md)~~
 
 ~~[EDENA](/EDENA.md)~~ -- Ellie
 
