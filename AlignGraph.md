@@ -9,7 +9,6 @@ Performance tests show AlignGraph is able to considerably improve the contigs an
 ![AlignGraph Steps](/assets/aligngraph.png)
 
 ###AlignGraph Algorithm Steps:
-
 1. Alignment maps
 
 2. Contig reassembly
@@ -23,7 +22,6 @@ Performance tests show AlignGraph is able to considerably improve the contigs an
 Bowtie2 and BLAT/PBLAT are required to run AlignGraph
 
 ###Inputs:
-
 1. Paired-end DNA reads in FASTA format
 
 2. De novo contigs or scaffolds assembled by:
@@ -33,8 +31,92 @@ Bowtie2 and BLAT/PBLAT are required to run AlignGraph
 3. Reference genome from a closely related organism
 
 ###Usage:
-
 Please see usage section in "Short Manual" section in Reference #2 for input, ouput, and command-line information
+
+###Steps to install AlignGraph:
+git clone https://github.com/baoe/AlignGraph 
+
+cp ./AlignGraph/AlignGraph ../../bin 
+
+cd ../ 
+
+wget https://github.com/icebert/pblat/tarball/master 
+
+tar xf master 
+
+cd icebert-pblat-ed0ac17
+
+make 
+
+cp ./pblat ../../../bin 
+
+cd ../ 
+
+wget https://users.soe.ucsc.edu/\~kent/src/blatSrc35.zip 
+
+unzip blatSrc35.zip 
+
+cd blatSrc 
+
+export MACHTYPE=x86_64 
+
+mkdir ~/bin/x86_64 
+
+make -j4 
+
+cp ~/bin/x86_64/blat ../../../bin 
+
+cd ../ 
+
+wget https://github.com/agordon/libgtextutils/releases/download/0.7/libgtextutils-0.7.tar.gz 
+
+tar xf libgtextutils-0.7.tar.gz 
+
+cd libgtextutils-0.7 
+
+./configure --prefix=/data/projects/assembly/ 
+
+make -j4 
+
+make install
+
+cd ../ 
+
+wget https://github.com/agordon/fastx_toolkit/releases/download/0.0.14/fastx_toolkit-0.0.14.tar.bz2 
+
+tar xf fastx_toolkit-0.0.14.tar.bz2 
+
+cd fastx_toolkit-0.0.14 
+
+export GTEXTUTILS_LIBS=-L/data/projects/assembly/lib 
+
+export GTEXTUTILS_CFLAGS=-I/data/projects/assembly/include 
+
+./configure --prefix=/data/projects/assembly/ 
+
+make 
+
+make install
+
+###Preprocessing for AlignGraph
+cd aligngraph
+
+fastq_to_fasta -i <(gzip -dc ../../files/M05964_HUY4067A110_TCCGGAGA-TAATCTTA_L002_R1_001_val_1.fq.gz) -o 
+./M05964_HUY4067A110_TCCGGAGA-TAATCTTA_L002_R1_001_val_1.fa
+
+fastq_to_fasta -i <(gzip -dc ../../files/M05964_HUY4067A110_TCCGGAGA-TAATCTTA_L002_R2_001_val_2.fq.gz) -o 
+./M05964_HUY4067A110_TCCGGAGA-TAATCTTA_L002_R2_001_val_2.fa
+
+cp ../../aroon/reference/GCF_000016465.1_ASM1646v1_genomic.fna.gz ./
+
+gunzip GCF_000016465.1_ASM1646v1_genomic.fna.gz
+
+###Running AlignGraph
+ln -s /data/projects/assembly/aroon/abyss/ ./
+
+screen -S alignGraph
+
+AlignGraph --read1 ./M05964_HUY4067A110_TCCGGAGA-TAATCTTA_L002_R1_001_val_1.fa --read2 ./M05964_HUY4067A110_TCCGGAGA-TAATCTTA_L002_R2_001_val_2.fa --contig ./abyss/k99/M05964-contigs.fa --genome ./GCF_000016465.1_ASM1646v1_genomic.fa  --distanceLow 20 --distanceHigh 2000 --extendedContig M05964_extendedContigs.fa --remainingContig M05964_remainingContigs.fa --iterativeMap
 
 ###References:
 1. Bao E, et al. (2014) AlignGraph: algorithm for secondary de novo genome assembly guided by closely related references, Bioinformatics, 30, i319-i328. (http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4058956/pdf/btu291.pdf)

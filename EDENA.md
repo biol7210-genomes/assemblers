@@ -1,4 +1,4 @@
-#EDNA(Exact DE Novo Assember)
+#EDENA(Exact DE Novo Assember)
 
 http://www.genomic.ch/edena.php
 

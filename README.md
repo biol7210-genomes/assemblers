@@ -18,19 +18,19 @@ Assembly programs and algorithms to describe:
 
 **[Velvet](/Velvet.md)** -- Tannishtha
 
-**[PEAR](/PEAR.md)** -- Namratha
+~~[PEAR](/PEAR.md)~~ -- Namratha
 
-ABySS -- Cheng
+**[ABySS](/ABySS.md)** -- Cheng
 
 **[AlignGraph](/AlignGraph.md)** -- Alli
 
-**[EPGA2](/EPGA2.md)** -- Alicia 
+~~[EPGA2](/EPGA2.md)~~ -- Alicia 
 
 **[SMALT](/SMALT.md)** -- Page
 
 **[Pilon](/pilon.md)** -- Tyrone
 
-**[DISCOVAR de novo](/DISCOVAR_de_novo.md)**
+~~[DISCOVAR de novo](/DISCOVAR_de_novo.md)~~
 
-**[EDNA](/EDNA.md)** -- Ellie
+~~[EDENA](/EDENA.md)~~ -- Ellie
 
