@@ -1,5 +1,0 @@
-Assembly	# misassemblies	    # relocations	    # translocations	    # inversions	# misassembled contigs	Misassembled contigs length	# local misassemblies	# mismatches	# indels	    # short indels	    # long indels	Indels length
-M05964_contigs	50	50	0	0	12	1777375	59	39458	1111	970	141	3500
-M07572_contigs	44	43	0	1	14	1759644	62	36375	929	830	99	2793
-M10540_contigs	84	83	0	1	7	1725018	42	36075	823	760	63	1917
-M16180_contigs	56	54	0	2	14	1812948	70	41413	1151	1032	119	3132

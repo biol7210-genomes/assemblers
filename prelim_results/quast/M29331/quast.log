@@ -1,0 +1,51 @@
+/data/home/achande3/bin/quast-3.2/quast.py -o ./quast/M29331 --no-plots  -t 6 --no-snps  --no-check  /data/projects/assembly/aroon/contigs/meta.M29331.fa /data/projects/assembly/aroon/contigs/spades.M29331.fa /data/projects/assembly/aroon/contigs/velvet.M29331.fa /data/projects/assembly/aroon/contigs/abyss.115.M29331.fa
+
+Version: 3.2, build 26.11.2015 18:55
+
+System information:
+  OS: Linux-2.6.32-573.12.1.el6.x86_64-x86_64-with-redhat-6.7-Santiago (linux_64)
+  Python version: 2.7.11
+  CPUs number: 6
+
+Started: 2016-02-18 08:38:08
+
+Logging to /data/projects/assembly/aroon/meta/quast/M29331/quast.log
+
+Main parameters: 
+  Threads: 6, minimum contig length: 500, ambiguity: one, threshold for extensive misassembly size: 1000
+
+Contigs:
+  1  /data/projects/assembly/aroon/contigs/meta.M29331.fa ==> meta.M29331
+  2  /data/projects/assembly/aroon/contigs/spades.M29331.fa ==> spades.M29331
+  3  /data/projects/assembly/aroon/contigs/velvet.M29331.fa ==> velvet.M29331
+  4  /data/projects/assembly/aroon/contigs/abyss.115.M29331.fa ==> abyss.115.M29331
+
+2016-02-18 08:38:09
+Running Basic statistics processor...
+  Contig files: 
+    1  meta.M29331
+    2  spades.M29331
+    3  velvet.M29331
+    4  abyss.115.M29331
+  Calculating N50 and L50...
+    1  meta.M29331, N50 = 157413, L50 = 3, Total length = 1819118, GC % = 38.00, # N's per 100 kbp =  21.99
+    2  spades.M29331, N50 = 141004, L50 = 3, Total length = 1837437, GC % = 38.02, # N's per 100 kbp =  0.00
+    3  velvet.M29331, N50 = 283555, L50 = 3, Total length = 1823046, GC % = 37.99, # N's per 100 kbp =  65.99
+    4  abyss.115.M29331, N50 = 144250, L50 = 3, Total length = 1866696, GC % = 38.18, # N's per 100 kbp =  12.11
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding option to enable it.
+
+2016-02-18 08:38:10
+RESULTS:
+  Text versions of total report are saved to /data/projects/assembly/aroon/meta/quast/M29331/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /data/projects/assembly/aroon/meta/quast/M29331/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) saved to /data/projects/assembly/aroon/meta/quast/M29331/report.html
+  PDF version (tables and plots) saved to /data/projects/assembly/aroon/meta/quast/M29331/report.pdf
+  Log saved to /data/projects/assembly/aroon/meta/quast/M29331/quast.log
+
+Finished: 2016-02-18 08:38:10
+Elapsed time: 0:00:01.653290
+NOTICEs: 1; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!
