@@ -1,0 +1,53 @@
+/data/home/achande3/bin/quast-3.2/quast.py -o ./quast/M10540 --no-plots  -t 6 --no-snps  --no-check  /data/projects/assembly/aroon/contigs/meta.M10540.fa /data/projects/assembly/aroon/contigs/spades.M10540.fa /data/projects/assembly/aroon/contigs/velvet.M10540.fa /data/projects/assembly/aroon/contigs/abyss.115.M10540.fa
+
+Version: 3.2, build 26.11.2015 18:55
+
+System information:
+  OS: Linux-2.6.32-573.12.1.el6.x86_64-x86_64-with-redhat-6.7-Santiago (linux_64)
+  Python version: 2.7.11
+  CPUs number: 6
+
+Started: 2016-02-18 08:37:27
+
+Logging to /data/projects/assembly/aroon/meta/quast/M10540/quast.log
+
+NOTICE: Output directory already exists. Existing Nucmer alignments can be used.
+
+Main parameters: 
+  Threads: 6, minimum contig length: 500, ambiguity: one, threshold for extensive misassembly size: 1000
+
+Contigs:
+  1  /data/projects/assembly/aroon/contigs/meta.M10540.fa ==> meta.M10540
+  2  /data/projects/assembly/aroon/contigs/spades.M10540.fa ==> spades.M10540
+  3  /data/projects/assembly/aroon/contigs/velvet.M10540.fa ==> velvet.M10540
+  4  /data/projects/assembly/aroon/contigs/abyss.115.M10540.fa ==> abyss.115.M10540
+
+2016-02-18 08:37:28
+Running Basic statistics processor...
+  Contig files: 
+    1  meta.M10540
+    2  spades.M10540
+    3  velvet.M10540
+    4  abyss.115.M10540
+  Calculating N50 and L50...
+    1  meta.M10540, N50 = 1150585, L50 = 1, Total length = 1810497, GC % = 37.91, # N's per 100 kbp =  0.00
+    2  spades.M10540, N50 = 1150585, L50 = 1, Total length = 2086826, GC % = 37.84, # N's per 100 kbp =  0.00
+    3  velvet.M10540, N50 = 1142102, L50 = 1, Total length = 1811125, GC % = 37.91, # N's per 100 kbp =  26.72
+    4  abyss.115.M10540, N50 = 287467, L50 = 3, Total length = 1837278, GC % = 38.06, # N's per 100 kbp =  0.16
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding option to enable it.
+
+2016-02-18 08:37:28
+RESULTS:
+  Text versions of total report are saved to /data/projects/assembly/aroon/meta/quast/M10540/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /data/projects/assembly/aroon/meta/quast/M10540/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) saved to /data/projects/assembly/aroon/meta/quast/M10540/report.html
+  PDF version (tables and plots) saved to /data/projects/assembly/aroon/meta/quast/M10540/report.pdf
+  Log saved to /data/projects/assembly/aroon/meta/quast/M10540/quast.log
+
+Finished: 2016-02-18 08:37:28
+Elapsed time: 0:00:01.767141
+NOTICEs: 2; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!

@@ -1,8 +1,0 @@
-Assembly	M05964_contigs	M07572_contigs	M10540_contigs	M16180_contigs
-# fully unaligned contigs	1	13	0	287
-Fully unaligned length	2293	70733	0	288749
-# partially unaligned contigs	1	3	3	92
-    # with misassembly	0	1	2	1
-    # both parts are significant	1	2	1	11
-Partially unaligned length	1400	41812	34749	54696
-# N's	1086	1127	693	1471

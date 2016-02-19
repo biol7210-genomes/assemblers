@@ -1,0 +1,24 @@
+All statistics are based on contigs of size >= 500 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+
+Assembly                    meta.M28745  spades.M28745  velvet.M28745  abyss.115.M28745
+# contigs (>= 0 bp)         23           189            28             35              
+# contigs (>= 1000 bp)      20           20             18             26              
+# contigs (>= 5000 bp)      13           13             10             22              
+# contigs (>= 10000 bp)     12           12             10             18              
+# contigs (>= 25000 bp)     11           11             8              12              
+# contigs (>= 50000 bp)     9            9              7              8               
+Total length (>= 0 bp)      1790810      1861384        1795361        1826482         
+Total length (>= 1000 bp)   1788667      1788667        1790754        1824514         
+Total length (>= 5000 bp)   1769488      1769488        1772228        1814871         
+Total length (>= 10000 bp)  1761011      1761011        1772228        1785830         
+Total length (>= 25000 bp)  1749469      1749469        1735444        1703509         
+Total length (>= 50000 bp)  1689987      1689987        1707558        1565812         
+# contigs                   23           47             20             27              
+Largest contig              558278       558278         558348         561967          
+Total length                1790810      1804491        1792191        1825036         
+GC (%)                      37.89        37.89          37.89          37.97           
+N50                         355451       355451         383353         356458          
+N75                         121740       110758         137324         110471          
+L50                         2            2              2              2               
+L75                         5            6              4              6               
+# N's per 100 kbp           0.00         0.00           73.76          2.68            
