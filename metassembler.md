@@ -1,19 +1,29 @@
-| Reference                  | Mean %mapped | metassembler | difference |
-|----------------------------|--------------|--------------|------------|
-| GCF_000012185.1_ASM1218v1  | 82.24        | 84.5         | 2.3        |
-| GCF_000016465.1_ASM1646v1  | 85.54        | 94.573       | 9.0        |
-| GCF_000016485.1_ASM1648v1  | 90.71        | 84.358       | -6.3       |
-| GCF_000027305.1_ASM2730v1  | 82.28        | 86.16        | 3.9        |
-| GCF_000165525.1_ASM16552v1 | 79.65        | 84.447       | 4.8        |
-| GCF_000165575.1_ASM16557v1 | 84.00        | 93.032       | 9.0        |
-| GCF_000197875.1_ASM19787v1 | 72.15        | 74.697       | 2.5        |
-| GCF_000200475.1_ASM20047v1 | 71.84        | 75.002       | 3.2        |
-| GCF_000210875.1_ASM21087v1 | 76.77        | 81.234       | 4.5        |
-| GCF_000465255.1_ASM46525v1 | 61.20        | 58.615       | -2.6       |
-| GCF_000698365.1_ASM69836v1 | 82.59        | 88.964       | 6.4        |
-| GCF_000767075.1_ASM76707v1 | 86.14        | 86.664       | 0.5        |
-| GCF_000931575.1_ASM93157v1 | 85.33        | 85.907       | 0.6        |
-| GCF_000931605.1_ASM93160v1 | 85.42        | 93.468       | 8.0        |
-| GCF_000931625.1_ASM93162v1 | 83.58        | 83.426       | -0.2       |
-| GCF_000968335.1_ASM96833v1 | 77.42        | 81.689       | 4.3        |
-| GCF_001457655.1_NCTC8143   | 84.75        | 84.9         | 0.2        |
+# Metassembler
+
+http://genomebiology.biomedcentral.com/articles/10.1186/s13059-015-0764-4
+
+https://sourceforge.net/projects/metassembler/
+
+_______
+
+## General Design
+
+*De novo* assembly integration using local maximas between pairwise unions of alignments to merge areas of conservation and scaffold areas with sparse information. Bowtie mapping of inputs is parsed and local overlap maximas are found using compression–expansion statistics and these overlaps are used to merge assembly `A` and `B`. After creation of the first metassesmbly additional input assemblies are metassembled onto each preceeding metassembly such that the final metassembly is a recursive union of the inputs [`(...((A ∪ B) ∪C ) ∪ D)...) ∪ Z)`]
+
+________
+
+## Metassembly method
+
+![metastage1](/assets/meta1.gif)
+
+Metassembly begins by taking a `primary` and `secondary` assembly and doing the first merge step. This merge is accomplished by `NUCmer` mapping of the secondary assembly to the primary, which is quick mapping step that detects large structural similarities. The `delta` statistics produced by nucmer are used to (temporarily) discard regions with poor or no conservation. 
+
+Next the mate-pair library is aligned to both asesmblies using `Bowtie2` and the resulting insert legnths are used to compute the compression–expansion (CE) statistics used to score regions for inclusion into the metassebly.
+
+Using a Z-score dervied from the CE statistics, a scaffold is built to encompass the "best" knowable assembly based on the imformation present. This is the primary metassembly.
+
+And finally, addional input assemblies are progressively metassembled onto the primary metassembly. Use of additional assemblies (beyond the primary and secondary) improves detection and integration of poorly sequenced regions.
+
+
+
+![metareconcile](/assets/meta2.gif)
