@@ -1,0 +1,8 @@
+data=read.csv(file="00.Sample/gc_vs_cov.dat", colClasses=c("numeric", "integer"), header=F, sep="	", comment.char="")
+l=lowess(data)
+data_out=unique(data.frame(l$x,l$y))
+write(t(data_out), sep="	", ncolumns=2, file="00.Sample/gc_vs_cov.lowess.dat.tmp")
+pdf("00.Sample/gc_vs_cov.lowess.pdf")
+  smoothScatter(data, xlab="GC", ylab="Coverage")
+  lines(data_out)
+dev.off()
