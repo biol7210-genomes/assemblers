@@ -26,11 +26,21 @@ Assembly programs and algorithms to describe:
 
 ~~[EPGA2](/EPGA2.md)~~ -- Alicia 
 
-**[SMALT](/SMALT.md)** -- Page
+    Input size limits
+
+~~[SMALT](/SMALT.md)~~ -- Page
+
+    Slow...so very slow
 
 **[Pilon](/pilon.md)** -- Tyrone
 
-~~[DISCOVAR de novo](/DISCOVAR_de_novo.md)~~
+~~[DISCOVAR de novo](/DISCOVAR_de_novo.md)~~  
+
+    Compilation issue s+ produces outsized assemblies 
 
 ~~[EDENA](/EDENA.md)~~ -- Ellie
+
+    Input size limits
+
+**[Metassembler](/metassembler.md) **
 
