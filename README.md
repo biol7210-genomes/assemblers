@@ -22,7 +22,9 @@ Assembly programs and algorithms to describe:
 
 **[ABySS](/ABySS.md)** -- Cheng
 
-**[AlignGraph](/AlignGraph.md)** -- Alli
+~~[AlignGraph](/AlignGraph.md)~~ -- Alli
+    
+    At least 5 hours per genome, >30GB of temp files. Not suitable for this task
 
 ~~[EPGA2](/EPGA2.md)~~ -- Alicia 
 
