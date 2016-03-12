@@ -2,7 +2,6 @@ Velvet is an algorithm which handles de novo genome assembly and short read sequ
 This is done by manipulating the de Bruijn graphs to eliminate errors and resolve repeats. For very short paired-end reads, Velvet can produce contigs of significant length, up to 50-kb N50 length in simulations of prokaryotic data and 3-kb N50 on simulated mammalian BACs.
 
 The algorithm has 4 stages:
-
 1. Hashing the reads into kmers : For each kmer observed in the set of reads, the hash table identifies the ID of the first read 
 encountered containing that kmer and the position of its occurrence within the read. Also the reverse complement of the kmer is recorded.
 The value of k is limited by the length of the read being hashed, so that there is a small amount of overlap. For example, for read length 
